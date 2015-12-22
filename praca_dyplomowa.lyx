@@ -1,0 +1,205 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass dcsbook
+\options thesis
+\use_default_options true
+\begin_modules
+dcs
+\end_modules
+\maintain_unincluded_children false
+\language polish
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language polish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Author
+Maciej Kozłowski
+\begin_inset Newline newline
+\end_inset
+
+Szymon Soppa
+\begin_inset Newline newline
+\end_inset
+
+Kamil Walkowiak
+\end_layout
+
+\begin_layout Title
+System wspomagający organizację i wyszukiwanie wydarzeń wśród różnorodnych
+ społeczności
+\end_layout
+
+\begin_layout Date
+Poznań, 2016
+\end_layout
+
+\begin_layout Supervisor
+dr inż.
+ Krzysztof Jankiewicz
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Wprowadzenie
+\end_layout
+
+\begin_layout Section
+Motywacja
+\end_layout
+
+\begin_layout Section
+Cel i zakres pracy
+\end_layout
+
+\begin_layout Section
+Struktura pracy
+\end_layout
+
+\begin_layout Standard
+Struktura pracy jest następująca.
+ Rozdział 2.
+ zawiera przegląd istniejących aplikacji o podobnej tematyce.
+ Opisano w nim wady i zalety poszczególnych rozwiązań.
+ W rozdziale 3.
+ dokonano przeglądu dostępnych technologii, które mogą zostać użyte w procesie
+ implementacji aplikacji.
+ Przyjrzano się rozwiązaniom umożliwiającym realizację bazy danych oraz
+ platformom programistycznym wspomagającym implementację zarówno logiki
+ serwera, jak i aplikacji internetowej oraz mobilnej.
+ Na koniec uzasadniony został wybór zastosowanych technologii.
+ W rozdziale 4.
+ przedstawiono wykorzystane narzędzia inżynierii oprogramowania.
+ Opisano użyty system kontroli wersji, narzędzie wspomagające pracę w metodykach
+ zwinnych, system ciągłej integracji oraz komunikator ułatwiający komunikację
+ wewnątrz zespołową.
+ Na koniec omówiono wykorzystany serwer produkcyjny.
+ W rozdziale 5.
+ omówiono projekt aplikacji.
+ Opisano wymagania funkcjonalne, które powinna spełniać tworzona aplikacja
+ oraz przedstawiono projekt interfejsu aplikacji.
+ W rozdziale 6.
+ przedstawiono bazę danych zaprojektowaną na potrzeby implementowanej aplikacji.
+ Omówiono schemat związków-encji oraz jego transformację do schematu relacyjnego.
+ W rozdziale 7.
+ przybliżono sposób implementacji logiki serwera.
+ Omówiono w nim implementację bazy danych oraz konstrukcję API, które umożliwia
+ komunikację serwera z aplikacją internetową i mobilną.
+ Przedstawiony został także zaimplementowany system autoryzacji oparty na
+ standardzie OAuth2.
+ Na koniec przyjrzano się sposobowi testowania.
+ W rozdziale 8.
+ omówiono sposób implementacji aplikacji internetowej.
+ Rozdział 9.
+ został poświęcony sposobowi implementacji aplikacji na urządzenia mobilne
+ pracujące pod kontrolą systemu Android.
+ Rozdział 10.
+ stanowi podsumowanie pracy.
+\end_layout
+
+\begin_layout Section
+Podział pracy
+\end_layout
+
+\end_body
+\end_document
