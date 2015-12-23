@@ -148,6 +148,61 @@ Wprowadzenie
 Motywacja
 \end_layout
 
+\begin_layout Standard
+Rosnąca liczba użytkowników internetu jest główną przyczyną niezwykle dynamiczne
+go rozwoju zarówno aplikacji internetowych jak i mobilnych.
+ Dostęp do internetu obecnie jest możliwy w prawie każdym miejscu na ziemi.
+ Implikuje to szczególne zainteresowanie urządzeniami przenośnymi będącymi
+ obecnie najatrakcyjniejszą formą komunikacji internetowej.
+ W celu ułatwiejnia i ujednolicenia procesu powstawania aplikacji internetowych
+ opracowano wiele platform programistycznych, które w ogólności odpowiedzialne
+ są za:
+\end_layout
+
+\begin_layout Itemize
+mechanizmy funkcjonujące po stronie serwera, których zadaniem jest komunikacja
+ z bazą danych oraz przetwarzanie zadań
+\end_layout
+
+\begin_layout Itemize
+interfejs użytkownika, którego zadaniem jest przyjmowanie danych od użytkownika,
+ komunikacja z serwerem oraz prezentacja danych
+\end_layout
+
+\begin_layout Standard
+Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
+ Jednym z najważniejszych trendów są serwisy społecznościowe.
+ Głównym powodem ich popularności jest możliwość nazwiązania znajomości
+ z ludźmi nie rzadko oddalonymi o tysiące kilometrów.
+ Bazują one zatem na relacjach międzyludzkich.
+ Cechami charakterystycznymi serwisów społecznościowych jest między innymi
+ wsparcie dla tworzenia kręgu znajomych, formowania lokalnych społeczności
+ oraz organizacji wydarzeń.
+ Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizowacji
+ wydarzeń, które zachęcają do spędzenia czasu poza domem oraz budują rzeczywiste
+ relacje międzyludzkie.
+ Tego typu aplikacji jest obecnie wiele lecz brakuje im kilku istotnych
+ funkcjonalności takich jak:
+\end_layout
+
+\begin_layout Itemize
+elastyczne wyszukiwanie
+\end_layout
+
+\begin_layout Itemize
+integracja z innymi serwisami społecznościowymi
+\end_layout
+
+\begin_layout Itemize
+łatwe zarządzanie oddziałami firm tworzących wydarzenia oraz przeglądania
+ zbiorczych statystyk
+\end_layout
+
+\begin_layout Standard
+Istnieje zatem potrzeba stworzenia czegoś nowego pozbawionego wyżej wymienionych
+ wad.
+\end_layout
+
 \begin_layout Section
 Cel i zakres pracy
 \end_layout
