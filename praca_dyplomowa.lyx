@@ -201,5 +201,122 @@ Struktura pracy jest następująca.
 Podział pracy
 \end_layout
 
+\begin_layout Chapter
+Przegląd aplikacji o podobnej tematyce
+\end_layout
+
+\begin_layout Chapter
+Przegląd dostępnych technologii i platform programistycznych
+\end_layout
+
+\begin_layout Section
+Baza danych
+\end_layout
+
+\begin_layout Section
+Logika serwera
+\end_layout
+
+\begin_layout Section
+Aplikacja internetowa
+\end_layout
+
+\begin_layout Section
+Aplikacja mobilna
+\end_layout
+
+\begin_layout Section
+Podsumowanie
+\end_layout
+
+\begin_layout Chapter
+Zastosowane narzędzia inżynierii oprogramowania wspomagające proces tworzenia
+ aplikacji
+\end_layout
+
+\begin_layout Section
+System kontroli wersji
+\end_layout
+
+\begin_layout Section
+Zarządzanie projektem
+\end_layout
+
+\begin_layout Section
+System ciągłej integracji
+\end_layout
+
+\begin_layout Section
+Komunikator
+\end_layout
+
+\begin_layout Section
+Serwer przedprodukcyjny
+\end_layout
+
+\begin_layout Chapter
+Projekt aplikacji
+\end_layout
+
+\begin_layout Section
+Wymagania funkcjonalne
+\end_layout
+
+\begin_layout Section
+Projekt interfejsu aplikacji internetowej i mobilnej
+\end_layout
+
+\begin_layout Section
+Projekt bazy danych
+\end_layout
+
+\begin_layout Subsection
+Model związków encji
+\end_layout
+
+\begin_layout Subsection
+Model relacyjny
+\end_layout
+
+\begin_layout Chapter
+Implentacja
+\end_layout
+
+\begin_layout Section
+Logika serwera
+\end_layout
+
+\begin_layout Subsection
+Implementacja bazy danych
+\end_layout
+
+\begin_layout Subsection
+Implementacja interfejsu programistycznego
+\end_layout
+
+\begin_layout Subsection
+System autoryzacji
+\end_layout
+
+\begin_layout Subsection
+Testy
+\end_layout
+
+\begin_layout Section
+Aplikacja internetowa
+\end_layout
+
+\begin_layout Section
+Aplikacja mobilna
+\end_layout
+
+\begin_layout Section
+Podsumowanie
+\end_layout
+
+\begin_layout Chapter
+Podsumowanie
+\end_layout
+
 \end_body
 \end_document
