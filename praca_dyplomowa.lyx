@@ -280,16 +280,7 @@ rozdziale
  omówiono projekt aplikacji.
  Opisano wymagania funkcjonalne, które powinna spełniać tworzona aplikacja
  oraz przedstawiono projekt interfejsu aplikacji.
- W
-\begin_inset space ~
-\end_inset
-
-rozdziale
-\begin_inset space ~
-\end_inset
-
-6.
- przedstawiono bazę danych zaprojektowaną na potrzeby implementowanej aplikacji.
+ Przedstawiono bazę danych zaprojektowaną na potrzeby implementowanej aplikacji.
  Omówiono schemat związków-encji oraz jego transformację do schematu relacyjnego.
  W
 \begin_inset space ~
@@ -299,39 +290,51 @@ rozdziale
 \begin_inset space ~
 \end_inset
 
+6.
+ przybliżono sposób implementacji aplikacji.
+ Omówiono w nim implementację logiki serwera, a w szczególności bazy danych.
+ Przedstawiono konstrukcję 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+interfejsu programistycznego aplikacji
+\end_layout
+
+\end_inset
+
+ --- 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+API
+\end_layout
+
+\end_inset
+
+ (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Application Programming Interface
+\end_layout
+
+\end_inset
+
+) które umożliwia komunikację serwera z aplikacją internetową i mobilną.
+ Opisany został także zaimplementowany system autoryzacji oparty na standardzie
+ OAuth2.
+ Przyjrzano się sposobowi testowania API.
+ Przedstawiono sposób implementacji aplikacji internetowej oraz mobilnej
+ dla urządzeń pracujących pod kontrolą systemu Android.
+ Rozdział
+\begin_inset space ~
+\end_inset
+
 7.
- przybliżono sposób implementacji logiki serwera.
- Omówiono w nim implementację bazy danych oraz konstrukcję API, które umożliwia
- komunikację serwera z aplikacją internetową i mobilną.
- Przedstawiony został także zaimplementowany system autoryzacji oparty na
- standardzie OAuth2.
- Na
-\begin_inset space ~
-\end_inset
-
-koniec przyjrzano się sposobowi testowania.
- W
-\begin_inset space ~
-\end_inset
-
-rozdziale
-\begin_inset space ~
-\end_inset
-
-8.
- omówiono sposób implementacji aplikacji internetowej.
- Rozdział
-\begin_inset space ~
-\end_inset
-
-9.
- został poświęcony sposobowi implementacji aplikacji na urządzenia mobilne
- pracujące pod kontrolą systemu Android.
- Rozdział
-\begin_inset space ~
-\end_inset
-
-10.
  stanowi podsumowanie pracy.
 \end_layout
 
@@ -1384,9 +1387,29 @@ Projekt aplikacji
 \end_layout
 
 \begin_layout Standard
-Projekt aplikacji jest jednym z najważniejszych (o ile nie najważniejszym)
- etapem procesu wytwarzania oprogramowania.
- Odpowiednie określenie założeń co do wymagań funkcjonalnych na
+Projekt aplikacji jest jednym z najważniejszych etapów procesu wytwarzania
+ oprogramowania.
+ Odpowiednie określenie założeń co do funkcjonalności i wyglądu aplikacji
+ znacznie ułatwia dalsze prace.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku opisywanego systemu na etap projektu aplikacji składały się 3
+ główne zadania:
+\end_layout
+
+\begin_layout Itemize
+określenie wymagań funkcjonalnych, które musi spełniać tworzony system
+\end_layout
+
+\begin_layout Itemize
+stworzenie prototypów interfejsu aplikacji internetowej i mobilnej
+\end_layout
+
+\begin_layout Itemize
+zaprojektowanie bazy danych w modelu związków encji i przetransformowanie
+ powstałego schematu do modelu relacyjnego
 \end_layout
 
 \begin_layout Section
