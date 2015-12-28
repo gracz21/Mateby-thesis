@@ -343,7 +343,30 @@ Ruby
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Ruby on Rails
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="2">
 <features rotate="0" tabularvalignment="middle">
@@ -520,6 +543,11 @@ niski
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 Platforma Ruby on Rails oparta jest na wzorcu projektowym MVC
 \begin_inset Foot
@@ -558,7 +586,26 @@ Elixir
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Phoenix
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="2">
 <features rotate="0" tabularvalignment="middle">
@@ -589,7 +636,7 @@ Phoenix v1.1.0
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -735,6 +782,11 @@ koszt wytworzenia oprogramowania
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 Platforma Phoenix również oparta jest na wzorcu MVC.
  Reprezentuje ona całkiem inny paradygmat programowania - funkcyjny, który
@@ -761,6 +813,454 @@ małym kosztem.
  Niestety jest to stosunkowo młoda platforma co oznacza niskie wsparcie
  programistyczne oraz małą społeczność.
  
+\end_layout
+
+\begin_layout Subsection
+PHP
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Laravel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Platforma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Laravel v5.1.11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rok powstania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2011
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+paradygmat programowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+obiektowy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ilość dostępnych bibliotek programistycznych
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+> 1000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wydajność
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+przeciętna
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integracja z innymi technologiami
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wysoka
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+czas wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+koszt wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+niski
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Platforma Laravael jest jednym z najlpopularniejszych platform opartych
+ na języku PHP.
+ Jej struktura nieco przypomina Ruby on Rails - również używa wzorca MVC
+ oraz preferowana jest konwencja nad konfiguracją.
+ Wydajność aplikacji stworzonej za pomocą standardowego generatora jest
+ przeciętna.
+ Wiążę się to między innymi z dużą ilością zależności od innych bibliotek.
+ Niewątpliwie zaletą jest tutaj zastosowany język PHP który na przestrzeni
+ wielu lat został znacznie przyspieszony.
+ Istnieje również duża społeczność związana z tą technologią jak i samym
+ językiem PHP, który został opracowany w roku 1995.
+\end_layout
+
+\begin_layout Subsection
+JavaScript
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Meteor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Platforma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Meteor v1.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rok powstania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2012
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+paradygmat programowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+obiektowy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ilość dostępnych bibliotek programistycznych
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+> 1000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wydajność
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wysoka
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integracja z innymi technologiami
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+średnia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+czas wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+koszt wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+średnia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Platforma Meteor reprezentuje całkowicie inne podejście.
+ Jest oparta na środowisku programistycznym Node.js które to z kolei zbudowane
+ zostało na bazie języka JavaScript.
+ Główną zaletą tej platformy jest synchronizacja danych czasu rzeczywistego
+ między klientem a serwerem.
+ Oznacza to, że zmiany wprowadzone na jednym kliencie zostaną zaobserwowane
+ na wszystkich powiązanych klientach.
+ Ponadto jest to platforma skalowalna.
+ Wadą jest natomiast stosunkowo mała liczba dostępnych bibliotek.
+ Pomimo iż aplikację można napisać w bardzo krótkim czasie to wprowadzenie
+ brakującej lub niekownencjonalnej funkcjonalności skutkuje dużym wkładem
+ pracy.
 \end_layout
 
 \begin_layout Section
@@ -833,7 +1333,7 @@ Logika serwera
 \end_layout
 
 \begin_layout Subsection
-Implementacja bazy danych
+Implementacja bazy 
 \end_layout
 
 \begin_layout Subsection
