@@ -264,12 +264,75 @@ Przegląd aplikacji o podobnej tematyce
 Przegląd dostępnych technologii i platform programistycznych
 \end_layout
 
+\begin_layout Standard
+Przegląd dostępnych technologii i platform programistycznych pozwala zminimalizo
+wać konieczność wprowadzenia kosztownych zmian w przyszłości.
+ Aby był on skuteczny należy zdefiniować wspólne własności, które są istotne
+ dla poszczególnych składowych całej aplikacji czyli: bazy danych, logiki
+ serwera, aplikacji internetowej oraz aplikacji mobilnej.
+ Tymi własnościami są:
+\end_layout
+
+\begin_layout Itemize
+Z punktu widzenia programisty:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+paradygmat programowania
+\end_layout
+
+\begin_layout Itemize
+ilość dostępnych bibliotek programistycznych
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Z punktu widzenia programisty oraz użytkownika:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+wydajność
+\end_layout
+
+\begin_layout Itemize
+integracja z innymi technologiami
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Z punktu widzenia wartości biznesowej:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+czas wytworzenia oprogramowania
+\end_layout
+
+\begin_layout Itemize
+koszt wytworzenia oprogramowania
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Powyższe własności są bardzo istotne dlatego też stanowią
+\begin_inset space \space{}
+\end_inset
+
+główny odnośnik w porównaniu platform.
+\end_layout
+
 \begin_layout Section
 Baza danych
 \end_layout
 
 \begin_layout Section
 Logika serwera
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
