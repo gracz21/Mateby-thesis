@@ -28,9 +28,20 @@ dcs
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement tbph
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=linkcolor,linkcolor=black,citecolor=linkcolor"
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -51,18 +62,18 @@ dcs
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
 \secnumdepth 3
-\tocdepth 3
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language polish
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -213,42 +224,114 @@ Struktura pracy
 
 \begin_layout Standard
 Struktura pracy jest następująca.
- Rozdział 2.
+ Rozdział
+\begin_inset space ~
+\end_inset
+
+2.
  zawiera przegląd istniejących aplikacji o podobnej tematyce.
  Opisano w nim wady i zalety poszczególnych rozwiązań.
- W rozdziale 3.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+3.
  dokonano przeglądu dostępnych technologii, które mogą zostać użyte w procesie
  implementacji aplikacji.
  Przyjrzano się rozwiązaniom umożliwiającym realizację bazy danych oraz
  platformom programistycznym wspomagającym implementację zarówno logiki
  serwera, jak i aplikacji internetowej oraz mobilnej.
- Na koniec uzasadniony został wybór zastosowanych technologii.
- W rozdziale 4.
+ Na
+\begin_inset space ~
+\end_inset
+
+koniec uzasadniony został wybór zastosowanych technologii.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+4.
  przedstawiono wykorzystane narzędzia inżynierii oprogramowania.
  Opisano użyty system kontroli wersji, narzędzie wspomagające pracę w metodykach
  zwinnych, system ciągłej integracji oraz komunikator ułatwiający komunikację
  wewnątrz zespołową.
- Na koniec omówiono wykorzystany serwer produkcyjny.
- W rozdziale 5.
+ Na
+\begin_inset space ~
+\end_inset
+
+koniec omówiono wykorzystany serwer produkcyjny.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+5.
  omówiono projekt aplikacji.
  Opisano wymagania funkcjonalne, które powinna spełniać tworzona aplikacja
  oraz przedstawiono projekt interfejsu aplikacji.
- W rozdziale 6.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+6.
  przedstawiono bazę danych zaprojektowaną na potrzeby implementowanej aplikacji.
  Omówiono schemat związków-encji oraz jego transformację do schematu relacyjnego.
- W rozdziale 7.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+7.
  przybliżono sposób implementacji logiki serwera.
  Omówiono w nim implementację bazy danych oraz konstrukcję API, które umożliwia
  komunikację serwera z aplikacją internetową i mobilną.
  Przedstawiony został także zaimplementowany system autoryzacji oparty na
  standardzie OAuth2.
- Na koniec przyjrzano się sposobowi testowania.
- W rozdziale 8.
+ Na
+\begin_inset space ~
+\end_inset
+
+koniec przyjrzano się sposobowi testowania.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+8.
  omówiono sposób implementacji aplikacji internetowej.
- Rozdział 9.
+ Rozdział
+\begin_inset space ~
+\end_inset
+
+9.
  został poświęcony sposobowi implementacji aplikacji na urządzenia mobilne
  pracujące pod kontrolą systemu Android.
- Rozdział 10.
+ Rozdział
+\begin_inset space ~
+\end_inset
+
+10.
  stanowi podsumowanie pracy.
 \end_layout
 
@@ -1050,10 +1133,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -1302,6 +1381,12 @@ Serwer przedprodukcyjny
 
 \begin_layout Chapter
 Projekt aplikacji
+\end_layout
+
+\begin_layout Standard
+Projekt aplikacji jest jednym z najważniejszych (o ile nie najważniejszym)
+ etapem procesu wytwarzania oprogramowania.
+ Odpowiednie określenie założeń co do wymagań funkcjonalnych na
 \end_layout
 
 \begin_layout Section
