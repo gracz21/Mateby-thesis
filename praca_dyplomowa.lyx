@@ -165,7 +165,7 @@ go rozwoju zarówno aplikacji internetowych jak i mobilnych.
  Dostęp do internetu obecnie jest możliwy w prawie każdym miejscu na ziemi.
  Implikuje to szczególne zainteresowanie urządzeniami przenośnymi będącymi
  obecnie najatrakcyjniejszą formą komunikacji internetowej.
- W celu ułatwiejnia i ujednolicenia procesu powstawania aplikacji internetowych
+ W celu ułatwienia i ujednolicenia procesu powstawania aplikacji internetowych
  opracowano wiele platform programistycznych, które w ogólności odpowiedzialne
  są za:
 \end_layout
@@ -183,13 +183,13 @@ interfejs użytkownika, którego zadaniem jest przyjmowanie danych od użytkowni
 \begin_layout Standard
 Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
  Jednym z najważniejszych trendów są serwisy społecznościowe.
- Głównym powodem ich popularności jest możliwość nazwiązania znajomości
- z ludźmi nie rzadko oddalonymi o tysiące kilometrów.
+ Głównym powodem ich popularności jest możliwość nawiązania znajomości z
+ ludźmi nie rzadko oddalonymi o tysiące kilometrów.
  Bazują one zatem na relacjach międzyludzkich.
  Cechami charakterystycznymi serwisów społecznościowych jest między innymi
  wsparcie dla tworzenia kręgu znajomych, formowania lokalnych społeczności
  oraz organizacji wydarzeń.
- Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizowacji
+ Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizacji
  wydarzeń, które zachęcają do spędzenia czasu poza domem oraz budują rzeczywiste
  relacje międzyludzkie.
  Tego typu aplikacji jest obecnie wiele lecz brakuje im kilku istotnych
@@ -418,7 +418,7 @@ Logika serwera
 W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
  technologie oparte na językach: Ruby, Elixir, PHP oraz Javascript.
  Wybór tych technologii został podyktowany przez trendy pojawiające się
- na przestrzeni ostatnich lat oraz w celu ukazania różnorodności implentacji.
+ na przestrzeni ostatnich lat oraz w celu ukazania różnorodności implementacji.
 \end_layout
 
 \begin_layout Subsection
@@ -1109,8 +1109,8 @@ niski
 \end_layout
 
 \begin_layout Standard
-Platforma Laravael jest jednym z najlpopularniejszych platform opartych
- na języku PHP.
+Platforma Laravel jest jednym z najpopularniejszych platform opartych na
+ języku PHP.
  Jej struktura nieco przypomina Ruby on Rails - również używa wzorca MVC
  oraz preferowana jest konwencja nad konfiguracją.
  Wydajność aplikacji stworzonej za pomocą standardowego generatora jest
@@ -1338,7 +1338,7 @@ Platforma Meteor reprezentuje całkowicie inne podejście.
  Ponadto jest to platforma skalowalna.
  Wadą jest natomiast stosunkowo mała liczba dostępnych bibliotek.
  Pomimo iż aplikację można napisać w bardzo krótkim czasie to wprowadzenie
- brakującej lub niekownencjonalnej funkcjonalności skutkuje dużym wkładem
+ brakującej lub niekonwencjonalnej funkcjonalności skutkuje dużym wkładem
  pracy.
 \end_layout
 
@@ -1410,7 +1410,7 @@ Model relacyjny
 \end_layout
 
 \begin_layout Chapter
-Implentacja
+Implementacja
 \end_layout
 
 \begin_layout Section
