@@ -154,9 +154,9 @@ go rozwoju zarówno aplikacji internetowych jak i mobilnych.
  Dostęp do internetu obecnie jest możliwy w prawie każdym miejscu na ziemi.
  Implikuje to szczególne zainteresowanie urządzeniami przenośnymi będącymi
  obecnie najatrakcyjniejszą formą komunikacji internetowej.
- W celu ułatwiejnia i ujednolicenia procesu powstawania aplikacji internetowych
+ W celu ułatwienia i ujednolicenia procesu powstawania aplikacji internetowych
  opracowano wiele platform programistycznych, które w ogólności odpowiedzialne
- są za:
+ są za
 \end_layout
 
 \begin_layout Itemize
@@ -172,17 +172,17 @@ interfejs użytkownika, którego zadaniem jest przyjmowanie danych od użytkowni
 \begin_layout Standard
 Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
  Jednym z najważniejszych trendów są serwisy społecznościowe.
- Głównym powodem ich popularności jest możliwość nazwiązania znajomości
- z ludźmi nie rzadko oddalonymi o tysiące kilometrów.
+ Głównym powodem ich popularności jest możliwość nawiązania znajomości z
+ ludźmi nie rzadko oddalonymi o tysiące kilometrów.
  Bazują one zatem na relacjach międzyludzkich.
  Cechami charakterystycznymi serwisów społecznościowych jest między innymi
  wsparcie dla tworzenia kręgu znajomych, formowania lokalnych społeczności
  oraz organizacji wydarzeń.
- Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizowacji
+ Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizacji
  wydarzeń, które zachęcają do spędzenia czasu poza domem oraz budują rzeczywiste
  relacje międzyludzkie.
- Tego typu aplikacji jest obecnie wiele lecz brakuje im kilku istotnych
- funkcjonalności takich jak:
+ Tego typu aplikacji jest obecnie wiele lecz brakuje im zbioru funkcjonalności
+ takich jak
 \end_layout
 
 \begin_layout Itemize
@@ -270,11 +270,11 @@ wać konieczność wprowadzenia kosztownych zmian w przyszłości.
  Aby był on skuteczny należy zdefiniować wspólne własności, które są istotne
  dla poszczególnych składowych całej aplikacji czyli: bazy danych, logiki
  serwera, aplikacji internetowej oraz aplikacji mobilnej.
- Tymi własnościami są:
+ Tymi własnościami są
 \end_layout
 
 \begin_layout Itemize
-Z punktu widzenia programisty:
+z punktu widzenia programisty:
 \end_layout
 
 \begin_deeper
@@ -288,7 +288,7 @@ ilość dostępnych bibliotek programistycznych
 
 \end_deeper
 \begin_layout Itemize
-Z punktu widzenia programisty oraz użytkownika:
+z punktu widzenia programisty oraz użytkownika:
 \end_layout
 
 \begin_deeper
@@ -302,16 +302,12 @@ integracja z innymi technologiami
 
 \end_deeper
 \begin_layout Itemize
-Z punktu widzenia wartości biznesowej:
+z punktu widzenia wartości biznesowej:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 czas wytworzenia oprogramowania
-\end_layout
-
-\begin_layout Itemize
-koszt wytworzenia oprogramowania
 \end_layout
 
 \end_deeper
@@ -335,7 +331,7 @@ Logika serwera
 W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
  technologie oparte na językach: Ruby, Elixir, PHP oraz Javascript.
  Wybór tych technologii został podyktowany przez trendy pojawiające się
- na przestrzeni ostatnich lat oraz w celu ukazania różnorodności implentacji.
+ na przestrzeni ostatnich lat oraz w celu ukazania różnorodności implementacji.
 \end_layout
 
 \begin_layout Subsection
@@ -348,10 +344,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -368,7 +360,7 @@ Platforma Ruby on Rails
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -497,7 +489,7 @@ bardzo duża
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -506,31 +498,11 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-krótki
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-koszt wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-niski
+krótki
 \end_layout
 
 \end_inset
@@ -607,7 +579,7 @@ Platforma Phoenix
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -736,31 +708,11 @@ przeciętna
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-czas wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-średni
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-koszt wytworzenia oprogramowania
+czas wytworzenia oprogramowania
 \end_layout
 
 \end_inset
@@ -827,10 +779,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -845,7 +793,7 @@ Platforma Laravel
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -974,7 +922,7 @@ wysoka
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -983,31 +931,11 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-krótki
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-koszt wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-niski
+krótki
 \end_layout
 
 \end_inset
@@ -1026,8 +954,8 @@ niski
 \end_layout
 
 \begin_layout Standard
-Platforma Laravael jest jednym z najlpopularniejszych platform opartych
- na języku PHP.
+Platforma Laravel jest jednym z najpopularniejszych platform opartych na
+ języku PHP.
  Jej struktura nieco przypomina Ruby on Rails - również używa wzorca MVC
  oraz preferowana jest konwencja nad konfiguracją.
  Wydajność aplikacji stworzonej za pomocą standardowego generatora jest
@@ -1045,13 +973,10 @@ JavaScript
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1068,7 +993,7 @@ Platforma Meteor
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -1197,7 +1122,7 @@ integracja z innymi technologiami
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1206,31 +1131,11 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-krótki
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-koszt wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-średnia
+krótki
 \end_layout
 
 \end_inset
@@ -1259,12 +1164,632 @@ Platforma Meteor reprezentuje całkowicie inne podejście.
  Ponadto jest to platforma skalowalna.
  Wadą jest natomiast stosunkowo mała liczba dostępnych bibliotek.
  Pomimo iż aplikację można napisać w bardzo krótkim czasie to wprowadzenie
- brakującej lub niekownencjonalnej funkcjonalności skutkuje dużym wkładem
+ brakującej lub niekonwencjonalnej funkcjonalności skutkuje dużym wkładem
  pracy.
 \end_layout
 
 \begin_layout Section
 Aplikacja internetowa
+\end_layout
+
+\begin_layout Standard
+Wśród dostępnych platform wspierających implementację aplikacji internetowych
+ zdecydowanie dominują rozwiązania oparte na SPA
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+SPA (Single-page application) - aplikacja internetowa, która mieści się
+ na jednej stronie.
+\end_layout
+
+\end_inset
+
+.
+ Obecne technologie używają języka JavaScript wraz z HTML oraz CSS.
+ Tego typu rozwiązań jest bardzo dużo dlatego wybór został podyktowany przez
+ trendy ostatnich lat oraz popularność poszczególnych platform.
+\end_layout
+
+\begin_layout Subsection
+Backbone
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Backbone
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Platforma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Backbone v1.2.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rok powstania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2010
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+paradygmat programowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+obiektowy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ilość dostępnych bibliotek programistycznych
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+> 100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wydajność
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wysoka
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integracja z innymi technologiami
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+średnia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+czas wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Platforma Backbone skierowana jest dla programistów poszukujących biblioteki
+ o małym rozmiarze z dużą funkcjonalnością.
+ W porównaniu z innymi platformami posiada małą ilość powiązanych bibliotek
+ programistycznych jednak w większości rozwiązań są one wystarczające.
+ Posiada również konwencje, które mogą przyspieszyć proces wytwarzania oprogramo
+wania.
+ Wadą jest konieczność nauczenia się umiejętności połączenia wszystkich
+ modułów w taki sposób aby ze sobą współpracowały.
+ Jest to zatem solidna a zarazem lekka platforma, która ułatwia organizację
+ kodu JavaScript oraz nie ogranicza programisty przez narzucone schematy.
+\end_layout
+
+\begin_layout Subsection
+Angular
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Angular
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Platforma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Angular v1.4.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rok powstania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2009
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+paradygmat programowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+obiektowy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ilość dostępnych bibliotek programistycznych
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+> 1000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wydajność
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wysoka
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integracja z innymi technologiami
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+bardzo duża
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+czas wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Platforma Angular wspierana jest przez firmę Google co w znacznym stopniu
+ zadecydowało o jej popularności wśród programistów.
+ Powstała w 2009 roku czego efektem jest duża liczba dostępnych bibliotek,
+ które pozwalają na łatwą integrację z innymi technologiami.
+ Jest zarazem wydajna jak i stosunkowo nie wielka.
+ Programiści pracują nad nową wersją tej platformy, która nie będzie wspierała
+ wersji obecnej.
+ Można zatem powiedzieć, że w tej chwili Angular jest w niekorzystnej fazie
+ rozwojowej co jest niewątpliwie bardzo ważnym aspektem przy wyborze platformy
+ dla nowego projektu.
+ 
+\end_layout
+
+\begin_layout Subsection
+Ember
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Ember
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Platforma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Ember v1.3.18
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rok powstania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2011
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+paradygmat programowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+obiektowy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ilość dostępnych bibliotek programistycznych
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+> 1000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wydajność
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+wysoka
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+integracja z innymi technologiami
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+bardzo duża
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+czas wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ember to platforma która w swej idei przypomina Ruby on Rails.
+ Posiada wiele konwencji które pozwalają na znaczne przyspieszenie pracy
+ jednak przez to narzucają również pewne schematy.
+ Posiada obszerne wsparcie bibliotek programistycznych które dla nowszych
+ wersji platformy nie tracą kompatybilności wstecz.Wadą jest stosunkowo duży
+ rozmiar samej platformy oraz minimalnie gorsza wydajność w porównanie z
+ konkurencyjnymi rozwiązaniami.
+ Pomimo iż Ember rozwijany jest jako wolne oprogramowanie bez ingerencji
+ dużych firm to można powiedzieć, że posiada społeczność niemal tak dużą
+ jak w przypadku platformy Angular.
 \end_layout
 
 \begin_layout Section
