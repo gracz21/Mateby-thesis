@@ -1424,16 +1424,20 @@ Projekt interfejsu aplikacji internetowej i mobilnej
 Oprócz funkcjonalności jednym z najważniejszych aspektów praktycznie każdej
  aplikacji jest jej wygląd.
  Powinien być on przedewszystkim prosty i intuicyjny dla użytkownika.
- Te dwie cechy zostały szczególnie uwzględnione podczas projektowania interfejsu
- zarówno aplikacji internetowej, jak i mobilnej.
+ Te dwie cechy zostały w szczególności uwzględnione podczas projektowania
+ interfejsu zarówno aplikacji internetowej, jak i mobilnej.
 \end_layout
 
 \begin_layout Subsection
 Aplikacja internetowa
 \end_layout
 
+\begin_layout Standard
+Poniżej znajdują się prototypy 4 głównych ekranów aplikacji internetowej.
+\end_layout
+
 \begin_layout Subsubsection*
-Ekran główny
+Ekran główny/widok kategorii
 \end_layout
 
 \begin_layout Standard
@@ -1459,7 +1463,7 @@ Prototyp ekranu głównego aplikacji
 \align center
 \begin_inset Graphics
 	filename prototypy/main_screen_logged_in.png
-	scale 35
+	scale 30
 
 \end_inset
 
@@ -1472,12 +1476,12 @@ Prototyp ekranu głównego aplikacji
 \end_layout
 
 \begin_layout Standard
-Na głównym ekranie aplikacji znajdują się kafelki ze zdjęciem oraz nazwą
- danej kategorii.
+Ekran główny jest pierwszym jaki można zobaczyć po wejściu na stronę aplikacji.
+ Znajdują się na nim kafelki ze zdjęciem oraz nazwą danej kategorii.
  Po kliknięciu na daną kategorię pojawia się ekran wyboru podkategorii,
  którego konstrukcja jest identyczna jak widok kategorii.
  W górnej części ekranu moża zobaczyć pasek nawigacyjny, który pojawia się
- na każdym widoku aplikacji.
+ na każdym ekranie aplikacji.
  W jego lewej części znajduje się logo aplikacji (1), które jest także odnośniki
 em do strony głównej.
  Po prawej, jeżeli użytkownik jest zalogowany, znajduje się kolejno odnośnik
@@ -1487,6 +1491,121 @@ em do strony głównej.
  Po kliknięciu na zdjęcie pojawia się menu (5).
  Jeżeli użytkownik nie jest zalogowany, to po prawej stronie paska nawigacji
  zobaczy odnośnik do formularza logowania oraz rejestracji.
+\end_layout
+
+\begin_layout Subsubsection*
+Widok wydarzeń
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku wydarzeń
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/events_view.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Użytkownik zostaje przekierowany do widoku wydarzeń po wybraniu kategorii
+ i określeniu (lub pominięciu) podkategorii.
+ Ekran ten składa się z kafelków przedstawiających zdjęcie danego wydarzenia
+ wraz z informacjami podstawowymi takimi jak nazwa, miejsce i czas organizacji
+ czy koszt wejścia.
+ Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
+ stronę widoku pojedynczego wydarzenia.
+\end_layout
+
+\begin_layout Subsubsection*
+Widok pojedynczego wydarzenia
+\end_layout
+
+\begin_layout Standard
+Widok pojedynczego wydarzenia jest podzielony na 5 zakładek.
+ Poniżej znajduje się opis zawartości każdej z nich.
+\end_layout
+
+\begin_layout Paragraph*
+Zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Informacje
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia (zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Informacje
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/event_informations_tab.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
