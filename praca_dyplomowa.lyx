@@ -28,9 +28,20 @@ dcs
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement tbph
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=linkcolor,linkcolor=black,citecolor=linkcolor"
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -51,18 +62,18 @@ dcs
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
 \secnumdepth 3
-\tocdepth 3
+\tocdepth 2
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language polish
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -156,7 +167,7 @@ go rozwoju zarówno aplikacji internetowych jak i mobilnych.
  obecnie najatrakcyjniejszą formą komunikacji internetowej.
  W celu ułatwienia i ujednolicenia procesu powstawania aplikacji internetowych
  opracowano wiele platform programistycznych, które w ogólności odpowiedzialne
- są za
+ są za:
 \end_layout
 
 \begin_layout Itemize
@@ -181,8 +192,8 @@ Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
  Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizacji
  wydarzeń, które zachęcają do spędzenia czasu poza domem oraz budują rzeczywiste
  relacje międzyludzkie.
- Tego typu aplikacji jest obecnie wiele lecz brakuje im zbioru funkcjonalności
- takich jak
+ Tego typu aplikacji jest obecnie wiele lecz brakuje im kilku istotnych
+ funkcjonalności takich jak:
 \end_layout
 
 \begin_layout Itemize
@@ -213,42 +224,117 @@ Struktura pracy
 
 \begin_layout Standard
 Struktura pracy jest następująca.
- Rozdział 2.
+ Rozdział
+\begin_inset space ~
+\end_inset
+
+2.
  zawiera przegląd istniejących aplikacji o podobnej tematyce.
  Opisano w nim wady i zalety poszczególnych rozwiązań.
- W rozdziale 3.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+3.
  dokonano przeglądu dostępnych technologii, które mogą zostać użyte w procesie
  implementacji aplikacji.
  Przyjrzano się rozwiązaniom umożliwiającym realizację bazy danych oraz
  platformom programistycznym wspomagającym implementację zarówno logiki
  serwera, jak i aplikacji internetowej oraz mobilnej.
- Na koniec uzasadniony został wybór zastosowanych technologii.
- W rozdziale 4.
+ Na
+\begin_inset space ~
+\end_inset
+
+koniec uzasadniony został wybór zastosowanych technologii.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+4.
  przedstawiono wykorzystane narzędzia inżynierii oprogramowania.
  Opisano użyty system kontroli wersji, narzędzie wspomagające pracę w metodykach
  zwinnych, system ciągłej integracji oraz komunikator ułatwiający komunikację
  wewnątrz zespołową.
- Na koniec omówiono wykorzystany serwer produkcyjny.
- W rozdziale 5.
+ Na
+\begin_inset space ~
+\end_inset
+
+koniec omówiono wykorzystany serwer produkcyjny.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+5.
  omówiono projekt aplikacji.
  Opisano wymagania funkcjonalne, które powinna spełniać tworzona aplikacja
  oraz przedstawiono projekt interfejsu aplikacji.
- W rozdziale 6.
- przedstawiono bazę danych zaprojektowaną na potrzeby implementowanej aplikacji.
+ Przedstawiono bazę danych zaprojektowaną na potrzeby implementowanej aplikacji.
  Omówiono schemat związków-encji oraz jego transformację do schematu relacyjnego.
- W rozdziale 7.
- przybliżono sposób implementacji logiki serwera.
- Omówiono w nim implementację bazy danych oraz konstrukcję API, które umożliwia
- komunikację serwera z aplikacją internetową i mobilną.
- Przedstawiony został także zaimplementowany system autoryzacji oparty na
- standardzie OAuth2.
- Na koniec przyjrzano się sposobowi testowania.
- W rozdziale 8.
- omówiono sposób implementacji aplikacji internetowej.
- Rozdział 9.
- został poświęcony sposobowi implementacji aplikacji na urządzenia mobilne
- pracujące pod kontrolą systemu Android.
- Rozdział 10.
+ W
+\begin_inset space ~
+\end_inset
+
+rozdziale
+\begin_inset space ~
+\end_inset
+
+6.
+ przybliżono sposób implementacji aplikacji.
+ Omówiono w nim implementację logiki serwera, a w szczególności bazy danych.
+ Przedstawiono konstrukcję 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+interfejsu programistycznego aplikacji
+\end_layout
+
+\end_inset
+
+ --- 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+API
+\end_layout
+
+\end_inset
+
+ (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Application Programming Interface
+\end_layout
+
+\end_inset
+
+) który umożliwia komunikację serwera z aplikacją internetową i mobilną.
+ Opisany został także zaimplementowany system autoryzacji oparty na standardzie
+ OAuth2.
+ Przyjrzano się sposobowi testowania API.
+ Przedstawiono sposób implementacji aplikacji internetowej oraz mobilnej
+ dla urządzeń pracujących pod kontrolą systemu Android.
+ Rozdział
+\begin_inset space ~
+\end_inset
+
+7.
  stanowi podsumowanie pracy.
 \end_layout
 
@@ -267,14 +353,14 @@ Przegląd dostępnych technologii i platform programistycznych
 \begin_layout Standard
 Przegląd dostępnych technologii i platform programistycznych pozwala zminimalizo
 wać konieczność wprowadzenia kosztownych zmian w przyszłości.
- W celu zwiększenia jego skuteczności należy zdefiniować wspólne własności,
- które są istotne dla poszczególnych składowych całej aplikacji czyli: bazy
- danych, logiki serwera, aplikacji internetowej oraz aplikacji mobilnej.
- Tymi własnościami są
+ Aby był on skuteczny należy zdefiniować wspólne własności, które są istotne
+ dla poszczególnych składowych całej aplikacji czyli: bazy danych, logiki
+ serwera, aplikacji internetowej oraz aplikacji mobilnej.
+ Tymi własnościami są:
 \end_layout
 
 \begin_layout Itemize
-z punktu widzenia programisty:
+Z punktu widzenia programisty:
 \end_layout
 
 \begin_deeper
@@ -288,7 +374,7 @@ ilość dostępnych bibliotek programistycznych
 
 \end_deeper
 \begin_layout Itemize
-z punktu widzenia programisty oraz użytkownika:
+Z punktu widzenia programisty oraz użytkownika:
 \end_layout
 
 \begin_deeper
@@ -302,12 +388,16 @@ integracja z innymi technologiami
 
 \end_deeper
 \begin_layout Itemize
-z punktu widzenia wartości biznesowej:
+Z punktu widzenia wartości biznesowej:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 czas wytworzenia oprogramowania
+\end_layout
+
+\begin_layout Itemize
+koszt wytworzenia oprogramowania
 \end_layout
 
 \end_deeper
@@ -346,6 +436,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -360,7 +454,7 @@ Platforma Ruby on Rails
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
+<lyxtabular version="3" rows="8" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -489,7 +583,7 @@ bardzo duża
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -498,11 +592,31 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+koszt wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+niski
 \end_layout
 
 \end_inset
@@ -546,7 +660,7 @@ uwagi na konfigurację.
  istotne dla przedsiębiorstw poszukujących modelu biznesowego oraz nastawionych
  na dynamiczny rozwój.
  Warto również zwrócić uwagę na przeciętną wydajność platformy.
- Powodem tego jest język Ruby.
+ Powodem tego jest wydajność języka Ruby.
  Jest to język interpretowany, nastawiony na wysoką produktywność a tym
  samym prostą implementację.
  Niestety wszystkie te zalety wiążą się w tym przypadku z wyższym czasem
@@ -579,7 +693,7 @@ Platforma Phoenix
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
+<lyxtabular version="3" rows="8" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -708,11 +822,31 @@ przeciętna
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 czas wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+średni
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+koszt wytworzenia oprogramowania
 \end_layout
 
 \end_inset
@@ -779,6 +913,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -793,7 +931,7 @@ Platforma Laravel
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
+<lyxtabular version="3" rows="8" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -922,7 +1060,7 @@ wysoka
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -931,11 +1069,31 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+koszt wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+niski
 \end_layout
 
 \end_inset
@@ -973,7 +1131,6 @@ JavaScript
 
 \begin_layout Standard
 \begin_inset Float table
-placement H
 wide false
 sideways false
 status open
@@ -993,7 +1150,7 @@ Platforma Meteor
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
+<lyxtabular version="3" rows="8" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -1122,7 +1279,7 @@ integracja z innymi technologiami
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1131,11 +1288,31 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 krótki
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+koszt wytworzenia oprogramowania
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+średnia
 \end_layout
 
 \end_inset
@@ -1890,12 +2067,226 @@ Serwer przedprodukcyjny
 Projekt aplikacji
 \end_layout
 
+\begin_layout Standard
+Projekt aplikacji jest jednym z najważniejszych etapów procesu wytwarzania
+ oprogramowania.
+ Odpowiednie określenie założeń co do funkcjonalności i wyglądu aplikacji
+ znacznie ułatwia dalsze prace.
+ W
+\begin_inset space ~
+\end_inset
+
+przypadku opisywanego systemu na etap projektu aplikacji składały się 3
+ główne zadania:
+\end_layout
+
+\begin_layout Itemize
+określenie wymagań funkcjonalnych, które musi spełniać tworzony system
+\end_layout
+
+\begin_layout Itemize
+stworzenie prototypów interfejsu aplikacji internetowej i mobilnej
+\end_layout
+
+\begin_layout Itemize
+zaprojektowanie bazy danych w modelu związków encji i przetransformowanie
+ powstałego schematu do modelu relacyjnego
+\end_layout
+
 \begin_layout Section
 Wymagania funkcjonalne
 \end_layout
 
 \begin_layout Section
 Projekt interfejsu aplikacji internetowej i mobilnej
+\end_layout
+
+\begin_layout Standard
+Oprócz funkcjonalności jednym z najważniejszych aspektów praktycznie każdej
+ aplikacji jest jej wygląd.
+ Powinien być on przedewszystkim prosty i intuicyjny dla użytkownika.
+ Te dwie cechy zostały w szczególności uwzględnione podczas projektowania
+ interfejsu zarówno aplikacji internetowej, jak i mobilnej.
+\end_layout
+
+\begin_layout Subsection
+Aplikacja internetowa
+\end_layout
+
+\begin_layout Standard
+Poniżej znajdują się prototypy 4 głównych ekranów aplikacji internetowej.
+\end_layout
+
+\begin_layout Subsubsection*
+Ekran główny/widok kategorii
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp ekranu głównego aplikacji
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/main_screen_logged_in.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ekran główny jest pierwszym jaki można zobaczyć po wejściu na stronę aplikacji.
+ Znajdują się na nim kafelki ze zdjęciem oraz nazwą danej kategorii.
+ Po kliknięciu na daną kategorię pojawia się ekran wyboru podkategorii,
+ którego konstrukcja jest identyczna jak widok kategorii.
+ W górnej części ekranu moża zobaczyć pasek nawigacyjny, który pojawia się
+ na każdym ekranie aplikacji.
+ W jego lewej części znajduje się logo aplikacji (1), które jest także odnośniki
+em do strony głównej.
+ Po prawej, jeżeli użytkownik jest zalogowany, znajduje się kolejno odnośnik
+ do formularza pozwalającego na stworzenie nowego wydarzenia (2), ikona
+ powiadomień o otrzymaniu nowego zaprowszenia nawydarzenie (3) oraz awatar
+ użytkownika (4).
+ Po kliknięciu na zdjęcie pojawia się menu (5).
+ Jeżeli użytkownik nie jest zalogowany, to po prawej stronie paska nawigacji
+ zobaczy odnośnik do formularza logowania oraz rejestracji.
+\end_layout
+
+\begin_layout Subsubsection*
+Widok wydarzeń
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku wydarzeń
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/events_view.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Użytkownik zostaje przekierowany do widoku wydarzeń po wybraniu kategorii
+ i określeniu (lub pominięciu) podkategorii.
+ Ekran ten składa się z kafelków przedstawiających zdjęcie danego wydarzenia
+ wraz z informacjami podstawowymi takimi jak nazwa, miejsce i czas organizacji
+ czy koszt wejścia.
+ Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
+ stronę widoku pojedynczego wydarzenia.
+\end_layout
+
+\begin_layout Subsubsection*
+Widok pojedynczego wydarzenia
+\end_layout
+
+\begin_layout Standard
+Widok pojedynczego wydarzenia jest podzielony na 5 zakładek.
+ Poniżej znajduje się opis zawartości każdej z nich.
+\end_layout
+
+\begin_layout Paragraph*
+Zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Informacje
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia (zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Informacje
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/event_informations_tab.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1911,7 +2302,7 @@ Model relacyjny
 \end_layout
 
 \begin_layout Chapter
-Implentacja
+Implementacja
 \end_layout
 
 \begin_layout Section
@@ -1948,26 +2339,6 @@ Podsumowanie
 
 \begin_layout Chapter
 Podsumowanie
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-01"
-
-\end_inset
-
-Ravishankar Somasundaram, 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Git: Version Control for Everyone Beginner's Guide
-\end_layout
-
-\end_inset
-
-, Packt Publishing, 2013
 \end_layout
 
 \end_body
