@@ -267,9 +267,9 @@ Przegląd dostępnych technologii i platform programistycznych
 \begin_layout Standard
 Przegląd dostępnych technologii i platform programistycznych pozwala zminimalizo
 wać konieczność wprowadzenia kosztownych zmian w przyszłości.
- Aby był on skuteczny należy zdefiniować wspólne własności, które są istotne
- dla poszczególnych składowych całej aplikacji czyli: bazy danych, logiki
- serwera, aplikacji internetowej oraz aplikacji mobilnej.
+ W celu zwiększenia jego skuteczności należy zdefiniować wspólne własności,
+ które są istotne dla poszczególnych składowych całej aplikacji czyli: bazy
+ danych, logiki serwera, aplikacji internetowej oraz aplikacji mobilnej.
  Tymi własnościami są
 \end_layout
 
@@ -546,7 +546,7 @@ uwagi na konfigurację.
  istotne dla przedsiębiorstw poszukujących modelu biznesowego oraz nastawionych
  na dynamiczny rozwój.
  Warto również zwrócić uwagę na przeciętną wydajność platformy.
- Powodem tego jest wydajność języka Ruby.
+ Powodem tego jest język Ruby.
  Jest to język interpretowany, nastawiony na wysoką produktywność a tym
  samym prostą implementację.
  Niestety wszystkie te zalety wiążą się w tym przypadku z wyższym czasem
@@ -1809,6 +1809,67 @@ Zastosowane narzędzia inżynierii oprogramowania wspomagające proces tworzenia
 System kontroli wersji
 \end_layout
 
+\begin_layout Standard
+Podstawowe operacje na plikach takie jak kopiowanie i wklejanie są wystarczające
+ gdy oprogramowanie powstaje przez jednego programistę.
+ Problem pojawia się w przypadku pracy w grupie gdy wiele osób modyfikuje
+ ten sam plik powodując nadpisanie poprzedniej zmiany.
+ Z tego powodu powstał system kontroli wersji będący zaawansowanym narzędziem
+ umożliwiającym synchronizację zmian dokonanych na plikach poprzez ich monitorow
+anie oraz oznaczanie tych modyfikacji.
+ Przechowywanie historii plików umożliwia powrót do wersji wcześniejszych
+ w dowolnym momencie co zmniejsza ryzyko wykonywania zmian oraz wprowadza
+ dobrą praktykę tworzenia oprogramowania według kolejnych iteracji.
+\end_layout
+
+\begin_layout Standard
+Obecnie istnieje wiele wolnodostępowych jak i własnościowych dystrybucji
+ systemu kontroli wersji.
+ Ze wzglu na ich architekturę dzielą się na
+\end_layout
+
+\begin_layout Itemize
+lokalne:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+zmiany przechowywane są tylko lokalnie
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+scentralizowane:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+zmiany przechowywane są w centralnym repozytorium 
+\end_layout
+
+\begin_layout Itemize
+praca wyłącznie on-line
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+rozproszone:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+zmiany przechowywane są lokalnie
+\end_layout
+
+\begin_layout Itemize
+możliwa jest synchronizacja zmian z serwerem zdalnym
+\end_layout
+
+\begin_layout Itemize
+praca on-line lub off-line 
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Zarządzanie projektem
 \end_layout
@@ -1887,6 +1948,26 @@ Podsumowanie
 
 \begin_layout Chapter
 Podsumowanie
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-01"
+
+\end_inset
+
+Ravishankar Somasundaram, 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Git: Version Control for Everyone Beginner's Guide
+\end_layout
+
+\end_inset
+
+, Packt Publishing, 2013
 \end_layout
 
 \end_body
