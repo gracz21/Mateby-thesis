@@ -2000,9 +2000,9 @@ anie oraz oznaczanie tych modyfikacji.
 \end_layout
 
 \begin_layout Standard
-Obecnie istnieje wiele wolnodostępowych jak i własnościowych dystrybucji
+Obecnie istnieje wiele wolnodostępnych jak i własnościowych dystrybucji
  systemu kontroli wersji.
- Ze wzglu na ich architekturę dzielą się na
+ Ze względu na ich architekturę dzielą się na
 \end_layout
 
 \begin_layout Itemize
@@ -2161,13 +2161,21 @@ Ekran główny jest pierwszym jaki można zobaczyć po wejściu na stronę aplik
  Znajdują się na nim kafelki ze zdjęciem oraz nazwą danej kategorii.
  Po kliknięciu na daną kategorię pojawia się ekran wyboru podkategorii,
  którego konstrukcja jest identyczna jak widok kategorii.
- W górnej części ekranu moża zobaczyć pasek nawigacyjny, który pojawia się
+ W
+\begin_inset space ~
+\end_inset
+
+górnej części ekranu można zobaczyć pasek nawigacyjny, który pojawia się
  na każdym ekranie aplikacji.
- W jego lewej części znajduje się logo aplikacji (1), które jest także odnośniki
-em do strony głównej.
+ W
+\begin_inset space ~
+\end_inset
+
+jego lewej części znajduje się logo aplikacji (1), które jest także odnośnikiem
+ do strony głównej.
  Po prawej, jeżeli użytkownik jest zalogowany, znajduje się kolejno odnośnik
  do formularza pozwalającego na stworzenie nowego wydarzenia (2), ikona
- powiadomień o otrzymaniu nowego zaprowszenia nawydarzenie (3) oraz awatar
+ powiadomień o otrzymaniu nowego zaproszenia na wydarzenie (3) oraz awatar
  użytkownika (4).
  Po kliknięciu na zdjęcie pojawia się menu (5).
  Jeżeli użytkownik nie jest zalogowany, to po prawej stronie paska nawigacji
@@ -2219,9 +2227,10 @@ Użytkownik zostaje przekierowany do widoku wydarzeń po wybraniu kategorii
  i określeniu (lub pominięciu) podkategorii.
  Ekran ten składa się z kafelków przedstawiających zdjęcie danego wydarzenia
  wraz z informacjami podstawowymi takimi jak nazwa, miejsce i czas organizacji
- czy koszt wejścia.
+ czy koszt biletu wstępu.
  Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
- stronę widoku pojedynczego wydarzenia.
+ stronę widoku pojedynczego wydarzenia (jeżeli wcześniej dokonał autoryzacji
+ konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2229,7 +2238,8 @@ Widok pojedynczego wydarzenia
 \end_layout
 
 \begin_layout Standard
-Widok pojedynczego wydarzenia jest podzielony na 5 zakładek.
+Widok pojedynczego wydarzenia jest dostępny tylko dla zalogowanych użytkowników.
+ Ekran ten został podzielony na 5 zakładek.
  Poniżej znajduje się opis zawartości każdej z nich.
 \end_layout
 
@@ -2273,6 +2283,294 @@ Informacje
 
 \begin_inset Graphics
 	filename prototypy/event_informations_tab.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na
+\begin_inset space ~
+\end_inset
+
+tej zakładce można znaleźć szczegółowe dane na temat danego wydarzenia.
+ Po lewej znajduje się zdjęcie oraz dane dotyczące organizatora, miejsca
+ i czasu odbywania się oraz ceny biletu wstępu.
+ Po prawej można znaleźć przycisk pozwalający na dołączenie do grona uczestników
+ (dostępny dla wszystkich w przypadku wydarzeń publicznych lub tylko dla
+ użytkowników posiadających zaproszenie w przypadku wydarzeń prywatnych).
+ Znajduje się tu także tytuł wydarzenia wraz ze szczegółowym jego opisem
+ oraz znacznikami (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+tags
+\end_layout
+
+\end_inset
+
+).
+ Po kliknięciu na znacznik, następuje przekierowany do strony, w której
+ można przeglądać wydarzenia z nim skojarzone (ekran ten ma identyczny układ
+ jak widok wydarzeń).
+\end_layout
+
+\begin_layout Paragraph*
+Zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Uczestnicy
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia (zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Uczestnicy
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/event_participants_tab.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na
+\begin_inset space ~
+\end_inset
+
+tej zakładce znajduje się lista użytkowników uczestniczących w wydarzeniu.
+ Istnieje także możliwość wysłania zaproszenia do osoby, która nie jest
+ jeszcze uczestnikiem (opcja ta jest dostępna dla twórcy wydarzenia lub
+ dla każdego uczestnika, jeżeli organizator zaznaczył odpowiednią opcję
+ w formularzu tworzenia wydarzenia).
+\end_layout
+
+\begin_layout Paragraph*
+Zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Lokalizacja
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia (zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Lokalizacja
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/event_localization_tab.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na
+\begin_inset space ~
+\end_inset
+
+tej zakładce można znaleźć mapkę okolicy wraz ze znacznikiem wskazującym
+ miejsce organizacji wydarzenia.
+\end_layout
+
+\begin_layout Paragraph*
+Zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Dyskusja
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia (zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Dyskusja
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/event_posts_tab.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na
+\begin_inset space ~
+\end_inset
+
+tej zakładce znajduje się dyskusja na temat danego wydarzenia toczona przez
+ użytkowników.
+ W górnej części ekranu można znaleźć formularz pozwalający na dodanie nowej
+ wiadomości.
+ W dolnej części ekranu można prześledzić historię dyskusji.
+ Istnieje także możliwość edycji lub usunięcia już dodanej wiadomości (tylko
+ w przypadku wiadomości swojego autorstwa).
+\end_layout
+
+\begin_layout Paragraph*
+Zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Organizator
+\begin_inset Quotes prd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia (zakładka 
+\begin_inset Quotes pld
+\end_inset
+
+Organizator
+\begin_inset Quotes prd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename prototypy/event_organizer_tab.png
 	scale 30
 
 \end_inset
