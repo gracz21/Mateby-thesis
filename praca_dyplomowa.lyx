@@ -1994,15 +1994,22 @@ Podstawowe operacje na plikach takie jak kopiowanie i wklejanie są wystarczają
  Z tego powodu powstał system kontroli wersji będący zaawansowanym narzędziem
  umożliwiającym synchronizację zmian dokonanych na plikach poprzez ich monitorow
 anie oraz oznaczanie tych modyfikacji.
- [1.str.13] Przechowywanie historii plików umożliwia powrót do wersji wcześniejszy
-ch w dowolnym momencie co zmniejsza ryzyko wykonywania zmian oraz wprowadza
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+ Przechowywanie historii plików umożliwia powrót do wersji wcześniejszych
+ w dowolnym momencie co zmniejsza ryzyko wykonywania zmian oraz wprowadza
  dobrą praktykę tworzenia oprogramowania według kolejnych iteracji.
 \end_layout
 
 \begin_layout Standard
 Obecnie istnieje wiele wolnodostępnych jak i własnościowych dystrybucji
  systemu kontroli wersji.
- Ze względu na ich architekturę dzielą się na [2]
+ Ze względu na ich architekturę dzielą się na:
 \end_layout
 
 \begin_layout Itemize
@@ -2043,7 +2050,14 @@ możliwa jest synchronizacja zmian z serwerem zdalnym
 \end_layout
 
 \begin_layout Itemize
-praca on-line lub off-line
+praca on-line lub off-line 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2116,8 +2130,15 @@ Git w powstał 2005 roku jako darmowe narzędzie służące do zarządzania kode
  pracujących nad jego rozwojem.
  Do głównych zalet Gita można zaliczyć dobrą wydajność, kontrolę spójności
  danych oraz lokalność wprowadzanych zmian.
- [1.str.14] Warto również dodać, że istnieje wiele serwerów umożliwiających
- przechowywanie repozytoriów opartych na systemie Git.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+ Warto również dodać, że istnieje wiele serwerów umożliwiających przechowywanie
+ repozytoriów opartych na systemie Git.
  Najbardziej popularnym z nich jest serwis Github oferujący darmowe repozytoria
  przechowujące oprogramowanie na zasadzie wolnego oprogramowania oraz płatne,
  które przechowują prywatny kod.
@@ -2239,6 +2260,35 @@ zaprojektowanie bazy danych w modelu związków encji i przetransformowanie
 Wymagania funkcjonalne
 \end_layout
 
+\begin_layout Standard
+Kluczową cechą każdej aplikacji jest jej funkcjonalność.
+ Powinna być ona dobrze sprecyzowana tak, by nie była ani zbyt szeroka,
+ ani nie ograniczała możliwości potencjalnego użytkownika.
+ Opis funkcjonalności, którą ma realizować system, nazywamy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+wymaganiami funkcjonalnymi
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Wstęp
+\end_layout
+
 \begin_layout Section
 Projekt interfejsu aplikacji internetowej i mobilnej
 \end_layout
@@ -2246,7 +2296,7 @@ Projekt interfejsu aplikacji internetowej i mobilnej
 \begin_layout Standard
 Oprócz funkcjonalności jednym z najważniejszych aspektów praktycznie każdej
  aplikacji jest jej wygląd.
- Powinien być on przedewszystkim prosty i intuicyjny dla użytkownika.
+ Powinien być on przede wszystkim prosty i intuicyjny dla użytkownika.
  Te dwie cechy zostały w szczególności uwzględnione podczas projektowania
  interfejsu zarówno aplikacji internetowej, jak i mobilnej.
 \end_layout
@@ -2259,7 +2309,7 @@ Aplikacja internetowa
 Poniżej znajdują się prototypy 4 głównych ekranów aplikacji internetowej.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Paragraph
 Ekran główny/widok kategorii
 \end_layout
 
@@ -2321,7 +2371,7 @@ jego lewej części znajduje się logo aplikacji (2), które jest także odnośn
  zobaczy odnośnik do formularza logowania oraz rejestracji.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Paragraph
 Widok wydarzeń
 \end_layout
 
@@ -2372,7 +2422,7 @@ Użytkownik zostaje przekierowany do widoku wydarzeń po wybraniu kategorii
  konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Paragraph
 Widok pojedynczego wydarzenia
 \end_layout
 
@@ -2382,7 +2432,7 @@ Widok pojedynczego wydarzenia jest dostępny tylko dla zalogowanych użytkownik�
  Poniżej znajduje się opis zawartości każdej z nich.
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subparagraph
 Zakładka 
 \begin_inset Quotes pld
 \end_inset
@@ -2451,7 +2501,7 @@ tej zakładce można znaleźć szczegółowe dane na temat danego wydarzenia.
  jak widok wydarzeń).
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subparagraph
 Zakładka 
 \begin_inset Quotes pld
 \end_inset
@@ -2521,7 +2571,7 @@ tej zakładce znajduje się lista użytkowników uczestniczących w wydarzeniu
  organizator zaznaczył odpowiednią opcję w formularzu tworzenia wydarzenia).
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subparagraph
 Zakładka 
 \begin_inset Quotes pld
 \end_inset
@@ -2586,7 +2636,7 @@ tej zakładce można znaleźć mapkę okolicy (1) wraz ze znacznikiem (2) wskazu
  miejsce organizacji wydarzenia.
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subparagraph
 Zakładka 
 \begin_inset Quotes pld
 \end_inset
@@ -2657,7 +2707,7 @@ tej zakładce znajduje się dyskusja na temat danego wydarzenia toczona przez
  (tylko w przypadku wiadomości swojego autorstwa).
 \end_layout
 
-\begin_layout Paragraph*
+\begin_layout Subparagraph
 Zakładka 
 \begin_inset Quotes pld
 \end_inset
@@ -2713,6 +2763,70 @@ Organizator
 
 \end_layout
 
+\begin_layout Standard
+Na tej zakładce umieszczone zostały informacje na temat organizatora wydarzenia.
+ Po lewej znajduje się zdjęcie użytkownika (1), po prawej zaś można znaleźć
+ imię i nazwisko lub nazwę organizatora (2) oraz dane na jego temat (3).
+\end_layout
+
+\begin_layout Paragraph
+Widok profilu użytkownika/oddziału instytucji
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/user_view.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku profilu użytkownika
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Widok profilu użytkownika lub oddziału instytucji jest dostępny tylko po
+ uprzedniej autoryzacji.
+ Poza informacjami zawartymi na karcie 
+\begin_inset Quotes pld
+\end_inset
+
+Organizator
+\begin_inset Quotes prd
+\end_inset
+
+ widoku pojedynczego wydarzenia, na tym ekranie można znaleźć listę trzech
+ ostatnich wydarzeń zorganizowanych przez tego użytkownika (1).
+\end_layout
+
 \begin_layout Section
 Projekt bazy danych
 \end_layout
@@ -2761,6 +2875,10 @@ Aplikacja mobilna
 Podsumowanie
 \end_layout
 
+\begin_layout Chapter
+Podsumowanie
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
@@ -2779,7 +2897,8 @@ Git.
 
 \end_inset
 
-, Helion, 2013
+, Helion, 2013, s.
+ 13 --- 14
 \end_layout
 
 \begin_layout Bibliography
@@ -2802,8 +2921,14 @@ key "key-3"
 https://pl.wikipedia.org/wiki/Subversion
 \end_layout
 
-\begin_layout Chapter
-Podsumowanie
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria%29
 \end_layout
 
 \end_body
