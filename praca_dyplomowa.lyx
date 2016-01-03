@@ -2048,16 +2048,62 @@ praca on-line lub off-line
 
 \end_deeper
 \begin_layout Standard
-Wybór dystrybucji zazwyczaj podyktowany jest przez miejsce pracy programistów,
- osobiste preferencje oraz specyfikację projektu.
- Z całą pewnością jednak obecnie najczęściej używa się repozytoriów scentralizow
-anych oraz rozproszonych wśród których na szczególną uwagę zasługują dystrybucje
- Git oraz Svn (z ang.
+Obecnie najczęściej używa się repozytoriów scentralizowanych oraz rozproszonych
+ wśród których na szczególną uwagę zasługują dystrybucje Git oraz Svn (z
+ ang.
  Subversion).
+ Wybór systemu kontroli wersji został podyktowany przez następujące czynniki
+\end_layout
+
+\begin_layout Itemize
+ilość programistów w zespole
+\end_layout
+
+\begin_layout Itemize
+popularność systemu
+\end_layout
+
+\begin_layout Itemize
+możliwość integracji z innymi narzędziami
 \end_layout
 
 \begin_layout Paragraph
 System kontroli wersji Git
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename loga/git.svg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Logo systemu kontroli wersji Git
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2080,19 +2126,67 @@ Git w powstał 2005 roku jako darmowe narzędzie służące do zarządzania kode
 \end_layout
 
 \begin_layout Paragraph
-System kontroli wersji Svn
+Serwis Github
 \end_layout
 
 \begin_layout Standard
-Svn powstał w 2000 roku w celu udoskonalenia systemu CVS (z ang.
- Concurrent Versions System).
- Jest to darmowy, scentralizowany system kontroli wersji.
- [3] Rozpoczęcie pracy z Svn jest nieco prostsze ze względu na mniej skomplikowa
-ną funkcjonalność.
- Wadą tego systemu jest praca wyłącznie w trybie on-line przez co programista
- zmuszony jest do przebywania w miejscu z dostępem do sieci.
- Tak jak w przypadku Gita istnieje wiele serwerów przechowujących repozytoria
- systemu Svn.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/mateby_repo.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok repozytorium logiki serwera w serwisie Github
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Serwis Github powstał w 2008 roku i jest obecnie jednym z największych serwisów
+ obsługujących system Git.
+ Do tej pory przy jego pomocy zostało stworzonych ponad 10 milionów repozytoriów.
+ W znacznym stopniu ułatwia pracę zespołową udostępniając taką funkcjonalność
+ jak
+\end_layout
+
+\begin_layout Itemize
+przeprowadzenie recenzji kodu
+\end_layout
+
+\begin_layout Itemize
+tworzenie dokumentacji
+\end_layout
+
+\begin_layout Itemize
+przeglądanie statystyk
+\end_layout
+
+\begin_layout Itemize
+tworzenie nowych tematycznych wątków
+\end_layout
+
+\begin_layout Standard
+Jego ogromną zaletą jest również prosta integracja z wieloma serwisami odpowiedz
+ialnymi za pozostałe etapy tworzenia oprogramowania.
 \end_layout
 
 \begin_layout Section
