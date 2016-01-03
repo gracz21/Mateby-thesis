@@ -2274,7 +2274,7 @@ wymaganiami funkcjonalnymi
 
 \end_inset
 
-
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -2827,8 +2827,12 @@ Organizator
  ostatnich wydarzeń zorganizowanych przez tego użytkownika (1).
 \end_layout
 
+\begin_layout Subsection
+Aplikacja mobilna
+\end_layout
+
 \begin_layout Section
-Projekt bazy danych
+Projekt bazy danych 
 \end_layout
 
 \begin_layout Subsection
@@ -2908,7 +2912,10 @@ key "key-2"
 
 \end_inset
 
-https://pl.wikipedia.org/wiki/System_kontroli_wersji
+System kontroli wersji.
+ W: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
+ Dostępny w Internecie: https://pl.wikipedia.org/wiki/System_kontroli_wersji
 \end_layout
 
 \begin_layout Bibliography
@@ -2918,7 +2925,10 @@ key "key-3"
 
 \end_inset
 
-https://pl.wikipedia.org/wiki/Subversion
+Subversion.
+ W: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
+ Dostępny w Internecie: https://pl.wikipedia.org/wiki/Subversion
 \end_layout
 
 \begin_layout Bibliography
@@ -2928,7 +2938,11 @@ key "key-4"
 
 \end_inset
 
-https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria%29
+Wymaganie (inżynieria).
+ W: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
+ Dostępny w Internecie: https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria
+%29
 \end_layout
 
 \end_body
