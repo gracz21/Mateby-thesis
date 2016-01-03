@@ -2052,7 +2052,8 @@ Wybór dystrybucji zazwyczaj podyktowany jest przez miejsce pracy programistów,
  osobiste preferencje oraz specyfikację projektu.
  Z całą pewnością jednak obecnie najczęściej używa się repozytoriów scentralizow
 anych oraz rozproszonych wśród których na szczególną uwagę zasługują dystrybucje
- Git oraz Svn.
+ Git oraz Svn (z ang.
+ Subversion).
 \end_layout
 
 \begin_layout Paragraph
@@ -2060,24 +2061,38 @@ System kontroli wersji Git
 \end_layout
 
 \begin_layout Standard
-Git powstał 2005 roku jako darmowe narzędzie służące do zarządzania kodem
+Git w powstał 2005 roku jako darmowe narzędzie służące do zarządzania kodem
  Linuksa i od tej pory jego popularność rośnie w szybkim tempie.
  Jest to rozproszony rozproszony system kontroli wersji oferujący zaawansowane
  operacje przez co dla początkujących użytkowników może wydawać się trudnym
  narzędziem.
  Posiada dobrze wykonaną dokumentację oraz dużą społeczność programistów
  pracujących nad jego rozwojem.
- Do głównych zalet Git'a można zaliczyć dobrą wydajność, kontrolę spójności
+ Do głównych zalet Gita można zaliczyć dobrą wydajność, kontrolę spójności
  danych oraz lokalność wprowadzanych zmian.
  [1.str.14] Warto również dodać, że istnieje wiele serwerów umożliwiających
  przechowywanie repozytoriów opartych na systemie Git.
  Najbardziej popularnym z nich jest serwis Github oferujący darmowe repozytoria
  przechowujące oprogramowanie na zasadzie wolnego oprogramowania oraz płatne,
  które przechowują prywatny kod.
+ Jego popularność może być efektem dużego nacisku na wytwarzanie oprogramowania
+ opartego na darmowej licencji.
 \end_layout
 
 \begin_layout Paragraph
 System kontroli wersji Svn
+\end_layout
+
+\begin_layout Standard
+Svn powstał w 2000 roku w celu udoskonalenia systemu CVS (z ang.
+ Concurrent Versions System).
+ Jest to darmowy, scentralizowany system kontroli wersji.
+ [3] Rozpoczęcie pracy z Svn jest nieco prostsze ze względu na mniej skomplikowa
+ną funkcjonalność.
+ Wadą tego systemu jest praca wyłącznie w trybie on-line przez co programista
+ zmuszony jest do przebywania w miejscu z dostępem do sieci.
+ Tak jak w przypadku Gita istnieje wiele serwerów przechowujących repozytoria
+ systemu Svn.
 \end_layout
 
 \begin_layout Section
@@ -2697,6 +2712,16 @@ key "key-2"
 \end_inset
 
 https://pl.wikipedia.org/wiki/System_kontroli_wersji
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/Subversion
 \end_layout
 
 \begin_layout Chapter
