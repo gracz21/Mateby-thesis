@@ -2129,22 +2129,19 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/main_screen_logged_in.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Prototyp ekranu głównego aplikacji
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename prototypy/main_screen_logged_in.png
-	scale 30
 
 \end_inset
 
@@ -2175,7 +2172,7 @@ jego lewej części znajduje się logo aplikacji (1), które jest także odnośn
  do strony głównej.
  Po prawej, jeżeli użytkownik jest zalogowany, znajduje się kolejno odnośnik
  do formularza pozwalającego na stworzenie nowego wydarzenia (2), ikona
- powiadomień o otrzymaniu nowego zaproszenia na wydarzenie (3) oraz awatar
+ powiadomień o otrzymaniu nowego zaproszenia na wydarzenie (3) oraz zdjęcie
  użytkownika (4).
  Po kliknięciu na zdjęcie pojawia się menu (5).
  Jeżeli użytkownik nie jest zalogowany, to po prawej stronie paska nawigacji
@@ -2195,18 +2192,18 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Graphics
+	filename prototypy/events_view.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Prototyp widoku wydarzeń
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename prototypy/events_view.png
-	scale 30
 
 \end_inset
 
@@ -2264,6 +2261,13 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Graphics
+	filename prototypy/event_informations_tab.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2277,13 +2281,6 @@ Informacje
 
 )
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename prototypy/event_informations_tab.png
-	scale 30
 
 \end_inset
 
@@ -2345,6 +2342,13 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Graphics
+	filename prototypy/event_participants_tab.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2358,13 +2362,6 @@ Uczestnicy
 
 )
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename prototypy/event_participants_tab.png
-	scale 30
 
 \end_inset
 
@@ -2413,6 +2410,13 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Graphics
+	filename prototypy/event_localization_tab.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2426,13 +2430,6 @@ Lokalizacja
 
 )
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename prototypy/event_localization_tab.png
-	scale 30
 
 \end_inset
 
@@ -2477,11 +2474,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
+\begin_inset Graphics
+	filename prototypy/event_posts_tab.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2495,13 +2495,6 @@ Dyskusja
 
 )
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename prototypy/event_posts_tab.png
-	scale 30
 
 \end_inset
 
@@ -2552,6 +2545,13 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Graphics
+	filename prototypy/event_organizer_tab.png
+	scale 30
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2565,13 +2565,6 @@ Organizator
 
 )
 \end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename prototypy/event_organizer_tab.png
-	scale 30
 
 \end_inset
 
