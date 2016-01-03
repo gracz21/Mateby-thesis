@@ -1994,15 +1994,15 @@ Podstawowe operacje na plikach takie jak kopiowanie i wklejanie są wystarczają
  Z tego powodu powstał system kontroli wersji będący zaawansowanym narzędziem
  umożliwiającym synchronizację zmian dokonanych na plikach poprzez ich monitorow
 anie oraz oznaczanie tych modyfikacji.
- Przechowywanie historii plików umożliwia powrót do wersji wcześniejszych
- w dowolnym momencie co zmniejsza ryzyko wykonywania zmian oraz wprowadza
+ [1.str.13] Przechowywanie historii plików umożliwia powrót do wersji wcześniejszy
+ch w dowolnym momencie co zmniejsza ryzyko wykonywania zmian oraz wprowadza
  dobrą praktykę tworzenia oprogramowania według kolejnych iteracji.
 \end_layout
 
 \begin_layout Standard
 Obecnie istnieje wiele wolnodostępnych jak i własnościowych dystrybucji
  systemu kontroli wersji.
- Ze względu na ich architekturę dzielą się na
+ Ze względu na ich architekturę dzielą się na [2]
 \end_layout
 
 \begin_layout Itemize
@@ -2043,10 +2043,43 @@ możliwa jest synchronizacja zmian z serwerem zdalnym
 \end_layout
 
 \begin_layout Itemize
-praca on-line lub off-line 
+praca on-line lub off-line
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+Wybór dystrybucji zazwyczaj podyktowany jest przez miejsce pracy programistów,
+ osobiste preferencje oraz specyfikację projektu.
+ Z całą pewnością jednak obecnie najczęściej używa się repozytoriów scentralizow
+anych oraz rozproszonych wśród których na szczególną uwagę zasługują dystrybucje
+ Git oraz Svn.
+\end_layout
+
+\begin_layout Paragraph
+System kontroli wersji Git
+\end_layout
+
+\begin_layout Standard
+Git powstał 2005 roku jako darmowe narzędzie służące do zarządzania kodem
+ Linuksa i od tej pory jego popularność rośnie w szybkim tempie.
+ Jest to rozproszony rozproszony system kontroli wersji oferujący zaawansowane
+ operacje przez co dla początkujących użytkowników może wydawać się trudnym
+ narzędziem.
+ Posiada dobrze wykonaną dokumentację oraz dużą społeczność programistów
+ pracujących nad jego rozwojem.
+ Do głównych zalet Git'a można zaliczyć dobrą wydajność, kontrolę spójności
+ danych oraz lokalność wprowadzanych zmian.
+ [1.str.14] Warto również dodać, że istnieje wiele serwerów umożliwiających
+ przechowywanie repozytoriów opartych na systemie Git.
+ Najbardziej popularnym z nich jest serwis Github oferujący darmowe repozytoria
+ przechowujące oprogramowanie na zasadzie wolnego oprogramowania oraz płatne,
+ które przechowują prywatny kod.
+\end_layout
+
+\begin_layout Paragraph
+System kontroli wersji Svn
+\end_layout
+
 \begin_layout Section
 Zarządzanie projektem
 \end_layout
@@ -2633,6 +2666,37 @@ Aplikacja mobilna
 
 \begin_layout Section
 Podsumowanie
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Gajda W., 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Git.
+ Rozproszony system kontroli wersji
+\end_layout
+
+\end_inset
+
+, Helion, 2013
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/System_kontroli_wersji
 \end_layout
 
 \begin_layout Chapter
