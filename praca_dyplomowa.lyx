@@ -2171,7 +2171,7 @@ Ekran główny/widok kategorii
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2203,7 +2203,7 @@ Prototyp ekranu głównego aplikacji
 
 \begin_layout Standard
 Ekran główny jest pierwszym jaki można zobaczyć po wejściu na stronę aplikacji.
- Znajdują się na nim kafelki ze zdjęciem oraz nazwą danej kategorii.
+ Znajdują się na nim kafelki ze zdjęciem oraz nazwą danej kategorii (1).
  Po kliknięciu na daną kategorię pojawia się ekran wyboru podkategorii,
  którego konstrukcja jest identyczna jak widok kategorii.
  W
@@ -2216,13 +2216,13 @@ górnej części ekranu można zobaczyć pasek nawigacyjny, który pojawia się
 \begin_inset space ~
 \end_inset
 
-jego lewej części znajduje się logo aplikacji (1), które jest także odnośnikiem
+jego lewej części znajduje się logo aplikacji (2), które jest także odnośnikiem
  do strony głównej.
  Po prawej, jeżeli użytkownik jest zalogowany, znajduje się kolejno odnośnik
- do formularza pozwalającego na stworzenie nowego wydarzenia (2), ikona
- powiadomień o otrzymaniu nowego zaproszenia na wydarzenie (3) oraz zdjęcie
- użytkownika (4).
- Po kliknięciu na zdjęcie pojawia się menu (5).
+ do formularza pozwalającego na stworzenie nowego wydarzenia (3), ikona
+ powiadomień o otrzymaniu nowego zaproszenia na wydarzenie (4) oraz zdjęcie
+ użytkownika (5).
+ Po kliknięciu na zdjęcie pojawia się menu (6).
  Jeżeli użytkownik nie jest zalogowany, to po prawej stronie paska nawigacji
  zobaczy odnośnik do formularza logowania oraz rejestracji.
 \end_layout
@@ -2233,7 +2233,7 @@ Widok wydarzeń
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2271,8 +2271,8 @@ Prototyp widoku wydarzeń
 Użytkownik zostaje przekierowany do widoku wydarzeń po wybraniu kategorii
  i określeniu (lub pominięciu) podkategorii.
  Ekran ten składa się z kafelków przedstawiających zdjęcie danego wydarzenia
- wraz z informacjami podstawowymi takimi jak nazwa, miejsce i czas organizacji
- czy koszt biletu wstępu.
+ (1) wraz z informacjami podstawowymi (2) takimi jak nazwa, miejsce i czas
+ organizacji czy koszt biletu wstępu.
  Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
  stronę widoku pojedynczego wydarzenia (jeżeli wcześniej dokonał autoryzacji
  konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
@@ -2302,7 +2302,7 @@ Informacje
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2346,24 +2346,12 @@ Na
 \end_inset
 
 tej zakładce można znaleźć szczegółowe dane na temat danego wydarzenia.
- Po lewej znajduje się zdjęcie oraz dane dotyczące organizatora, miejsca
- i czasu odbywania się oraz ceny biletu wstępu.
+ Po lewej znajduje się zdjęcie (1) oraz dane podstawowe (2).
  Po prawej można znaleźć przycisk pozwalający na dołączenie do grona uczestników
- (dostępny dla wszystkich w przypadku wydarzeń publicznych lub tylko dla
- użytkowników posiadających zaproszenie w przypadku wydarzeń prywatnych).
- Znajduje się tu także tytuł wydarzenia wraz ze szczegółowym jego opisem
- oraz znacznikami (ang.
- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-tags
-\end_layout
-
-\end_inset
-
-).
+ (3; dostępny dla wszystkich w przypadku wydarzeń publicznych lub tylko
+ dla użytkowników posiadających zaproszenie w przypadku wydarzeń prywatnych).
+ Znajduje się tu także nazwa wydarzenia (4) wraz ze szczegółowym jego opisem
+ (5) oraz znacznikami (6).
  Po kliknięciu na znacznik, następuje przekierowany do strony, w której
  można przeglądać wydarzenia z nim skojarzone (ekran ten ma identyczny układ
  jak widok wydarzeń).
@@ -2383,7 +2371,7 @@ Uczestnicy
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2430,11 +2418,13 @@ Na
 \begin_inset space ~
 \end_inset
 
-tej zakładce znajduje się lista użytkowników uczestniczących w wydarzeniu.
+tej zakładce znajduje się lista użytkowników uczestniczących w wydarzeniu
+ (1).
  Istnieje także możliwość wysłania zaproszenia do osoby, która nie jest
- jeszcze uczestnikiem (opcja ta jest dostępna dla twórcy wydarzenia lub
- dla każdego uczestnika, jeżeli organizator zaznaczył odpowiednią opcję
- w formularzu tworzenia wydarzenia).
+ jeszcze uczestnikiem (2 --- pole tekstowe służące do wyszukania zapraszanego
+ użytkownika; 3 --- przycisk potwierdzający wysłanie zaproszenia; opcja
+ ta jest dostępna dla twórcy wydarzenia lub dla każdego uczestnika, jeżeli
+ organizator zaznaczył odpowiednią opcję w formularzu tworzenia wydarzenia).
 \end_layout
 
 \begin_layout Paragraph*
@@ -2451,7 +2441,7 @@ Lokalizacja
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2498,7 +2488,7 @@ Na
 \begin_inset space ~
 \end_inset
 
-tej zakładce można znaleźć mapkę okolicy wraz ze znacznikiem wskazującym
+tej zakładce można znaleźć mapkę okolicy (1) wraz ze znacznikiem (2) wskazującym
  miejsce organizacji wydarzenia.
 \end_layout
 
@@ -2516,7 +2506,7 @@ Dyskusja
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -2566,10 +2556,11 @@ Na
 tej zakładce znajduje się dyskusja na temat danego wydarzenia toczona przez
  użytkowników.
  W górnej części ekranu można znaleźć formularz pozwalający na dodanie nowej
- wiadomości.
- W dolnej części ekranu można prześledzić historię dyskusji.
- Istnieje także możliwość edycji lub usunięcia już dodanej wiadomości (tylko
- w przypadku wiadomości swojego autorstwa).
+ wiadomości (1 --- pole tekstowe służące do wprowadzenia tekstu wiadomości;
+ 2 --- przycisk potwierdzający stworzenie wiadomości).
+ W dolnej części ekranu można prześledzić historię dyskusji (3).
+ Istnieje także możliwość edycji (4) lub usunięcia (5) już dodanej wiadomości
+ (tylko w przypadku wiadomości swojego autorstwa).
 \end_layout
 
 \begin_layout Paragraph*
@@ -2586,7 +2577,7 @@ Organizator
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
