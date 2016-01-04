@@ -2233,7 +2233,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename loga/heroku.png
+	filename screenshoty/mateby_heroku.png
 	scale 40
 
 \end_inset
@@ -2966,7 +2966,7 @@ Subversion.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-2"
+key "key-4"
 
 \end_inset
 
@@ -2980,7 +2980,7 @@ Wymaganie (inżynieria).
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-4"
+key "key-5"
 
 \end_inset
 
