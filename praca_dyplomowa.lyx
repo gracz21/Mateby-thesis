@@ -4436,7 +4436,20 @@ Organizator
 \end_inset
 
  widoku pojedynczego wydarzenia, na tym ekranie można znaleźć listę trzech
- ostatnich wydarzeń zorganizowanych przez tego użytkownika (1).
+ ostatnich wydarzeń, które dany użytkownik organizował (1) i w których uczestnic
+zył (2).
+ W przypadku widoku profilu oddziału na tej stronie zabraknie (2), lecz
+ znajdzie się dodatkowo zakładka, której kliknięcie skutkuje wyświetleniem
+ dyskusji na temat danego oddziału (jej wygląd jest identyczny jak zawartość
+ zakładki 
+\begin_inset Quotes pld
+\end_inset
+
+Dyskusja
+\begin_inset Quotes prd
+\end_inset
+
+ widoku pojedynczego wydarzenia).
 \end_layout
 
 \begin_layout Subsection
