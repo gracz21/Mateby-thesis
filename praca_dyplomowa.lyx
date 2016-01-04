@@ -3922,7 +3922,15 @@ Poniżej znajdują się prototypy 4 głównych ekranów aplikacji internetowej.
 \end_layout
 
 \begin_layout Paragraph
-Ekran główny/widok kategorii
+Ekran główny/widok kategorii (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.2"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -3944,7 +3952,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Prototyp ekranu głównego aplikacji
+Prototyp ekranu głównego aplikacji 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.2"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3984,7 +3999,15 @@ jego lewej części znajduje się logo aplikacji (2), które jest także odnośn
 \end_layout
 
 \begin_layout Paragraph
-Widok wydarzeń
+Widok wydarzeń (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.3"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4006,7 +4029,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Prototyp widoku wydarzeń
+Prototyp widoku wydarzeń 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.3"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4053,7 +4083,15 @@ Informacje
 \begin_inset Quotes prd
 \end_inset
 
+ (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.4"
 
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4083,7 +4121,14 @@ Informacje
 \begin_inset Quotes prd
 \end_inset
 
-)
+) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.4"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4122,7 +4167,15 @@ Uczestnicy
 \begin_inset Quotes prd
 \end_inset
 
+ (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.5"
 
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4152,7 +4205,14 @@ Uczestnicy
 \begin_inset Quotes prd
 \end_inset
 
-)
+) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.5"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4192,7 +4252,15 @@ Lokalizacja
 \begin_inset Quotes prd
 \end_inset
 
+ (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.6"
 
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4222,7 +4290,14 @@ Lokalizacja
 \begin_inset Quotes prd
 \end_inset
 
-)
+) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.6"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4257,7 +4332,15 @@ Dyskusja
 \begin_inset Quotes prd
 \end_inset
 
+ (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.7"
 
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4287,7 +4370,14 @@ Dyskusja
 \begin_inset Quotes prd
 \end_inset
 
-)
+) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.7"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4328,7 +4418,15 @@ Organizator
 \begin_inset Quotes prd
 \end_inset
 
+ (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.8"
 
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4358,7 +4456,14 @@ Organizator
 \begin_inset Quotes prd
 \end_inset
 
-)
+) 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.8"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4382,7 +4487,15 @@ Na tej zakładce umieszczone zostały informacje na temat organizatora wydarzeni
 \end_layout
 
 \begin_layout Paragraph
-Widok profilu użytkownika/oddziału instytucji
+Widok profilu użytkownika/oddziału instytucji (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.9"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -4407,7 +4520,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Prototyp widoku profilu użytkownika
+Prototyp widoku profilu użytkownika 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.9"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
