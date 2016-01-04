@@ -396,10 +396,6 @@ Z punktu widzenia wartości biznesowej:
 czas wytworzenia oprogramowania
 \end_layout
 
-\begin_layout Itemize
-koszt wytworzenia oprogramowania
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 Powyższe własności są bardzo istotne dlatego też stanowią
@@ -454,7 +450,7 @@ Platforma Ruby on Rails
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -583,7 +579,7 @@ bardzo duża
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -592,31 +588,11 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-krótki
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-koszt wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-niski
+krótki
 \end_layout
 
 \end_inset
@@ -693,7 +669,7 @@ Platforma Phoenix
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -822,31 +798,11 @@ przeciętna
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-czas wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-średni
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-koszt wytworzenia oprogramowania
+czas wytworzenia oprogramowania
 \end_layout
 
 \end_inset
@@ -931,7 +887,7 @@ Platforma Laravel
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -1060,7 +1016,7 @@ wysoka
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1069,31 +1025,11 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-krótki
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-koszt wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-niski
+krótki
 \end_layout
 
 \end_inset
@@ -1150,7 +1086,7 @@ Platforma Meteor
 \begin_layout Plain Layout
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="7" columns="2">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -1279,7 +1215,7 @@ integracja z innymi technologiami
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1288,31 +1224,11 @@ czas wytworzenia oprogramowania
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-krótki
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-koszt wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-średnia
+krótki
 \end_layout
 
 \end_inset
@@ -2081,6 +1997,10 @@ popularność systemu
 możliwość integracji z innymi narzędziami
 \end_layout
 
+\begin_layout Standard
+Z tego względu został wybrany system Git wraz z serwisem Github.
+\end_layout
+
 \begin_layout Paragraph
 System kontroli wersji Git
 \end_layout
@@ -2224,6 +2144,118 @@ Komunikator
 
 \begin_layout Section
 Serwer przedprodukcyjny
+\end_layout
+
+\begin_layout Standard
+Jeśli zmiany wrzucone na zdalne repozytorium przejdą wszystkie etapy sprawdzania
+ poprawności w systemie ciągłej integracji trafią na serwer przedprodukcyjny,
+ który pełni bardzo ważną rolę na etapie testowania wdrażanej funkcjonalności.
+ Aby przeprowadzone testy były skuteczne należy użyć tej samej konfiguracji
+ jaka znajduje się na serwerze produkcyjnym.
+ Pozwala to na wykluczenie możliwych problemów wynikających z różnic w obrębie
+ wersji zależnych bibliotek lub aplikacji.
+ Oznacza to zatem, że serwer ten powinien być lustrzanym odbiciem serwera
+ produkcyjnego, z wyłączeniem zawartości bazy danych.
+ Ze względu na fakt, że aplikacja internetowa oddzielona jest od logiki
+ serwera użyte zostały dwa serwery oparte na platformie Heroku.
+\end_layout
+
+\begin_layout Paragraph
+Platfroma Heroku
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename loga/heroku.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Logo platformy Heroku
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Platforma Heroku istnieje od 2007 roku.
+ Początkowo udostępniała jedynie język Ruby lecz w chwili obecnej posiada
+ wsparcie dla kilku najbardziej znanych języków programowania.
+ Dużą zaletą tej platformy jest to, że została stworzona w modelu chmury
+ obliczeniowej - Platform as a Service (z ang.
+ platforma jako usługa).
+ Oznacza to, że programista otrzymuje w pełni przygotowany system operacyjny
+ wraz z dostosowanym oprogramowaniem 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+
+\end_inset
+
+.
+ W pewnym sensie ogranicza to możliwość znacznej ingerencji w konfiguracje
+ serwera ale pozwala na jego uruchomienie w znacznie krótszym czasie.
+ Równie istotną zaletą jest darmowy plan w najsłabszej konfiguracji przez
+ co platforma ta zyskała duża popularność w środowisku wolnego oprogramowania.
+ Głównie z tej przyczyny użyto platformę Heroku w celu stworzenia serwera
+ przedprodukcyjnego.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/mateby_heroku.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Platforma Heroku
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -4403,6 +4435,23 @@ Wymaganie (inżynieria).
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
  Dostępny w Internecie: https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria
 %29
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+Platform as a Service.
+ W: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
+ Dostępny w Internecie: https://pl.wikipedia.org/wiki/Platform_as_a_Service
+\end_layout
+
+\begin_layout Chapter
+Podsumowanie
 \end_layout
 
 \end_body
