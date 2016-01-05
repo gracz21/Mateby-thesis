@@ -2497,7 +2497,8 @@ Efekt:
 \series bold
  
 \series default
-Zapisanie w bazie danych nowego rekordu użytkownika zwykłego lub instytucji.
+W przypadku pozytywnego zakończenia operacji ma miejsce zapisanie nowego
+ rekordu użytkownika zwykłego lub instytucji w bazie danych.
 \begin_inset Newline newline
 \end_inset
 
@@ -2565,7 +2566,7 @@ Efekt:
 
 \end_inset
 
- ???
+ Brak.
 \begin_inset Newline newline
 \end_inset
 
@@ -2806,7 +2807,9 @@ Opis:
 
  Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia
  szczegółowego widoku pojedynczego wydarzenia.
- 
+ Znajdując się na ekranie zawierającym listę wydarzeń, po wybraniu jednej
+ z nich użytkownik powinien zostać przekierowany do widoku pojedynczego
+ wydarzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -2820,7 +2823,7 @@ Efekt:
 
 \end_inset
 
- 
+ Brak.
 \begin_inset Newline newline
 \end_inset
 
@@ -2866,7 +2869,15 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość utworzenia
+ nowego wydarzenia.
+ Po wybraniu opcji dodania wydarzenia ma pojawić się formularz pozwalający
+ na podanie danych na jego temat (np.
+ nazwa wydarzenia, miejsce i czas jego organizacji).
+ Po podaniu prawidłowych danych i zaakceptowania formularza użytkownik zostaje
+ przekierowany na widok nowo utworzonego wydarzenia.
+ W przeciwnym wypadku pojawia się komunikat o błędzie wraz z przyczyną niepowodz
+enia.
 \begin_inset Newline newline
 \end_inset
 
@@ -2880,7 +2891,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia ma miejsce zapis nowego rekordu wydarzenia w bazie
+ danych.
 \begin_inset Newline newline
 \end_inset
 
@@ -2926,7 +2938,13 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik lub oddział powinien mieć możliwość edycji utworzonych
+ przez siebie wydarzeń, które jeszcze się nie odbyły.
+ Po wybraniu opcji edycji wydarzenia ma pojawić się formularz (podobny jak
+ w przypadku tworzenia wydarzenia) pozwalający na edycję danych wydarzenia.
+ Po zakończeniu edycji i zatwierdzeniu formularza w przypadku powodzenia
+ użytkownik zostanie przekierowany do widoku edytowanego wydarzenia.
+ W przeciwnym wypadku zostaną wyświetlone przyczyny niepowodzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -2940,7 +2958,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych dojdzie do aktualizacji rekordu edytowane
+go wydarzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -2986,7 +3005,12 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość usunięcia
+ utworzonego przez siebie wydarzenia.
+ Po wybraniu opcji usunięcia wydarzenia ma pojawić się żądanie potwierdzenia
+ wykonywanej operacji.
+ W przypadku potwierdzenia powinno nastąpić przekierowanie do strony startowej
+ oraz wyświetlenie informacji o powodzeniu lub niepowodzeniu.
 \begin_inset Newline newline
 \end_inset
 
@@ -3000,7 +3024,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia nastąpi usunięcie z bazy danych wybranego rekordu
+ wydarzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -3046,7 +3071,9 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowana instytucja powinna mieć możliwość wyświetlenia swoich oddziałów.
+ Po przejściu na ekran zarządzania oddziałami użytkownik ma zobaczyć listę
+ swoich jednostek.
 \begin_inset Newline newline
 \end_inset
 
@@ -3060,7 +3087,7 @@ Efekt:
 
 \end_inset
 
- 
+ Brak.
 \begin_inset Newline newline
 \end_inset
 
@@ -3106,7 +3133,15 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowana instytucja powinna mieć możliwość utworzenia swojego nowego
+ oddziału.
+ Znajdując się na ekranie zarządzania oddziałami, po wybraniu opcji utworzenia
+ nowej jednostki ma pojawić się formularz pozwalający na podanie danych
+ na jej temat (np.
+ nazwa oddziału, jego adres e-mail, hasło do logowania, lokalizacja).
+ Po zatwierdzeniu formularza z prawidłowymi danymi, użytkownik powinien
+ zostać przekierowany z powrotem do ekranu zarządzania oddziałami.
+ W przeciwnym wypadku wyświetlone zostaną przyczyny niepowodzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -3120,7 +3155,7 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych utworzony zostanie nowy rekord oddziału.
 \begin_inset Newline newline
 \end_inset
 
@@ -3166,7 +3201,13 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowana instytucja powinna mieć możliwość edycji swoich oddziałów.
+ Znajdując się na ekranie zarządzania oddziałam, po wybraniu opcji edycji
+ danej jednostki powinien pojawić się formularz (podobny jak w przypadku
+ tworzenia oddziału) pozwalający na edycję jej danych.
+ Po zakończeniu edycji i zatwierdzeniu formularza w przypadku powodzenia
+ użytkownik zostanie przekierowany z powrotem do ekranu zarządzania oddziałami.
+ W przeciwnym wypadku zostaną wyświetlone przyczyny niepowodzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -3180,7 +3221,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych dojdzie do aktualizacji rekordu edytowane
+go oddziału.
 \begin_inset Newline newline
 \end_inset
 
