@@ -3268,6 +3268,12 @@ Opis:
 
 \end_inset
 
+ Zalogowana instytucja powinna mieć możliwość usuwania swoich oddziałów.
+ Znajdując się na ekranie zarządzania oddziałem, po wybraniu opcji usunięcia
+ danej jednostki ma pojawić się żądanie potwierdzenia wykonywanej operacji.
+ Po potwierdzeniu użytkownik powinno nastąpić przekierowanie z powrotem
+ do ekranu zarządzania oddziałami oraz wyświetlenie o powodzeniu lub niepowodzen
+iu.
  
 \begin_inset Newline newline
 \end_inset
@@ -3282,7 +3288,8 @@ Efekt:
 
 \end_inset
 
-
+ W przypadku powodzenia rekord wybranego oddziału zostaje usunięty z bazy
+ danych.
 \begin_inset Newline newline
 \end_inset
 
@@ -3296,66 +3303,6 @@ status open
 
 \begin_layout Plain Layout
 U14: Wyświetlenie profilu użytkownika
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex Strong
-status open
-
-\begin_layout Plain Layout
-Aktorzy:
-\end_layout
-
-\end_inset
-
- Użytkownik zwykły lub oddział.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex Strong
-status open
-
-\begin_layout Plain Layout
-Opis:
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex Strong
-status open
-
-\begin_layout Plain Layout
-Efekt:
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Flex Strong
-status open
-
-\begin_layout Plain Layout
-U15: Edycja konta
 \end_layout
 
 \end_inset
@@ -3402,7 +3349,76 @@ Efekt:
 
 \end_inset
 
+ 
+\begin_inset Newline newline
+\end_inset
 
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+U15: Edycja konta
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Aktorzy:
+\end_layout
+
+\end_inset
+
+ Użytkownik zwykły, instytucja lub oddział.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Opis:
+\end_layout
+
+\end_inset
+
+ Zalogowany użytkownik powinien mieć możliwość edycji swojego konta.
+ Po wybraniu opcji edycji powinien pojawić się formularz pozwalający na
+ modyfikację danych konta (w przypadku użytkownika zwykłego i instytucji
+ formularz powinien być podobny jak w przypadku rejestracji, w przypadku
+ oddziału powinien być to formularz podobny jak przypadku tworzenia nowe
+ jednostki).
+ Po dokonaniu zmian i ich zatwierdzeniu w przypadku powodzenia użytkownik
+ zostaje przekierowany na stronę startową.
+ W przeciwnym wypadku powinny zostać wyświetlone przyczyny niepowodzenia.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Efekt:
+\end_layout
+
+\end_inset
+
+ W przypadku powodzenia w bazie danych dojdzie do aktualizacji rekordu powiązane
+go z danym kontem.
 \begin_inset Newline newline
 \end_inset
 
@@ -3462,7 +3478,7 @@ Efekt:
 
 \end_inset
 
-
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -3508,7 +3524,11 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły powinien mieć możliwość dołączania do wydarzenia
+ publicznego lub prywatnego (posiadając zaproszenie).
+ Znajdując się na ekranie widoku pojedynczego wydarzenia po kliknięciu przycisku
+ dołączenia do grona uczestników użytkownik powinien zostać poinformowany
+ o powodzeniu lub przyczynach niepowodzenia podjętej akcji.
 \begin_inset Newline newline
 \end_inset
 
@@ -3522,7 +3542,8 @@ Efekt:
 
 \end_inset
 
-
+ W przypadku powodzenia użytkownik w bazie danych zostaje dodany do listy
+ uczestników danego wydarzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -3582,7 +3603,7 @@ Efekt:
 
 \end_inset
 
-
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -3642,7 +3663,7 @@ Efekt:
 
 \end_inset
 
-
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -3868,7 +3889,8 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik powinien mieć możliwość wylogowania się z serwisu.
+ Po wylogowaniu użytkownik ma zostać przekierowany na stronę główną.
 \begin_inset Newline newline
 \end_inset
 
@@ -3882,7 +3904,7 @@ Efekt:
 
 \end_inset
 
- 
+ Brak.
 \begin_inset Newline newline
 \end_inset
 
@@ -3928,7 +3950,12 @@ Opis:
 
 \end_inset
 
- 
+ Użytkownik powinien mieć możliwość zmiany hasła do swojego konta.
+ Po wybraniu opcji zmiany hasła ma pojawić się formularz pozwalający na
+ wprowadzenie starego i nowego hasła.
+ Po zatwierdzeniu formularza z poprawnymi danymi w przypadku powodzenia
+ użytkownik zostaje przekierowany na stronę główną.
+ W przeciwnym wypadku wyświetlone zostają przyczyny niepowodzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -3942,7 +3969,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych następuje aktualizacja rekordu powiązaneg
+o z danym kontem.
 \end_layout
 
 \begin_layout Section
