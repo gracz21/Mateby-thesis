@@ -1878,11 +1878,12 @@ Ember to platforma która w swej idei przypomina Ruby on Rails.
  jednak przez to narzucają również pewne schematy.
  Posiada obszerne wsparcie bibliotek programistycznych które dla nowszych
  wersji platformy nie tracą kompatybilności wstecz.Wadą jest stosunkowo duży
- rozmiar samej platformy oraz minimalnie gorsza wydajność w porównanie z
+ rozmiar samej platformy oraz minimalnie gorsza wydajność w porównaniu z
  konkurencyjnymi rozwiązaniami.
- Pomimo iż Ember rozwijany jest jako wolne oprogramowanie bez ingerencji
- dużych firm to można powiedzieć, że posiada społeczność niemal tak dużą
- jak w przypadku platformy Angular.
+ Rozwój tej platformy jest uzależniony nie tylko od wielu programistów ale
+ również firm.
+ W przeciwieństwie do Angulara posiada wielu sponsorów wśród których znajdują
+ się takie firmy jak Yahoo czy LinkedIn.
 \end_layout
 
 \begin_layout Section
@@ -2080,7 +2081,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename screenshoty/mateby_repo.png
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -2118,7 +2119,9 @@ tworzenie dokumentacji
 \end_layout
 
 \begin_layout Itemize
-przeglądanie statystyk
+przeglądanie statystykPomimo iż Ember rozwijany jest jako wolne oprogramowanie
+ bez ingerencji dużych firm to można powiedzieć, że posiada społeczność
+ niemal tak dużą jak w przypadku platformy Angular.
 \end_layout
 
 \begin_layout Itemize
@@ -4274,6 +4277,11 @@ status open
 
 \begin_layout Plain Layout
 \align center
+Pomimo iż Ember rozwijany jest jako wolne oprogramowanie bez ingerencji
+ dużych firm to można powiedzieć, że posiada społeczność niemal tak dużą
+ jak w przypadku platformy Angular.Pomimo iż Ember rozwijany jest jako wolne
+ oprogramowanie bez ingerencji dużych firm to można powiedzieć, że posiada
+ społeczność niemal tak dużą jak w przypadku platformy Angular.
 \begin_inset Graphics
 	filename prototypy/event_localization_tab.png
 	scale 30
@@ -4620,6 +4628,18 @@ Testy
 
 \begin_layout Section
 Aplikacja internetowa
+\end_layout
+
+\begin_layout Subsection
+Platforma programistyczna
+\end_layout
+
+\begin_layout Paragraph
+Architektura
+\end_layout
+
+\begin_layout Standard
+hehehehehe
 \end_layout
 
 \begin_layout Section
