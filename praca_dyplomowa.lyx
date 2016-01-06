@@ -346,6 +346,225 @@ Podział pracy
 Przegląd aplikacji o podobnej tematyce
 \end_layout
 
+\begin_layout Standard
+Obecnie istnieje wiele aplikacji o zbliżonej tematyce, dlatego też ich przegląd
+ jest niezwykle istotny w procesie definiowania wymagań funkcjonalnych aplikacji.
+ Do najważniejszych cech składających się na końcową ocenę serwisu należą
+\end_layout
+
+\begin_layout Itemize
+zakres funkcjonalności
+\end_layout
+
+\begin_layout Itemize
+liczba unikalnych użytkowników na dzień na stronie internetowej 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Dane pochodzące ze strony 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+http://www.speedtest.pl/wycena
+\end_layout
+
+\end_inset
+
+ z dnia 6.01.2016 roku.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+liczba pobrań i ocena użytkowników jakości aplikacji mobilnej 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Dane pochodzące ze strony 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+https://play.google.com
+\end_layout
+
+\end_inset
+
+ z dnia 6.01.2016 roku.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+zasięg działalności
+\end_layout
+
+\begin_layout Standard
+Główną tematyką przeglądu jest organizacja wydarzeń oraz formowanie grup
+ społecznościowych według podobnych zainteresowań.
+ Bardzo istotnym elementem jest również stopień w jakim poszczególne serwisy
+ zachęcają użytkowników do wspólnego spędzenia czasu.
+ Przegląd obejmuje zarówno strony internetowe jak i aplikacje mobilne.
+\end_layout
+
+\begin_layout Paragraph
+allevents.in
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Serwis allevents.in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unikalni użytkownicy na dzień
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77 529
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Liczba pobrań aplikacji mobilnej
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100 000 - 500 000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ocena jakości aplikacji mobilnej
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4,0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+citysocializer.com
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Paragraph
+skilltrade.org
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Paragraph
+facebook.com
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Paragraph
+nearify.com
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Paragraph
+posnania (tylko aplikacja mobilna)
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Paragraph
+culturowo.pl (tylko strona internetowa)
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
 \begin_layout Chapter
 Przegląd dostępnych technologii i platform programistycznych
 \end_layout
@@ -398,11 +617,8 @@ czas wytworzenia oprogramowania
 
 \end_deeper
 \begin_layout Standard
-Powyższe własności są bardzo istotne dlatego też stanowią
-\begin_inset space \space{}
-\end_inset
-
-główny odnośnik w porównaniu platform.
+Powyższe własności są bardzo istotne dlatego też stanowią główny odnośnik
+ w porównaniu platform.
 \end_layout
 
 \begin_layout Section
@@ -627,11 +843,7 @@ MVC (pol.
  Jej głównymi zaletami są: dobra dokumentacja, duża ilość bibliotek programistyc
 znych oraz niski koszt i krótki czas wytworzenia oprogramowania.
  Główną ideą jest tutaj podążanie za konwencjami dzięki którym programista
- nie musi zwracać
-\begin_inset space \space{}
-\end_inset
-
-uwagi na konfigurację.
+ nie musi zwracać uwagi na konfigurację.
  Umożliwia to znacznie szybszy proces tworzenia aplikacji co jest szczególnie
  istotne dla przedsiębiorstw poszukujących modelu biznesowego oraz nastawionych
  na dynamiczny rozwój.
@@ -847,11 +1059,7 @@ Funkcje wyższego rzędu - funkcje przyjmujące jako parametr lub zwracające
  Została zbudowana na bazie języka Elixir uruchamianego na wirtualnej maszynie
  Erlanga.
  Wysoka wydajność tego języka wiąże się między innymi ze współbieżnością
- którą można zaimplementować
-\begin_inset space \space{}
-\end_inset
-
-małym kosztem.
+ którą można zaimplementować małym kosztem.
  Niestety jest to stosunkowo młoda platforma co oznacza niskie wsparcie
  programistyczne oraz małą społeczność.
  
@@ -4709,7 +4917,17 @@ Architektura
 \end_layout
 
 \begin_layout Standard
-hehehehehe
+Platforma Ember bazuje na wzorcu projektowym MVC który zakłada istnienie
+ trzech współpracujących ze sobą części: modelu, widoku oraz kontrolera.
+ Każda z nich realizuje oddzielne zadania i z reguły przekazuje dane wyjściowe
+ do kolejnej.
+ Ember implementuje każdą z tych części w następujący sposób:
+\end_layout
+
+\begin_layout Itemize
+controler (z pol.
+ kontroler) odpowiedzialny jest za interakcję z danymi przechowywanymi w
+ pamięci cache
 \end_layout
 
 \begin_layout Section
@@ -4774,19 +4992,6 @@ key "key-3"
 
 \end_inset
 
-Subversion.
- W: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
- Dostępny w Internecie: https://pl.wikipedia.org/wiki/Subversion
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-4"
-
-\end_inset
-
 Wymaganie (inżynieria).
  W: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
@@ -4797,7 +5002,7 @@ Wymaganie (inżynieria).
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-5"
+key "key-4"
 
 \end_inset
 
