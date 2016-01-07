@@ -4259,7 +4259,9 @@ Opis:
 
 \end_inset
 
- 
+ Użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia profilu
+ dowolnego oddziału.
+ Instytucja powinna mieć możliwość wyświetlenia profilu swoich oddziałów.
 \begin_inset Newline newline
 \end_inset
 
@@ -4319,7 +4321,8 @@ Opis:
 
 \end_inset
 
- 
+ Użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia profilu
+ dowolnego użytkownika zwykłego.
 \begin_inset Newline newline
 \end_inset
 
