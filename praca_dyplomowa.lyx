@@ -3535,7 +3535,7 @@ Opis:
 
 \end_inset
 
- Użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia kategorii.
+ Użytkownik powinien mieć możliwość wyświetlenia kategorii.
  Ich spis ma się znajdować na stronie startowej.
  Wybierając jedną z kategorii użytkownik zostaje przekierowany do spisu
  podkategorii.
@@ -3598,8 +3598,8 @@ Opis:
 
 \end_inset
 
- Użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia listy
- wydarzeń powiązanych z wybraną podkategorią.
+ Użytkownik powinien mieć możliwość wyświetlenia listy wydarzeń powiązanych
+ z wybraną podkategorią.
  Znajdując się na spisie podkategorii po wybraniu jednej z nich lub też
  pominięciu wyboru powinna pojawić się lista wydarzeń z nią powiązanych.
  W przypadku pominięcia wyboru mają zostać wyświetlone wydarzenia ze wszystkich
@@ -3663,8 +3663,8 @@ Opis:
 
 \end_inset
 
- Użytkownik zwykły i oddział powinien mieć możliwość filtrowania wydarzeń
- po nazwie, dacie lub parametrach charakterystycznych dla danej podkategorii.
+ Użytkownik powinien mieć możliwość filtrowania wydarzeń po nazwie, dacie
+ lub parametrach charakterystycznych dla danej podkategorii.
  Formularz umożliwiający wyszukiwanie ma znajdować się na ekranie zawierającym
  spis wydarzeń danej podkategorii.
  Po wypełnieniu tego formularza i zatwierdzeniu go, użytkownik otrzymuje
@@ -4449,9 +4449,9 @@ Opis:
 
  Zalogowany użytkownik zwykły powinien mieć możliwość dołączania do wydarzenia
  publicznego lub prywatnego (posiadając zaproszenie).
- Znajdując się na ekranie widoku pojedynczego wydarzenia po kliknięciu przycisku
- dołączenia do grona uczestników użytkownik powinien zostać poinformowany
- o powodzeniu lub przyczynach niepowodzenia podjętej akcji.
+ Znajdując się na ekranie widoku wydarzenia po kliknięciu przycisku dołączenia
+ do grona uczestników użytkownik powinien zostać poinformowany o powodzeniu
+ lub przyczynach niepowodzenia podjętej akcji.
 \begin_inset Newline newline
 \end_inset
 
@@ -4465,7 +4465,7 @@ Efekt:
 
 \end_inset
 
- W przypadku powodzenia użytkownik w bazie danych zostaje dodany do listy
+ W przypadku powodzenia użytkownik zostaje dodany w bazie danych do listy
  uczestników danego wydarzenia.
 \begin_inset Newline newline
 \end_inset
@@ -4512,7 +4512,11 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły powinien mieć możliwość zrezygnowania z uczestnict
+wa w danym wydarzeniu.
+ Znajdując się na widoku wydarzenia, do którego użytkownik wcześniej dołączył,
+ po wybraniu opcji usunięcia z grona uczestników ma pojawić się informacja
+ o sukcesie lub przyczynach niepowodzenia podjętej akcji.
 \begin_inset Newline newline
 \end_inset
 
@@ -4526,7 +4530,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia użytkownik zostaje usunięty w bazie danych z listy
+ uczestników danego wydarzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -4539,7 +4544,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U19: Wysłanie zaproszenia
+U19: Wysłanie zaproszenia na wydarzenie
 \end_layout
 
 \end_inset
@@ -4558,7 +4563,7 @@ Aktorzy:
 
 \end_inset
 
- Użytkownik zwykły.
+ Dwóch użytkowników zwykłych.
 \begin_inset Newline newline
 \end_inset
 
@@ -4572,7 +4577,12 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły powinien mieć możiwość zaproszenia innego
+ użytkownika zwykłego na wybrane wydarzenie.
+ Znajdując się na widoku wydarzenia, na które użytkownik może zapraszać,
+ po wyszukaniu danego użytkownika zwykłego i wybraniu opcji zaproszenia
+ go ma pojawić się informacja o sukcesie lub przyczynach niepowodzeni podjętej
+ akcji.
 \begin_inset Newline newline
 \end_inset
 
@@ -4586,7 +4596,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych zostanie utworzony nowy rekord zaproszeni
+a na wydarzenie.
 \begin_inset Newline newline
 \end_inset
 
@@ -4632,7 +4643,9 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość dodania
+ wiadomości w dyskusji.
+ Znajdując się na widoku 
 \begin_inset Newline newline
 \end_inset
 
