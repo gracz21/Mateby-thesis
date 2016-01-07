@@ -3307,13 +3307,14 @@ Oddział instytucji (w skrócie nazywany Oddziałem) --- przede wszystkim posiad
 \end_layout
 
 \begin_layout Standard
-Każdy z aktorów posiada dedykowany typ konta o ograniczonych uprawnieniach.
+Każdy z aktorów posiada w serwisie dedykowany typ konta o ograniczonych
+ uprawnieniach.
 \end_layout
 
 \begin_layout Standard
 Opisywany system korzysta z publicznego API dostarczanego przez firmę Google
  m.in.
- w celu ułatwienia wskazania miejsca odbywania się wydarzenia.
+ w celu ułatwienia wskazania i prezentacji miejsca odbywania się wydarzenia.
 \end_layout
 
 \begin_layout Standard
@@ -4091,7 +4092,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U12: Edycja oddziału instytucji
+UC12: Edycja oddziału instytucji
 \end_layout
 
 \end_inset
@@ -4158,7 +4159,7 @@ go oddziału.
 status open
 
 \begin_layout Plain Layout
-U13: Usunięcie oddziału instytucji
+UC13: Usunięcie oddziału instytucji
 \end_layout
 
 \end_inset
@@ -4225,7 +4226,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U14: Wyświetlenie profilu użytkownika
+UC14: Wyświetlenie profilu oddziału instytucji
 \end_layout
 
 \end_inset
@@ -4272,7 +4273,7 @@ Efekt:
 
 \end_inset
 
- 
+ Brak.
 \begin_inset Newline newline
 \end_inset
 
@@ -4285,7 +4286,67 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U15: Edycja konta
+UC15: Wyświetlenie profilu użytkownika zwykłego
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Aktorzy:
+\end_layout
+
+\end_inset
+
+ Użytkownik zwykły lub oddział.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Opis:
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Efekt:
+\end_layout
+
+\end_inset
+
+ Brak.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+UC16: Edycja konta
 \end_layout
 
 \end_inset
@@ -4354,7 +4415,7 @@ go z danym kontem.
 status open
 
 \begin_layout Plain Layout
-U16: Wyświetlenie wydarzeń użytkownika
+UC17: Wyświetlenie wydarzeń użytkownika
 \end_layout
 
 \end_inset
@@ -4401,7 +4462,7 @@ Efekt:
 
 \end_inset
 
- 
+ Brak.
 \begin_inset Newline newline
 \end_inset
 
@@ -4414,7 +4475,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U17: Dołączenie do wydarzenia
+UC18: Dołączenie do wydarzenia
 \end_layout
 
 \end_inset
@@ -4466,7 +4527,8 @@ Efekt:
 \end_inset
 
  W przypadku powodzenia użytkownik zostaje dodany w bazie danych do listy
- uczestników danego wydarzenia.
+ uczestników danego wydarzenia oraz dojdzie do usunięcia rekordu zaproszenia
+ na dane wydarzenie, jeżeli użytkownik takowe otrzymał.
 \begin_inset Newline newline
 \end_inset
 
@@ -4479,7 +4541,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U18: Usunięcie z grona uczestników wydarzenia
+UC19: Usunięcie z grona uczestników wydarzenia
 \end_layout
 
 \end_inset
@@ -4544,7 +4606,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U19: Wysłanie zaproszenia na wydarzenie
+UC20: Wysłanie zaproszenia na wydarzenie
 \end_layout
 
 \end_inset
@@ -4577,10 +4639,11 @@ Opis:
 
 \end_inset
 
- Zalogowany użytkownik zwykły powinien mieć możiwość zaproszenia innego
+ Zalogowany użytkownik zwykły powinien mieć możliwość zaproszenia innego
  użytkownika zwykłego na wybrane wydarzenie.
- Znajdując się na widoku wydarzenia, na które użytkownik może zapraszać,
- po wyszukaniu danego użytkownika zwykłego i wybraniu opcji zaproszenia
+ Użytkownik może zostać zaproszony na dane wydarzenie tylko raz.
+ Znajdując się na widoku wydarzenia, na które użytkownik pierwszy może zapraszać
+, po wyszukaniu danego użytkownika drugiego i wybraniu opcji zaproszenia
  go ma pojawić się informacja o sukcesie lub przyczynach niepowodzeni podjętej
  akcji.
 \begin_inset Newline newline
@@ -4610,7 +4673,130 @@ a na wydarzenie.
 status open
 
 \begin_layout Plain Layout
-U20: Dodanie wiadomości w dyskusji na temat wydarzenia lub oddziału instytucji
+UC21: Wyświetlenie otrzymanych zaproszeń
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Aktorzy:
+\end_layout
+
+\end_inset
+
+ Użytkownik zwykły.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Opis:
+\end_layout
+
+\end_inset
+
+ Użytkownik zwykły powinien mieć możliwość przeglądania otrzymanych zaproszeń.
+ Po wybraniu opcji wyświetlenia posiadanych zaproszeń użytkownik ma zobaczyć
+ spis posiadanych zaproszeń.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Efekt:
+\end_layout
+
+\end_inset
+
+ Brak.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+UC22: Odrzucenie zaproszenia na wydarzenie
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Aktorzy:
+\end_layout
+
+\end_inset
+
+ Użytkownik zwykły.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Opis:
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Efekt:
+\end_layout
+
+\end_inset
+
+ W przypadku powodzenia dojdzie do usunięcia rekordu danego zaproszenia
+ z bazy danych.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+UC23: Dodanie wiadomości w dyskusji na temat wydarzenia lub oddziału instytucji
 \end_layout
 
 \end_inset
@@ -4645,7 +4831,11 @@ Opis:
 
  Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość dodania
  wiadomości w dyskusji.
- Znajdując się na widoku 
+ Dyskusja może się odbywać na temat oddziałów lub wydarzeń.
+ Na ekranie dyskusji ma znajdować się formularz pozwalający na wprowadzenie
+ testu nowej wiadomości.
+ Po zatwierdzeniu formularza użytkownik zostaje powiadomiony o powodzeniu
+ lub przyczynach niepowodzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -4659,7 +4849,7 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych zostaje utworzony nowy rekord wiadomości.
 \begin_inset Newline newline
 \end_inset
 
@@ -4672,7 +4862,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U21: Edycja wiadomości
+UC24: Edycja wiadomości
 \end_layout
 
 \end_inset
@@ -4705,7 +4895,14 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość edycji
+ swoich wiadomości.
+ Znajdując się na widoku dyskusji, po wybraniu opcji edycji wiadomości,
+ której użytkownik jest autorem, ma pojawić się formularz pozwalający na
+ aktualizację tekstu wiadomości.
+ Po zaakceptowaniu formularza użytkownik zostaje powiadomiony o powodzeniu
+ lub przyczynach niepowodzenia.
+ W przypadku anulowania edycji, wiadomość powinna pozostać niezmieniona.
 \begin_inset Newline newline
 \end_inset
 
@@ -4719,7 +4916,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia w bazie danych następuje aktualizacja rekordu powiązaneg
+o z edytowaną wiadomością.
 \begin_inset Newline newline
 \end_inset
 
@@ -4732,7 +4930,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U22: Usunięcie wiadomości
+UC25: Usunięcie wiadomości
 \end_layout
 
 \end_inset
@@ -4765,7 +4963,13 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość usuwania
+ swoich wiadomości.
+ Znajdując się na ekranie dyskusji, po wybraniu opcji usunięcia wiadomości,
+ której użytkownik jest autorem, ma pojawić się żądanie o potwierdzenie
+ akcji.
+ Po potwierdzeniu wyświetlona zostaje informacja na temat powodzenia lub
+ przyczyn niepowodzenia.
 \begin_inset Newline newline
 \end_inset
 
@@ -4779,7 +4983,8 @@ Efekt:
 
 \end_inset
 
- 
+ W przypadku powodzenia rekord wybranej wiadomości zostaje usunięty z bazy
+ danych.
 \begin_inset Newline newline
 \end_inset
 
@@ -4792,7 +4997,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U23: Wylogowanie użytkownika
+UC26: Wylogowanie użytkownika
 \end_layout
 
 \end_inset
@@ -4853,7 +5058,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-U24: Zmiana hasła użytkownika
+UC27: Zmiana hasła użytkownika
 \end_layout
 
 \end_inset
