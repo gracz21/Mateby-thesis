@@ -4259,9 +4259,13 @@ Opis:
 
 \end_inset
 
- Użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia profilu
- dowolnego oddziału.
- Instytucja powinna mieć możliwość wyświetlenia profilu swoich oddziałów.
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość przeglądania
+ profilu dowolnego oddziału.
+ Zalogowana instytucja może wyświetlać profile tylko tych jednostek, które
+ należą do niej.
+ Po przejściu na widok profilu mają zostać wyświetlone podstawowe informacje
+ na temat oddziału wraz z podsumowaniem wydarzeń ostatnio przez niego utworzonyc
+h.
 \begin_inset Newline newline
 \end_inset
 
@@ -4321,8 +4325,11 @@ Opis:
 
 \end_inset
 
- Użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia profilu
- dowolnego użytkownika zwykłego.
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość wyświetlenia
+ profilu dowolnego użytkownika zwykłego.
+ Po przejściu na widok profilu mają zostać wyświetlone podstawowe informacje
+ na temat danego użytkownika wraz z podsumowaniem jego ostatnio utworzonych
+ i uczęszczanych wydarzeń.
 \begin_inset Newline newline
 \end_inset
 
@@ -4418,7 +4425,7 @@ go z danym kontem.
 status open
 
 \begin_layout Plain Layout
-UC17: Wyświetlenie wydarzeń użytkownika
+UC17: Wyświetlenie wydarzeń użytkownika zwykłego
 \end_layout
 
 \end_inset
@@ -4437,7 +4444,7 @@ Aktorzy:
 
 \end_inset
 
- Użytkownik zwykły.
+ Użytkownik zwykły lub oddział.
 \begin_inset Newline newline
 \end_inset
 
@@ -4451,7 +4458,10 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość przeglądania
+ wydarzeń danego użytkownika zwykłego.
+ Po przejściu na widok wydarzeń ma zostać zaprezentowany spisz wszystkich
+ wydarzeń utworzonych i uczęszczanych przez wybranego użytkownika.
 \begin_inset Newline newline
 \end_inset
 
@@ -4478,7 +4488,72 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC18: Dołączenie do wydarzenia
+UC18: Wyświetlenie wydarzeń oddziału
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Aktorzy:
+\end_layout
+
+\end_inset
+
+ Użytkownik zwykły, oddział lub instytucja.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Opis:
+\end_layout
+
+\end_inset
+
+ Zalogowany użytkownik zwykły lub oddział powinien mieć możliwość przeglądania
+ wydarzeń danej jednostki.
+ Zalogowana instytucja może wyświetlać ten widok tylko w odniesieniu do
+ swoich oddziałów.
+ Po przejściu na ten ekran mają zostać zaprezentowane wszystkie wydarzenia
+ utworzone przez wybraną jednostkę.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Efekt:
+\end_layout
+
+\end_inset
+
+ Brak.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+UC19: Dołączenie do wydarzenia
 \end_layout
 
 \end_inset
@@ -4544,7 +4619,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC19: Usunięcie z grona uczestników wydarzenia
+UC20: Usunięcie z grona uczestników wydarzenia
 \end_layout
 
 \end_inset
@@ -4609,7 +4684,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC20: Wysłanie zaproszenia na wydarzenie
+UC21: Wysłanie zaproszenia na wydarzenie
 \end_layout
 
 \end_inset
@@ -4676,7 +4751,7 @@ a na wydarzenie.
 status open
 
 \begin_layout Plain Layout
-UC21: Wyświetlenie otrzymanych zaproszeń
+UC22: Wyświetlenie otrzymanych zaproszeń
 \end_layout
 
 \end_inset
@@ -4738,7 +4813,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC22: Odrzucenie zaproszenia na wydarzenie
+UC23: Odpowiedź na zaproszenie na wydarzenie
 \end_layout
 
 \end_inset
@@ -4771,7 +4846,13 @@ Opis:
 
 \end_inset
 
- 
+ Zalogowany użytkownik zwykły powinien mieć możliwość odpowiedzi na otrzymane
+ zaproszenie.
+ Znajdując się na widoku otrzymanych zaproszeń na wydarzenia, po wybraniu
+ opcji akceptacji lub odrzucenia zaproszenia użytkownik zostaje powiadomiony
+ o sukcesie lub przyczynach niepowodzenia podjętej akcji.
+ Ponadto opcja akceptacji ma się wiązać z dołączeniem do wydarzenia, którego
+ dane zaproszenie dotyczyło.
 \begin_inset Newline newline
 \end_inset
 
@@ -4787,6 +4868,8 @@ Efekt:
 
  W przypadku powodzenia dojdzie do usunięcia rekordu danego zaproszenia
  z bazy danych.
+ W przypadku akceptacji zaproszenia użytkownik zostanie także dodany do
+ grona uczestników wydarzenia, którego dane zaproszenie dotyczyło.
 \begin_inset Newline newline
 \end_inset
 
@@ -4799,7 +4882,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC23: Dodanie wiadomości w dyskusji na temat wydarzenia lub oddziału instytucji
+UC24: Dodanie wiadomości w dyskusji na temat wydarzenia lub oddziału instytucji
 \end_layout
 
 \end_inset
@@ -4865,7 +4948,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC24: Edycja wiadomości
+UC25: Edycja wiadomości
 \end_layout
 
 \end_inset
@@ -4933,7 +5016,7 @@ o z edytowaną wiadomością.
 status open
 
 \begin_layout Plain Layout
-UC25: Usunięcie wiadomości
+UC26: Usunięcie wiadomości
 \end_layout
 
 \end_inset
@@ -5000,7 +5083,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC26: Wylogowanie użytkownika
+UC27: Wylogowanie użytkownika
 \end_layout
 
 \end_inset
@@ -5061,7 +5144,7 @@ Efekt:
 status open
 
 \begin_layout Plain Layout
-UC27: Zmiana hasła użytkownika
+UC28: Zmiana hasła użytkownika
 \end_layout
 
 \end_inset
