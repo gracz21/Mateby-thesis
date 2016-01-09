@@ -5379,12 +5379,9 @@ name "fig:5.3"
 \begin_layout Standard
 Użytkownik zostaje przekierowany do widoku wydarzeń po wybraniu kategorii
  i określeniu (lub pominięciu) podkategorii.
- W górnej części widoku można znaleźć karty (1) pozwalające na przełączanie
- się między wydarzeniami organizowanymi przez użytkowników zwykłych, a wydarzeni
-ami organizowanymi przez oddziały instytucji.
- Pozostała część ekranu składa się z kafelków przedstawiających zdjęcie
- danego wydarzenia (2) wraz z informacjami podstawowymi (3) takimi jak nazwa,
- miejsce i czas organizacji czy koszt biletu wstępu.
+ Ekran ten składa się z kafelków przedstawiających zdjęcie danego wydarzenia
+ (1) wraz z informacjami podstawowymi (2) takimi jak nazwa, miejsce i czas
+ organizacji czy koszt biletu wstępu.
  Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
  stronę widoku pojedynczego wydarzenia (jeżeli wcześniej dokonał autoryzacji
  konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
@@ -5903,7 +5900,7 @@ Aplikacja mobilna
 \end_layout
 
 \begin_layout Standard
-Projektując interfejs aplikacji mobilnej należy zwrócić uwagę na dwa dodatkowe
+Projektując interfejs aplikacji mobilnej należało uwzględnić dwa dodatkowe
  aspekty.
  Po pierwsze wygląd aplikacji mobilnej nie może znacząco odbiegać od układu
  serwisu internetowego.
@@ -5977,14 +5974,7 @@ Ekran główny aplikacji jest pierwszym na jaki natrafia użytkownik po uruchomi
 u aplikacji.
  Podobnie jak w przypadku serwisu internetowego, znajdują się na nim kafelki
  zawierające zdjęcie i nazwę danej kategorii (1).
- Po wybraniu danej kategorii pojawia się ekran wyboru podkategorii, którego
- wygląd jest identyczny jak widok kategorii.
- W
-\begin_inset space ~
-\end_inset
-
-górnej części można znaleźć pasek z nazwą aplikacji oraz przyciskiem (2),
- którego wybranie powoduje pojawienie się bocznego paska nawigacyjnego.
+ 
 \end_layout
 
 \begin_layout Paragraph
@@ -6039,23 +6029,6 @@ name "fig:5.11"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Użytkownik przechodzi na ten ekran po określeniu interesującej go kategorii
- oraz podkategorii (lub pominięciu wyboru).
- W
-\begin_inset space ~
-\end_inset
-
-górnej części znajdują się karty (1) służące do przełączania się między
- wydarzeniami organizowanymi przez użytkowników zwykłych, a wydarzeniami
- organizowanymi przez oddziały instytucji.
- Poniżej można znaleźć listę wydarzeń.
- Opis każdego z nich składa się ze zdjęcia (2) oraz krótkiego podsumowania
- najważniejszych informacji (3).
- Po wybraniu wybraniu jednego z wydarzeń użytkownik zostaje przekierowany
- na widok pojedynczego wydarzenia.
 \end_layout
 
 \begin_layout Paragraph
@@ -6114,18 +6087,6 @@ name "fig:5.12"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-W
-\begin_inset space ~
-\end_inset
-
-górnej części ekranu można znaleźć zdjęcie wydarzenia (1) oraz przyciski
- pozwalające na dołączenie do wydarzenia (2) i prześledzenie dyskusji na
- jego temat (3).
- Poniżej znajduje się nazwa (4) oraz podsumowanie najważniejszych informacji
- (5).
 \end_layout
 
 \begin_layout Paragraph
@@ -6187,7 +6148,7 @@ name "fig:5.13"
 \end_layout
 
 \begin_layout Paragraph
-Widok lokalizacji wydarzenia (rys.
+Widok zapraszania na wydarzenie (rys.
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -6210,17 +6171,10 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename prototypy/aplikacja_mobilna/localization.png
-	scale 35
-
-\end_inset
-
-
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Prototyp widoku lokalizacji wydarzenia 
+Prototyp widoku zapraszania na wydarzenie 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:5.14"
@@ -6244,13 +6198,54 @@ name "fig:5.14"
 
 \end_layout
 
-\begin_layout Standard
-Na
-\begin_inset space ~
+\begin_layout Paragraph
+Widok okalizacji wydarzenia (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.15"
+
 \end_inset
 
-tym ekranie można znaleźć mapkę okolicy (1) wraz ze znacznikiem (2) wskazującym
- miejsce organizacji wydarzenia.
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku lokalizacji wydarzenia 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.15"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -6258,7 +6253,7 @@ Widok uczestników wydarzenia (rys.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:5.15"
+reference "fig:5.16"
 
 \end_inset
 
@@ -6286,7 +6281,7 @@ status open
 Prototyp widoku uczestników wydarzenia 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:5.15"
+name "fig:5.16"
 
 \end_inset
 
@@ -6312,7 +6307,7 @@ Widok profilu użytkownika (rys.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:5.16"
+reference "fig:5.17"
 
 \end_inset
 
@@ -6344,7 +6339,7 @@ status open
 Prototyp widoku profilu użytkownika 
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:5.16"
+name "fig:5.17"
 
 \end_inset
 
@@ -6363,26 +6358,6 @@ name "fig:5.16"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-W
-\begin_inset space ~
-\end_inset
-
-górnej części ekranu profilu użytkownika można znaleźć jego imię i nazwisko
- (1; w przypadku użytkownika zwykłego) lub nazwa (1; w przypadku oddziału
- instytucji), zdjęcie profilowe (2) oraz podstawowe informacje o nim (3).
- Poniżej znajduje się lista trzech ostatnich wydarzeń utworzonych (4) oraz
- uczęszczanych (5; tylko w przypadku profilu użytkownika zwykłego) przez
- danego użytkownika.
- W
-\begin_inset space ~
-\end_inset
-
-przypadku widoku profilu oddziału można tu także znaleźć odnośnik do ekranu
- dyskusji na jego temat.
- 
 \end_layout
 
 \begin_layout Section
@@ -6667,6 +6642,25 @@ Głównym założeniem Emblem jest uproszczenie składni HTML poprzez używanie
  szablonów.
 \end_layout
 
+\begin_layout Paragraph
+CoffeeScript
+\end_layout
+
+\begin_layout Standard
+CoffeScript jest językiem programowania kompilowanym do JavaScript, który
+ został zainspirowany przez dwa inne języki: Python, Ruby oraz Haskell .
+ Głównym powodem jego stworzenia była chęć skrócenia i zwiększenia czytelności
+ kodu napisanego w JavaScript.
+ Wprowadza wiele przydatnych metod operujących na listach czy chociażby
+ wyrażeniach regularnych.
+ Tak jak Emblem jego składnia również opiera się na wcięciach w kodzie co
+ znacznie zmniejsza ilość kodu.
+ Ponadto jego zaletami jest również zachęcanie do stosowania dobrych i odradzani
+a złych wzorców projektowych języka JavaScript.
+ Ze względu na wiele pozytywnych aspektów wynikających z wykorzystania CoffeScri
+pt, został on użyty w projekcie.
+\end_layout
+
 \begin_layout Section
 Aplikacja mobilna
 \end_layout
@@ -6747,6 +6741,19 @@ Platform as a Service.
  W: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
  Dostępny w Internecie: https://pl.wikipedia.org/wiki/Platform_as_a_Service
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+CofeeScript.
+ W: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
+ Dostępny w Internecie: https://en.wikipedia.org/wiki/CoffeeScript
 \end_layout
 
 \end_body
