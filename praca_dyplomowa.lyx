@@ -6606,7 +6606,19 @@ Ember data
 \end_layout
 
 \begin_layout Standard
-Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON.
+Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+JSON (ang.
+ JavaScript Object Notation) - format wymiany danych bazujący na języku
+ JavaScript.
+\end_layout
+
+\end_inset
+
+.
  Analiza danych otrzymanych w ten sposób nie byłaby skuteczna ani intuicyjna.
  W tym celu powstała osobna biblioteka której zadaniem jest mapowanie otrzymanyc
 h danych na klasy reprezentowane w języku JavaScript.
@@ -6616,6 +6628,43 @@ h danych na klasy reprezentowane w języku JavaScript.
  oraz usuwanie rekordów.
  Posiadają one pewne konwencje co po raz kolejny udowadnia jak bardzo konwencjon
 alną platformą jest Ember.
+\end_layout
+
+\begin_layout Paragraph
+Emblem
+\end_layout
+
+\begin_layout Standard
+W celu zdefiniowania struktury strony internetowej należy użyć języka HTML,
+ jednak w przypadku gdy chcemy manipulować treścią strony w sposób dynamiczny
+ takie rozwiązanie nie wystarczy.
+ Ember korzysta z semantycznego systemu szablonów Handlebars, który umożliwia
+ w prosty sposób użycie danych pochodzących z obiektów języka JavaScript
+ jako zawartości znaczników struktury strony.
+ System ten posiada również pewne dyrektywy, które umożliwiają wprowadzenie
+ logiki do szablonu, za pomocą chociażby wyrażenia warunkowego 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+if
+\end_layout
+
+\end_inset
+
+.
+ Istnieje również alternatywne rozwiązanie, które znacznie upraszcza składnie
+ HTML wraz z Handlebars.
+ Jest to język szablonowy Emblem, który kompiluje się do Handlebars.
+\end_layout
+
+\begin_layout Standard
+Głównym założeniem Emblem jest uproszczenie składni HTML poprzez używanie
+ wcięć w kodzie w momencie zagnieżdżania znaczników oraz pozbycie się znaczników
+ zamykających.
+ Ponadto jest to język kompatybilny z mechanizmami platformy Ember.
+ Ze względu na te zalety, Emblem został użyty w projekcie jako główny język
+ szablonów.
 \end_layout
 
 \begin_layout Section
