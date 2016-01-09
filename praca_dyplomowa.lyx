@@ -2199,7 +2199,31 @@ SPA (Single-page application) - aplikacja internetowa, która mieści się
 \end_inset
 
 .
- Obecne technologie używają języka JavaScript wraz z HTML oraz CSS.
+ Obecne technologie używają języka JavaScript wraz z HTML
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+HTML (ang.
+ HyperText Markup Language) - obecnie najczęściej używany hipertekstowy
+ język znaczników.
+\end_layout
+
+\end_inset
+
+ oraz CSS
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+CSS (ang.
+ Cascading Style Sheets) - język służący do definiowania formy prezentacji
+ strony internetowej.
+\end_layout
+
+\end_inset
+
+.
  Tego typu rozwiązań jest bardzo dużo dlatego wybór został podyktowany przez
  trendy ostatnich lat oraz popularność poszczególnych platform.
 \end_layout
@@ -6513,7 +6537,7 @@ Trasa wykonuje wszelkie operacje które modyfikują stan bazy danych.
 \end_layout
 
 \begin_layout Standard
-Komponent umożliwia zdefiniowanie nowego znacznika w języku html oraz określenia
+Komponent umożliwia zdefiniowanie nowego znacznika w języku HTML oraz określenia
  jego zachowania za pomocą języka JavaScript.
  W ten sposób można odizolować pewną funkcjonalność i tym samym umożliwić
  jej wielokrotne wykorzystanie bez dodatkowej implementacji.
@@ -6524,6 +6548,74 @@ Komponent umożliwia zdefiniowanie nowego znacznika w języku html oraz określe
  komponentów.
  Prawdopodobnie z tego powodu planowane jest całkowite pozbycie się kontrolerów
  na rzecz komponentów.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/MVC.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schemat działania architektury platformy Ember
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Ember CLI
+\end_layout
+
+\begin_layout Standard
+Ember CLI jest narzędziem wiersza poleceń które wprowadza określoną strukturę
+ projektu oraz system zarządzający dodatkami.
+ Dzięki temu podążając za pewnymi konwencjami programista może uniknąć wielu
+ nadmiarowych kwestii implementacyjnych.
+ Odpowiednia struktura projektu wymusza określone nazewnictwo plików oraz
+ wymaga dodatkowego pliku konfiguracyjnego ale zmniejsza znacznie nakład
+ pracy.
+ Można zatem powiedzieć że jest to narzędzie, która wprowadza konwencje
+ nad konfiguracją dla narzędzi budujących aplikację.
+\end_layout
+
+\begin_layout Paragraph
+Ember data
+\end_layout
+
+\begin_layout Standard
+Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON.
+ Analiza danych otrzymanych w ten sposób nie byłaby skuteczna ani intuicyjna.
+ W tym celu powstała osobna biblioteka której zadaniem jest mapowanie otrzymanyc
+h danych na klasy reprezentowane w języku JavaScript.
+ Rekord opisany za pomocą klasy jest obecnie najczęściej spotykaną formą
+ przechowywania danych w aplikacjach internetowych.
+ Ponadto Ember data wprowadza operacje pozwalające na tworzenie, edycję
+ oraz usuwanie rekordów.
+ Posiadają one pewne konwencje co po raz kolejny udowadnia jak bardzo konwencjon
+alną platformą jest Ember.
 \end_layout
 
 \begin_layout Section
