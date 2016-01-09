@@ -5876,7 +5876,464 @@ Aplikacja mobilna
 \end_layout
 
 \begin_layout Standard
-Poniżej znajdują się rysunki prototypów interfejsu aplikacji mobilnej.
+Projektując interfejs aplikacji mobilnej należało uwzględnić dwa dodatkowe
+ aspekty.
+ Po pierwsze wygląd aplikacji mobilnej nie może znacząco odbiegać od układu
+ serwisu internetowego.
+ Po drugie interfejs powinien być w szczególności dostosowany do smartfonów,
+ gdzie powierzchnia ekranu, na której można zaprezentować informacje, jest
+ bardzo mała.
+ Poniżej znajdują się rysunki prototypów najważniejszych widoków aplikacji
+ mobilnej.
+\end_layout
+
+\begin_layout Paragraph
+Ekran główny/widok kategorii (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.10"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/aplikacja_mobilna/categories.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp ekranu głównego aplikacji 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.10"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ekran główny aplikacji jest pierwszym na jaki natrafia użytkownik po uruchomieni
+u aplikacji.
+ Podobnie jak w przypadku serwisu internetowego, znajdują się na nim kafelki
+ zawierające zdjęcie i nazwę danej kategorii (1).
+ 
+\end_layout
+
+\begin_layout Paragraph
+Widok wydarzeń (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.11"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/aplikacja_mobilna/events.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku wydarzeń 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.11"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Widok pojedynczego wydarzenia (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.12"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/aplikacja_mobilna/event.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku pojedynczego wydarzenia 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.12"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Widok dyskusji (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.13"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/aplikacja_mobilna/posts.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku dyskusji 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.13"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Widok zapraszania na wydarzenie (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.14"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku zapraszania na wydarzenie 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.14"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Widok okalizacji wydarzenia (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.15"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku lokalizacji wydarzenia 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.15"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Widok uczestników wydarzenia (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.16"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/aplikacja_mobilna/participants.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku uczestników wydarzenia 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.16"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Widok profilu użytkownika (rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.17"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename prototypy/aplikacja_mobilna/user.png
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Prototyp widoku profilu użytkownika 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.17"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
