@@ -6576,6 +6576,23 @@ Ember CLI jest narzędziem wiersza poleceń które wprowadza określoną struktu
  nad konfiguracją dla narzędzi budujących aplikację.
 \end_layout
 
+\begin_layout Paragraph
+Ember data
+\end_layout
+
+\begin_layout Standard
+Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON.
+ Analiza danych otrzymanych w ten sposób nie byłaby skuteczna ani intuicyjna.
+ W tym celu powstała osobna biblioteka której zadaniem jest mapowanie otrzymanyc
+h danych na klasy reprezentowane w języku JavaScript.
+ Rekord opisany za pomocą klasy jest obecnie najczęściej spotykaną formą
+ przechowywania danych w aplikacjach internetowych.
+ Ponadto Ember data wprowadza operacje pozwalające na tworzenie, edycję
+ oraz usuwanie rekordów.
+ Posiadają one pewne konwencje co po raz kolejny udowadnia jak bardzo konwencjon
+alną platformą jest Ember.
+\end_layout
+
 \begin_layout Section
 Aplikacja mobilna
 \end_layout
