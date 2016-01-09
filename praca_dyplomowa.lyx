@@ -6398,15 +6398,107 @@ Architektura
 \begin_layout Standard
 Platforma Ember bazuje na wzorcu projektowym MVC który zakłada istnienie
  trzech współpracujących ze sobą części: modelu, widoku oraz kontrolera.
- Każda z nich realizuje oddzielne zadania i z reguły przekazuje dane wyjściowe
- do kolejnej.
+ Każda z nich realizuje oddzielne zadania i z reguły przekazuje dane do
+ kolejnej.
  Ember implementuje każdą z tych części w następujący sposób:
 \end_layout
 
 \begin_layout Itemize
-controler (z pol.
- kontroler) odpowiedzialny jest za interakcję z danymi przechowywanymi w
- pamięci cache
+trasa (z ang.
+ route) odpowiedzialna jest za pobieranie danych z pamięci podręcznej lub
+ serwera oraz przekazywanie ich do kontrolera (z ang.
+ controller)
+\end_layout
+
+\begin_layout Itemize
+szablon (z ang.
+ template) odpowiedzialny jest za prezentację danych pochodzących z kontrolera
+\end_layout
+
+\begin_layout Itemize
+model (z ang.
+ model) odpowiedzialny jest za przechowywanie danych pochodzących z serwera
+ lub tymczasowo przechowywanych w pamięci podręcznej
+\end_layout
+
+\begin_layout Standard
+Interakcja wyżej wymienionych składowych przebiega następująco:
+\end_layout
+
+\begin_layout Enumerate
+Po wpisaniu adresu URL
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+URL (ang.
+ Uniform Resource Locator) - stosowany w sieci format adresowania zasobów.
+\end_layout
+
+\end_inset
+
+ następuje rozpoznanie obecnego stanu aplikacji przez trasownik (z ang.
+ router) oraz tym samym wywołanie odpowiedniej akcji pobrania danych w trasie.
+\end_layout
+
+\begin_layout Enumerate
+Trasa pobiera dane pochodzące z serwera lub pamięci cache a następnie przekazuje
+ je do kontrolera.
+\end_layout
+
+\begin_layout Enumerate
+Kontroler w odpowiedni sposób dekoruje dane
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Dekorować dane oznacza przygotować je w odpowiedni sposób do wyświetlenia.
+\end_layout
+
+\end_inset
+
+ lub pozostawia je w niezmienionej formie a następnie przekazuje je do szablonu.
+\end_layout
+
+\begin_layout Enumerate
+Szablon wyświetla dane.
+\end_layout
+
+\begin_layout Standard
+W klasycznym schemacie wzorca MVC kontroler pełni rolę trasy.
+ W platformie Ember jego zadanie ogranicza się do wykonywania akcji związanych
+ z interakcją pomiędzy aplikacją a użytkownikiem.
+ Przykładem tego typu interakcji może być wykonanie jakiejś procedury po
+ kliknięciu w wybranym miejscu urządzeniem wskazującym.
+ Wszelkie akcje dotyczące danych typu: dodanie nowego rekordu, edycja lub
+ usuwanie są jednak wykonywane w trasie.
+ Kontroler jest zatem odpowiedzialny jedynie za akcje modyfikujące stan
+ szablonu, komunikację z trasą oraz dekorowanie danych.
+\end_layout
+
+\begin_layout Standard
+Trasa wykonuje wszelkie operacje które modyfikują stan bazy danych.
+ Odpowiedzialna jest również za interpetację stanu adresu URL czy chociażby
+ uwierzytelnianie użytkownika.
+ Można zatem powiedzieć że wszelka logika aplikacji która zmienia jej stan
+ znajduje się w trasie.
+ Istnieje jednak nowe rozwiązanie, które w przyszłości ma całkowicie wykluczyć
+ konieczność stosowania kontrolerów współpracujących z trasami.
+ W platformie Ember nazywa się to komponentem.
+\end_layout
+
+\begin_layout Standard
+Komponent umożliwia zdefiniowanie nowego znacznika w języku html oraz określenia
+ jego zachowania za pomocą języka JavaScript.
+ W ten sposób można odizolować pewną funkcjonalność i tym samym umożliwić
+ jej wielokrotne wykorzystanie bez dodatkowej implementacji.
+ W przypadku tej platformy są one połączeniem funkcjonalności kontrolera
+ oraz szablonu.
+ Fakt, że komponent implementuje własną logikę oznacza, że kontroler sam
+ w sobie traci na znaczeniu i jego zadanie ogranicza się do integracji wielu
+ komponentów.
+ Prawdopodobnie z tego powodu planowane jest całkowite pozbycie się kontrolerów
+ na rzecz komponentów.
 \end_layout
 
 \begin_layout Section
