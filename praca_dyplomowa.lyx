@@ -5242,7 +5242,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/main_screen_logged_in.png
+	filename prototypy/aplikacja_internetowa/main_screen_logged_in.png
 	scale 30
 
 \end_inset
@@ -5319,7 +5319,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/events_view.png
+	filename prototypy/aplikacja_internetowa/events_view.png
 	scale 30
 
 \end_inset
@@ -5403,7 +5403,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/event_informations_tab.png
+	filename prototypy/aplikacja_internetowa/event_informations_tab.png
 	scale 30
 
 \end_inset
@@ -5487,7 +5487,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/event_participants_tab.png
+	filename prototypy/aplikacja_internetowa/event_participants_tab.png
 	scale 30
 
 \end_inset
@@ -5572,7 +5572,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/event_localization_tab.png
+	filename prototypy/aplikacja_internetowa/event_localization_tab.png
 	scale 30
 
 \end_inset
@@ -5652,7 +5652,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/event_posts_tab.png
+	filename prototypy/aplikacja_internetowa/event_posts_tab.png
 	scale 30
 
 \end_inset
@@ -5738,7 +5738,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/event_organizer_tab.png
+	filename prototypy/aplikacja_internetowa/event_organizer_tab.png
 	scale 30
 
 \end_inset
@@ -5810,7 +5810,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename prototypy/user_view.png
+	filename prototypy/aplikacja_internetowa/user_view.png
 	scale 30
 
 \end_inset
@@ -5875,8 +5875,19 @@ Dyskusja
 Aplikacja mobilna
 \end_layout
 
+\begin_layout Standard
+Poniżej znajdują się rysunki prototypów interfejsu aplikacji mobilnej.
+\end_layout
+
 \begin_layout Section
-Projekt bazy danych 
+Projekt bazy danych
+\end_layout
+
+\begin_layout Standard
+Projektowanie bazy danych jest procesem odzwierciedlania obiektów świata
+ rzeczywistego (a w szczególności zależności w nim występujących) w systemie
+ informatycznym.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -5900,7 +5911,7 @@ Platforma programistyczna
 \end_layout
 
 \begin_layout Subsection
-Implementacja bazy 
+Implementacja bazy danych
 \end_layout
 
 \begin_layout Subsection
