@@ -6725,7 +6725,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename schematy/MVC.png
+	filename schematy/Ember_ server.png
 	scale 40
 
 \end_inset
@@ -6738,6 +6738,98 @@ status open
 
 \begin_layout Plain Layout
 Pobranie plików z serwera Node.js.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Prawie każda aplikacja internetowa korzysta z pewnych zasobów, których stan
+ w danej chwili powinien być taki sam dla każdego użytkownika.
+ Aby zachować tą spójność musi ona współpracować z serwerem, który ma dostęp
+ do bazy danych.
+ Gdy aplikacja znajduje się już w pamięci przeglądarki internetowej komunikacja
+ odbywa się wyłącznie pomiędzy nią a serwerem implementującym logikę.
+ Serwer ten ma dostęp do bazy danych, dzięki czemu dane przesyłane do aplikacji
+ klienckich są rzeczywiste i nie zakłamane.
+ W przypadku platformy Ember komunikacja ta odbywa się przez specjalne adaptery,
+ których zadaniem jest konwertowanie danych zapisanych według pewnych formatów
+ na takie, które obowiązują w aplikacji internetowej.
+ W celu odpowiedniej komunikacji należy stworzyć plik konfiguracyjny, który
+ zawiera informacje na temat adresu serwera oraz przestrzeni nazw odpowiedniej
+ wersji interfejsu programistycznego.
+ 
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/Ember_rails.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ogólny schemat wymiany danych między aplikacją internetową a serwerem.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Każda odpowiedź serwera zawiera dane zwrotne oraz status określający pewien
+ stan.
+ W przypadku statusów oznaczających niepowodzenie należy odpowiednio poinformowa
+ć użytkownika o niemożliwości przetworzenia zadania.
+ Zwracane dane trafiają do pamięci cache przeglądarki co pozwala na zmniejszenie
+ ilości zapytań do serwera.
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/logowanie_zle_dane.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Przykładowy komunikat ze strony logowania w przypadku statusu oznaczającego
+ niepowodzenie.
 \end_layout
 
 \end_inset
