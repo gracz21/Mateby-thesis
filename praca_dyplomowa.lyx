@@ -6689,6 +6689,67 @@ a złych wzorców projektowych języka JavaScript.
 pt, został on użyty w projekcie.
 \end_layout
 
+\begin_layout Subsection
+Komunikacja z serwerem
+\end_layout
+
+\begin_layout Standard
+Gdy użytkownik uruchamia aplikację internetową wpisując jej adres URL w
+ przeglądarce następuje pobranie plików z kodem HTML, CSS oraz JavaScript,
+ które odpowiedzialne są za jej działanie.
+ Serwer, który udostępnia te pliki to Node.js
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Node.js - środowisko programistyczne napisane w języku JavaScript, które
+ umożliwia tworzenie serwerów www.
+\end_layout
+
+\end_inset
+
+, będący jednocześnie serwerem bazowym dla Ember CLI.
+ Zwrócone w odpowiedzi pliki reprezentują całą aplikację internetową, co
+ oznacza, że nie będzie potrzeby komunikacji z serwerem Node aż do czasu
+ jej ponownego uruchomienia.
+ To rozwiązanie znacznie przyspiesza działanie aplikacji jednak narzuca
+ pewne opóźnienie w przypadku jej uruchomienia (co jest efektem konieczności
+ pobrania wszystkich plików aplikacji).
+ 
+\begin_inset Float figure
+placement !h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/MVC.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pobranie plików z serwera Node.js.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Aplikacja mobilna
 \end_layout
