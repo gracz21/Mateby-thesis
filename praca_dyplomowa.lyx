@@ -6494,8 +6494,8 @@ URL (ang.
 \end_layout
 
 \begin_layout Enumerate
-Trasa pobiera dane pochodzące z serwera lub pamięci cache a następnie przekazuje
- je do kontrolera.
+Trasa pobiera dane pochodzące z serwera lub pamięci podręcznej a następnie
+ przekazuje je do kontrolera.
 \end_layout
 
 \begin_layout Enumerate
@@ -6805,8 +6805,8 @@ Każda odpowiedź serwera zawiera dane zwrotne oraz status określający pewien
  stan.
  W przypadku statusów oznaczających niepowodzenie należy odpowiednio poinformowa
 ć użytkownika o niemożliwości przetworzenia zadania.
- Zwracane dane trafiają do pamięci cache przeglądarki co pozwala na zmniejszenie
- ilości zapytań do serwera.
+ Zwracane dane trafiają do pamięci podręcznej przeglądarki co pozwala na
+ zmniejszenie ilości zapytań do serwera.
 \begin_inset Float figure
 placement !h
 wide false
@@ -6840,6 +6840,31 @@ Przykładowy komunikat ze strony logowania w przypadku statusu oznaczającego
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+System autoryzacji
+\end_layout
+
+\begin_layout Standard
+W celu spójnej współpracy z serwerem autoryzacja użytkowników w aplikacji
+ internetowej została oparta o protokół Oauth2.
+ W celu uzyskania sekretnego kodu będącego potwierdzeniem wiarygodności
+ użytkownika należy wysłać dane autoryzujące, którymi w tym przypadku jest
+ nazwa konta e-mail oraz hasło, do serwera obsługującego uwierzytelnianie
+ (serwer Oauth2 jest częścią logiki serwera Ruby on Rails).
+ Uzyskany w ten sposób zaszyfrowany kod przechowywany jest w pamięci podręcznej
+ oraz wysyłany z każdym zapytaniem.
+ 
+\end_layout
+
+\begin_layout Standard
+Aplikacja umożliwia również uwierzytelnienie za pomocą serwisu Facebook,
+ który korzysta z tego samego protokołu Oauth2.
+ Pierwsze uwierzytelnienie przy pomocy tego serwisu oznacza również rejestrację
+ użytkownika za pomocą danych przechwyconych w odpowiedzi serwera.
+ W ten sposób zarejestrowany użytkownik w niczym nie różni się od stworzonego
+ za pomocą standardowego formularza rejestracyjnego.
 \end_layout
 
 \begin_layout Section
