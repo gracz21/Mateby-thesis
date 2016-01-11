@@ -6130,6 +6130,10 @@ górnej części ekranu można znaleźć zdjęcie wydarzenia (1) oraz przyciski
  jego temat (3).
  Poniżej znajduje się nazwa (4) oraz podsumowanie najważniejszych informacji
  (5).
+ Niżej można znaleźć przycisk przenoszący na widok lokalizacji wydarzenia
+ (6) oraz pozwalający na przejrzenie listy uczestników (7).
+ W dolnej części ekran znajduje się szczegółowy opis wydarzenia (8) oraz
+ lista jego znaczników.
 \end_layout
 
 \begin_layout Paragraph
@@ -6188,6 +6192,21 @@ name "fig:5.13"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+W
+\begin_inset space ~
+\end_inset
+
+górnej części kranu znajduje się formularz pozwalający na dodanie nowej
+ wiadomości (1 --- pole tekstowe pozwalające na podanie treści wiadomości;
+ 2 --- przycisk potwierdzający dodanie wiadomości).
+ Poniżej można prześledzić historii dyskusji (3).
+ Po wybraniu przez użytkownika wiadomości swojego autorstwa, pojawia się
+ okienko dialogowe (4) pozwalające na jej edycję (5 --- pole tekstowe do
+ edycji treści; 6 --- anulowanie zmian; 8 --- potwierdzenie zmian) lub usunięcie
+ (7).
 \end_layout
 
 \begin_layout Paragraph
