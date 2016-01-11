@@ -5392,6 +5392,23 @@ ami organizowanymi przez oddziały instytucji.
  Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
  stronę widoku pojedynczego wydarzenia (jeżeli wcześniej dokonał autoryzacji
  konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
+ Znajdując się na tym ekranie użytkownik ma możliwość wyszukiwania wydarzeń.
+ Po wybraniu z paska nawigacyjnego ikony (4) pojawia się formularz wyszukiwania
+ (5).
+ W
+\begin_inset space ~
+\end_inset
+
+górnej jego części znajduje się przycisk pozwalający na jego ukrycie (6).
+ Poniżej można znaleźć pola, w które użytkownik może wprowadzić pożądane
+ cechy poszukiwanych wydarzeń (7).
+ W
+\begin_inset space ~
+\end_inset
+
+dolnej części formularza znajduje się przycisk umożliwiający rozpoczęcie
+ wyszukiwania wg.
+ podanych parametrów (8).
 \end_layout
 
 \begin_layout Paragraph
