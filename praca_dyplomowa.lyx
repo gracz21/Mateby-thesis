@@ -1274,7 +1274,10 @@ Przegląd dostępnych aplikacji o podobnej tematyce wykazał, iż istnieje wiele
 W celu zachęcenia użytkowników do nawiązywania rzeczywistych relacji należy
  stworzyć aplikację, która w dużym stopniu bazować będzie na interakcji
  międzyludzkiej.
- Ponadto 
+ Ponadto przy ogromnej liczbie użytkowników serwisów społecznościowych,
+ aplikacja powinna zapewnić wysoki poziom integracji z tymi portalami.
+ Warto również wprowdzić zawansowaną opcję wyszkiwania oraz rozbudowany
+ widok wydarzenia, szczegółowy opisujący dane dotyczące jego przebiegu.
 \end_layout
 
 \begin_layout Chapter
@@ -1358,10 +1361,6 @@ placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
