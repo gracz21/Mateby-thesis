@@ -3356,8 +3356,20 @@ darmowa
 
 \begin_layout Standard
 Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
- jest najpopularniejszym sposobem programowania aplikacji na system Android.
- 
+ jest najpopularniejszym sposobem programowania na system Android.
+ W 2013 roku zostało udostępnione Android Studio, czyli środowisko opartego
+ na IntelliJ IDEA, dzięki któremu pisanie aplikacji zostało znacznie ułatwione
+ i uproszczone, np.
+ poprzez użycie nowszego Gradle zamiast Anta do budowy oprogramowania i
+ importowania bibliotek.
+ Wytworzenie oprogramowania jest bardziej czasochłonne niż w aplikacjach
+ hybrydowych, dodatkowo wymaga znajości kilku różnych języków jak Java dla
+ Androida, Swift dla iOS'a oraz C# dla Windows Phone.
+ Oczywiście rozwiązania natywne powodują, iż stworzona aplikacja działa
+ tylko na jednym systemie mobilnym, a co za tym idzie napisane rozwiązania
+ trzeba powielić w innych językach programowania dla innych systemów.
+ Jednak dzięki temu otrzymujemy oprogramowanie o wiele szybsze, w szczególności
+ dla skomplikowanych widoków, niż w przypadku frameworków cross-platformowcyh.
 \end_layout
 
 \begin_layout Section
