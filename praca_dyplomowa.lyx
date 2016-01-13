@@ -3010,10 +3010,10 @@ Xamarin to platforma stworzona do tworzenia aplikacji mobilnych na różne
  wygląd charakterystyczny dla każdej platformy.
  Największą wadą jest niska wydajność, a także konieczność płacenia abonamentu
  za korzystanie z platformy.
- Kompilacja i instalacja na urządzeniu lub symulatorze jest bardzo czasochłonna,
- a przecież jest to wykonywane niezwykle często, natomiast użytkownicy odczują
- zauważalny spadek wydajność interfejsów, w szczególności dla list z bardzo
- dużą liczbą skomplikowanych elementów.
+ Często wykonywane procesy kompilacji i instalacji na urządzeniu lub symulatorze
+ są bardzo czasochłonne, natomiast użytkownicy odczują zauważalny spadek
+ wydajności interfejsów, w szczególności dla list z bardzo dużą liczbą skompliko
+wanych elementów.
 \end_layout
 
 \begin_layout Subsection
@@ -3178,7 +3178,19 @@ darmowa
 \end_layout
 
 \begin_layout Standard
-dsad
+Apache Cordova, dawniej nazywana PhoneGap, to kolejna hybrydowa platforma
+ ułatwiająca stworzenie aplikacji mobilnej na różne systemy, również na
+ te bardziej niszowe jak BlackBerry OS.
+ Warto podkreślić, iż Apache Cordova to projekt open-source, dzięki czemu
+ korzystanie z niego jest darmowe, a architektura oferuje bogactwo wtyczek
+ i modułów, które mogą zapewnić dodatkowe usługi lub narzędzia.
+ Jednak jak każdy projekt open-source niesie również zagrożenia takie jak
+ błędnie napisane biblioteki, niepełna dokumentacja, bądź zaprzestanie rozwoju
+ tych bibliotek.
+ Głównymi językami programowania są HTML, JavaScript oraz CSS, mimo to aplikacja
+ jest instalowana jak natywne programy.
+ Niestety tak jak w przypadku platformy Xamarin, aplikacje mają ogromne
+ problemy z wydajnością przy bardziej skomplikowanych widokach.
 \end_layout
 
 \begin_layout Subsection
@@ -3344,7 +3356,8 @@ darmowa
 
 \begin_layout Standard
 Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
- zawiera
+ jest najpopularniejszym sposobem programowania aplikacji na system Android.
+ 
 \end_layout
 
 \begin_layout Section
