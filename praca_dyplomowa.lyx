@@ -2981,7 +2981,7 @@ cena
 \begin_inset Text
 
 \begin_layout Plain Layout
-25$ - 1899$
+25$ - 1899$ na rok
 \end_layout
 
 \end_inset
@@ -3000,7 +3000,20 @@ cena
 \end_layout
 
 \begin_layout Standard
-dsad
+Xamarin to platforma stworzona do tworzenia aplikacji mobilnych na różne
+ systemy Android, iOS, Windows Phone, jednak kod kompilowany jest dla każdej
+ platformy osobno.
+ Framework zapewnia nawet do 90% współdzielonego kodu, co zapewnie niezwykle
+ szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
+ Językiem programowania w Xamarinie jest C#, a także XAML, służący do tworzenia
+ interfesju użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
+ wygląd charakterystyczny dla każdej platformy.
+ Największą wadą jest niska wydajność, a także konieczność płacenia abonamentu
+ za korzystanie z platformy.
+ Kompilacja i instalacja na urządzeniu lub symulatorze jest bardzo czasochłonna,
+ a przecież jest to wykonywane niezwykle często, natomiast użytkownicy odczują
+ zauważalny spadek wydajność interfejsów, w szczególności dla list z bardzo
+ dużą liczbą skomplikowanych elementów.
 \end_layout
 
 \begin_layout Subsection
@@ -3330,7 +3343,8 @@ darmowa
 \end_layout
 
 \begin_layout Standard
-dasasda
+Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
+ zawiera
 \end_layout
 
 \begin_layout Section
