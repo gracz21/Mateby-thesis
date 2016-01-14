@@ -3376,6 +3376,19 @@ Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
 Podsumowanie
 \end_layout
 
+\begin_layout Standard
+[...]
+\end_layout
+
+\begin_layout Standard
+Wybór platformy dla aplikacji mobilnej był dosyć prosty, ponieważ chcąc
+ tworzyć profesjonalne oprogramowanie trzeba zdecydować się na rozwiązania
+ natywne.
+ Żadna z obecnie dostępnych platform hybrydowych nie reprezentuje odpowiedniego
+ poziomu, w szczególności trzeba zwrócić uwagę na problemy z wydajnością.
+ 
+\end_layout
+
 \begin_layout Chapter
 Zastosowane narzędzia inżynierii oprogramowania wspomagające proces tworzenia
  aplikacji
