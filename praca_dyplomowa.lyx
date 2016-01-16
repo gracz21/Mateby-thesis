@@ -218,6 +218,73 @@ Istnieje zatem potrzeba stworzenia czegoś nowego pozbawionego wyżej wymieniony
 Cel i zakres pracy
 \end_layout
 
+\begin_layout Standard
+Celem pracy jest stworzenie aplikacji społecznościowej umożliwiającej wyszukiwan
+ie sparametryzowanych wydarzeń wśród lokalnych społeczności oraz zachęcenie
+ tym samym do wspólnego spędzania czasu we wspólnym gronie.
+\end_layout
+
+\begin_layout Standard
+Na ten cel ogólny składają się następujące cele szczegółowe:
+\end_layout
+
+\begin_layout Itemize
+dokonanie przeglądu istniejących aplikacji o podobnej tematyce - wyszukanie
+ i porównanie będących na rynku aplikacji o podobnym przeznaczeniu, ukazując
+ wyróżniające aspekty naszej aplikacji
+\end_layout
+
+\begin_layout Itemize
+dokonanie przeglądu dostępnych technologii i platform programistycznych
+ - wyszukanie i porównanie technologii umożliwiających stworzenie bazy danych,
+ logiki serwera, a także aplikacji internetowej oraz mobilnej
+\end_layout
+
+\begin_layout Itemize
+zintegrowanie narzędzi inżynierii oprogramowania - przedstawienie wykorzystania
+ narzędzi takich jak system kontroli wersji git, narzędzie agile’owe Pivotal
+ Tracker, system ciągłej integracji CircleCI, komunikator Slack w celu komunikac
+ji wewnątrz zespołowej oraz serwer przedprodukcyjny na platformie Heroku
+ 
+\end_layout
+
+\begin_layout Itemize
+sprecyzowanie wymagań funkcjonalnych - wypisanie i analiza funkcjonalności
+ aplikacji, w celu określenia priorytetu oraz uniknięcia sytuacji powstania
+ wymagań sprzecznych lub zbędnych 
+\end_layout
+
+\begin_layout Itemize
+zaprojektowanie interfejsu aplikacji - ukazanie oczekiwanego wyglądu aplikacji
+ internetowej oraz mobilnej, poprzez przedstawienie grafik z odpowiednimi
+ widokami ekranów 
+\end_layout
+
+\begin_layout Itemize
+zaprojektowanie bazy danych - stworzenie modelu związków-encji oraz jego
+ transformacja do modelu relacyjnego 
+\end_layout
+
+\begin_layout Itemize
+zaimplementowanie logiki serwera aplikacji - implementacja funkcjonaloności
+ serwera dla aplikacji internetowej i mobilnej 
+\end_layout
+
+\begin_layout Itemize
+zaimplementowanie aplikacji internetowej - stworzenie w pełni zgodnego z
+ wymaganiami funkcjonalnymi serwisu internetowego 
+\end_layout
+
+\begin_layout Itemize
+zaimplementowanie aplikacji mobilnej - stworzenie w pełni zgodnej z wymaganiami
+ funkcjonalnymi aplikacji mobilnej 
+\end_layout
+
+\begin_layout Itemize
+testy aplikacji - napisanie i przedstawienie testów jednostkowych logiki
+ serwera i aplikacji mobilnej.
+\end_layout
+
 \begin_layout Section
 Struktura pracy
 \end_layout
