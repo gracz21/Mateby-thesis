@@ -242,10 +242,10 @@ dokonanie przeglądu dostępnych technologii i platform programistycznych
 
 \begin_layout Itemize
 zintegrowanie narzędzi inżynierii oprogramowania - przedstawienie wykorzystania
- narzędzi takich jak system kontroli wersji git, narzędzie agile’owe Pivotal
- Tracker, system ciągłej integracji CircleCI, komunikator Slack w celu komunikac
-ji wewnątrz zespołowej oraz serwer przedprodukcyjny na platformie Heroku
- 
+ narzędzi takich jak narzędzie agile’owe Pivotal Tracker służące zarzadzaniu
+ projektem, system kontroli wersji git, system ciągłej integracji CircleCI,
+ komunikator Slack w celu komunikacji wewnątrz zespołowej oraz serwer przedprodu
+kcyjny na platformie Heroku 
 \end_layout
 
 \begin_layout Itemize
@@ -4213,6 +4213,16 @@ Zastosowane narzędzia inżynierii oprogramowania wspomagające proces tworzenia
 \end_layout
 
 \begin_layout Section
+Zarządzanie projektem
+\end_layout
+
+\begin_layout Standard
+Zarządzanie projektem to niezwykle ważne i kluczowe zadanie, o które muszą
+ dbać wszyscy członkowie zespołu.
+ 
+\end_layout
+
+\begin_layout Section
 System kontroli wersji
 \end_layout
 
@@ -4444,10 +4454,6 @@ tworzenie nowych tematycznych wątków
 \begin_layout Standard
 Jego ogromną zaletą jest również prosta integracja z wieloma serwisami odpowiedz
 ialnymi za pozostałe etapy tworzenia oprogramowania.
-\end_layout
-
-\begin_layout Section
-Zarządzanie projektem
 \end_layout
 
 \begin_layout Section
