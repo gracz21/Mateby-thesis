@@ -4356,10 +4356,6 @@ Pivotal Tracker
 \end_layout
 
 \begin_layout Standard
-das
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -4380,6 +4376,136 @@ status open
 
 \begin_layout Plain Layout
 Logo narzędzia Pivotal Tracker
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, wykrystalizow
+anie priorytetów i pomoc w zarządzaniu projektem, aby poszczególni członkowie
+ zespołu mogli skupić się na tym, co niezbędne.
+ Dzięki temu narzędziu możemy zobaczyć wszystkie swoje zadania w wielu projektac
+h na jednym ekranie.
+ Zespoły programistów mogą skupić się na pracy, ponieważ priorytety projektu
+ są zawsze jasne, można je zmienić, ale nie jest to zalecane i od razu widać
+ jak to wpływa na poszczególne etapy.
+ Pivotal oferuje również przydzielanie punktów, tzw.
+ 
+\begin_inset Quotes pld
+\end_inset
+
+story points
+\begin_inset Quotes prd
+\end_inset
+
+, do zadań, co jest często równoważne z czasem oszacowania.
+ Punkty są określane na podstawie oceny zespołu, jak dużo pracy wymaga dane
+ zadanie.
+ Pozwala to na optymalizację działania i zwiększenie prawdopodobieństwa
+ przewidzenia przyszłej efektywności.
+ Istnieje możliwość przeciągania zadań i wyznacznia ich obecnego statusu.
+ Icebox to kolumna, w której trzymane są wszystkie określone zadania, które
+ układamy w odpowiednie iteracje w kolumnie Backlog.
+ Current to zadania na obecny sprint, a w kolumnie Done mamy zakończone
+ czynności i funkcjonalności.
+ Kliknięcie w przycisk start przenosi dane zadanie w kierunku górnej części
+ bieżącej iteracji, co pokazuje, że jest w trakcie opracowywania.
+ Opowieść następnie przechodzi przez kolejne etapy od gotowej, do realizacji
+ i jest przyjętej, bądź odrzuconej przez klienta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/mateby_pivotal.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok ekranu zarządzania projekt w Pivotal Tracker
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Projekt został podzielony na iteracje trwające 7 dni, przydzielanie punktów
+ w skali od 1 do 3 w zależność od obszerności danej funkcjonalności , a
+ podstawowa efektywność na 5 punktów.
+ Okazało się, iż nakład pracy potrzebny do wykonania całego projektu wymaga
+ znaczącego zwiększenia.
+ W kluczowych sprintach udało się osiągnąć efektywność na poziomie 15 punktów.
+\end_layout
+
+\begin_layout Standard
+Pivotal Tracker umożliwia przejrzenie historii wszystkich sprintów, a całe
+ zarządzanie projektem jest niezwykle proste.
+ Dostępny jest również widok podsumowania projektu na dany moment.
+ Jako przykład został podany projekt aplikacji mobilnej na system Android.
+ Można zauważyć systematyczny przyrost efektywności wykonywania zadań w
+ poszczególnych iteracjach.
+ Było to spowodowane tym, iż istniało wiele zależnych czynników zewnętrznych
+ na czas poświęcony danemu sprintowi.
+ W warunkach kiedy programiści pracują określoną liczbę godzin podczas iteracji,
+ poniższy wykres powinien być jak najbardziej stały.
+ 
+\end_layout
+
+\begin_layout Standard
+Warto podkreślić, iż Pivotal Tracker oferuje możliwość integracji z innymi
+ serwisami takimi jak Github lub Google.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/mateby_pivotal_summary.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok podsumowania projektu w Pivotal Tracker
 \end_layout
 
 \end_inset
@@ -4537,9 +4663,8 @@ Logo systemu kontroli wersji Git
 \begin_layout Standard
 Git w powstał 2005 roku jako darmowe narzędzie służące do zarządzania kodem
  Linuksa i od tej pory jego popularność rośnie w szybkim tempie.
- Jest to rozproszony rozproszony system kontroli wersji oferujący zaawansowane
- operacje przez co dla początkujących użytkowników może wydawać się trudnym
- narzędziem.
+ Jest to rozproszony system kontroli wersji oferujący zaawansowane operacje
+ przez co dla początkujących użytkowników może wydawać się trudnym narzędziem.
  Posiada dobrze wykonaną dokumentację oraz dużą społeczność programistów
  pracujących nad jego rozwojem.
  Do głównych zalet Gita można zaliczyć dobrą wydajność, kontrolę spójności
