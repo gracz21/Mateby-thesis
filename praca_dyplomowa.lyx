@@ -4444,7 +4444,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok ekranu zarządzania projekt w Pivotal Tracker
+Widok ekranu zarządzania projektem w Pivotal Tracker
 \end_layout
 
 \end_inset
@@ -4751,6 +4751,91 @@ ialnymi za pozostałe etapy tworzenia oprogramowania.
 
 \begin_layout Section
 System ciągłej integracji
+\end_layout
+
+\begin_layout Standard
+System ciągłej integracji
+\end_layout
+
+\begin_layout Paragraph
+Platforma CircleCi
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename loga/circleci.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Logo platformy CircleCi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+das
+\end_layout
+
+\begin_layout Standard
+das
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/mateby_circle.jpg
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok systemu ciągłej integracji CircleCi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
