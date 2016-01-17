@@ -4754,7 +4754,10 @@ System ciągłej integracji
 \end_layout
 
 \begin_layout Standard
-System ciągłej integracji
+System ciągłej integracji tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
 \end_layout
 
 \begin_layout Paragraph
@@ -4796,11 +4799,10 @@ Logo platformy CircleCi
 \end_layout
 
 \begin_layout Standard
-das
-\end_layout
-
-\begin_layout Standard
-das
+Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
 \end_layout
 
 \begin_layout Standard
@@ -4840,6 +4842,107 @@ Widok systemu ciągłej integracji CircleCi
 
 \begin_layout Section
 Komunikator
+\end_layout
+
+\begin_layout Standard
+Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Slack
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename loga/slack.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Logo komunkatora Slack
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/mateby_slack.jpg
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok komunikatora Slack
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
