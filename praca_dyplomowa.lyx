@@ -4222,8 +4222,9 @@ Zarządzanie projektem
 \begin_layout Standard
 Zarządzanie projektem to niezwykle ważna i kluczowa czynność, o które muszą
  dbać wszyscy członkowie zespołu, ponieważ bez odpowiedniego przygotowania,
- możliwe jest, iż powierzone im zadania nie zostaną prawidłowo zrealizowane.
- Dobre zarządzanie projektem ma na celu prawidłowe działanie organizacji,
+ możliwe jest, iż powierzone im zadania nie zostaną prawidłowo i w zadanym
+ czasie zrealizowane.
+ Prawidłowe zarządzanie projektem ma na celu poprawne działanie organizacji,
  jednak także ma pozytywny wpływ na podniesienie motywacji i satysfakcji
  z pracy osób odpowiedzialnych za pracę nad danym projektem.
  Sprawi to, iż wydana aplikacja będzie kompletna, liczba błędów minimalna,
@@ -4288,11 +4289,74 @@ metodyka zarządzania projektami
 
 \begin_layout Standard
 Na podstawie powyższych kryteriów podjęto decyzję o wyborze narzędzia Pivotal
- Tracker.
+ Tracker, które zostało stworzene do pracy z metodami Agile.
+\end_layout
+
+\begin_layout Standard
+Wybór odpowiedniej metodyki pełni niezwykle istotną rolę w zarządzaniu projektu.
+ Programowanie zwinne (z ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Agile software development
+\end_layout
+
+\end_inset
+
+) to grupa metod wytwarzania oprogramowania opartego na modelu iteracyjnym.
+ Posiada deklarację wspólnych zasad tworzenia oprogramowania, która została
+ nazwana manifestem Agile.
+ Pod obszarem pojęcia Agile zalicza się wiele metodyk zarządzania projektami
+ i dostarczania produktów, a najpopularniejszą wśród nich jest Scrum, stworzony
+ przez Kena Schwabera i Jeffa Sutherlanda.
+ Scrum to metoda organizacji pracy nad wytwarzaniem produktu polegająca
+ na podzieleniu projektu na mniejsze części i rozłożeniu ich w trwające
+ maksymalnie jeden miesiąc iteracje, zwane sprintami.
+ Po każdym sprincie zespół pracujący nad rozwojem projektu musi być w stanie
+ dostarczyć działającą wersję produktu.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/agile.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ Schemat obrazujący zasady działania metod Agile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 Pivotal Tracker
+\end_layout
+
+\begin_layout Standard
+das
 \end_layout
 
 \begin_layout Standard
