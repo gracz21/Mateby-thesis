@@ -307,11 +307,11 @@ rozdziale
 \end_inset
 
 3.
- dokonano przeglądu dostępnych technologii, które mogą zostać użyte w procesie
- implementacji aplikacji.
- Przyjrzano się rozwiązaniom umożliwiającym realizację bazy danych oraz
- platformom programistycznym wspomagającym implementację zarówno logiki
- serwera, jak i aplikacji internetowej oraz mobilnej.
+ dokonano przeglądu dostępnych technologii, które mogą być wykorzystywane
+ w procesie implementacji aplikacji.
+ Przyjrzano się rozwiązaniom wspomagającym projektowanie i tworzenie bazy
+ danych oraz platformom programistycznym wspierającym implementację zarówno
+ logiki serwera, jak i aplikacji internetowej oraz mobilnej.
  Na
 \begin_inset space ~
 \end_inset
@@ -360,12 +360,12 @@ rozdziale
 6.
  przybliżono sposób implementacji aplikacji.
  Omówiono w nim implementację logiki serwera, a w szczególności bazy danych.
- Przedstawiono konstrukcję 
+ Przedstawiono 
 \begin_inset Flex Emph
 status open
 
 \begin_layout Plain Layout
-interfejsu programistycznego aplikacji
+interfejs programistyczny aplikacji
 \end_layout
 
 \end_inset
