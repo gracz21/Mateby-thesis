@@ -7284,8 +7284,8 @@ Na
 tej zakładce można znaleźć szczegółowe dane na temat danego wydarzenia.
  Po lewej znajduje się zdjęcie (1) oraz dane podstawowe (2).
  Po prawej można znaleźć przycisk pozwalający na dołączenie do grona uczestników
- (3; dostępny dla wszystkich w przypadku wydarzeń publicznych lub tylko
- dla użytkowników posiadających zaproszenie w przypadku wydarzeń prywatnych).
+ (3; będąc uwierztelnionym jako organizator, w tym miejscu można znaleźć
+ przyciski umożliwiające edycję i usunięcie wydarzenia).
  Znajduje się tu także nazwa wydarzenia (4) wraz ze szczegółowym jego opisem
  (5) oraz znacznikami (6).
  Po kliknięciu na znacznik, następuje przekierowany do strony, w której
@@ -8000,8 +8000,9 @@ W
 górnej części ekranu można znaleźć zdjęcie wydarzenia (1) oraz przyciski
  pozwalające na dołączenie do wydarzenia (2) i prześledzenie dyskusji na
  jego temat (3).
- Poniżej znajduje się nazwa (4) oraz podsumowanie najważniejszych informacji
- (5).
+ Poniżej znajduje się nazwa (4; będąc uwierztelnionym jako organizator,
+ obok tekstu można znaleźć przyciski umożliwiające edycję i usunięcie wydarzenia
+) oraz podsumowanie najważniejszych informacji (5).
  Niżej można znaleźć 3 przyciski.
  Pierwszy z nich to odnośnik do profilu organizatora (6), drugi przenosi
  na widok lokalizacji wydarzenia (7), trzeci natomiast pozwala na przejrzenie
@@ -8395,12 +8396,81 @@ Model relacyjny
 Implementacja
 \end_layout
 
+\begin_layout Standard
+Implementacja jest kluczowym etapem procesu wytwarzania oprogramowania.
+ 
+\end_layout
+
 \begin_layout Section
 Logika serwera
 \end_layout
 
 \begin_layout Subsection
 Platforma programistyczna
+\end_layout
+
+\begin_layout Paragraph
+Architektura
+\end_layout
+
+\begin_layout Standard
+Ruby on Rails jest platformą opartą na wzorcu projektowym MVC.
+ Można zatem stwierdzić, że w jej skład wchodzą 3 współpracujące ze sobą
+ komponenty: model, widok oraz kontroler.
+ Poniżej można znaleźć opis zadań, jakie spełnia każdy z nich:
+\end_layout
+
+\begin_layout Itemize
+model (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+model
+\end_layout
+
+\end_inset
+
+) jest podstawową jednostką logiki biznesowej, jeden model najczęściej odpowiada
+ jednej tabeli w bazie danych, a jego atrybuty odzwierciedlają kolumny tej
+ tabeli
+\end_layout
+
+\begin_layout Itemize
+widok (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+view
+\end_layout
+
+\end_inset
+
+) odpowiada za prezentacje danych uzyskanych z kontrolera
+\end_layout
+
+\begin_layout Itemize
+kontroler (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+controller
+\end_layout
+
+\end_inset
+
+) odpowiada za definiowanie logiki aplikacji
+\end_layout
+
+\begin_layout Standard
+W przypadku opisywanej aplikacji nie został użyty komponent widoku.
+ Było to spowodowane faktem wykorzystania platformy do implementacji API,
+ w wyniku czego nie zaistniała potrzeba prezentacji danych.
 \end_layout
 
 \begin_layout Subsection
@@ -8432,7 +8502,7 @@ Architektura
 \end_layout
 
 \begin_layout Standard
-Platforma Ember bazuje na wzorcu projektowym MVC który zakłada istnienie
+Platforma Ember.js bazuje na wzorcu projektowym MVC który zakłada istnienie
  trzech współpracujących ze sobą części: modelu, widoku oraz kontrolera.
  Każda z nich realizuje oddzielne zadania i z reguły przekazuje dane do
  kolejnej.
