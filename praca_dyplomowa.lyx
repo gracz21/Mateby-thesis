@@ -4739,6 +4739,26 @@ tworzenie nowych tematycznych wątków
 \begin_layout Standard
 Jego ogromną zaletą jest również prosta integracja z wieloma serwisami odpowiedz
 ialnymi za pozostałe etapy tworzenia oprogramowania.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -4794,7 +4814,21 @@ Logo platformy CircleCi
 Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
  tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
  tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor.
 \end_layout
 
 \begin_layout Standard
@@ -4837,15 +4871,64 @@ Komunikator
 \end_layout
 
 \begin_layout Standard
-Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
- Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+Rola komunikatora w projektach nie tylko informatycznych jest często niedocenian
+a, jednak coraz więcej firm zauważa znaczenie komunikatorów internetowych
+ zarówno do kontaktów z klientami, jak i do codziennej pracy urzędników.
+ Należy jednak pamiętać, iż nie w każdej sytuacji używanie komunikatora
+ jest taktowne, natomiast o wiele łatwiej, szybciej i wygodniej jest wysłać
+ krótką wiadomość czy odnośnik do dokumentu za pomocą komunikatora, niż
+ próbować dodzwonić się do konkretnej osoby.
+ W każdej firmie istnieje podział na odpowiednie działy, dobry komunikator
+ powinien umożliwić stworzenie analogicznego podziału na grupy, w celu wygody
+ użytkowania i klarowności tematów konwersacji.
+ Tworzone pokoje mogą być publiczne i prywatnych, co również zwiększa komfort
+ pracy, ponieważ działy mogą komunikować się z innymi działami, bądź mają
+ pewność, iż tajne informacje nie będą widoczne przez innych użytkowników.
  
+\end_layout
+
+\begin_layout Standard
+Projekty informatyczne cechują się dodatkowymi własnościami, które jeszcze
+ bardziej zwiększają wygodę pracy.
+ Środowisko informatyczne wykorzystuje bardzo wiele aplikacji ułatwiających
+ pracę, dlatego niezwykle iston rolą komunikatora powinna być możliwość
+ integracji z innymi narzędziami inżynierii oprogramowania takich jak platforma
+ służąca zarządzaniu projektem, system konroli wersji, czy system ciągłej
+ integracji.
+\end_layout
+
+\begin_layout Standard
+W tej chwili istnieje bardzo wiele aplikacji służących do komunikacji, jak
+ Skype, Google Hangouts czy Messanger, aczkolwiek są to programy służące
+ głównie do komunikacji nieformalnej.
+ Do użytku biznesowego powstały inne platformy, wśród których prym wiodą
+ HipChat oraz Slack.
+ Wybór odpowiedniego narzędzia do komunikacji w zespole został podyktowany
+ przez następujące czynniki:
+\end_layout
+
+\begin_layout Itemize
+możliwość integracji z innymi narzędziami
+\end_layout
+
+\begin_layout Itemize
+wygoda użytkowania
+\end_layout
+
+\begin_layout Itemize
+liczba programistów w zespole
+\end_layout
+
+\begin_layout Itemize
+popularność systemu
+\end_layout
+
+\begin_layout Itemize
+cena
+\end_layout
+
+\begin_layout Standard
+Z tego względu została wybrana platforma Slack.
 \end_layout
 
 \begin_layout Paragraph
@@ -4895,6 +4978,22 @@ Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
  tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
  tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
  tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+ Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
+ tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4924,11 +5023,6 @@ Widok komunikatora Slack
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 
 \end_layout
 
