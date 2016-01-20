@@ -4970,30 +4970,27 @@ Logo komunkatora Slack
 \end_layout
 
 \begin_layout Standard
-Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
- Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
- Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
- Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
- Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
-\begin_inset Newline newline
-\end_inset
-
-
+Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
+ w 2013 roku.
+ Ułatwia komunikację w zespole, przechowywanie i dzielenie się plikami.
+ Istnieje możliwość organizowania rozmów zespołu w kanałach otwartych, jak
+ i dla wrażliwych informacji, tworzenie kanałów prywatnych.
+ Kolejną funkcjonalnością jest oznaczania konkretnych członków zespołu,
+ w celu powiadamienia ich o nieodczytanych wiadomościach.
+ Slack oferuje zestaw zaawansowanych narzędzi wyszukiwania, dzięki systemowi
+ automatycznego indeksowania.
+ Najważniejszą funkcjonalnością jest możliwość integracji z innymi narzędziami.
+ Udostępnia synchronizację plików z takimi serwisami jak jak Google Drive,
+ Dropbox lub Box.
+ Poza tym jest opcja podłączenia serwisu Github, dzięki temu otrzymujemy
+ na oznaczony kanał informację o wysłanych zmianach.
+ Kolejnym serwisem, który możemy zintegrować ze Slackiem to Pivotal Tracker,
+ daje to możliwość śledzenia zmian statusów przydzielonych zadań, co więcej
+ połączenie Pivotala z Githubem informuje o wrzuconych zmianach do repozytorium
+ pod tytułem odpowiedniego zadania.
+ Slack umożliwia również połączenie się ze środowiskiem CircleCi, powoduje
+ to uzyskiwanie informacji na temat bieżących zmian w kodzie, skonfigurowanych
+ w systemie ciągłej integracji.
 \end_layout
 
 \begin_layout Standard
