@@ -4348,39 +4348,6 @@ Pivotal Tracker
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename loga/pivotal_tracker.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Logo narzędzia Pivotal Tracker
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, wykrystalizow
 anie priorytetów i pomoc w zarządzaniu projektem, aby poszczególni członkowie
  zespołu mogli skupić się na tym, co niezbędne.
@@ -4618,41 +4585,6 @@ System kontroli wersji Git
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-placement !h
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename loga/git.svg
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Logo systemu kontroli wersji Git
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Git w powstał 2005 roku jako darmowe narzędzie służące do zarządzania kodem
  Linuksa i od tej pory jego popularność rośnie w szybkim tempie.
  Jest to rozproszony system kontroli wersji oferujący zaawansowane operacje
@@ -4739,26 +4671,6 @@ tworzenie nowych tematycznych wątków
 \begin_layout Standard
 Jego ogromną zaletą jest również prosta integracja z wieloma serwisami odpowiedz
 ialnymi za pozostałe etapy tworzenia oprogramowania.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -4766,10 +4678,7 @@ System ciągłej integracji
 \end_layout
 
 \begin_layout Standard
-System ciągłej integracji tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor.
+System ciągłej integracji...
 \end_layout
 
 \begin_layout Paragraph
@@ -4777,58 +4686,7 @@ Platforma CircleCi
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename loga/circleci.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Logo platformy CircleCi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Komunikator tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor tor
- tor tor tor tor tor tor tor tor tor tor.
+Platfroma CircleCi...
 \end_layout
 
 \begin_layout Standard
@@ -4936,40 +4794,6 @@ Slack
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename loga/slack.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Logo komunkatora Slack
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  w 2013 roku.
  Ułatwia komunikację w zespole, przechowywanie i dzielenie się plikami.
@@ -5048,41 +4872,6 @@ Jeśli zmiany wrzucone na zdalne repozytorium przejdą wszystkie etapy sprawdzan
 
 \begin_layout Paragraph
 Platfroma Heroku
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement !h
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename loga/heroku.png
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Logo platformy Heroku
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
