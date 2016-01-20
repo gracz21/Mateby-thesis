@@ -4678,7 +4678,56 @@ System ciągłej integracji
 \end_layout
 
 \begin_layout Standard
-System ciągłej integracji...
+System ciągłej integracji wspomoga usystematyzować procesy wykonywane przez
+ każdego z programistów.
+ Każdy pracownik przed zaktualizowaniem zmian na repozytorium
+\end_layout
+
+\begin_layout Standard
+Oprócz wymienionych zalet systemy ciągłej integracji niosą ze sobą również
+ pewne niedogodności:
+\end_layout
+
+\begin_layout Itemize
+wymagają konfiguracji i utrzymania
+\end_layout
+
+\begin_layout Itemize
+wymagają kodu dobrej jakości.
+ Szczególnie kodu z odpowiednią ilością testów by móc korzystać z zalet
+ automatyzacji testów
+\end_layout
+
+\begin_layout Itemize
+mogą wymagać znacznych nakładów sprzętowych.
+\end_layout
+
+\begin_layout Standard
+Istnieje coraz większe zapotrzebowanie na systemy ciągłej integracji dlatego
+ rynek oferuje coraz więcej narzędzi takich jak Jenkins, CruiseControl,
+ bądź CircleCi .
+ Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
+ następujące czynniki:
+\end_layout
+
+\begin_layout Itemize
+wspomaganie różnorodnych platform programistycznych
+\end_layout
+
+\begin_layout Itemize
+wygoda użytkowania
+\end_layout
+
+\begin_layout Itemize
+popularność systemu
+\end_layout
+
+\begin_layout Itemize
+cena
+\end_layout
+
+\begin_layout Standard
+Na podstawie wyżej wymienionych kryteriów wybrano serwis CircleCi.
 \end_layout
 
 \begin_layout Paragraph
@@ -4686,7 +4735,17 @@ Platforma CircleCi
 \end_layout
 
 \begin_layout Standard
-Platfroma CircleCi...
+Platfroma CircleCi...Przyspieszyć cykl badań i rozwoju, CircleCI jest elastyczny,
+ aby uruchomić w środowisku i skali z twojego wzrostu.
+ Mieć spokój poprzez zmniejszenie błędów i poprawy jakości swojej aplikacji.
+\end_layout
+
+\begin_layout Standard
+Rozwój oprogramowania platformy pomaga zespołom szybko zwolnić kod zaufać
+ poprzez automatyzację tworzenia, testowania i procesu wdrażania.
+ Stworzony dla deweloperów, CircleCI oferuje nowoczesną platformę do tworzenia
+ oprogramowania, które umożliwia zespoły ramp szybko, łatwo skalować i zbudować
+ pewnie na co dzień.
 \end_layout
 
 \begin_layout Standard
