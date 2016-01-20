@@ -181,9 +181,13 @@ Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
  Cechami charakterystycznymi serwisów społecznościowych jest między innymi
  wsparcie dla tworzenia kręgu znajomych, formowania lokalnych społeczności
  oraz organizacji wydarzeń.
- Ogromne znaczenie w dzisiejszych czasach mają serwisy służące do organizacji
- wydarzeń, które zachęcają do spędzenia czasu poza domem oraz budują rzeczywiste
- relacje międzyludzkie.
+ Pomimo wielu korzyści wynikających z możliwości wykorzystania tego typu
+ aplikacji, można zaobserwować, że coraz więcej osób rezygnuje ze spędzenia
+ czasu we wspólnym gronie na rzecz rozmowy za pomocą komunikatora społecznościow
+ego.
+ Z tego powodu ogromne znaczenie w dzisiejszych czasach mają serwisy służące
+ do organizacji wydarzeń, które zachęcają do przebywania poza domem oraz
+ budują rzeczywiste relacje międzyludzkie.
  Tego typu aplikacji jest obecnie wiele lecz brakuje im kilku istotnych
  funkcjonalności takich jak:
 \end_layout
@@ -211,9 +215,9 @@ Cel i zakres pracy
 \end_layout
 
 \begin_layout Standard
-Celem pracy jest stworzenie aplikacji społecznościowej umożliwiającej wyszukiwan
-ie sparametryzowanych wydarzeń wśród lokalnych społeczności oraz zachęcenie
- tym samym do wspólnego spędzania czasu we wspólnym gronie.
+Celem pracy jest projekt i implementacja aplikacji społecznościowej umożliwiając
+ej wyszukiwanie sparametryzowanych wydarzeń wśród lokalnych społeczności,
+ zachęcającej tym samym do spędzania czasu we wspólnym gronie.
 \end_layout
 
 \begin_layout Standard
@@ -221,59 +225,60 @@ Na ten cel ogólny składają się następujące cele szczegółowe:
 \end_layout
 
 \begin_layout Itemize
-dokonanie przeglądu istniejących aplikacji o podobnej tematyce - wyszukanie
+dokonanie przeglądu istniejących aplikacji o podobnej tematyce --- wyszukanie
  i porównanie będących na rynku aplikacji o podobnym przeznaczeniu, ukazując
  wyróżniające aspekty naszej aplikacji
 \end_layout
 
 \begin_layout Itemize
 dokonanie przeglądu dostępnych technologii i platform programistycznych
- - wyszukanie i porównanie technologii umożliwiających stworzenie bazy danych,
- logiki serwera, a także aplikacji internetowej oraz mobilnej
+ --- wyszukanie i porównanie technologii umożliwiających stworzenie bazy
+ danych, logiki serwera, a także aplikacji internetowej oraz mobilnej
 \end_layout
 
 \begin_layout Itemize
-zintegrowanie narzędzi inżynierii oprogramowania - przedstawienie wykorzystania
- narzędzi takich jak narzędzie agile’owe Pivotal Tracker służące zarzadzaniu
+zintegrowanie narzędzi inżynierii oprogramowania --- przedstawienie wykorzystani
+a narzędzi takich jak narzędzie agile’owe Pivotal Tracker służące zarzadzaniu
  projektem, system kontroli wersji git, system ciągłej integracji CircleCI,
  komunikator Slack w celu komunikacji wewnątrz zespołowej oraz serwer przedprodu
 kcyjny na platformie Heroku 
 \end_layout
 
 \begin_layout Itemize
-sprecyzowanie wymagań funkcjonalnych - wypisanie i analiza funkcjonalności
- aplikacji, w celu określenia priorytetu oraz uniknięcia sytuacji powstania
- wymagań sprzecznych lub zbędnych 
+sprecyzowanie wymagań funkcjonalnych i pozafunkcjonalnych --- wypisanie
+ i analiza funkcjonalności aplikacji, w celu określenia priorytetu oraz
+ uniknięcia sytuacji powstania wymagań sprzecznych lub zbędnych oraz określenie
+ założeń co do jakości oferowanych usług
 \end_layout
 
 \begin_layout Itemize
-zaprojektowanie interfejsu aplikacji - ukazanie oczekiwanego wyglądu aplikacji
+zaprojektowanie interfejsu aplikacji --- ukazanie oczekiwanego wyglądu aplikacji
  internetowej oraz mobilnej, poprzez przedstawienie grafik z odpowiednimi
  widokami ekranów 
 \end_layout
 
 \begin_layout Itemize
-zaprojektowanie bazy danych - stworzenie modelu związków-encji oraz jego
+zaprojektowanie bazy danych --- stworzenie modelu związków-encji oraz jego
  transformacja do modelu relacyjnego 
 \end_layout
 
 \begin_layout Itemize
-zaimplementowanie logiki serwera aplikacji - implementacja funkcjonaloności
+zaimplementowanie logiki serwera aplikacji --- implementacja funkcjonalności
  serwera dla aplikacji internetowej i mobilnej 
 \end_layout
 
 \begin_layout Itemize
-zaimplementowanie aplikacji internetowej - stworzenie w pełni zgodnego z
- wymaganiami funkcjonalnymi serwisu internetowego 
+zaimplementowanie aplikacji internetowej --- stworzenie w pełni zgodnego
+ z wymaganiami funkcjonalnymi serwisu internetowego 
 \end_layout
 
 \begin_layout Itemize
-zaimplementowanie aplikacji mobilnej - stworzenie w pełni zgodnej z wymaganiami
- funkcjonalnymi aplikacji mobilnej 
+zaimplementowanie aplikacji mobilnej --- stworzenie w pełni zgodnej z wymaganiam
+i funkcjonalnymi aplikacji mobilnej 
 \end_layout
 
 \begin_layout Itemize
-testy aplikacji - napisanie i przedstawienie testów jednostkowych logiki
+testy aplikacji --- napisanie i przedstawienie testów jednostkowych logiki
  serwera i aplikacji mobilnej.
 \end_layout
 
@@ -5023,14 +5028,14 @@ zaprojektowanie bazy danych w modelu związków encji i przetransformowanie
 \end_layout
 
 \begin_layout Section
-Wymagania funkcjonalne
+Wymagania funkcjonalne i pozafunkcjonalne
 \end_layout
 
 \begin_layout Standard
 Kluczową cechą każdej aplikacji jest jej funkcjonalność.
  Powinna być ona dobrze sprecyzowana tak, by nie była ani zbyt szeroka,
  ani nie ograniczała możliwości potencjalnego użytkownika.
- Opis funkcjonalności, którą ma realizować system, nazywamy 
+ Opis funkcji, które mają być realizowane przez system, nazywamy 
 \begin_inset Flex Emph
 status open
 
@@ -5048,9 +5053,21 @@ key "key-4"
 \end_inset
 
 .
- Przed rozpoczęciem specyfikacji wymagań funkcjonalnych należy jednak przyjrzeć
- się ogólnemu kontekstowi tworzonej aplikacji, a w szczególności klasom
- użytkowników oraz wykorzystywanym systemom zewnętrznym.
+ Natomiast opis założeń co do jakości (np.
+ wydajności czy ograniczeń) oferowanych usług nazywamy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+wymaganiami pozafunkcjonalnymi
+\end_layout
+
+\end_inset
+
+.
+ Przed rozpoczęciem specyfikacji wymagań należy jednak przyjrzeć się ogólnemu
+ kontekstowi tworzonej aplikacji, a w szczególności klasom użytkowników
+ oraz wykorzystywanym systemom zewnętrznym.
 \end_layout
 
 \begin_layout Paragraph
@@ -7011,6 +7028,10 @@ Efekt:
 o z danym kontem.
 \end_layout
 
+\begin_layout Paragraph
+Lista wymagań pozafunkcjonalnych systemu
+\end_layout
+
 \begin_layout Section
 Projekt interfejsu aplikacji internetowej i mobilnej
 \end_layout
@@ -8398,7 +8419,6 @@ Implementacja
 
 \begin_layout Standard
 Implementacja jest kluczowym etapem procesu wytwarzania oprogramowania.
- 
 \end_layout
 
 \begin_layout Section
@@ -8415,8 +8435,8 @@ Architektura
 
 \begin_layout Standard
 Ruby on Rails jest platformą opartą na wzorcu projektowym MVC.
- Można zatem stwierdzić, że w jej skład wchodzą 3 współpracujące ze sobą
- komponenty: model, widok oraz kontroler.
+ W skład jej architektury wchodzą 3 współpracujące ze sobą komponenty: modele,
+ widok oraz kontrolery.
  Poniżej można znaleźć opis zadań, jakie spełnia każdy z nich:
 \end_layout
 
@@ -8464,7 +8484,54 @@ controller
 
 \end_inset
 
-) odpowiada za definiowanie logiki aplikacji
+) składa się z szeregu akcji i odpowiada za definiowanie logiki aplikacji
+\end_layout
+
+\begin_layout Standard
+Ponadto w opisywanej platformie można wyróżnić jeszcze jeden ważny element
+ w postaci trasownika (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+router
+\end_layout
+
+\end_inset
+
+).
+ Jego zadanie polega na przekierowywaniu adresów URL żądań do odpowiednich
+ akcji kontrolera.
+\end_layout
+
+\begin_layout Standard
+Interakcja opisanych wyżej komponentów przebiega następująco:
+\end_layout
+
+\begin_layout Enumerate
+Po wykonaniu żądania przez przeglądarkę następuje odwołanie do odpowiedniej
+ akcji kontrolera.
+\end_layout
+
+\begin_layout Enumerate
+Kontroler wysyła żądanie do modelu, który zaś wykonuje zapytanie do bazy
+ danych.
+\end_layout
+
+\begin_layout Enumerate
+Po otrzymaniu odpowiedzi z bazy danych model odsyła wynik zapytania z powrotem
+ do kontrolera.
+\end_layout
+
+\begin_layout Enumerate
+Po otrzymaniu danych kontroler przesyła je do widoku lub zwraca w postaci
+ JSON bezpośrednio do przeglądarki (w przypadku API).
+\end_layout
+
+\begin_layout Enumerate
+Z widoku zostaje wygenerowany kod HTML, który jest zwracany do kontrolera,
+ gdzie następuje jego odesłanie do przeglądarki.
 \end_layout
 
 \begin_layout Standard
