@@ -8666,6 +8666,23 @@ name "fig:6.1"
 
 \end_layout
 
+\begin_layout Standard
+W trakcie tworzenia aplikacji wykorzystano szereg bibliotek dla platforma
+ Ruby on Rails (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+gems
+\end_layout
+
+\end_inset
+
+).
+ W szczególności warto się przyjrzeć dwom z nich: Grape i Grape Entity.
+\end_layout
+
 \begin_layout Paragraph
 Grape
 \end_layout
@@ -8688,11 +8705,47 @@ REST (ang.
 \end_inset
 
 .
+ Cechą charakterystyczną tego narzędzia jest możliwość budowania API w sposób
+ modułowy, co dodatkowo ułatwia dodawanie kolejnych funkcjonalności.
+ Grape umożliwia definiowanie akcji kontrolera jako punkty końcowe (ang.
  
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+endpoints
+\end_layout
+
+\end_inset
+
+), gdzie nazwa akcji odpowiada adresowi URL, pod który ma zostać wysłane
+ żądanie przeglądarki.
 \end_layout
 
 \begin_layout Paragraph
 Grape Entity
+\end_layout
+
+\begin_layout Standard
+Grape Entity jest dodatkiem rozszerzającym działanie platformy Grape o tzw.
+ jednostki (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+entities
+\end_layout
+
+\end_inset
+
+).
+ Jedna jednostka odpowiada najczęściej jednemu modelowi.
+ Ułatwiają one konwertowanie instancji modelu na odpowiedź w formacie JSON.
+ Grape Entity pozwala w łatwy sposób na określenie, które pola obiektu i
+ w jakich przypadkach mają się znajdować w odpowiedzi.
+ Można zatem w sposób precyzyjny określić, jakie dane mają być zwracane
+ przez dany punkt końcowy.
 \end_layout
 
 \begin_layout Subsection
@@ -9121,10 +9174,10 @@ System autoryzacji
 \begin_layout Standard
 W celu spójnej współpracy z serwerem autoryzacja użytkowników w aplikacji
  internetowej została oparta o protokół Oauth2.
- W celu uzyskania sekretnego kodu będącego potwierdzeniem wiarygodności
- użytkownika należy wysłać dane autoryzujące, którymi w tym przypadku jest
- nazwa konta e-mail oraz hasło, do serwera obsługującego uwierzytelnianie
- (serwer Oauth2 jest częścią logiki serwera Ruby on Rails).
+ Aby uzyskać sekretny kod będący potwierdzeniem wiarygodności użytkownika,
+ należy wysłać dane autoryzujące, którymi w tym przypadku jest nazwa konta
+ e-mail oraz hasło, do serwera obsługującego uwierzytelnianie (serwer Oauth2
+ jest częścią logiki serwera Ruby on Rails).
  Uzyskany w ten sposób zaszyfrowany kod przechowywany jest w pamięci podręcznej
  oraz wysyłany z każdym zapytaniem.
  
