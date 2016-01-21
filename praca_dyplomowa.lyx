@@ -2180,14 +2180,23 @@ Logika serwera
 \end_layout
 
 \begin_layout Standard
-W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
- technologie oparte na językach: Ruby, Elixir, PHP oraz Javascript.
+Zarówno aplikacja internetowa jak i mobilna korzysta z tych samych zasobów,
+ które przechowywane są w bazie danych.
+ Mechanizm, który pośredniczy w procesie zwracania oraz modyfikacji danych
+ nazywa się serwerem.
+ Jego głównym zadaniem jest odbieranie zapytań od aplikacji klienckich,
+ komunikacja z bazą danych oraz zwracanie odpowiednich zasobów w odpowiedzi.
+ Jest również wykorzystywany do wykonywania okresowych procedur.
+ W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
+ technologie oparte na językach: Ruby, Elixir, PHP oraz JavaScript.
  Wybór tych technologii został podyktowany przez trendy pojawiające się
- na przestrzeni ostatnich lat oraz w celu ukazania różnorodności implementacji.
+ na przestrzeni ostatnich lat.
+ Zostały także uwzględnione różnorodności wykorzystywanych języków oraz
+ paradygmatów programowania.
 \end_layout
 
 \begin_layout Subsection
-Ruby
+Ruby on Rails - język Ruby
 \end_layout
 
 \begin_layout Standard
@@ -2402,7 +2411,11 @@ znych oraz niski koszt i krótki czas wytworzenia oprogramowania.
 \end_layout
 
 \begin_layout Subsection
-Elixir
+
+\series bold
+Phoenix
+\series default
+ - język Elixir
 \end_layout
 
 \begin_layout Standard
@@ -2612,7 +2625,11 @@ Funkcje wyższego rzędu - funkcje przyjmujące jako parametr lub zwracające
 \end_layout
 
 \begin_layout Subsection
-PHP
+
+\series bold
+Laravel
+\series default
+ - język PHP
 \end_layout
 
 \begin_layout Standard
@@ -2812,7 +2829,11 @@ Platforma Laravel jest jednym z najpopularniejszych platform opartych na
 \end_layout
 
 \begin_layout Subsection
-JavaScript
+
+\series bold
+Meteor
+\series default
+ - język JavaScript
 \end_layout
 
 \begin_layout Standard
