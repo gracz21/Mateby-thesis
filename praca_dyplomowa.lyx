@@ -1437,7 +1437,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Serwis coigdzie.pl
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+coigdzie.pl
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1525,41 +1535,47 @@ Ocena jakości aplikacji mobilnej
 \end_layout
 
 \begin_layout Standard
-Serwis coigdzie.pl jest jedynym polskim portalem w tym porównaniu.
- Jego zakres działania jest obecnie ograniczony wyłącznie do Polski.
- Umożliwia wyszukiwanie wydarzeń według ich rodzaju, miejsca oraz daty.
- Aplikacja kładzie duży nacisk na repertuar kin oraz teatrów.
- 
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+coigdzie.pl
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring default
-Zalety:
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-możliwość wyszukiwania wydarzeń według istotnych kryteriów takich jak kategorie,
- nazwa lub data
-\end_layout
-
-\begin_layout Itemize
-rozbudowany formularz tworzenia wydarzeń
+ jest jedynym polskim portalem informacyjnym w tym przeglądzie.
+ Jest to ciekawe rozwiązanie, które udostępnia informacje na temat wydarzeń
+ wyłącznie z Polski.
+ Bardzo istotnym elementem tego portalu jest bogata baza repertuarów spektakli
+ z teatrów oraz kin.
+ Z tego powodu współpracuje z innymi serwisami informacyjnymi w Polsce,
+ którym udostępnia informacje kulturowe.
+ Można tutaj znaleźć również wydarzenia sportowe oraz wszelkiego rodzaju
+ imprezy.
+ Najważniejszą funkcjonalnością tego serwisu jest możliwość wyszukiwania
+ wydarzeń według istotnych kryteriów takich jak kategorie, nazwa lub data.
 \end_layout
 
 \begin_layout Standard
-Wady
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+coigdzie.pl
 \end_layout
 
-\begin_layout Itemize
-brak możliwości tworzenia konta nowego użytkownika
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-brak możliwości tworzenia społeczności wewnątrz serwisu
-\end_layout
-
-\begin_layout Itemize
-brak integracji z portalami społecznościowymi
+ jest zatem kolejnym portalem informacyjnym umożliwiającym wyszukiwanie
+ wydarzeń.
+ Jego funkcjonalność nie jest zbyt rozbudowana jednak jego współpraca z
+ innymi portalami pokazuje, że w Polsce również istnieje zapotrzebowanie
+ na przekazanie informacji dotyczących wydarzeń z okolicy.
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ mobilna przeznaczona na system Android i Windows Phone.
 \end_layout
 
 \begin_layout Paragraph
