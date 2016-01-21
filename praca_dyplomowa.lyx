@@ -8773,8 +8773,8 @@ Interakcja wyżej wymienionych składowych przebiega następująco:
 
 \begin_layout Enumerate
 Po wpisaniu adresu URL następuje rozpoznanie obecnego stanu aplikacji przez
- trasownik (z ang.
- router) oraz tym samym wywołanie odpowiedniej akcji pobrania danych w trasie.
+ trasownik oraz tym samym wywołanie odpowiedniej akcji pobrania danych w
+ trasie.
 \end_layout
 
 \begin_layout Enumerate
