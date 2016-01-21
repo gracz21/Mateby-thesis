@@ -3037,18 +3037,28 @@ Platforma Meteor reprezentuje całkowicie inne podejście.
 \end_layout
 
 \begin_layout Section
-Aplikacja internetowa
+Aplikacja internetowa po stronie klienta
 \end_layout
 
 \begin_layout Standard
-Wśród dostępnych platform wspierających implementację aplikacji internetowych
- zdecydowanie dominują rozwiązania oparte na SPA
+Głównymi składowymi każdej strony internetowej są dane oraz ich prezentacja.
+ W celu ułatwienia procesu wymiany zasobów w internecie używa się serwerów
+ współpracujących z bazami danych.
+ Połączenie aplikacji klienckiej (do której ma dostęp użytkownik za pomocą
+ przeglądarki) z serwerem nazywa się aplikacją internetową.
+ Obecnie wiele rozwiązań zakłada oddzielenie logiki od prezentacji.
+ W tym celu powstaje serwer jako niezależny mechanizm komunikacji z bazą
+ danych oraz aplikacja kliencka odpowiedzialna za przedstawienie danych
+ i interakcję z użytkownikiem.
+ Wśród dostępnych platform wspierających implementację aplikacji internetowych
+ po stronie klienta zdecydowanie dominują rozwiązania oparte na SPA
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-SPA (Single-page application) - aplikacja internetowa, która mieści się
- na jednej stronie.
+SPA (ang.
+ Single-page application) --- aplikacja internetowa, która mieści się na
+ jednej stronie.
 \end_layout
 
 \end_inset
@@ -3060,7 +3070,7 @@ status open
 
 \begin_layout Plain Layout
 HTML (ang.
- HyperText Markup Language) - obecnie najczęściej używany hipertekstowy
+ HyperText Markup Language) --- obecnie najczęściej używany hipertekstowy
  język znaczników.
 \end_layout
 
@@ -3072,7 +3082,7 @@ status open
 
 \begin_layout Plain Layout
 CSS (ang.
- Cascading Style Sheets) - język służący do definiowania formy prezentacji
+ Cascading Style Sheets) --- język służący do definiowania formy prezentacji
  strony internetowej.
 \end_layout
 
