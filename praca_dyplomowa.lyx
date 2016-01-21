@@ -861,7 +861,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Serwis eventbrite.com
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+eventbrite.com
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -949,36 +959,77 @@ Ocena jakości aplikacji mobilnej
 \end_layout
 
 \begin_layout Standard
-Serwis eventbrite.com umożliwia wyszukiwanie wydarzeń według podanych kategorii.
- Widok wydarzenia zawiera informacje takie jak lokalizacja, znaczniki, informacj
-e na temat zakupu biletów lub lub możliwości wzięcia udziału.
- Rejestracja możliwa jest wyłącznie poprzez wewnętrzny formularz.
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+eventbrite.com
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring default
-Zalety:
+\end_inset
+
+ jest obecnie największym portalem informacyjnym związanym z tematyką wydarzeń.
+ Jego twórcami są: Kevin Hartz, Renaud Visage oraz Julia Hartz.
+ Jego funkcjonowanie bardzo przypomina portal 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
+\end_layout
+
+\end_inset
+
+ ponieważ również umożliwia wyszukiwanie wydarzeń według podanych kategorii
+ oraz istotnych parametrów.
+ Bardzo ciekawym urozmaiceniem jest możliwość zakupu biletów za pośrednictwem
+ tego serwisu, na wydarzenie w którym chce się uczestniczyć.
+ Widok wydarzenia zawiera podstawowe informacje jak i możliwość podzielenia
+ się jego szczegółami poprzez media społecznościowe.
+ Do najważniejszych funkcji tej platformy można zaliczyć:
 \end_layout
 
 \begin_layout Itemize
-udostępnia ważne informacje na temat wydarzenia
+\align left
+szczegółowe wyszukiwanie wydarzeń uwzględniające takie parametry jak: przynależn
+ość do kategorii, nazwa, data, itp
 \end_layout
 
 \begin_layout Itemize
-możliwość wyszukiwania wydarzeń według istotnych kryteriów takich jak kategorie,
- nazwa lub data
+\align left
+integracja z zewnętrznymi serwisami społecznościowymi, takimi jak: Facebook,
+ Instagram czy Twitter
+\end_layout
+
+\begin_layout Itemize
+\align left
+możliwość tworzenia wydarzeń po rejestracji
+\end_layout
+
+\begin_layout Itemize
+\align left
+możliwość zakupienia biletu na wydarzenie
 \end_layout
 
 \begin_layout Standard
-Wady
+Funkcjonalność oraz działanie tego serwisu jest zatem bardzo zbliżona do
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
 \end_layout
 
-\begin_layout Itemize
-niska integracja z innymi portalami społecznościowymi
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-brak możliwości tworzenia społeczności wewnątrz serwisu
+.
+ Również jest to portal informacyjny, który nie posiada wsparcia dla formowania
+ społeczności oraz poznawania nowych ludzi.
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ mobilna przeznaczona na system Android, iOS oraz Windows Phone.
+ Popularność aplikacji mobilnej jest obecnie bardzo duża.
 \end_layout
 
 \begin_layout Paragraph
