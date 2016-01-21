@@ -196,12 +196,13 @@ ego.
  Nearify, które implementują taką funkcjonalność, jednak są to typowe serwisy
  informacyjne, a nie społecznościowe.
  Z drugiej strony istotne jest również oddzielenie zwykłego użytkownika
- od instytucji, takich jak kluby, teatr czy koła tematyczne, które miałyby
- możliwość zarządzania swoimi oddziałami oraz przeglądania ich statystyk.
+ od instytucji, takich jak kluby, teatr czy koła tematyczne.
+ Instytucje miałyby możliwość zarządzania swoimi oddziałami oraz przeglądania
+ ich statystyk.
  Ułatwi to wprowadzanie zmian w ofercie wydarzeń jak i polepszy stosunek
  między organizatorem a uczestnikiem.
  Serwis społecznościowy umożliwiający organizowanie oraz wyszukiwanie wydarzeń
- powinien zatem mieć możliwość:
+ powinien zatem dawać możliwość:
 \end_layout
 
 \begin_layout Itemize
@@ -429,8 +430,9 @@ Przegląd aplikacji o podobnej tematyce
 \end_layout
 
 \begin_layout Standard
-Obecnie istnieje wiele aplikacji o zbliżonej tematyce, dlatego też ich przegląd
- jest niezwykle istotny w procesie definiowania wymagań funkcjonalnych aplikacji.
+Obecnie istnieje wiele aplikacji umożliwiających formowanie grup społecznych
+ czy też organizację wydarzeń, dlatego ich przegląd jest niezwykle istotny
+ w procesie definiowania wymagań funkcjonalnych aplikacji.
  Do najważniejszych cech składających się na końcową ocenę serwisu należą
 \end_layout
 
