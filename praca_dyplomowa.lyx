@@ -188,26 +188,41 @@ ego.
  Z tego powodu ogromne znaczenie w dzisiejszych czasach mają serwisy służące
  do organizacji wydarzeń, które zachęcają do przebywania poza domem oraz
  budują rzeczywiste relacje międzyludzkie.
- Tego typu aplikacji jest obecnie wiele lecz brakuje im kilku istotnych
- funkcjonalności takich jak:
+ Obecnie najpopularniejszą aplikacją tego typu jest Facebook, która posiada
+ ogromną liczbę użytkowników oraz bardzo obszerną bazę wydarzeń.
+ Niestety serwis ten udostępnia mało szczegółowy mechanizm sparametryzowanego
+ wyszukiwania.
+ Istnieje również kilka rozwiązań alternatywnych takich jak Eventbrite czy
+ Nearify, które implementują taką funkcjonalność, jednak są to typowe serwisy
+ informacyjne, a nie społecznościowe.
+ Z drugiej strony istotne jest również oddzielenie zwykłego użytkownika
+ od instytucji, takich jak kluby, teatr czy koła tematyczne, które miałyby
+ możliwość zarządzania swoimi oddziałami oraz przeglądania ich statystyk.
+ Ułatwi to wprowadzanie zmian w ofercie wydarzeń jak i polepszy stosunek
+ między organizatorem a uczestnikiem.
+ Serwis społecznościowy umożliwiający organizowanie oraz wyszukiwanie wydarzeń
+ powinien zatem mieć możliwość:
 \end_layout
 
 \begin_layout Itemize
-elastyczne wyszukiwanie
+elastycznego wyszukiwania
 \end_layout
 
 \begin_layout Itemize
-integracja z innymi serwisami społecznościowymi
+integracji z innymi serwisami społecznościowymi
 \end_layout
 
 \begin_layout Itemize
-łatwe zarządzanie oddziałami firm tworzących wydarzenia oraz przeglądania
+możliwość formowania grup społecznościowych
+\end_layout
+
+\begin_layout Itemize
+łatwego zarządzania oddziałami firm tworzących wydarzenia oraz przeglądania
  zbiorczych statystyk
 \end_layout
 
 \begin_layout Standard
-Istnieje zatem potrzeba stworzenia czegoś nowego pozbawionego wyżej wymienionych
- wad.
+
 \end_layout
 
 \begin_layout Section
