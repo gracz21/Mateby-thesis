@@ -2180,14 +2180,23 @@ Logika serwera
 \end_layout
 
 \begin_layout Standard
-W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
- technologie oparte na językach: Ruby, Elixir, PHP oraz Javascript.
+Zarówno aplikacja internetowa jak i mobilna korzysta z tych samych zasobów,
+ które przechowywane są w bazie danych.
+ Mechanizm, który pośredniczy w procesie zwracania oraz modyfikacji danych
+ nazywa się serwerem.
+ Jego głównym zadaniem jest odbieranie zapytań od aplikacji klienckich,
+ komunikacja z bazą danych oraz zwracanie odpowiednich zasobów w odpowiedzi.
+ Jest również wykorzystywany do wykonywania okresowych procedur.
+ W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
+ technologie oparte na językach: Ruby, Elixir, PHP oraz JavaScript.
  Wybór tych technologii został podyktowany przez trendy pojawiające się
- na przestrzeni ostatnich lat oraz w celu ukazania różnorodności implementacji.
+ na przestrzeni ostatnich lat.
+ Zostały także uwzględnione różnorodności wykorzystywanych języków oraz
+ paradygmatów programowania.
 \end_layout
 
 \begin_layout Subsection
-Ruby
+Ruby on Rails - język Ruby
 \end_layout
 
 \begin_layout Standard
@@ -2378,9 +2387,10 @@ Platforma Ruby on Rails oparta jest na wzorcu projektowym MVC
 status open
 
 \begin_layout Plain Layout
-MVC (pol.
- Model-Widok-Kontroler) - wzorzec architektoniczny który zakłada istnienie
- trzech połączonych ze sobą składowych: modelu, widoku oraz kontrolera.
+MVC (ang.
+ Model-View-Controller) - model-widok-kontroler, wzorzec architektoniczny
+ który zakłada istnienie trzech połączonych ze sobą składowych: modelu,
+ widoku oraz kontrolera.
 \end_layout
 
 \end_inset
@@ -2388,8 +2398,12 @@ MVC (pol.
 .
  Jej głównymi zaletami są: dobra dokumentacja, duża ilość bibliotek programistyc
 znych oraz niski koszt i krótki czas wytworzenia oprogramowania.
- Główną ideą jest tutaj podążanie za konwencjami dzięki którym programista
+ Główną ideą jest tutaj podążanie za konwencjami, dzięki którym programista
  nie musi zwracać uwagi na konfigurację.
+ W większości przypadków konwencje te wiążą się z umieszczaniem plików w
+ określonym folderze narzuconej struktury projektu oraz odpowiednim nazewnictwem
+ plików i zmiennych w kodzie.
+ Dzięki temu platforma sama skonfiguruje projekt w celu jego przetwarzania.
  Umożliwia to znacznie szybszy proces tworzenia aplikacji co jest szczególnie
  istotne dla przedsiębiorstw poszukujących modelu biznesowego oraz nastawionych
  na dynamiczny rozwój.
@@ -2402,7 +2416,11 @@ znych oraz niski koszt i krótki czas wytworzenia oprogramowania.
 \end_layout
 
 \begin_layout Subsection
-Elixir
+
+\series bold
+Phoenix
+\series default
+ - język Elixir
 \end_layout
 
 \begin_layout Standard
@@ -2604,15 +2622,18 @@ Funkcje wyższego rzędu - funkcje przyjmujące jako parametr lub zwracające
 .
  Została zbudowana na bazie języka Elixir uruchamianego na wirtualnej maszynie
  Erlanga.
- Wysoka wydajność tego języka wiąże się między innymi ze współbieżnością
+ Wysoka wydajność tego języka wiąże się między innymi ze współbieżnością,
  którą można zaimplementować małym kosztem.
- Niestety jest to stosunkowo młoda platforma co oznacza niskie wsparcie
+ Niestety jest to stosunkowo młoda platforma, co oznacza niskie wsparcie
  programistyczne oraz małą społeczność.
- 
 \end_layout
 
 \begin_layout Subsection
-PHP
+
+\series bold
+Laravel
+\series default
+ - język PHP
 \end_layout
 
 \begin_layout Standard
@@ -2812,7 +2833,11 @@ Platforma Laravel jest jednym z najpopularniejszych platform opartych na
 \end_layout
 
 \begin_layout Subsection
-JavaScript
+
+\series bold
+Meteor
+\series default
+ - język JavaScript
 \end_layout
 
 \begin_layout Standard
@@ -3012,18 +3037,28 @@ Platforma Meteor reprezentuje całkowicie inne podejście.
 \end_layout
 
 \begin_layout Section
-Aplikacja internetowa
+Aplikacja internetowa po stronie klienta
 \end_layout
 
 \begin_layout Standard
-Wśród dostępnych platform wspierających implementację aplikacji internetowych
- zdecydowanie dominują rozwiązania oparte na SPA
+Głównymi składowymi każdej strony internetowej są dane oraz ich prezentacja.
+ W celu ułatwienia procesu wymiany zasobów w internecie używa się serwerów
+ współpracujących z bazami danych.
+ Połączenie aplikacji klienckiej (do której ma dostęp użytkownik za pomocą
+ przeglądarki) z serwerem nazywa się aplikacją internetową.
+ Obecnie wiele rozwiązań zakłada oddzielenie logiki od prezentacji.
+ W tym celu powstaje serwer jako niezależny mechanizm komunikacji z bazą
+ danych oraz aplikacja kliencka odpowiedzialna za przedstawienie danych
+ i interakcję z użytkownikiem.
+ Wśród dostępnych platform wspierających implementację aplikacji internetowych
+ po stronie klienta zdecydowanie dominują rozwiązania oparte na SPA
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-SPA (Single-page application) - aplikacja internetowa, która mieści się
- na jednej stronie.
+SPA (ang.
+ Single-page application) --- aplikacja internetowa, która mieści się na
+ jednej stronie.
 \end_layout
 
 \end_inset
@@ -3035,7 +3070,7 @@ status open
 
 \begin_layout Plain Layout
 HTML (ang.
- HyperText Markup Language) - obecnie najczęściej używany hipertekstowy
+ HyperText Markup Language) --- obecnie najczęściej używany hipertekstowy
  język znaczników.
 \end_layout
 
@@ -3047,7 +3082,7 @@ status open
 
 \begin_layout Plain Layout
 CSS (ang.
- Cascading Style Sheets) - język służący do definiowania formy prezentacji
+ Cascading Style Sheets) --- język służący do definiowania formy prezentacji
  strony internetowej.
 \end_layout
 
@@ -3838,13 +3873,12 @@ cena
 \end_layout
 
 \begin_layout Standard
-Xamarin to platforma stworzona do tworzenia aplikacji mobilnych na różne
+Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
  systemy Android, iOS, Windows Phone, jednak kod kompilowany jest dla każdej
- platformy osobno.
- Framework zapewnia nawet do 90% współdzielonego kodu, co zapewnie niezwykle
- szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
+ platformy osobno, co zapewnia nawet do 90% współdzielonego kodu, co zapewnia
+ niezwykle szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
  Językiem programowania w Xamarinie jest C#, a także XAML, służący do tworzenia
- interfesju użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
+ interfejsu użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
  wygląd charakterystyczny dla każdej platformy.
  Największą wadą jest niska wydajność, a także konieczność płacenia abonamentu
  za korzystanie z platformy.
@@ -4207,7 +4241,7 @@ Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
  tylko na jednym systemie mobilnym, a co za tym idzie napisane rozwiązania
  trzeba powielić w innych językach programowania dla innych systemów.
  Jednak dzięki temu otrzymujemy oprogramowanie o wiele szybsze, w szczególności
- dla skomplikowanych widoków, niż w przypadku frameworków cross-platformowcyh.
+ dla skomplikowanych widoków, niż w przypadku rozwiązań wielo-platformowcyh.
 \end_layout
 
 \begin_layout Section
