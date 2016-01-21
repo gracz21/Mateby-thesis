@@ -513,7 +513,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Serwis allevents.in
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -601,9 +611,18 @@ Ocena jakości aplikacji mobilnej
 \end_layout
 
 \begin_layout Standard
-Serwis allevents.in oferuje wyszukiwanie wydarzeń według wybranego miasta,
- które po znalezieniu można filtrować według kategorii, daty, nazwy lub
- organizatora.
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
+\end_layout
+
+\end_inset
+
+ oferuje wyszukiwanie wydarzeń według wybranego miasta, które po znalezieniu
+ można filtrować według kategorii, daty, nazwy lub organizatora.
  Formularz tworzenia nowego wydarzenia umożliwia podanie podstawowych informacji
  w tym: nazwa, data, miejsce spotkania oraz opis.
  Rejestracja możliwa jest jedynie przez portal społecznościowy Facebook,
@@ -657,7 +676,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Serwis skilltrade.org
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+skilltrade.org
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -745,37 +774,59 @@ Ocena jakości aplikacji mobilnej
 \end_layout
 
 \begin_layout Standard
-Platforma skilltrade.org umożliwia rozwijania własnych umiejętności w obrębie
- różnych społeczności.
- Użytkownik oferuje swoje zdolności i określa czego chciałby się nauczyć.
- Model wymiany umiejętności jest bliski organizacji wydarzeń, ponieważ ułatwiają
- spotykanie się z ludźmi o podobnych zainteresowaniach.
- Serwis umożliwia logowanie poprzez media społecznościowe oraz własny formularz.
+Platforma 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+skilltrade.org
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring default
-Zalety:
+\end_inset
+
+ jest od niedawna istniejącym portalem społecznościowym.
+ Jej założycielami jest dwóch polaków: Maciej Gliński oraz Wojciech Marciniak,
+ którzy w celu przetestowania potencjalnego zainteresowania utworzyli specjalne
+ grupy za pośrednictwem serwisu Facebook, oferujące swoim członkom wymianę
+ umiejętności.
+ Zainteresowanie okazało się na tyle duże, że postanowili stworzyć osobną
+ platformę, która obecnie zyskuje coraz większą popularność.
+ Każdy użytkownik tego portalu określa swoje zdolności oraz deklaruje umiejętnoś
+ci, które chciałby zdobyć.
+ Można zatem powiedzieć, że oferowana tutaj wymiana umiejętności polega
+ na spotkaniu dwóch osób, które uczą się nawzajem bez żadnych opłat.
+ Do najważniejszych funkcji tej platformy można zaliczyć:
 \end_layout
 
 \begin_layout Itemize
-możliwość wyszukiwania ludzi według według podobnych zainteresowań
+integracje z zewnętrznymi serwisami społecznościowymi
 \end_layout
 
 \begin_layout Itemize
-integracja z zewnętrznymi serwisami społecznościowymi
+wyszukiwanie osób o podobnych zainteresowaniach
+\end_layout
+
+\begin_layout Itemize
+formowanie społeczności
 \end_layout
 
 \begin_layout Standard
-Wady
+Pomimo, iż serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+skilltrade.org
 \end_layout
 
-\begin_layout Itemize
-brak jasno sprecyzowane modelu wydarzeń
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-serwis oparty na wydarzeniach wspólnie organizowanych
+ nie bazuje na modelu wydarzeń, można uznać, że w dużym stopniu zachęca
+ do spędzania czasu z innymi ludźmi.
+ Dla wielu osób taki sposób poznawania ludzi jest interesujący jednak brak
+ możliwości organizowania grupowych spotkań jest niewątpliwie wadą.
+ Obecnie kanałami dostępu tej platformy jest aplikacja internetowa oraz
+ aplikacja mobilna przeznaczona na system Android.
 \end_layout
 
 \begin_layout Paragraph
