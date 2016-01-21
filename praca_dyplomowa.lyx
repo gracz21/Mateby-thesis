@@ -8473,7 +8473,29 @@ Implementacja
 \end_layout
 
 \begin_layout Standard
-Implementacja jest kluczowym etapem procesu wytwarzania oprogramowania.
+Implementacja jest kluczową fazą procesu wytwarzania oprogramowania.
+ To właśnie na tym etapie dochodzi do zderzenia założeń projektu aplikacji
+ z możliwościami wybranych platform programistycznych.
+ Fazę implementacji można podzielić na 3 główne części:
+\end_layout
+
+\begin_layout Itemize
+implementacja logiki serwera --- obejmuje implementację bazy danych i logiki
+ biznesowej aplikacji, powinna zostać dokonana w pierwszej kolejności
+\end_layout
+
+\begin_layout Itemize
+implementacja aplikacji internetowej --- obejmuje implementację prostych,
+ czytelnych i spełniających założenia RWD widoków prezentujących dane i
+ funkcjonalność udostępnianą przez serwer, powinna zostać dokonana po implementa
+cji logiki serwera
+\end_layout
+
+\begin_layout Itemize
+implementacja aplikacji mobilnej --- obejmuje implementację wydajnej aplikacji
+ skoncentrowanej na prezentacji zasobów serwera w sposób dostosowany głównie
+ do urządzeń o małych ekranach, może zostać dokonana w sposób równoległy
+ do implementacji aplikacji internetowej
 \end_layout
 
 \begin_layout Section
@@ -8617,7 +8639,7 @@ reference "fig:6.1"
 
 \end_inset
 
- stanowi graficzne podsumwanie interakcji komponentów platformy Ruby on
+ stanowi graficzne podsumowanie interakcji komponentów platformy Ruby on
  Rails.
 \end_layout
 
@@ -8755,6 +8777,140 @@ Implementacja bazy danych
 
 \begin_layout Subsection
 Interfejs programistyczny aplikacji
+\end_layout
+
+\begin_layout Standard
+Interfejs programistyczny aplikacji jest podzielony między dziewięcioma
+ kontrolerami.
+ Poniżej można znaleźć krótki opis wszystkich punktów końcowych w nich zawartych.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+branches
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zawiera punkty końcowe związane z oddziałami.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET branches/:id
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+W odpowiedzi zwraca oddział o podanym id.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST branches
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Tworzy oddział na podstawie danych zawartych w parametrch żądania.
+ W przypadku powodzenia zwraca nowoutworzony oddział.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PUT branches/:id
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Aktualizuje dane na temat oddziału o podanym id.
+ Nowe dane muszą się znajdować w parametrach żądania.
+ W przypadku powodzenia zwracany jest zaktualizowany oddział.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE branches/:id
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Usuwa oddział o podanym id.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+categories
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zawiera punkty końcowe związane ze zwracaniem kategorii i podkategorii.
 \end_layout
 
 \begin_layout Subsection
