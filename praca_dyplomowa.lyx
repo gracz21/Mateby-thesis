@@ -5078,7 +5078,7 @@ stworzenie prototypów interfejsu aplikacji internetowej i mobilnej
 \end_layout
 
 \begin_layout Itemize
-zaprojektowanie bazy danych w modelu związków encji i przetransformowanie
+zaprojektowanie bazy danych w modelu związków-encji i przetransformowanie
  powstałego schematu do modelu relacyjnego
 \end_layout
 
@@ -8457,11 +8457,50 @@ Projekt bazy danych
 Projektowanie bazy danych jest procesem odzwierciedlania obiektów świata
  rzeczywistego (a w szczególności zależności w nim występujących) w systemie
  informatycznym.
- 
 \end_layout
 
 \begin_layout Subsection
-Model związków encji
+Model związków-encji
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/Logical.png
+	scale 60
+	rotateAngle 270
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schemat związków-encji bazy danych
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -8486,9 +8525,21 @@ implementacja logiki serwera --- obejmuje implementację bazy danych i logiki
 
 \begin_layout Itemize
 implementacja aplikacji internetowej --- obejmuje implementację prostych,
- czytelnych i spełniających założenia RWD widoków prezentujących dane i
- funkcjonalność udostępnianą przez serwer, powinna zostać dokonana po implementa
-cji logiki serwera
+ czytelnych i spełniających założenia RWD
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+RWD (ang.
+ Responsive Web Design) --- technika tworzenia stron internetowych tak,
+ aby rozmieszczenie zawartości zmieniało się w zależności od rozmiaru ekranu
+ urządzenia, na którym dana strona jest wyświetlana.
+\end_layout
+
+\end_inset
+
+ widoków prezentujących dane i funkcjonalność udostępnianą przez serwer,
+ powinna zostać dokonana po implementacji logiki serwera
 \end_layout
 
 \begin_layout Itemize
@@ -8703,7 +8754,27 @@ gems
 \end_inset
 
 ).
- W szczególności warto się przyjrzeć dwom z nich: Grape i Grape Entity.
+ W szczególności warto się przyjrzeć dwom z nich: 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Grape
+\end_layout
+
+\end_inset
+
+ i 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Grape Entity
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Paragraph
@@ -8773,6 +8844,10 @@ entities
 
 \begin_layout Subsection
 Implementacja bazy danych
+\end_layout
+
+\begin_layout Subsection
+System autoryzacji
 \end_layout
 
 \begin_layout Subsection
@@ -8914,11 +8989,30 @@ Zawiera punkty końcowe związane ze zwracaniem kategorii i podkategorii.
 \end_layout
 
 \begin_layout Subsection
-System autoryzacji
+Testy
 \end_layout
 
-\begin_layout Subsection
-Testy
+\begin_layout Standard
+Do testowania interfejsu programistycznego aplikacji została użyta biblioteka
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Rspec
+\end_layout
+
+\end_inset
+
+ współpracująca z platformą Ruby on Rails.
+\end_layout
+
+\begin_layout Paragraph
+Rspec
+\end_layout
+
+\begin_layout Paragraph
+Testy jednostkowe
 \end_layout
 
 \begin_layout Section
