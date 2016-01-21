@@ -501,7 +501,7 @@ allevents.in
 \end_layout
 
 \begin_layout Standard
-\align center
+\align left
 \begin_inset Float table
 placement H
 wide false
@@ -532,7 +532,7 @@ allevents.in
 \end_layout
 
 \begin_layout Plain Layout
-\align center
+\align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="2">
 <features rotate="0" tabularvalignment="middle">
@@ -607,10 +607,6 @@ Ocena jakości aplikacji mobilnej
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Serwis 
 \begin_inset Flex Emph
 status open
@@ -621,44 +617,69 @@ allevents.in
 
 \end_inset
 
- oferuje wyszukiwanie wydarzeń według wybranego miasta, które po znalezieniu
- można filtrować według kategorii, daty, nazwy lub organizatora.
- Formularz tworzenia nowego wydarzenia umożliwia podanie podstawowych informacji
- w tym: nazwa, data, miejsce spotkania oraz opis.
- Rejestracja możliwa jest jedynie przez portal społecznościowy Facebook,
- co umożliwia między innymi import wydarzeń utworzonych w tym serwisie.
- 
+ jest portalem o charakterze informacyjnym.
+ Jego twórcami są: Amit Panchal oraz Ruchit Patel, których celem było stworzenie
+ aplikacji ułatwiającej znalezienie wydarzeń z okolicy.
+ Portal ten posiada bardzo obszerną bazę wydarzeń, które przynależą do konkretny
+ch kategorii.
+ Obecnie zasięg tej aplikacji obejmuje aż 30 tysięcy miast co oznacza, że
+ nie ogranicza się do konkretnego regionu.
+ Opis poszczególnych wydarzeń jest szczegółowy oraz posiada możliwość podzieleni
+a się informacją na jego temat w mediach społeczniościowych.
+ Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring default
-Zalety:
+\end_inset
+
+ udostępnia również płatne plany promocji wydarzeń przeznaczone dla organizatoró
+w.
+ Do najważniejszych funkcji tej platformy można zaliczyć:
 \end_layout
 
 \begin_layout Itemize
-możliwość wyszukiwania wydarzeń według istotnych kryteriów takich jak kategorie,
- nazwa lub data
+\align left
+szczegółowe wyszukiwanie wydarzeń uwzględniające takie parametry jak: przynależn
+ość do kategorii, nazwa, data, itp
 \end_layout
 
 \begin_layout Itemize
-integracja z zewnętrznym serwisem społecznościowym
+\align left
+integracja z zewnętrznym serwisem społecznościowym Facebook
+\end_layout
+
+\begin_layout Itemize
+\align left
+możliwość tworzenia wydarzeń bez rejestracji
+\end_layout
+
+\begin_layout Itemize
+\align left
+możliwość promocji utworzonych wydarzeń
 \end_layout
 
 \begin_layout Standard
-Wady
+\align left
+Portal 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
 \end_layout
 
-\begin_layout Itemize
-brak możliwości rejestracji bez ingerencji zewnętrznych serwisów społecznościowy
-ch
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-brak możliwości tworzenia społeczności wewnątrz serwisu
-\end_layout
-
-\begin_layout Itemize
-mało szczegółowy i funkcjonalny widok wydarzenia
+ jest zatem bardzo rozbudowanym serwisem umożliwiającym wyszukiwanie wydarzeń,
+ jednak w bardzo małym stopniu wspiera interakcję między użytkownikami.
+ Nie jest to zatem serwis społecznościowy a informacyjny, którego celem
+ jest przekazanie szczegółów dotyczących organizowanych wydarzeń w okolicy.
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ mobilna przeznaczona na system Android oraz iOS.
 \end_layout
 
 \begin_layout Paragraph
@@ -770,11 +791,7 @@ Ocena jakości aplikacji mobilnej
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Platforma 
+Serwis 
 \begin_inset Flex Emph
 status open
 
@@ -825,8 +842,8 @@ skilltrade.org
  do spędzania czasu z innymi ludźmi.
  Dla wielu osób taki sposób poznawania ludzi jest interesujący jednak brak
  możliwości organizowania grupowych spotkań jest niewątpliwie wadą.
- Obecnie kanałami dostępu tej platformy jest aplikacja internetowa oraz
- aplikacja mobilna przeznaczona na system Android.
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ mobilna przeznaczona na system Android.
 \end_layout
 
 \begin_layout Paragraph
