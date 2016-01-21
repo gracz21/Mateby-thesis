@@ -9308,8 +9308,19 @@ template
 \end_layout
 
 \begin_layout Itemize
-model odpowiedzialny jest za przechowywanie danych pochodzących z serwera
- lub tymczasowo przechowywanych w pamięci podręcznej
+model (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+model
+\end_layout
+
+\end_inset
+
+) odpowiedzialny jest za przechowywanie danych pochodzących z serwera lub
+ tymczasowo przechowywanych w pamięci podręcznej
 \end_layout
 
 \begin_layout Standard
@@ -9493,7 +9504,8 @@ CoffeeScript
 
 \begin_layout Standard
 CoffeScript jest językiem programowania kompilowanym do JavaScript, który
- został zainspirowany przez dwa inne języki: Python, Ruby oraz Haskell .
+ został zainspirowany przez trzy inne języki: Python, Ruby oraz Haskell
+ .
  Głównym powodem jego stworzenia była chęć skrócenia i zwiększenia czytelności
  kodu napisanego w JavaScript.
  Wprowadza wiele przydatnych metod operujących na listach czy chociażby
@@ -9667,9 +9679,9 @@ System autoryzacji
 W celu spójnej współpracy z serwerem autoryzacja użytkowników w aplikacji
  internetowej została oparta o protokół Oauth2.
  Aby uzyskać sekretny kod będący potwierdzeniem wiarygodności użytkownika,
- należy wysłać dane autoryzujące, którymi w tym przypadku jest nazwa konta
- e-mail oraz hasło, do serwera obsługującego uwierzytelnianie (serwer Oauth2
- jest częścią logiki serwera Ruby on Rails).
+ należy wysłać dane uwierzytelniające, którymi w tym przypadku jest nazwa
+ konta e-mail oraz hasło, do serwera obsługującego uwierzytelnianie (serwer
+ Oauth2 jest częścią logiki serwera Ruby on Rails).
  Uzyskany w ten sposób zaszyfrowany kod przechowywany jest w pamięci podręcznej
  oraz wysyłany z każdym zapytaniem.
  
