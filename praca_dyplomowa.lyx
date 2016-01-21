@@ -1224,7 +1224,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Serwis nearify.com
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+nearify.com
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1312,42 +1322,104 @@ Ocena jakości aplikacji mobilnej
 \end_layout
 
 \begin_layout Standard
-Serwis nearify.com oferuje wyszukiwanie wydarzeń według wybranego miasta,
- kategorii i daty.
- Formularz tworzenia wydarzeń jest nieco bardziej rozbudowany oraz dostępny
- również dla niezalogowanych użytkowników.
- Rejestracja możliwa jest zarówno poprzez wewnętrzny formularz jak i serwis
- społecznościowy.
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+nearify.com
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring default
-Zalety:
+\end_inset
+
+ jest kolejnym portalem o charakterze informacyjnym.
+ Jego założycielami są: Mayank Kumar, Saurav Singh oraz Vivek Srivastava.
+ Serwis ten jest stale rozwijany w kierunku udoskonalenia przeszukiwania
+ wydarzeń.
+ Posiada ciekawą funkcjonalność informowania o pojawieniu się wydarzeń będących
+ w kręgu zainteresowań użytkownika.
+ Funkcjonowanie samego portalu przypomina zarówno 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
+\end_layout
+
+\end_inset
+
+ jak i 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+eventbrite.com
+\end_layout
+
+\end_inset
+
+.
+ Do najważniejszych funkcji tego serwisu można zaliczyć:
 \end_layout
 
 \begin_layout Itemize
-możliwość wyszukiwania wydarzeń według istotnych kryteriów takich jak kategorie,
- nazwa lub data
+\align left
+szczegółowe wyszukiwanie wydarzeń uwzględniające takie parametry jak: przynależn
+ość do kategorii, nazwa, data, itp
 \end_layout
 
 \begin_layout Itemize
+\align left
+integracja z zewnętrznym serwisem społecznościowym Facebook
+\end_layout
+
+\begin_layout Itemize
+\align left
 możliwość tworzenia wydarzeń bez rejestracji
 \end_layout
 
 \begin_layout Itemize
-integracja z zewnętrznym serwisem społecznościowym
+\align left
+informowanie o nowych wydarzeniach z kręgu zainteresowań użytkownika
 \end_layout
 
 \begin_layout Standard
-Wady
+Pomimo zalet wynikających z możliwości szczegółowego wyszukiwania wydarzeń
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+nearify.com
 \end_layout
 
-\begin_layout Itemize
-brak możliwości tworzenia społeczności wewnątrz serwisu
+\end_inset
+
+ nie posiada wielu funkcji, które odróżniały by go od pozostałych rozwiązań
+ tego typu.
+ Jest to pewna alternatywa dla 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+allevents.in
 \end_layout
 
-\begin_layout Itemize
-strona internetowa jest mało intuicyjna
+\end_inset
+
+ i 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+eventbrite.com
+\end_layout
+
+\end_inset
+
+.
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ mobilna przeznaczona na system Android i iOS.
 \end_layout
 
 \begin_layout Paragraph
