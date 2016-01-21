@@ -8598,7 +8598,7 @@ status open
 
 \begin_layout Plain Layout
 JSON (ang.
- JavaScript Object Notation) - format wymiany danych bazujący na języku
+ JavaScript Object Notation) --- format wymiany danych bazujący na języku
  JavaScript.
 \end_layout
 
@@ -8974,7 +8974,7 @@ Gdy użytkownik uruchamia aplikację internetową wpisując jej adres URL w
 status open
 
 \begin_layout Plain Layout
-Node.js - środowisko programistyczne napisane w języku JavaScript, które
+Node.js --- środowisko programistyczne napisane w języku JavaScript, które
  umożliwia tworzenie serwerów www.
 \end_layout
 
