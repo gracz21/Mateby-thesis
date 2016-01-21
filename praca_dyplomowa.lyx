@@ -2387,9 +2387,10 @@ Platforma Ruby on Rails oparta jest na wzorcu projektowym MVC
 status open
 
 \begin_layout Plain Layout
-MVC (pol.
- Model-Widok-Kontroler) - wzorzec architektoniczny który zakłada istnienie
- trzech połączonych ze sobą składowych: modelu, widoku oraz kontrolera.
+MVC (ang.
+ Model-View-Controller) - model-widok-kontroler, wzorzec architektoniczny
+ który zakłada istnienie trzech połączonych ze sobą składowych: modelu,
+ widoku oraz kontrolera.
 \end_layout
 
 \end_inset
@@ -2397,8 +2398,12 @@ MVC (pol.
 .
  Jej głównymi zaletami są: dobra dokumentacja, duża ilość bibliotek programistyc
 znych oraz niski koszt i krótki czas wytworzenia oprogramowania.
- Główną ideą jest tutaj podążanie za konwencjami dzięki którym programista
+ Główną ideą jest tutaj podążanie za konwencjami, dzięki którym programista
  nie musi zwracać uwagi na konfigurację.
+ W większości przypadków konwencje te wiążą się z umieszczaniem plików w
+ określonym folderze narzuconej struktury projektu oraz odpowiednim nazewnictwem
+ plików i zmiennych w kodzie.
+ Dzięki temu platforma sama skonfiguruje projekt w celu jego przetwarzania.
  Umożliwia to znacznie szybszy proces tworzenia aplikacji co jest szczególnie
  istotne dla przedsiębiorstw poszukujących modelu biznesowego oraz nastawionych
  na dynamiczny rozwój.
@@ -2617,11 +2622,10 @@ Funkcje wyższego rzędu - funkcje przyjmujące jako parametr lub zwracające
 .
  Została zbudowana na bazie języka Elixir uruchamianego na wirtualnej maszynie
  Erlanga.
- Wysoka wydajność tego języka wiąże się między innymi ze współbieżnością
+ Wysoka wydajność tego języka wiąże się między innymi ze współbieżnością,
  którą można zaimplementować małym kosztem.
- Niestety jest to stosunkowo młoda platforma co oznacza niskie wsparcie
+ Niestety jest to stosunkowo młoda platforma, co oznacza niskie wsparcie
  programistyczne oraz małą społeczność.
- 
 \end_layout
 
 \begin_layout Subsection
