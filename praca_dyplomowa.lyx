@@ -1369,9 +1369,11 @@ Przegląd dostępnych technologii i platform programistycznych
 \end_layout
 
 \begin_layout Standard
-Przegląd dostępnych technologii i platform programistycznych pozwala zminimalizo
-wać konieczność wprowadzenia kosztownych zmian w przyszłości.
- Aby był on skuteczny należy zdefiniować wspólne własności, które są istotne
+Zastosowanie właściwych technologii i platform programistycznych pozwala
+ zminimalizować konieczność wprowadzenia kosztownych zmian w przyszłości.
+ Przed podjęciem odpowiedniego wyboru należy wykonać przegląd dostępnych
+ technologii.
+ W tym celu powinno się zdefiniować wspólne własności, które są istotne
  dla poszczególnych składowych całej aplikacji czyli: bazy danych, logiki
  serwera, aplikacji internetowej oraz aplikacji mobilnej.
  Tymi własnościami są:
@@ -1383,11 +1385,13 @@ Z punktu widzenia programisty:
 
 \begin_deeper
 \begin_layout Itemize
-paradygmat programowania
+paradygmat programowania --- im bardziej popularny tym większa liczba narzędzi
+ programistycznych
 \end_layout
 
 \begin_layout Itemize
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych --- większa liczba zapewnia
+ krótszy czas wytworzenia oprogramowania
 \end_layout
 
 \end_deeper
@@ -1397,24 +1401,21 @@ Z punktu widzenia programisty oraz użytkownika:
 
 \begin_deeper
 \begin_layout Itemize
-wydajność
+wydajność --- większa wydajność zapewnia krótszy czas odpowiedzi oraz większa
+ płynność działania
 \end_layout
 
 \begin_layout Itemize
-integracja z innymi technologiami
+integracja z innymi technologiami --- zapewnia efektywniejszy rozwój oprogramowa
+nia
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Z punktu widzenia wartości biznesowej:
+Z punktu widzenia wartości biznesowej istotny jest czas wytworzenia oprogramowan
+ia, który związany jest z nakładem pracy i środków
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-czas wytworzenia oprogramowania
-\end_layout
-
-\end_deeper
 \begin_layout Standard
 Powyższe własności są bardzo istotne dlatego też stanowią główny odnośnik
  w porównaniu platform.
@@ -2294,7 +2295,7 @@ obiektowy
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
@@ -2396,8 +2397,8 @@ MVC (ang.
 \end_inset
 
 .
- Jej głównymi zaletami są: dobra dokumentacja, duża ilość bibliotek programistyc
-znych oraz niski koszt i krótki czas wytworzenia oprogramowania.
+ Jej głównymi zaletami są: dobra dokumentacja, duża liczba bibliotek programisty
+cznych oraz niski koszt i krótki czas wytworzenia oprogramowania.
  Główną ideą jest tutaj podążanie za konwencjami, dzięki którym programista
  nie musi zwracać uwagi na konfigurację.
  W większości przypadków konwencje te wiążą się z umieszczaniem plików w
@@ -2518,7 +2519,7 @@ funkcyjny
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
@@ -2731,7 +2732,7 @@ obiektowy
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
@@ -2934,7 +2935,7 @@ obiektowy
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
@@ -3193,7 +3194,7 @@ obiektowy
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
@@ -3283,7 +3284,7 @@ krótki
 \begin_layout Standard
 Platforma Backbone skierowana jest dla programistów poszukujących biblioteki
  o małym rozmiarze z dużą funkcjonalnością.
- W porównaniu z innymi platformami posiada małą ilość powiązanych bibliotek
+ W porównaniu z innymi platformami posiada małą liczba powiązanych bibliotek
  programistycznych jednak w większości rozwiązań są one wystarczające.
  Posiada również konwencje, które mogą przyspieszyć proces wytwarzania oprogramo
 wania.
@@ -3393,7 +3394,7 @@ obiektowy
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
@@ -3594,7 +3595,7 @@ obiektowy
 \begin_inset Text
 
 \begin_layout Plain Layout
-ilość dostępnych bibliotek programistycznych
+liczba dostępnych bibliotek programistycznych
 \end_layout
 
 \end_inset
