@@ -3873,13 +3873,12 @@ cena
 \end_layout
 
 \begin_layout Standard
-Xamarin to platforma stworzona do tworzenia aplikacji mobilnych na różne
+Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
  systemy Android, iOS, Windows Phone, jednak kod kompilowany jest dla każdej
- platformy osobno.
- Framework zapewnia nawet do 90% współdzielonego kodu, co zapewnie niezwykle
- szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
+ platformy osobno, co zapewnia nawet do 90% współdzielonego kodu, co zapewnia
+ niezwykle szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
  Językiem programowania w Xamarinie jest C#, a także XAML, służący do tworzenia
- interfesju użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
+ interfejsu użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
  wygląd charakterystyczny dla każdej platformy.
  Największą wadą jest niska wydajność, a także konieczność płacenia abonamentu
  za korzystanie z platformy.
@@ -4242,7 +4241,7 @@ Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
  tylko na jednym systemie mobilnym, a co za tym idzie napisane rozwiązania
  trzeba powielić w innych językach programowania dla innych systemów.
  Jednak dzięki temu otrzymujemy oprogramowanie o wiele szybsze, w szczególności
- dla skomplikowanych widoków, niż w przypadku frameworków cross-platformowcyh.
+ dla skomplikowanych widoków, niż w przypadku rozwiązań wielo-platformowcyh.
 \end_layout
 
 \begin_layout Section
