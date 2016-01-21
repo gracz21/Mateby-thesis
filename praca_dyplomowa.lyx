@@ -8455,8 +8455,8 @@ Architektura
 
 \begin_layout Standard
 Ruby on Rails jest platformą opartą na wzorcu projektowym MVC.
- W skład jej architektury wchodzą 3 współpracujące ze sobą komponenty: modele,
- widok oraz kontrolery.
+ W skład jej architektury wchodzą zatem 3 współpracujące ze sobą komponenty:
+ modele, widoki oraz kontrolery.
  Poniżej można znaleźć opis zadań, jakie spełnia każdy z nich:
 \end_layout
 
@@ -8521,8 +8521,21 @@ router
 \end_inset
 
 ).
- Jego zadanie polega na przekierowywaniu adresów URL żądań do odpowiednich
- akcji kontrolera.
+ Jego zadanie polega na przekierowywaniu adresów URL
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+URL (ang.
+ Uniform Resource Locator) --- stosowany w sieci format adresowania zasobów.
+\end_layout
+
+\end_inset
+
+ żądań do odpowiednich akcji kontrolera.
+ W przypadku opisywanej aplikacji nie został użyty komponent widoku.
+ Było to spowodowane wykorzystania platformy do implementacji API, w wyniku
+ czego nie zaistniała potrzeba prezentacji danych.
 \end_layout
 
 \begin_layout Standard
@@ -8530,7 +8543,7 @@ Interakcja opisanych wyżej komponentów przebiega następująco:
 \end_layout
 
 \begin_layout Enumerate
-Po wykonaniu żądania przez przeglądarkę następuje odwołanie do odpowiedniej
+Po wysłaniu żądania przez przeglądarkę następuje odwołanie do odpowiedniej
  akcji kontrolera.
 \end_layout
 
@@ -8545,19 +8558,107 @@ Po otrzymaniu odpowiedzi z bazy danych model odsyła wynik zapytania z powrotem
 \end_layout
 
 \begin_layout Enumerate
-Po otrzymaniu danych kontroler przesyła je do widoku lub zwraca w postaci
- JSON bezpośrednio do przeglądarki (w przypadku API).
+Po otrzymaniu danych kontroler zwraca je w postaci JSON
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+JSON (ang.
+ JavaScript Object Notation) - format wymiany danych bazujący na języku
+ JavaScript.
 \end_layout
 
-\begin_layout Enumerate
-Z widoku zostaje wygenerowany kod HTML, który jest zwracany do kontrolera,
- gdzie następuje jego odesłanie do przeglądarki.
+\end_inset
+
+ bezpośrednio do przeglądarki.
 \end_layout
 
 \begin_layout Standard
-W przypadku opisywanej aplikacji nie został użyty komponent widoku.
- Było to spowodowane faktem wykorzystania platformy do implementacji API,
- w wyniku czego nie zaistniała potrzeba prezentacji danych.
+Rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.1"
+
+\end_inset
+
+ stanowi graficzne podsumwanie interakcji komponentów platformy Ruby on
+ Rails.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/RoR.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schemat działania architektury platformy Ruby on Rails 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Grape
+\end_layout
+
+\begin_layout Standard
+Grape to pomocnicza platforma programistyczna (współpracująca m.in.
+ z Ruby on Rails) wspomagająca proces tworzenia interfejsów programistycznych
+ opartych na architekturze REST
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+REST (ang.
+ Representational State Transfer) --- zmiana stanu poprzez reprezentacje,
+ styl architektury aplikacji sieciowych.
+ Zastosowanie REST sprzyja zwiększeniu wydajności i łatwiejszemu utrzymaniu
+ oprogramowania.
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Grape Entity
 \end_layout
 
 \begin_layout Subsection
@@ -8565,7 +8666,7 @@ Implementacja bazy danych
 \end_layout
 
 \begin_layout Subsection
-Implementacja interfejsu programistycznego
+Interfejs programistyczny aplikacji
 \end_layout
 
 \begin_layout Subsection
@@ -8597,20 +8698,38 @@ Platforma Ember.js bazuje na wzorcu projektowym MVC który zakłada istnienie
 \end_layout
 
 \begin_layout Itemize
-trasa (z ang.
- route) odpowiedzialna jest za pobieranie danych z pamięci podręcznej lub
- serwera oraz przekazywanie ich do kontrolera (z ang.
- controller)
+trasa (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+route
+\end_layout
+
+\end_inset
+
+) odpowiedzialna jest za pobieranie danych z pamięci podręcznej lub serwera
+ oraz przekazywanie ich do kontrolera
 \end_layout
 
 \begin_layout Itemize
-szablon (z ang.
- template) odpowiedzialny jest za prezentację danych pochodzących z kontrolera
+szablon (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+template
+\end_layout
+
+\end_inset
+
+) odpowiedzialny jest za prezentację danych pochodzących z kontrolera
 \end_layout
 
 \begin_layout Itemize
-model (z ang.
- model) odpowiedzialny jest za przechowywanie danych pochodzących z serwera
+model odpowiedzialny jest za przechowywanie danych pochodzących z serwera
  lub tymczasowo przechowywanych w pamięci podręcznej
 \end_layout
 
@@ -8619,18 +8738,8 @@ Interakcja wyżej wymienionych składowych przebiega następująco:
 \end_layout
 
 \begin_layout Enumerate
-Po wpisaniu adresu URL
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-URL (ang.
- Uniform Resource Locator) - stosowany w sieci format adresowania zasobów.
-\end_layout
-
-\end_inset
-
- następuje rozpoznanie obecnego stanu aplikacji przez trasownik (z ang.
+Po wpisaniu adresu URL następuje rozpoznanie obecnego stanu aplikacji przez
+ trasownik (z ang.
  router) oraz tym samym wywołanie odpowiedniej akcji pobrania danych w trasie.
 \end_layout
 
@@ -8716,7 +8825,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat działania architektury platformy Ember
+Schemat działania architektury platformy Ember.js
 \end_layout
 
 \end_inset
@@ -8750,19 +8859,7 @@ Ember data
 \end_layout
 
 \begin_layout Standard
-Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-JSON (ang.
- JavaScript Object Notation) - format wymiany danych bazujący na języku
- JavaScript.
-\end_layout
-
-\end_inset
-
-.
+Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON.
  Analiza danych otrzymanych w ten sposób nie byłaby skuteczna ani intuicyjna.
  W tym celu powstała osobna biblioteka której zadaniem jest mapowanie otrzymanyc
 h danych na klasy reprezentowane w języku JavaScript.
