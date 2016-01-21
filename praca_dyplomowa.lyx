@@ -1004,7 +1004,7 @@ integracja z zewnętrznymi serwisami społecznościowymi, takimi jak: Facebook,
 
 \begin_layout Itemize
 \align left
-możliwość tworzenia wydarzeń po rejestracji
+możliwość tworzenia wydarzeń po obowiązkowej rejestracji
 \end_layout
 
 \begin_layout Itemize
@@ -1029,7 +1029,6 @@ allevents.in
  społeczności oraz poznawania nowych ludzi.
  Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
  mobilna przeznaczona na system Android, iOS oraz Windows Phone.
- Popularność aplikacji mobilnej jest obecnie bardzo duża.
 \end_layout
 
 \begin_layout Paragraph
@@ -1047,7 +1046,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Serwis facebook.com
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+facebook.com
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1135,19 +1144,31 @@ Ocena jakości aplikacji mobilnej
 \end_layout
 
 \begin_layout Standard
-Facebook jest obecnie najbardziej popularnym serwisem społecznościowym na
- świecie.
- Jego główną funkcjonalnością jest możliwość tworzenia społeczności oraz
- organizacji wydarzeń w ich obrębie.
- Wyszukiwanie wydarzeń jest mocno uproszczone, ogranicza się do filtrowania
- po nazwie wydarzenia.
- Widok wydarzenia zawiera podstawowe informacje takie jak lokalizacja, opis
- lub lista osób biorących udział.
+Serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+facebook.com
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring default
-Zalety:
+\end_inset
+
+ jest obecnie najbardziej popularnym portalem społecznościowym na świecie.
+ Jego twórcą jest Mark Zuckerberg, którego początkowym pomysłem było stworzenie
+ aplikacji umożliwiającej tworzenie sieci znajomości.
+ Na przestrzeni lat serwis ten rozrósł się do tego stopnia, że obecnie liczba
+ jego użytkowników przekracza miliard.
+ Rozwój funkcjonalności tego serwisu opiera się na wprowadzaniu kolejnych
+ sposobów na integrację użytkowników.
+ W ten sposób powstała między innymi możliwość tworzenia wydarzeń publicznych
+ jak i prywatnych, na które można zaprosić zarówno znajomych jak i osoby
+ nam całkowicie obce.
+ Każdy użytkownik ma również możliwość stworzenia swojej strony wewnątrz
+ serwisu, która może reprezentować chociażby instytucję.
+ Jest to pewien sposób promocji, utrzymywania kontaktu ze społecznością
+ oraz przekazania niezbędnych informacji.
+ Do najważniejszych funkcji tej platformy można zaliczyć:
 \end_layout
 
 \begin_layout Itemize
@@ -1155,24 +1176,37 @@ możliwość tworzenia społeczności wewnątrz serwisu
 \end_layout
 
 \begin_layout Itemize
-wysoki poziom integracji użytkowników
+możliwość tworzenia wydarzeń publicznych oraz prywatnych po obowiązkowej
+ rejestracji
 \end_layout
 
 \begin_layout Itemize
-możliwość tworzenia wydarzeń prywatnych
+możliwość utworzenia strony tematycznej
+\end_layout
+
+\begin_layout Itemize
+integracja z wieloma serwisami społecznymi
 \end_layout
 
 \begin_layout Standard
-Wady
+Serwis społecznościowy
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+facebook.com
 \end_layout
 
-\begin_layout Itemize
-brak możliwości wyszukiwania wydarzeń według istotnych kryteriów takich
- jak kategorie, data, miejscowość
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-mało szczegółowy widok wydarzenia
+ na przestrzeni lat bardzo rozwinął swoją funkcjonalność, przez co stał
+ się największym portalem społecznościowym na świecie.
+ Pomimo wsparcia dla organizacji wydarzeń posiada dość wyraźną wadę, którą
+ jest mało szczegółowe wyszukiwanie, przyjmujące jako parametr jedynie nazwę.
+ Prawdopodobnie jest to powodem dla którego powstało wiele rozwiązań konkurencyj
+nych, oferujących tylko samo wyszukiwanie.
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ mobilna przeznaczona na system Android, iOS oraz Windows Phone.
 \end_layout
 
 \begin_layout Paragraph
