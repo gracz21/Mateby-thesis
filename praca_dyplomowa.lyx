@@ -8848,7 +8848,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat związków-encji bazy danych 
+Model związków-encji bazy danych 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:5.19"
@@ -8891,118 +8891,63 @@ reference "fig:5.19"
 \end_layout
 
 \begin_layout Standard
-Pierwszą encją, na którą należy zwrócić uwagę, jest 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Konto
-\end_layout
-
-\end_inset
-
-.
+Pierwszą encją, na którą należy zwrócić uwagę, jest konto.
  Posiada ona dwa atrybuty i stanowi generalizację najważniejszych cech,
  które będzie posiadało każde konto założone w systemie.
- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Konto
-\end_layout
-
-\end_inset
-
- jest powiązane trzema związkami wyłącznymi typu 1:1 obowiązkowymi po obu
- stronach z encjami 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Użytkownik zwykły
-\end_layout
-
-\end_inset
-
-, 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Oddział instytucji
-\end_layout
-
-\end_inset
-
- oraz 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Instytucja
-\end_layout
-
-\end_inset
-
-.
+ Konto jest powiązane trzema związkami wyłącznymi typu 1:1 obowiązkowymi
+ po obu stronach z encjami użytkownik zwykły, oddział instytucji oraz instytucja.
  Każda z tych encji odpowiada jednemu z trzech typów kont obecnych w systemie.
- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Instytucja
-\end_layout
-
-\end_inset
-
- może posiadać nieskończenie wiele instancji 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Oddziałów instytucji
-\end_layout
-
-\end_inset
-
-.
- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Użytkownik zwykły
-\end_layout
-
-\end_inset
-
- oraz 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Oddział instytucji
-\end_layout
-
-\end_inset
-
- musi być powiązany z dokładnie jednym wystąpieniem z encji 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Miasto
-\end_layout
-
-\end_inset
-
-.
+ Instytucja może posiadać nieskończenie wiele instancji oddziałów instytucji.
+ Użytkownik zwykły oraz oddział instytucji musi być powiązany z dokładnie
+ jednym wystąpieniem z encji miasto.
+ Miasto zaś jest powiązane z encją państwo związkiem 1:N opcjonalnym po
+ jednej stronie.
+ Użytkownik zwykły może posiadać wiele wydarzeń (poprzez uczestniczenie
+ w nich), wydarzenie natomiast może mieć wielu użytkowników zwykłych (jako
+ uczestników).
+ Wydarzenie ma także jednego organizatora w postaci instancji encji użytkownik
+ zwykły lub encji oddział instytucji.
+ Może posiadać także nieskończenie wiele znaczników.
+ Wydarzenie należy do dokładnie jednej podkategorii, podkategoria zaś musi
+ być powiązana z jedną kategorią.
+ Ostatnią encją opisywanego modelu jest wiadomość.
+ Musi ona posiadać autora (w postaci użytkownika zwykłego lub oddziału instytucj
+i) oraz obiekt, którego dotyczy (w postaci wydarzenia lub oddziału instytucji).
 \end_layout
 
 \begin_layout Subsection
 Model relacyjny
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Model relacyjny bazy danych
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -9344,6 +9289,10 @@ entities
 Implementacja bazy danych
 \end_layout
 
+\begin_layout Standard
+Implementacja bazy danych została dokonana w technologii PostgreSQL.
+\end_layout
+
 \begin_layout Subsection
 System autoryzacji
 \end_layout
@@ -9418,8 +9367,8 @@ POST branches
 \begin_inset Newline newline
 \end_inset
 
-Tworzy oddział na podstawie danych zawartych w parametrch żądania.
- W przypadku powodzenia zwraca nowoutworzony oddział.
+Tworzy oddział na podstawie danych zawartych w parametrach żądania.
+ W przypadku powodzenia zwraca nowo utworzony oddział.
 \begin_inset Newline newline
 \end_inset
 
