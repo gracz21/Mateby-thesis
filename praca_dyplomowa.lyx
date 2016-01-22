@@ -8738,7 +8738,7 @@ Implementacja
 
 \begin_layout Standard
 Implementacja jest kluczową fazą procesu wytwarzania oprogramowania.
- To właśnie na tym etapie dochodzi do zderzenia założeń projektu aplikacji
+ To właśnie na tym etapie dochodzi do konfrontacji założeń projektu aplikacji
  z możliwościami wybranych platform programistycznych.
  Fazę implementacji można podzielić na 3 główne części:
 \end_layout
@@ -8749,8 +8749,8 @@ implementacja logiki serwera --- obejmuje implementację bazy danych i logiki
 \end_layout
 
 \begin_layout Itemize
-implementacja aplikacji internetowej --- obejmuje implementację prostych,
- czytelnych i spełniających założenia RWD
+implementacja aplikacji internetowej po stronie klienta --- obejmuje implementac
+ję prostych, czytelnych i spełniających założenia RWD
 \begin_inset Foot
 status open
 
@@ -8763,8 +8763,8 @@ RWD (ang.
 
 \end_inset
 
- widoków prezentujących dane i funkcjonalność udostępnianą przez serwer,
- powinna zostać dokonana po implementacji logiki serwera
+ widoków prezentujących dane udostępniane przez serwer, powinna zostać dokonana
+ po implementacji logiki serwera
 \end_layout
 
 \begin_layout Itemize
@@ -8788,7 +8788,7 @@ Architektura
 
 \begin_layout Standard
 Ruby on Rails jest platformą opartą na wzorcu projektowym MVC.
- W skład jej architektury wchodzą zatem 3 współpracujące ze sobą komponenty:
+ W skład tej architektury wchodzą zatem trzy współpracujące ze sobą komponenty:
  modele, widoki oraz kontrolery.
  Poniżej można znaleźć opis zadań, jakie spełnia każdy z nich:
 \end_layout
