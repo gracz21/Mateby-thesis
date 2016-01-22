@@ -9306,6 +9306,23 @@ migrations
 
 ) modułu Active Record platformy Ruby on Rails oraz systemu PostgreSQL na
  podstawie modelu relacyjnego przedstawionego w rozdziale 5.3.2.
+ W tworzonym systemie mamy do czynienia z trzema instancjami tej samej bazy
+ danych (opartej na tym samym schemacie):
+\end_layout
+
+\begin_layout Itemize
+instancja testowa --- instancja ta zawiera obiekty tworzone na potrzeby
+ wykonywania testów API, obiekty te są usuwane po zakończeniu procesu testowania
+\end_layout
+
+\begin_layout Itemize
+instancja deweloperska --- instancja wykorzystywana w procesie implementacji,
+ wykorzystywana do ręcznych testów podczas tworzenia systemu
+\end_layout
+
+\begin_layout Itemize
+instancja produkcyjna --- instancja zawierająca dane użytkowników w trakcie
+ właściwego używania systemu
 \end_layout
 
 \begin_layout Paragraph
@@ -9574,8 +9591,8 @@ factories
 \end_inset
 
 ).
- Pozwalają one na definicje atrybutów przykładowych instancji modelu wykorzystyw
-anych w procesie testowania.
+ Pozwalają one na definicje wartości atrybutów dla przykładowych instancji
+ modelu wykorzystywanych w procesie testowania.
  Biblioteka umożliwia także tworzenie kilku fabryk dla danego modelu, które
  mogą dziedziczyć po sobie.
 \end_layout
