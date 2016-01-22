@@ -8727,7 +8727,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat związków-encji bazy danych
+Schemat związków-encji bazy danych 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.19"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8742,6 +8749,135 @@ Schemat związków-encji bazy danych
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Rys.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.19"
+
+\end_inset
+
+ zawiera model związków-encji projektowanej bazy danych przedstawiony przy
+ użyciu notacji Barkera.
+ Schemat składa się z jedenastu encji powiązanych różnymi związkami.
+ Każdy ze związków jest opisany w celu ułatwienia interpretacji schematu.
+\end_layout
+
+\begin_layout Standard
+Pierwszą encją, na którą należy zwrócić uwagę, jest 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Konto
+\end_layout
+
+\end_inset
+
+.
+ Posiada ona dwa atrybuty i stanowi generalizację najważniejszych cech,
+ które będzie posiadało każde konto założone w systemie.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Konto
+\end_layout
+
+\end_inset
+
+ jest powiązane trzema związkami wyłącznymi typu 1:1 obowiązkowymi po obu
+ stronach z encjami 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Użytkownik zwykły
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Oddział instytucji
+\end_layout
+
+\end_inset
+
+ oraz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Instytucja
+\end_layout
+
+\end_inset
+
+.
+ Każda z tych encji odpowiada jednemu z trzech typów kont obecnych w systemie.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Instytucja
+\end_layout
+
+\end_inset
+
+ może posiadać nieskończenie wiele instancji 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Oddziałów instytucji
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Użytkownik zwykły
+\end_layout
+
+\end_inset
+
+ oraz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Oddział instytucji
+\end_layout
+
+\end_inset
+
+ musi być powiązany z dokładnie jednym wystąpieniem z encji 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Miasto
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
