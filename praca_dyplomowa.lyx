@@ -9126,7 +9126,10 @@ JSON (ang.
 
 \begin_layout Standard
 Rys.
- 
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:6.1"
@@ -9290,7 +9293,40 @@ Implementacja bazy danych
 \end_layout
 
 \begin_layout Standard
-Implementacja bazy danych została dokonana w technologii PostgreSQL.
+Implementacja bazy danych została dokonana przy użyciu migracji (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+migrations
+\end_layout
+
+\end_inset
+
+) modułu Active Record platformy Ruby on Rails oraz systemu PostgreSQL na
+ podstawie modelu relacyjnego przedstawionego w rozdziale 6.3.2.
+\end_layout
+
+\begin_layout Paragraph
+Migracje
+\end_layout
+
+\begin_layout Paragraph
+Active Record
+\end_layout
+
+\begin_layout Standard
+Active Record to jeden z modułów platformy Ruby on Rails, który jest odpowiedzia
+lny za reprezentację modeli, ich danych oraz zachodzących między nimi związków.
+ Posiada on szeroką gamę adapterów dla różnych systemów zarządzania bazą
+ danych (m.in.
+ dla zastosowanego PostgreSQL).
+ W przypadku implementacji bazy danych szczególnie przydatna okazuje się
+ funkcjonalność śledzenia migracji.
+ Active Record sprawdza, czy wszystkie migracje bazy zostały wykonane i
+ w przypadku pojawienia się nowych, wykonuje je i dokonuje aktualizacji
+ pliku ze schematem.
 \end_layout
 
 \begin_layout Subsection
@@ -9302,9 +9338,18 @@ Interfejs programistyczny aplikacji
 \end_layout
 
 \begin_layout Standard
-Interfejs programistyczny aplikacji jest podzielony między dziewięcioma
- kontrolerami.
- Poniżej można znaleźć krótki opis wszystkich punktów końcowych w nich zawartych.
+Interfejs programistyczny aplikacji składa się z punktów końcowych wchodzących
+ w skład dziewięciu kontrolerów.
+ Większość funkcji udostępnianych przez API umożliwia CRUD najważniejszych
+ modeli dostępnych w logice serwera.
+\end_layout
+
+\begin_layout Paragraph
+CRUD
+\end_layout
+
+\begin_layout Standard
+Poniżej można znaleźć krótki opis wszystkich punktów końcowych w nich zawartych.
  
 \end_layout
 
@@ -9440,22 +9485,117 @@ Testy
 \end_layout
 
 \begin_layout Standard
-Do testowania interfejsu programistycznego aplikacji została użyta biblioteka
+Do testowania interfejsu programistycznego aplikacji została użyta biblioteki
  
 \begin_inset Flex Emph
 status open
 
 \begin_layout Plain Layout
-Rspec
+RSpec
 \end_layout
 
 \end_inset
 
- współpracująca z platformą Ruby on Rails.
+ oraz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+FactoryGirl
+\end_layout
+
+\end_inset
+
+ współpracujące z platformą Ruby on Rails.
+ W przypadku tej części tworzonego systemu dokonywane były przede wszystkim
+ testy jednostkowe punktów końcowych interfejsu programistycznego udostępnianego
+ przez serwer.
 \end_layout
 
 \begin_layout Paragraph
-Rspec
+RSpec
+\end_layout
+
+\begin_layout Standard
+RSpec to biblioteka umożliwiająca testowanie przy użyciu metodyki BDD dla
+ aplikacji tworzonych w języku Ruby.
+ Jej cechą charakterystyczną jest możliwość pisania testów w oparciu o założenia
+ co do efektów działań obiektu (jego zachowania)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-7"
+
+\end_inset
+
+.
+ Przy użyciu RSpec można testować zachowanie modeli, kontrolerów, widoków,
+ trasownika oraz wyniki działań pojedynczych żądań.
+ Ta ostatnia cecha okazała się szczególnie przydatna podczas testowania
+ punktów końcowych wchodzących w skład API.
+ W przypadku testowania żądań możliwe jest m.in.
+ sprawdzanie zwracanego numeru statusu HTTP oraz zawartości odpowiedzi.
+\end_layout
+
+\begin_layout Paragraph
+FactoryGirl
+\end_layout
+
+\begin_layout Standard
+FactoryGirl to biblioteka umożliwiająca tworzenie tzw.
+ fabryk (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+factories
+\end_layout
+
+\end_inset
+
+).
+ Pozwalają one na definicje atrybutów przykładowych instancji modelu wykorzystyw
+anych w procesie testowania.
+ Biblioteka umożliwia także tworzenie kilku fabryk dla danego modelu, które
+ mogą dziedziczyć po sobie.
+\end_layout
+
+\begin_layout Paragraph
+Metodyka BDD
+\end_layout
+
+\begin_layout Standard
+BDD (ang.
+ Behavior Driven Development) to metodyka tworzenia oprogramowania wywodząca
+ się z TDD
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+TDD (ang.
+ Test Driven Development) --- metodyka tworzenia oprogramowania polegająca
+ na pisaniu testów danego fragmentu kodu przed jego zaimplementowaniem.
+\end_layout
+
+\end_inset
+
+ zakładająca, że testowane są przede wszystkim efekty działania obiektu
+ (jego zachowanie), zamiast jego struktury.
+ Cykl pracy w BDD jest bardzo podobny do cyklu znanego z TDD.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-7"
+
+\end_inset
+
+W
+\begin_inset space ~
+\end_inset
+
+BDD historie użytkowników stanowią punkt wyjściowy do tworzenia testów daje
+ funkcji.
+ 
 \end_layout
 
 \begin_layout Paragraph
@@ -9940,8 +10080,7 @@ Git.
 
 \end_inset
 
-, Helion, 2013, s.
- 13 --- 14
+, Helion, 2013
 \end_layout
 
 \begin_layout Bibliography
@@ -9951,7 +10090,17 @@ key "key-2"
 
 \end_inset
 
-System kontroli wersji.
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+System kontroli wersji
+\end_layout
+
+\end_inset
+
+.
  W: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
  Dostępny w Internecie: https://pl.wikipedia.org/wiki/System_kontroli_wersji
@@ -9964,7 +10113,17 @@ key "key-3"
 
 \end_inset
 
-Wymaganie (inżynieria).
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Wymaganie (inżynieria)
+\end_layout
+
+\end_inset
+
+.
  W: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
  Dostępny w Internecie: https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria
@@ -9978,7 +10137,17 @@ key "key-4"
 
 \end_inset
 
-Platform as a Service.
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Platform as a Service
+\end_layout
+
+\end_inset
+
+.
  W: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
  Dostępny w Internecie: https://pl.wikipedia.org/wiki/Platform_as_a_Service
@@ -9991,10 +10160,64 @@ key "key-5"
 
 \end_inset
 
-CofeeScript.
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+CofeeScript
+\end_layout
+
+\end_inset
+
+.
  W: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
  Dostępny w Internecie: https://en.wikipedia.org/wiki/CoffeeScript
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Responsive Web Design
+\end_layout
+
+\end_inset
+
+.
+ W: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie:
+ https://pl.wikipedia.org/wiki/Responsive_Web_Design
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+David Chelimsky , 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+The RSpec Book.
+ Bahaviour Driven Development with RSpec, Cucumber and Friends
+\end_layout
+
+\end_inset
+
+, The Pragmatic Programmers LLC., 2009
 \end_layout
 
 \end_body
