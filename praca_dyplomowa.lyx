@@ -9305,11 +9305,7 @@ migrations
 \end_inset
 
 ) modułu Active Record platformy Ruby on Rails oraz systemu PostgreSQL na
- podstawie modelu relacyjnego przedstawionego w rozdziale 6.3.2.
-\end_layout
-
-\begin_layout Paragraph
-Migracje
+ podstawie modelu relacyjnego przedstawionego w rozdziale 5.3.2.
 \end_layout
 
 \begin_layout Paragraph
@@ -9322,11 +9318,35 @@ lny za reprezentację modeli, ich danych oraz zachodzących między nimi związk
  Posiada on szeroką gamę adapterów dla różnych systemów zarządzania bazą
  danych (m.in.
  dla zastosowanego PostgreSQL).
- W przypadku implementacji bazy danych szczególnie przydatna okazuje się
- funkcjonalność śledzenia migracji.
- Active Record sprawdza, czy wszystkie migracje bazy zostały wykonane i
- w przypadku pojawienia się nowych, wykonuje je i dokonuje aktualizacji
- pliku ze schematem.
+ Moduł ten do definicji bazy danych używa specjalnego pliku schematu, w
+ którym można znaleźć definicję wszystkich tabel, ich atrybutów oraz założonych
+ na nich indeksów.
+ Do modyfikacji pliku schematu Active Record używa plików migracji.
+ W procesie przyrostowej implementacji bazy danych szczególnie przydatna
+ okazuje się funkcja śledzenia migracji oferowana przez ten moduł.
+ Active Record po wprowadzeniu odpowiedniej komendy sprawdza, czy wszystkie
+ migracje bazy zostały wykonane i w przypadku odnalezienia jeszcze nie przeprowa
+dzonych, wykonuje je i dokonuje aktualizacji pliku ze schematem.
+\end_layout
+
+\begin_layout Paragraph
+Migracje
+\end_layout
+
+\begin_layout Standard
+Migracje to podklasy modułu Active Record.
+ Pozwalają one na definicję zmian zachodzących w bazie danych przy użyciu
+ języka Ruby.
+ Active Record udostępnia specjalne metody, które można użyć w migracji
+ w celu dokonywania modyfikacji struktury bazy.
+ Metody te są niezależne od używanego systemu zarządzania.
+ Ponadto istnieje też możliwość użycia czystego kodu SQL.
+ Każda z migracji składa się z dwóch głównych metod.
+ Jedna z nich jest uruchamiana w przypadku wykonywania migracji, a druga
+ w przypadku jej wycofywania.
+ Dzięki specjalnemu sposobowi nazewnictwa migracji (uwzględniającym szczegółową
+ datę powstania pliku) oraz systemowi śledzenia migracji modułu Active Record
+ możliwa jest wydajniejsza i bardziej bezproblemowa kooperacja nad projektem.
 \end_layout
 
 \begin_layout Subsection
