@@ -10315,7 +10315,40 @@ ie konkretnych bloków widoku.
 \end_layout
 
 \begin_layout Standard
+Możliwość zaprojektowania jednej aplikacji, która wyglądałaby jednakowo
+ efektywnie na dowolnym urządzeniu okazuje się dla wielu programistów na
+ tyle interesująca, że wiele osób rezygnuje z tworzenia mobilnych aplikacji
+ natywnych.
+ Trzeba jednak zauważyć, że istnieje wiele powtarzających się schematów
+ przy tworzeniu responsywnych widoków, szczególnie widoczne jest to przy
+ definiowaniu struktury strony.
+ W celu uproszczenia implementacji powstało wiele platform, które w znacznym
+ stopniu odciążają programistów od konieczności definiowania najważniejszych
+ stylów od nowa.
+ Najbardziej popularną platformą, która łączy zalety języków HTML, CSS oraz
+ JavaScript jest obecnie Bootstrap.
+\end_layout
 
+\begin_layout Paragraph
+Platforma Bootstrap
+\end_layout
+
+\begin_layout Standard
+Platforma Bootstrap została opracowana w 2010 roku przez programistów bardzo
+ popularnego serwisu społecznościowego Twitter i zaledwie rok później pojawiła
+ się wersja dostępna na zasadach wolnego oprogramowania
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-9"
+
+\end_inset
+
+.
+ W chwili obecnej posiada bardzo obszerną bazę gotowych stylów, komponentów
+ oraz gotowych ikon.
+ Najczęściej wykorzystywaną funkcjonalnością jest tutaj zestaw gotowych
+ stylów dla kolumn o różnej szerokości, które w prosty i intuicyjny sposób
+ pozwalają na stworzenie struktury strony.
 \end_layout
 
 \begin_layout Section
@@ -10535,6 +10568,16 @@ Beginning Responsive Web Design with HTML5 and CSS3
 \end_inset
 
 , Apress, 2014
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+http://getbootstrap.com/about/
 \end_layout
 
 \end_body
