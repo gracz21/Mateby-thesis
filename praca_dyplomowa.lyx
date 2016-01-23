@@ -10281,6 +10281,43 @@ Aplikacja umożliwia również uwierzytelnienie za pomocą serwisu Facebook,
  za pomocą standardowego formularza rejestracyjnego.
 \end_layout
 
+\begin_layout Subsection
+Responsywność widoków
+\end_layout
+
+\begin_layout Standard
+Wraz z rozwojem kaskadowych arkuszy stylów wygląd stron internetowych ulegał
+ stopniowemu polepszeniu.
+ Początkowo jednak nikt nie zakładał, że aplikacje internetowe będą w nieodległe
+j przyszłości wyświetlane na urządzeniach mieszczących się w jednej ręce,
+ dlatego projektowanie wyglądu było uzależnione od ekranów posiadających
+ rozdzielczość zaczynającą się od 1024 na 800 pikseli.
+ Wraz z pojawieniem się pierwszych urządzeń mobilnych posiadających przeglądarki
+ internetowe to podejście zaczęło się stopniowo zmieniać.
+ Pierwszym pomysłem rozwiązania nieefektywnego wyświetlania stron internetowych
+ na tego typu urządzeniach było tworzenie osobnych aplikacji.
+ Trudności oraz nakład pracy wymagający stworzenia kolejnych wersji widoków
+ okazały się jednak na tyle istotne, że porzucono ten pomysł na rzecz próby
+ zaprojektowania responsywnych widoków, które w zależności od rozdzielczości
+ urządzenia wyświetlane są w różny sposób
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-9"
+
+\end_inset
+
+.
+ Takie podejście umożliwia nie tylko kontrolę wielkości oraz ułożenia poszczegól
+nych elementów strony internetowej ale i również pozwala na warunkowe wyświetlen
+ie konkretnych bloków widoku.
+ Użytkownik ma zatem wrażenie korzystania z aplikacji zaprojektowanej specjalnie
+ dla urządzenia przenośnego.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Section
 Aplikacja mobilna
 \end_layout
@@ -10478,6 +10515,26 @@ Everyday Rails.
 \end_inset
 
 , Leanpub, 2014
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+Fielding J., 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Beginning Responsive Web Design with HTML5 and CSS3
+\end_layout
+
+\end_inset
+
+, Apress, 2014
 \end_layout
 
 \end_body
