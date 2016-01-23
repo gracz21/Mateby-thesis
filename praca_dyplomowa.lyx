@@ -10345,10 +10345,79 @@ key "key-9"
 
 .
  W chwili obecnej posiada bardzo obszerną bazę gotowych stylów, komponentów
- oraz gotowych ikon.
+ oraz ikon.
  Najczęściej wykorzystywaną funkcjonalnością jest tutaj zestaw gotowych
  stylów dla kolumn o różnej szerokości, które w prosty i intuicyjny sposób
- pozwalają na stworzenie struktury strony.
+ pozwalają na stworzenie rerponsywnej struktury strony.
+ Ze względu na liczne zalety tej platformy została wykorzystana w projekcie.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/wydarzenia.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok wydarzeń na ekranie od monitora podłączonego do komputera.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/wydarzenia_tablet.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok wydarzeń na ekranie urządzenia przenośnego.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
