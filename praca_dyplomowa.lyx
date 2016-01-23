@@ -1770,7 +1770,7 @@ Zastosowanie właściwych technologii i platform programistycznych pozwala
  technologii.
  W tym celu powinno się zdefiniować wspólne własności, które są istotne
  dla poszczególnych składowych całej aplikacji czyli: bazy danych, logiki
- serwera, aplikacji internetowej oraz aplikacji mobilnej.
+ serwera, aplikacji internetowej po stronie klienta oraz aplikacji mobilnej.
  Tymi własnościami są:
 \end_layout
 
@@ -1781,12 +1781,12 @@ Z punktu widzenia programisty:
 \begin_deeper
 \begin_layout Itemize
 paradygmat programowania --- im bardziej popularny tym większa liczba narzędzi
- programistycznych
+ programistycznych,
 \end_layout
 
 \begin_layout Itemize
 liczba dostępnych bibliotek programistycznych --- większa liczba zapewnia
- krótszy czas wytworzenia oprogramowania
+ krótszy czas wytworzenia oprogramowania.
 \end_layout
 
 \end_deeper
@@ -1797,18 +1797,18 @@ Z punktu widzenia programisty oraz użytkownika:
 \begin_deeper
 \begin_layout Itemize
 wydajność --- większa wydajność zapewnia krótszy czas odpowiedzi oraz większa
- płynność działania
+ płynność działania,
 \end_layout
 
 \begin_layout Itemize
 integracja z innymi technologiami --- zapewnia efektywniejszy rozwój oprogramowa
-nia
+nia.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 Z punktu widzenia wartości biznesowej istotny jest czas wytworzenia oprogramowan
-ia, który związany jest z nakładem pracy i środków
+ia, który związany jest z nakładem pracy i środków.
 \end_layout
 
 \begin_layout Standard
@@ -2584,7 +2584,7 @@ Zarówno aplikacja internetowa jak i mobilna korzysta z tych samych zasobów,
  komunikacja z bazą danych oraz zwracanie odpowiednich zasobów w odpowiedzi.
  Jest również wykorzystywany do wykonywania okresowych procedur.
  W przeglądzie platform implementujących logikę serwera wzięto pod uwagę
- technologie oparte na językach: Ruby, Elixir, PHP oraz JavaScript.
+ technologie oparte na językach Ruby, Elixir, PHP oraz JavaScript.
  Wybór tych technologii został podyktowany przez trendy pojawiające się
  na przestrzeni ostatnich lat.
  Zostały także uwzględnione różnorodności wykorzystywanych języków oraz
@@ -2784,7 +2784,7 @@ status open
 
 \begin_layout Plain Layout
 MVC (ang.
- Model-View-Controller) - model-widok-kontroler, wzorzec architektoniczny
+ Model-View-Controller) --- model-widok-kontroler, wzorzec architektoniczny
  który zakłada istnienie trzech połączonych ze sobą składowych: modelu,
  widoku oraz kontrolera.
 \end_layout
@@ -2800,20 +2800,17 @@ cznych oraz niski koszt i krótki czas wytworzenia oprogramowania.
  określonym folderze narzuconej struktury projektu oraz odpowiednim nazewnictwem
  plików i zmiennych w kodzie.
  Dzięki temu platforma sama skonfiguruje projekt w celu jego przetwarzania.
- Umożliwia to znacznie szybszy proces tworzenia aplikacji co jest szczególnie
+ Umożliwia to znacznie szybszy proces tworzenia aplikacji, co jest szczególnie
  istotne dla przedsiębiorstw poszukujących modelu biznesowego oraz nastawionych
  na dynamiczny rozwój.
  Platforma Ruby on Rails została zbudowana w celu tworzenia pełnych aplikacji
- internetowych co oznacza, że nie jest nie tylko odpowiedzialna za logikę
- serwera ale i również za zwracanie widoków aplikacji.
+ internetowych, co oznacza, że nie jest nie tylko odpowiedzialna za logikę
+ serwera, ale i również za zwracanie widoków aplikacji.
  Nie jest to jednak wymagane i obecnie coraz częściej oddziela się całkowicie
  serwer od aplikacji internetowej po stronie klienta.
  Warto również zwrócić uwagę na przeciętną wydajność platformy.
  Powodem tego jest wydajność języka Ruby, który jest interpretowany, nastawiony
  na wysoką produktywność, a tym samym prostą implementację.
- Niestety wszystkie te zalety wiążą się w tym przypadku z wyższym czasem
- przetwarzania.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -3008,13 +3005,13 @@ czas wytworzenia oprogramowania
 
 \begin_layout Standard
 Platforma Phoenix również oparta jest na wzorcu MVC.
- Reprezentuje ona całkiem inny paradygmat programowania - funkcyjny, który
+ Reprezentuje ona całkiem inny paradygmat programowania --- funkcyjny, który
  kładzie duży nacisk na rekurencję oraz funkcje wyższego rzędu
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Funkcje wyższego rzędu - funkcje przyjmujące jako parametr lub zwracające
+Funkcje wyższego rzędu --- funkcje zwracające (lub przyjmujące jako parametr)
  inne funkcje.
 \end_layout
 
@@ -3223,7 +3220,7 @@ krótki
 \begin_layout Standard
 Platforma Laravel jest jednym z najpopularniejszych platform opartych na
  języku PHP.
- Jej struktura nieco przypomina Ruby on Rails - również używa wzorca MVC
+ Jej struktura nieco przypomina Ruby on Rails --- również używa wzorca MVC
  oraz preferowana jest konwencja nad konfiguracją.
  Wydajność aplikacji stworzonej za pomocą standardowego generatora jest
  przeciętna.
@@ -3426,7 +3423,7 @@ krótki
 
 \begin_layout Standard
 Platforma Meteor reprezentuje całkowicie inne podejście.
- Jest oparta na środowisku programistycznym Node.js które to z kolei zbudowane
+ Jest oparta na środowisku programistycznym Node.js, które to z kolei zbudowane
  zostało na bazie języka JavaScript.
  Główną zaletą tej platformy jest synchronizacja danych czasu rzeczywistego
  między klientem a serwerem.
@@ -3494,8 +3491,8 @@ CSS (ang.
 \end_inset
 
 .
- Tego typu rozwiązań jest bardzo dużo dlatego wybór został podyktowany przez
- trendy ostatnich lat oraz popularność poszczególnych platform.
+ Tego typu rozwiązań jest bardzo dużo, dlatego wybór został podyktowany
+ przez trendy ostatnich lat oraz popularność poszczególnych platform.
 \end_layout
 
 \begin_layout Subsection
@@ -3686,15 +3683,15 @@ krótki
 \end_layout
 
 \begin_layout Standard
-Platforma Backbone skierowana jest dla programistów poszukujących biblioteki
+Platforma Backbone przeznaczona jest dla programistów poszukujących biblioteki
  o małym rozmiarze z dużą funkcjonalnością.
  W porównaniu z innymi platformami posiada małą liczba powiązanych bibliotek
- programistycznych jednak w większości rozwiązań są one wystarczające.
+ programistycznych, jednak w większości rozwiązań są one wystarczające.
  Posiada również konwencje, które mogą przyspieszyć proces wytwarzania oprogramo
 wania.
- Wadą jest konieczność nauczenia się umiejętności połączenia wszystkich
- modułów w taki sposób aby ze sobą współpracowały.
- Jest to zatem solidna a zarazem lekka platforma, która ułatwia organizację
+ Wadą są trudności wynikające z trudności połączenia wszystkich modułów
+ w taki sposób, aby ze sobą współpracowały.
+ Jest to zatem solidna, a zarazem lekka platforma, która ułatwia organizację
  kodu JavaScript oraz nie ogranicza programisty przez narzucone schematy.
 \end_layout
 
@@ -3886,15 +3883,15 @@ krótki
 \end_layout
 
 \begin_layout Standard
-Platforma Angular wspierana jest przez firmę Google co w znacznym stopniu
+Platforma Angular wspierana jest przez firmę Google, co w znacznym stopniu
  zadecydowało o jej popularności wśród programistów.
- Powstała w 2009 roku czego efektem jest duża liczba dostępnych bibliotek,
+ Powstała w 2009 roku, czego efektem jest duża liczba dostępnych bibliotek,
  które pozwalają na łatwą integrację z innymi technologiami.
- Jest zarazem wydajna jak i stosunkowo nie wielka.
- Programiści pracują nad nową wersją tej platformy, która nie będzie wspierała
- wersji obecnej.
+ Jest zarazem wydajna jak i stosunkowo niewielka.
+ Programiści pracują nad nową wersją tej platformy, która nie będzie kompatybiln
+a wstecz.
  Można zatem powiedzieć, że w tej chwili Angular jest w niekorzystnej fazie
- rozwojowej co jest niewątpliwie bardzo ważnym aspektem przy wyborze platformy
+ rozwojowej, co jest niewątpliwie bardzo ważnym aspektem przy wyborze platformy
  dla nowego projektu.
  
 \end_layout
@@ -4088,18 +4085,18 @@ krótki
 
 \begin_layout Standard
 Ember to platforma która w swej idei przypomina Ruby on Rails.
- Posiada wiele konwencji które pozwalają na znaczne przyspieszenie pracy
+ Posiada wiele konwencji, które pozwalają na znaczne przyspieszenie pracy,
  jednak przez to narzucają również pewne schematy.
- Posiada obszerne wsparcie bibliotek programistycznych które dla nowszych
- wersji platformy nie tracą kompatybilności wstecz.Wadą jest stosunkowo duży
- rozmiar samej platformy oraz minimalnie gorsza wydajność w porównaniu z
- konkurencyjnymi rozwiązaniami.
- Rozwój tej platformy jest uzależniony nie tylko od wielu programistów ale
- również firm.
- W przeciwieństwie do Angulara posiada wielu sponsorów wśród których znajdują
+ Posiada obszerne wsparcie bibliotek programistycznych, które dla nowszych
+ wersji platformy nie tracą kompatybilności wstecz.
+ Wadą jest stosunkowo duży rozmiar samej platformy oraz minimalnie gorsza
+ wydajność w porównaniu z konkurencyjnymi rozwiązaniami.
+ Rozwój tej platformy jest uzależniony nie tylko od wielu programistów,
+ ale również firm.
+ W przeciwieństwie do Angulara posiada wielu sponsorów, wśród których znajdują
  się takie firmy jak Yahoo czy LinkedIn.
  Pomimo iż Ember rozwijany jest jako wolne oprogramowanie bez ingerencji
- dużych firm to można powiedzieć, że posiada społeczność niemal tak dużą
+ dużych firm, to można powiedzieć, że posiada społeczność niemal tak dużą
  jak w przypadku platformy Angular.
 \end_layout
 
@@ -4279,7 +4276,8 @@ cena
 
 \begin_layout Standard
 Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
- systemy Android, iOS, Windows Phone, jednak kod kompilowany jest dla każdej
+ systemy, tj.
+ Android, iOS oraz Windows Phone, jednak kod kompilowany jest dla każdej
  platformy osobno, co zapewnia nawet do 90% współdzielonego kodu, co zapewnia
  niezwykle szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
  Językiem programowania w Xamarinie jest C#, a także XAML, służący do tworzenia
@@ -4640,13 +4638,13 @@ Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
  poprzez użycie nowszego Gradle zamiast Anta do budowy oprogramowania i
  importowania bibliotek.
  Wytworzenie oprogramowania jest bardziej czasochłonne niż w aplikacjach
- hybrydowych, dodatkowo wymaga znajości kilku różnych języków jak Java dla
- Androida, Swift dla iOS'a oraz C# dla Windows Phone.
+ hybrydowych, dodatkowo wymaga znajomości kilku różnych języków jak Java
+ dla Androida, Swift dla iOS'a oraz C# dla Windows Phone.
  Oczywiście rozwiązania natywne powodują, iż stworzona aplikacja działa
  tylko na jednym systemie mobilnym, a co za tym idzie napisane rozwiązania
  trzeba powielić w innych językach programowania dla innych systemów.
  Jednak dzięki temu otrzymujemy oprogramowanie o wiele szybsze, w szczególności
- dla skomplikowanych widoków, niż w przypadku rozwiązań wielo-platformowcyh.
+ dla skomplikowanych widoków, niż w przypadku rozwiązań wielo-platformowych.
 \end_layout
 
 \begin_layout Section
@@ -4654,14 +4652,14 @@ Podsumowanie
 \end_layout
 
 \begin_layout Standard
-Wybór odpowiedniej platformy jest nie tylko uzależniony od konkretnych narzędzi,
- ale również od tego w jaki sposób aplikacje powinny się ze sobą komunikować.
+Wybór odpowiedniej platformy nie jest uzależniony tylko od konkretnych narzędzi,
+ ale również od tego, w jaki sposób aplikacje powinny się ze sobą komunikować.
  Możliwe są dwa sposoby rozwiązania tego problemu:
 \end_layout
 
 \begin_layout Itemize
 Cała aplikacja internetowa umieszczona jest na jednym serwerze, który zajmuje
- się zarówno logiką jak i zwracaniem odpowiednich widoków.
+ się zarówno logiką, jak i zwracaniem odpowiednich widoków.
  Tego typu rozwiązanie jest możliwe poprzez zastosowanie platform Ruby on
  Rails, Phoenix, Laravel oraz Meteor.
 \end_layout
@@ -4738,11 +4736,11 @@ Aplikacja internetowa podzielona na dwa oddzielne moduły, umieszczone na
 Zarówno jedno jak i drugie rozwiązanie posiada swoje zalety i wady.
  Aplikacja umieszczona w całości na jednym serwerze wymaga jednej konfiguracji,
  jednak jest mniej elastyczna.
- Rozdzielenie serwera od aplikacji po stronie klienta w czasach gdy trendy
- i możliwości platform stale się zmieniają jest bardzo dużą zaletą.
+ Rozdzielenie serwera od aplikacji po stronie klienta, w czasach gdy trendy
+ i możliwości platform stale się zmieniają, jest bardzo dużą zaletą.
  Możliwa jest w takim rozwiązaniu zmiana implementacji tylko jednego z modułów
  pozostawiając drugi bez zmian.
- Jest to powodem dla którego właśnie taki sposób komunikacji został użyty
+ Jest to powodem, dla którego właśnie taki sposób komunikacji został użyty
  w projekcie.
 \end_layout
 
@@ -4752,7 +4750,7 @@ Wśród dostępnych platform implementujących logikę serwera najlepszym wybore
  Głównym powodem tego wyboru była bardzo obszerna baza bibliotek programistyczny
 ch oraz wsparcie społeczności programistów.
  Ponadto powstająca aplikacja związana z wydarzeniami wielokrotnie może
- zmieniać swój produkt biznesowy jak i funkcjonalność dlatego też idealnym
+ zmieniać swój produkt biznesowy jak i funkcjonalność, dlatego też idealnym
  wyborem było zastosowanie właśnie tej platformy.
 \end_layout
 
@@ -4775,7 +4773,6 @@ Wybór platformy dla aplikacji mobilnej był dosyć prosty, ponieważ chcąc
  natywne.
  Żadna z obecnie dostępnych platform hybrydowych nie reprezentuje odpowiedniego
  poziomu, w szczególności trzeba zwrócić uwagę na problemy z wydajnością.
- 
 \end_layout
 
 \begin_layout Chapter
