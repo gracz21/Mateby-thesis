@@ -9741,8 +9741,8 @@ status open
 \begin_layout Plain Layout
 GCM (ang.
  Google Cloud Messaging) --- usługa udostępniana przez firmę Google pozwalająca
- na wymianę danych (wysyłanie i odbiór) serwera z urządzeniem moblinym przy
- użyciu tego samego połączenia.
+ na wymianę danych (wysyłanie i odbiór) między serwerem a urządzeniem mobilnym
+ przy użyciu tego samego połączenia.
  
 \end_layout
 
