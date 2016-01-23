@@ -10495,8 +10495,80 @@ Aplikacja mobilna
 Platforma programistyczna
 \end_layout
 
+\begin_layout Standard
+Android 
+\end_layout
+
+\begin_layout Subsection
+Komponenty w systemie Android
+\end_layout
+
+\begin_layout Standard
+Komponenty
+\end_layout
+
+\begin_layout Subsection
+Komunikacja z serwerem
+\end_layout
+
+\begin_layout Standard
+Komunikacja z serwerem
+\end_layout
+
 \begin_layout Subsection
 System autoryzacji
+\end_layout
+
+\begin_layout Standard
+System autoryzacji
+\end_layout
+
+\begin_layout Subsection
+Widoki
+\end_layout
+
+\begin_layout Standard
+Widoki
+\end_layout
+
+\begin_layout Subsection
+Zarządzanie danymi
+\end_layout
+
+\begin_layout Standard
+Zarządzanie danymi
+\end_layout
+
+\begin_layout Subsection
+Techniki przetwarzania wielowątkowego
+\end_layout
+
+\begin_layout Standard
+Wielowątkowość
+\end_layout
+
+\begin_layout Subsection
+Google Cloud Messages
+\end_layout
+
+\begin_layout Standard
+Google Cloud Messages
+\end_layout
+
+\begin_layout Subsection
+Raportowanie błędów
+\end_layout
+
+\begin_layout Standard
+Raportowanie błędów
+\end_layout
+
+\begin_layout Subsection
+Testy
+\end_layout
+
+\begin_layout Standard
+Testy
 \end_layout
 
 \begin_layout Section
