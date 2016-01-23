@@ -11109,7 +11109,49 @@ Fragmentacja
 \end_layout
 
 \begin_layout Standard
-Ważną cechą Androida jest fragmentacja.
+Ważną cechą Androida jest fragmentacja, która dotyczy wersji systemu, wielkości,
+ rozdzielczości i proporcji ekranów oraz sprzętu.
+ Tworząc aplikację należy pamiętać, iż może być ona instalowana na różnych
+ urządzeniach i wersjach systemu, dlatego należy określić do jakiego grona
+ użytkowników aplikacja ma być przeznaczona, aby na każdym urządzeniu prezentowa
+ła tę samą jakość.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/android_fragmentacja.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Przykład fragmentacji wersji Androida
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
