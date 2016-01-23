@@ -4785,42 +4785,42 @@ Zarządzanie projektem
 \end_layout
 
 \begin_layout Standard
-Zarządzanie projektem to niezwykle ważna i kluczowa czynność, o które muszą
- dbać wszyscy członkowie zespołu, ponieważ bez odpowiedniego przygotowania,
- możliwe jest, iż powierzone im zadania nie zostaną prawidłowo i w zadanym
- czasie zrealizowane.
+Zarządzanie projektem to niezwykle ważna czynność, o które muszą dbać wszyscy
+ członkowie zespołu.
+ Bez odpowiedniego przygotowania możliwe jest, iż powierzone im zadania
+ nie zostaną zrealizowane prawidłowo i w zadanym czasie.
  Prawidłowe zarządzanie projektem ma na celu poprawne działanie organizacji,
  jednak także ma pozytywny wpływ na podniesienie motywacji i satysfakcji
  z pracy osób odpowiedzialnych za pracę nad danym projektem.
- Sprawi to, iż wydana aplikacja będzie kompletna, liczba błędów minimalna,
+ Sprawi to, że wydana aplikacja będzie kompletna, liczba błędów minimalna,
  a wymagania funkcjonalne spełnione.
 \end_layout
 
 \begin_layout Standard
 Najważniejsze obszary odpowiedzialne za poprawne i efektywne zarządzanie
- projektami informatycznymi:
+ projektami informatycznymi to:
 \end_layout
 
 \begin_layout Itemize
-wyraźne ustalenie celu działania,
+jednoznaczne sprecyzowanie celu działania;
 \end_layout
 
 \begin_layout Itemize
 ustalenie szczegółowo wszystkich kierunków działań i środków, za pomocą
- których można osiągnąć założony cel,
+ których można osiągnąć założony cel;
 \end_layout
 
 \begin_layout Itemize
 ułożenie dokładnego planu działania, zmierzającego do osiągnięcia celu przy
- zastosowaniu najlepszych w obecnych warunkach środków, 
+ zastosowaniu najlepszych w obecnych warunkach środków; 
 \end_layout
 
 \begin_layout Itemize
-wykonanie skrupulatnie założonego planu,
+wykonanie skrupulatnie założonego planu;
 \end_layout
 
 \begin_layout Itemize
-skontrolowanie osiągniętych wyników i porównanie z zamierzonym celem.
+kontrola osiągniętych wyników i porównanie z zamierzonym celem.
 \end_layout
 
 \begin_layout Standard
@@ -4833,33 +4833,33 @@ Wybór odpowiedniego narzędzia został podyktowany przez następujące czynniki
 \end_layout
 
 \begin_layout Itemize
-liczba programistów w zespole
+liczba programistów w zespole,
 \end_layout
 
 \begin_layout Itemize
-popularność systemu
+popularność systemu,
 \end_layout
 
 \begin_layout Itemize
-cena
+cena,
 \end_layout
 
 \begin_layout Itemize
-jakość
+jakość,
 \end_layout
 
 \begin_layout Itemize
-metodyka zarządzania projektami
+metodyka zarządzania projektami.
 \end_layout
 
 \begin_layout Standard
 Na podstawie powyższych kryteriów podjęto decyzję o wyborze narzędzia Pivotal
- Tracker, które zostało stworzene do pracy z metodami Agile.
+ Tracker, które zostało stworzone do pracy z metodami zwinnymi.
 \end_layout
 
 \begin_layout Standard
 Wybór odpowiedniej metodyki pełni niezwykle istotną rolę w zarządzaniu projektu.
- Programowanie zwinne (z ang.
+ Programowanie zwinne (ang.
  
 \begin_inset Flex Emph
 status open
