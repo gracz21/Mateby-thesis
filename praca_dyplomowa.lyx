@@ -5601,7 +5601,7 @@ Projekt aplikacji
 Projekt aplikacji jest jednym z najważniejszych etapów procesu wytwarzania
  oprogramowania.
  Odpowiednie określenie założeń co do funkcjonalności i wyglądu aplikacji
- znacznie ułatwia dalsze prace.
+ znacznie ułatwia dalszą prace.
  W
 \begin_inset space ~
 \end_inset
@@ -5611,16 +5611,16 @@ przypadku opisywanego systemu na etap projektu aplikacji składały się 3
 \end_layout
 
 \begin_layout Itemize
-określenie wymagań funkcjonalnych, które musi spełniać tworzony system
+określenie wymagań funkcjonalnych, które musi spełniać tworzony system;
 \end_layout
 
 \begin_layout Itemize
-stworzenie prototypów interfejsu aplikacji internetowej i mobilnej
+zaprojektowanie prototypów interfejsu aplikacji internetowej i mobilnej;
 \end_layout
 
 \begin_layout Itemize
-zaprojektowanie bazy danych w modelu związków-encji i przetransformowanie
- powstałego schematu do modelu relacyjnego
+zaprojektowanie bazy danych w modelu związków-encji i transformacja powstałego
+ schematu do modelu relacyjnego.
 \end_layout
 
 \begin_layout Section
@@ -5629,7 +5629,7 @@ Wymagania funkcjonalne i pozafunkcjonalne
 
 \begin_layout Standard
 Kluczową cechą każdej aplikacji jest jej funkcjonalność.
- Powinna być ona dobrze sprecyzowana tak, by nie była ani zbyt szeroka,
+ Powinna być ona dobrze sprecyzowana tak, by nie była ani zbyt obszerna,
  ani nie ograniczała możliwości potencjalnego użytkownika.
  Opis funkcji, które mają być realizowane przez system, nazywamy 
 \begin_inset Flex Emph
@@ -5641,7 +5641,7 @@ wymaganiami funkcjonalnymi
 
 \end_inset
 
- 
+
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -5689,7 +5689,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Diagram kontekstu dla opisywanego systemu 
+Diagram kontekstu dla opisywanego systemu.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:5.1"
@@ -5710,24 +5711,24 @@ name "fig:5.1"
 \end_layout
 
 \begin_layout Standard
-W przypadku opisywanego systemu można rozróżnić 3 rodzaje użytkowników:
+W przypadku opisywanego systemu można wyróżnić trzy rodzaje użytkowników:
 \end_layout
 
 \begin_layout Itemize
 Użytkownik zwykły --- jego główną motywacją do korzystania z serwisu jest
  wyszukiwanie wydarzeń, dyskutowanie na ich temat i dołączanie do nich,
- posiada także uprawnienia do tworzenia własnych wydarzeń
+ posiada także uprawnienia do tworzenia własnych wydarzeń.
 \end_layout
 
 \begin_layout Itemize
 Instytucja --- zrzesza swoje odziały, może nimi zarządzać i przeglądać dane
- na ich temat
+ na ich temat.
 \end_layout
 
 \begin_layout Itemize
 Oddział instytucji (w skrócie nazywany Oddziałem) --- przede wszystkim posiada
  uprawnienia do tworzenia wydarzeń, może także przeglądać wszystkie wydarzenia
- zgromadzone w serwisie
+ zgromadzone w serwisie.
 \end_layout
 
 \begin_layout Standard
@@ -7700,10 +7701,10 @@ name "fig:5.2"
 \end_layout
 
 \begin_layout Standard
-Ekran główny jest pierwszym jaki można zobaczyć po wejściu na stronę aplikacji.
+Ekran główny jest pierwszym, jaki można zobaczyć po wejściu na stronę aplikacji.
  Znajdują się na nim kafelki ze zdjęciem oraz nazwą danej kategorii (1).
  Po kliknięciu na daną kategorię pojawia się ekran wyboru podkategorii,
- którego konstrukcja jest identyczna jak widok kategorii.
+ którego konstrukcja jest identyczna jak widoku kategorii.
  W
 \begin_inset space ~
 \end_inset
@@ -8996,8 +8997,9 @@ Projekt bazy danych
 
 \begin_layout Standard
 Projektowanie bazy danych jest procesem odzwierciedlania obiektów świata
- rzeczywistego (a w szczególności zależności w nim występujących) w systemie
- informatycznym.
+ rzeczywistego (a w szczególności zależności występujących między nimi)
+ w systemie informatycznym.
+ Odpowiedni projekt stanowi podstawę uniknięcia problemu redundancji danych.
 \end_layout
 
 \begin_layout Subsection
@@ -9073,8 +9075,8 @@ reference "fig:5.19"
 Pierwszą encją, na którą należy zwrócić uwagę, jest konto.
  Posiada ona dwa atrybuty i stanowi generalizację najważniejszych cech,
  które będzie posiadało każde konto założone w systemie.
- Konto jest powiązane trzema związkami wyłącznymi typu 1:1 obowiązkowymi
- po obu stronach z encjami użytkownik zwykły, oddział instytucji oraz instytucja.
+ Jest ono powiązane trzema związkami wyłącznymi typu 1:1 obowiązkowymi po
+ obu stronach z encjami użytkownik zwykły, oddział instytucji oraz instytucja.
  Każda z tych encji odpowiada jednemu z trzech typów kont obecnych w systemie.
  Instytucja może posiadać nieskończenie wiele instancji oddziałów instytucji.
  Użytkownik zwykły oraz oddział instytucji musi być powiązany z dokładnie
@@ -9085,10 +9087,10 @@ Pierwszą encją, na którą należy zwrócić uwagę, jest konto.
  w nich), wydarzenie natomiast może mieć wielu użytkowników zwykłych (jako
  uczestników).
  Wydarzenie ma także jednego organizatora w postaci instancji encji użytkownik
- zwykły lub encji oddział instytucji.
+ zwykły lub oddział instytucji.
  Może posiadać także nieskończenie wiele znaczników.
- Wydarzenie należy do dokładnie jednej podkategorii, podkategoria zaś musi
- być powiązana z jedną kategorią.
+ Wydarzenie należy do dokładnie jednej podkategorii, która musi być powiązana
+ z jedną kategorią.
  Ostatnią encją opisywanego modelu jest wiadomość.
  Musi ona posiadać autora (w postaci użytkownika zwykłego lub oddziału instytucj
 i) oraz obiekt, którego dotyczy (w postaci wydarzenia lub oddziału instytucji).
