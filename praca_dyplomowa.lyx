@@ -11285,8 +11285,18 @@ key "key-10"
 
 \end_inset
 
-About Bootstrap, [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie:
- http://getbootstrap.com/about
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+About Bootstrap
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie: http://getbootstrap.c
+om/about
 \end_layout
 
 \end_body
