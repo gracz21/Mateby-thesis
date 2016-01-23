@@ -5257,7 +5257,26 @@ System ciągłej integracji
 \begin_layout Standard
 System ciągłej integracji wspomoga usystematyzować procesy wykonywane przez
  każdego z programistów.
- Każdy pracownik przed zaktualizowaniem zmian na repozytorium
+ Wszyscy pracownicy przed zaktualizowaniem zmian na repozytorium za każdym
+ razem wykonują tę samą sekwencję czynności, dlatego powstały narzędzia
+ mające na celu odciążyć programistów od danych procesów.
+ Głównymi zadaniami systemów ciągłej integracji są:
+\end_layout
+
+\begin_layout Itemize
+uruchomienie i sprawdzenie testów jednostkowych aplikacji
+\end_layout
+
+\begin_layout Itemize
+uruchamianie testów integracyjnych
+\end_layout
+
+\begin_layout Itemize
+kompilowanie i budowanie aplikacji
+\end_layout
+
+\begin_layout Itemize
+automatyczne tworzenie dokumentacji
 \end_layout
 
 \begin_layout Standard
@@ -5270,19 +5289,22 @@ wymagają konfiguracji i utrzymania
 \end_layout
 
 \begin_layout Itemize
-wymagają kodu dobrej jakości.
- Szczególnie kodu z odpowiednią ilością testów by móc korzystać z zalet
- automatyzacji testów
+wymagają dużej liczby testów, by móc w pełni korzystać z zalet automatyzacji
+ testowania aplikacji
 \end_layout
 
 \begin_layout Itemize
-mogą wymagać znacznych nakładów sprzętowych.
+przy dużych projektach wymagają mocnej konfiguracji sprzętowej.
 \end_layout
 
 \begin_layout Standard
-Istnieje coraz większe zapotrzebowanie na systemy ciągłej integracji dlatego
- rynek oferuje coraz więcej narzędzi takich jak Jenkins, CruiseControl,
- bądź CircleCi .
+Podsumowując jest to narzędzie mające na celu zaoszczędzenie czasu pracy
+ programistów na zadania monotonnych i powtarzalnych.
+ Inforumuje osoby biorące udział w projekcie o rezultatach sprawdzenia wyznaczon
+ych zadań i ewentualnych błędach.
+ Dzięki automatyzacji zarządzania kodem i projektem istnieje coraz większe
+ zapotrzebowanie na systemy ciągłej integracji, dlatego rynek oferuje coraz
+ więcej narzędzi takich jak Jenkins, CruiseControl, bądź CircleCI .
  Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
  następujące czynniki:
 \end_layout
@@ -5304,25 +5326,26 @@ cena
 \end_layout
 
 \begin_layout Standard
-Na podstawie wyżej wymienionych kryteriów wybrano serwis CircleCi.
+Na podstawie wyżej wymienionych kryteriów wybrano serwis CircleCI.
 \end_layout
 
 \begin_layout Paragraph
-Platforma CircleCi
+Platforma CircleCI
 \end_layout
 
 \begin_layout Standard
-Platfroma CircleCi...Przyspieszyć cykl badań i rozwoju, CircleCI jest elastyczny,
- aby uruchomić w środowisku i skali z twojego wzrostu.
- Mieć spokój poprzez zmniejszenie błędów i poprawy jakości swojej aplikacji.
-\end_layout
-
-\begin_layout Standard
-Rozwój oprogramowania platformy pomaga zespołom szybko zwolnić kod zaufać
- poprzez automatyzację tworzenia, testowania i procesu wdrażania.
- Stworzony dla deweloperów, CircleCI oferuje nowoczesną platformę do tworzenia
- oprogramowania, które umożliwia zespoły ramp szybko, łatwo skalować i zbudować
- pewnie na co dzień.
+Platfroma CircleCI to system ciągłej integracji wspomający integrację z
+ wieloma innymi platformami takimi jak Github, Android SDK, Ruby on Rails,
+ a także Ember.
+ CircleCI zostało stworzone na potrzeby deweloperów, oferuje nowoczesną
+ platformę do tworzenia oprogramowania, która umożliwia zespołom szybko
+ oraz łatwo budować aplikacje po każdych zamianach na repozytorium.
+ Przyspiesza cykl badań i rozwój projektu.
+ Zapewnia spokój w tworzeniu oprogramowaniwa poprzez zmniejszenie błędów
+ i popraw jakości wytwarzanej aplikacji.
+ Rozwój oprogramowania platformy pomaga zespołom zredukować monotonne czynności
+ poprzez automatyzację budowania, testowania oraz procesu wdrażania aplikacji.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5347,7 +5370,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok systemu ciągłej integracji CircleCi
+Widok systemu ciągłej integracji CircleCI
 \end_layout
 
 \end_inset
@@ -5448,7 +5471,7 @@ Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  daje to możliwość śledzenia zmian statusów przydzielonych zadań, co więcej
  połączenie Pivotala z Githubem informuje o wrzuconych zmianach do repozytorium
  pod tytułem odpowiedniego zadania.
- Slack umożliwia również połączenie się ze środowiskiem CircleCi, powoduje
+ Slack umożliwia również połączenie się ze środowiskiem CircleCI, powoduje
  to uzyskiwanie informacji na temat bieżących zmian w kodzie, skonfigurowanych
  w systemie ciągłej integracji.
 \end_layout
@@ -5463,7 +5486,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename screenshoty/mateby_slack.jpg
-	width 70page%
+	width 60page%
 
 \end_inset
 
@@ -10155,6 +10178,59 @@ DELETE users/:id
 \end_layout
 
 \begin_layout Subsection
+Protokół WebSocket po stronie serwera
+\end_layout
+
+\begin_layout Standard
+Istnieje wiele aplikacji dla których przekazywanie informacji w czasie rzeczywis
+tym jest niezwykle istotne.
+ Przykładem tego typu rozwiązań są asynchroniczne systemy wymiany wiadomości,
+ czyli live chat (z ang.
+ rozmowa na żywo).
+ Pierwotnie, aby zapewnić działanie aplikacji w czasie rzeczywistym używano
+ okresowego odpytywania serwera, który w przypadku pojawienia się nowych
+ danych do wyświetlenia zwracał odpowiednie informacje.
+ Mechanizm ten był skuteczny, jednak wymagał generowania wielu zapytań,
+ które obciążają serwer.
+ 
+\end_layout
+
+\begin_layout Standard
+W 2011 roku wprowadzono protokół WebSocket, kóry został oficjalnie zaprezentowan
+ay w standardzie RFC 6455
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6"
+
+\end_inset
+
+.
+ Jest to zupełnie inne podejście zakładające istnienie transmisji dwukierunkowej
+, między klientem a serwerem, które mogą przesyłać między sobą w dowolnym
+ momencie wiadomości rozszerzonym protokołem HTTP o nazwie WS
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6-1"
+
+\end_inset
+
+.
+ W celu zainicjalizowania takiego połączenia klient wysyła odpowiedni komunikat
+ i jeśli spełnia wymagania dostaje pozytywną odpowiedź serwera, co oznacza,
+ że od tej chwili między nimi istnieje dwukierunkowy kanał.
+ Taka początkowa wymiana danych znana jest jako handshake.
+\end_layout
+
+\begin_layout Standard
+Protokół WebSocket został użyty w projekcie w celu udostępnienia powiadomień
+ związanych z nowymi zaproszeniami na wydarzenie.
+ W momencie tworzenia nowego rekordu wysyłana jest wiadomość ze szczegółami
+ zaproszenia o ile istnieje w danej chwili połączenie między klientem docelowym
+ a serwerem.
+ 
+\end_layout
+
+\begin_layout Subsection
 Testy
 \end_layout
 
@@ -10745,6 +10821,26 @@ Aplikacja umożliwia również uwierzytelnienie za pomocą serwisu Facebook,
 \end_layout
 
 \begin_layout Subsection
+Protokół WebSocket po stronie klienta
+\end_layout
+
+\begin_layout Standard
+Zadaniem aplikacji internetowej po stronie kliena w przypadku użycia protokołu
+ WebSocket jest wysłanie odpowiednich danych, które wymagane są w celu utworzeni
+a połączenia.
+ Tymi informacjami są: nazwa kanału oraz token uwierzytelniające.
+ Pierwsza z nich wymagana jest, aby otrzymywać wiadomości z odpowiedniego
+ kanału, ponieważ może być ich kilka.
+ Przykładem może być kanał wysyłający wiadomości w ogólnodostępnej grupowej
+ rozmowie oraz kanał wysyłający powiadomienia do użytkowników.
+ Sekretny token jest potrzebny w celu zabezpieczenia połączenia przed nieautoryz
+owanym dostępem.
+ Jest on wysyłany jako zwykły parametr ponieważ typowe zapytanie odbierane
+ jest przez specjalne kontrolery związane z klasą WebSocket i tym samym
+ omijany jest typowy proces uwierzytelniania protokołem Oauth2.
+\end_layout
+
+\begin_layout Subsection
 Responsywność widoków
 \end_layout
 
@@ -10891,8 +10987,80 @@ Aplikacja mobilna
 Platforma programistyczna
 \end_layout
 
+\begin_layout Standard
+Android 
+\end_layout
+
+\begin_layout Subsection
+Komponenty w systemie Android
+\end_layout
+
+\begin_layout Standard
+Komponenty
+\end_layout
+
+\begin_layout Subsection
+Komunikacja z serwerem
+\end_layout
+
+\begin_layout Standard
+Komunikacja z serwerem
+\end_layout
+
 \begin_layout Subsection
 System autoryzacji
+\end_layout
+
+\begin_layout Standard
+System autoryzacji
+\end_layout
+
+\begin_layout Subsection
+Widoki
+\end_layout
+
+\begin_layout Standard
+Widoki
+\end_layout
+
+\begin_layout Subsection
+Zarządzanie danymi
+\end_layout
+
+\begin_layout Standard
+Zarządzanie danymi
+\end_layout
+
+\begin_layout Subsection
+Techniki przetwarzania wielowątkowego
+\end_layout
+
+\begin_layout Standard
+Wielowątkowość
+\end_layout
+
+\begin_layout Subsection
+Google Cloud Messages
+\end_layout
+
+\begin_layout Standard
+Google Cloud Messages
+\end_layout
+
+\begin_layout Subsection
+Raportowanie błędów
+\end_layout
+
+\begin_layout Standard
+Raportowanie błędów
+\end_layout
+
+\begin_layout Subsection
+Testy
+\end_layout
+
+\begin_layout Standard
+Testy
 \end_layout
 
 \begin_layout Section
@@ -11024,20 +11192,39 @@ key "key-6"
 
 \end_inset
 
-
+Fette I., Melnikov A., 
 \begin_inset Flex Emph
 status open
 
 \begin_layout Plain Layout
-Responsive Web Design
+The WebSocket Protocol
 \end_layout
 
 \end_inset
 
-.
- W: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie:
- https://pl.wikipedia.org/wiki/Responsive_Web_Design
+, [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie: https://tools.ietf.org
+/html/rfc6455
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6-1"
+
+\end_inset
+
+Lombardi A.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+WebSocket
+\end_layout
+
+\end_inset
+
+, O’Reilly Media, 2015
 \end_layout
 
 \begin_layout Bibliography
@@ -11108,7 +11295,8 @@ key "key-10"
 
 \end_inset
 
-http://getbootstrap.com/about/
+About Bootstrap, [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie:
+ http://getbootstrap.com/about
 \end_layout
 
 \end_body
