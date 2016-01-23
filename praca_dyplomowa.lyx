@@ -5359,7 +5359,7 @@ Platfroma CircleCI to system ciągłej integracji wspomający integrację z
  CircleCI zostało stworzone na potrzeby deweloperów, oferuje nowoczesną
  platformę do tworzenia oprogramowania, która umożliwia zespołom szybko
  oraz łatwo budować aplikacje po każdych zamianach na repozytorium.
- Przyspiesza cykl badań i rozwoju projektu.
+ Przyspiesza cykl badań i rozwój projektu.
  Zapewnia spokój w tworzeniu oprogramowaniwa poprzez zmniejszenie błędów
  i popraw jakości wytwarzanej aplikacji.
  Rozwój oprogramowania platformy pomaga zespołom zredukować monotonne czynności
@@ -5505,7 +5505,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename screenshoty/mateby_slack.jpg
-	width 70page%
+	width 60page%
 
 \end_inset
 
