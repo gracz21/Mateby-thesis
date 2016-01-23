@@ -164,12 +164,12 @@ go rozwoju zarówno aplikacji internetowych jak i mobilnych.
 
 \begin_layout Itemize
 mechanizmy funkcjonujące po stronie serwera, których zadaniem jest komunikacja
- z bazą danych oraz przetwarzanie zadań
+ z bazą danych oraz przetwarzanie zadań;
 \end_layout
 
 \begin_layout Itemize
 interfejs użytkownika, którego zadaniem jest przyjmowanie danych od użytkownika,
- komunikacja z serwerem oraz prezentacja danych
+ komunikacja z serwerem oraz prezentacja danych.
 \end_layout
 
 \begin_layout Standard
@@ -206,20 +206,20 @@ ego.
 \end_layout
 
 \begin_layout Itemize
-elastycznego wyszukiwania
+elastycznego wyszukiwania,
 \end_layout
 
 \begin_layout Itemize
-integracji z innymi serwisami społecznościowymi
+integracji z innymi serwisami społecznościowymi,
 \end_layout
 
 \begin_layout Itemize
-możliwość formowania grup społecznościowych
+możliwość formowania grup społecznościowych,
 \end_layout
 
 \begin_layout Itemize
 łatwego zarządzania oddziałami firm tworzących wydarzenia oraz przeglądania
- zbiorczych statystyk
+ zbiorczych statystyk.
 \end_layout
 
 \begin_layout Standard
@@ -234,71 +234,67 @@ Cel i zakres pracy
 \end_layout
 
 \begin_layout Standard
-Celem pracy jest projekt i implementacja aplikacji społecznościowej umożliwiając
-ej wyszukiwanie sparametryzowanych wydarzeń wśród lokalnych społeczności,
- zachęcającej tym samym do spędzania czasu we wspólnym gronie.
+Celem pracy jest zaprojektowanie i zaimplementowanie systemu umożliwiającego
+ sparametryzowane wyszukiwanie wydarzeń wśród lokalnych społeczności, a
+ tym samym zachęcenia do spędzania czasu we wspólnym gronie.
+ Na ten cel ogólny składają się następujące cele szczegółowe:
 \end_layout
 
-\begin_layout Standard
-Na ten cel ogólny składają się następujące cele szczegółowe:
+\begin_layout Enumerate
+Dokonanie przeglądu istniejących aplikacji o podobnej tematyce --- wyszukanie
+ i porównanie obecnych na rynku rozwiązań, w celu analizy ich pozytywnych
+ i negatywnych cech.
 \end_layout
 
-\begin_layout Itemize
-dokonanie przeglądu istniejących aplikacji o podobnej tematyce --- wyszukanie
- i porównanie będących na rynku aplikacji o podobnym przeznaczeniu, ukazując
- wyróżniające aspekty naszej aplikacji
+\begin_layout Enumerate
+Dokonanie przeglądu dostępnych technologii i platform programistycznych
+ --- wyszukanie i porównanie technologii umożliwiających implementację bazy
+ danych, logiki serwera, a także aplikacji internetowej oraz mobilnej.
 \end_layout
 
-\begin_layout Itemize
-dokonanie przeglądu dostępnych technologii i platform programistycznych
- --- wyszukanie i porównanie technologii umożliwiających stworzenie bazy
- danych, logiki serwera, a także aplikacji internetowej oraz mobilnej
+\begin_layout Enumerate
+Integracja wybranych narzędzi inżynierii oprogramowania --- wykorzystanie
+ i konfiguracja narzędzi wspomagających następujące procesy: zarzadzanie
+ projektem, kontrola wersji, ciągła integracja, komunikacja wewnątrz zespołowa
+ oraz wprowadzenie projektu w stan przedprodukcyjny.
 \end_layout
 
-\begin_layout Itemize
-zintegrowanie narzędzi inżynierii oprogramowania --- przedstawienie wykorzystani
-a narzędzi takich jak narzędzie agile’owe Pivotal Tracker służące zarzadzaniu
- projektem, system kontroli wersji git, system ciągłej integracji CircleCI,
- komunikator Slack w celu komunikacji wewnątrz zespołowej oraz serwer przedprodu
-kcyjny na platformie Heroku 
+\begin_layout Enumerate
+Sprecyzowanie wymagań funkcjonalnych --- określenie i analiza założeń funkcjonal
+ności aplikacji, w celu sprecyzowania priorytetów oraz zminimalizowania
+ ryzyka powstania wymagań sprzecznych lub zbędnych.
 \end_layout
 
-\begin_layout Itemize
-sprecyzowanie wymagań funkcjonalnych i pozafunkcjonalnych --- wypisanie
- i analiza funkcjonalności aplikacji, w celu określenia priorytetu oraz
- uniknięcia sytuacji powstania wymagań sprzecznych lub zbędnych oraz określenie
- założeń co do jakości oferowanych usług
+\begin_layout Enumerate
+Sprecyzowanie wymagań pozafunkcjonalnych --- określenie i analiza założeń
+ co do jakości oferowanych usług.
 \end_layout
 
-\begin_layout Itemize
-zaprojektowanie interfejsu aplikacji --- ukazanie oczekiwanego wyglądu aplikacji
- internetowej oraz mobilnej, poprzez przedstawienie grafik z odpowiednimi
- widokami ekranów 
+\begin_layout Enumerate
+Zaprojektowanie interfejsu aplikacji internetowej i mobilnej --- ukazanie
+ oczekiwanego wyglądu aplikacji internetowej oraz mobilnej, poprzez przedstawien
+ie prototypów z odpowiednimi widokami ekranu.
 \end_layout
 
-\begin_layout Itemize
-zaprojektowanie bazy danych --- stworzenie modelu związków-encji oraz jego
- transformacja do modelu relacyjnego 
+\begin_layout Enumerate
+Zaprojektowanie schematu bazy danych --- stworzenie modelu związków-encji
+ oraz jego transformacja do modelu relacyjnego.
 \end_layout
 
-\begin_layout Itemize
-zaimplementowanie logiki serwera aplikacji --- implementacja funkcjonalności
- serwera dla aplikacji internetowej i mobilnej 
+\begin_layout Enumerate
+Zaimplementowanie logiki serwera aplikacji --- implementacja interfejsu
+ programistycznego aplikacji wraz z testami.
 \end_layout
 
-\begin_layout Itemize
-zaimplementowanie aplikacji internetowej --- stworzenie w pełni zgodnego
- z wymaganiami funkcjonalnymi serwisu internetowego 
+\begin_layout Enumerate
+Zaimplementowanie aplikacji internetowej po stronie klienta --- stworzenie
+ w pełni zgodnego z wymaganiami funkcjonalnymi oraz prototypami interfejsu
+ użytkownika współpracującego z serwerem.
 \end_layout
 
-\begin_layout Itemize
-zaimplementowanie aplikacji mobilnej --- stworzenie w pełni zgodnej z wymaganiam
-i funkcjonalnymi aplikacji mobilnej 
-\end_layout
-
-\begin_layout Itemize
-testy aplikacji --- napisanie i przedstawienie testów jednostkowych logiki
- serwera i aplikacji mobilnej.
+\begin_layout Enumerate
+Zaimplementowanie aplikacji mobilnej --- stworzenie w pełni zgodnej z wymaganiam
+i funkcjonalnymi oraz prototypami aplikacji mobilnej współpracującej z serwem.
 \end_layout
 
 \begin_layout Section
