@@ -5323,7 +5323,7 @@ Podsumowując jest to narzędzie mające na celu zaoszczędzenie czasu pracy
 ych zadań i ewentualnych błędach.
  Dzięki automatyzacji zarządzania kodem i projektem istnieje coraz większe
  zapotrzebowanie na systemy ciągłej integracji, dlatego rynek oferuje coraz
- więcej narzędzi takich jak Jenkins, CruiseControl, bądź CircleCi .
+ więcej narzędzi takich jak Jenkins, CruiseControl, bądź CircleCI .
  Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
  następujące czynniki:
 \end_layout
@@ -5345,25 +5345,26 @@ cena
 \end_layout
 
 \begin_layout Standard
-Na podstawie wyżej wymienionych kryteriów wybrano serwis CircleCi.
+Na podstawie wyżej wymienionych kryteriów wybrano serwis CircleCI.
 \end_layout
 
 \begin_layout Paragraph
-Platforma CircleCi
+Platforma CircleCI
 \end_layout
 
 \begin_layout Standard
-Platfroma CircleCi...Przyspieszyć cykl badań i rozwoju, CircleCI jest elastyczny,
- aby uruchomić w środowisku i skali z twojego wzrostu.
- Mieć spokój poprzez zmniejszenie błędów i poprawy jakości swojej aplikacji.
-\end_layout
-
-\begin_layout Standard
-Rozwój oprogramowania platformy pomaga zespołom szybko zwolnić kod zaufać
- poprzez automatyzację tworzenia, testowania i procesu wdrażania.
- Stworzony dla deweloperów, CircleCI oferuje nowoczesną platformę do tworzenia
- oprogramowania, które umożliwia zespoły ramp szybko, łatwo skalować i zbudować
- pewnie na co dzień.
+Platfroma CircleCI to system ciągłej integracji wspomający integrację z
+ wieloma innymi platformami takimi jak Github, Android SDK, Ruby on Rails,
+ a także Ember.
+ CircleCI zostało stworzone na potrzeby deweloperów, oferuje nowoczesną
+ platformę do tworzenia oprogramowania, która umożliwia zespołom szybko
+ oraz łatwo budować aplikacje po każdych zamianach na repozytorium.
+ Przyspiesza cykl badań i rozwoju projektu.
+ Zapewnia spokój w tworzeniu oprogramowaniwa poprzez zmniejszenie błędów
+ i popraw jakości wytwarzanej aplikacji.
+ Rozwój oprogramowania platformy pomaga zespołom zredukować monotonne czynności
+ poprzez automatyzację budowania, testowania oraz procesu wdrażania aplikacji.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5388,7 +5389,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok systemu ciągłej integracji CircleCi
+Widok systemu ciągłej integracji CircleCI
 \end_layout
 
 \end_inset
@@ -5489,7 +5490,7 @@ Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  daje to możliwość śledzenia zmian statusów przydzielonych zadań, co więcej
  połączenie Pivotala z Githubem informuje o wrzuconych zmianach do repozytorium
  pod tytułem odpowiedniego zadania.
- Slack umożliwia również połączenie się ze środowiskiem CircleCi, powoduje
+ Slack umożliwia również połączenie się ze środowiskiem CircleCI, powoduje
  to uzyskiwanie informacji na temat bieżących zmian w kodzie, skonfigurowanych
  w systemie ciągłej integracji.
 \end_layout
