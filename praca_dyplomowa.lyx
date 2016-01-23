@@ -10945,7 +10945,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename screenshoty/wydarzenia_tablet.png
-	scale 30
+	scale 40
 
 \end_inset
 
@@ -10978,7 +10978,138 @@ Platforma programistyczna
 \end_layout
 
 \begin_layout Standard
-Android 
+Android to najbardziej popularny system dla urządzeń mobilnych na świecie,
+ będący od lipca 2005 roku własnością Google.
+ Według badań Strategy Analytics, aż 85% urządzeń mobilnych pracuje pod
+ kontrolą systemu operacyjnego Google.
+ Jest to darmowy, otwarty system, co warte podkreślenia duża cześć kodu
+ źródłowego jest udostępniona jako Android Open Source Project.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Architektura systemu
+\end_layout
+
+\begin_layout Standard
+Jądro Androida to niewielka modyfikacja systemu Linux wykorzystywanego w
+ komputerach, jednak nie jest on dostępny dla użytkownika.
+ Jedynym sposobem w jaki można dokonywać interakcji z systemem Linux jest
+ wykorzystanie powłoki.
+ Nad warstwą Linuxa znajduje się warstwa bibliotek natywnych napisanych
+ najczęściej w językach niskopoziomowych, przykładem takich rozwiązań może
+ być OpenGL, SQLite, bądź WebKit.
+ Z punktu widzenia programisty dużo bardziej interesującą rzeczą jest część
+ zaczynająca się od wirtuanej maszyny.
+ Kolejną warstwą są wszystkie rzeczy dostępne z poziomu Javy, które programista
+ może wykorzystywać w swojej aplikacji.
+ Przykładami są widoki, komponenty, czujniki, sensory, a także mechanizmów
+ obsługujących telefon lub powiadomienia.
+ Ostatnim elementem jest warstwa aplikacji, do której należą aplikacje domyślnie
+ zainstalowane przez Google'a dostępne w każdej wersji Androida, a także
+ te stworzone przez innych programistów.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/android_architektura.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schemat architektury systemu Android
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Maszyna witrualna
+\end_layout
+
+\begin_layout Standard
+Aplikacje mobilne na Androida są tworzone w języku Java, jednak wykorzystywana
+ wirtualna maszyna jest specjalną, niezależną implementacją powstałej wcześniej
+ wirtualnej maszyny Java SE.
+ Kod w języku Java kompilowany jest do kodu bajtowego, który następnie kompilowa
+ny jest do kodu maszynowego.
+ Początkowym środowiskiem uruchomieniowym systemu Android była maszyna wirtualna
+ Dalvik, jednak od wersji Androida 5.0 środowiskiem tym jest ART.
+ Główną różnicą jest to, iż w Dalviku kod bajtowy kompilowany jest za każdym
+ uruchomieniem aplikacji, natomiast dla maszyny wirtualnej ART w momencie
+ instalacji pakietu aplikacji.
+ Pozwoliło to na zmniejszenie czasu uruchamiania aplikacji oraz zwiękaszenie
+ wydajności aplikacji.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/android_maszyna_wirtualna.jpg
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schemat działania architektury ART w porównaniu do Dalvika
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Fragmentacja
+\end_layout
+
+\begin_layout Standard
+Ważną cechą Androida jest fragmentacja.
 \end_layout
 
 \begin_layout Subsection
