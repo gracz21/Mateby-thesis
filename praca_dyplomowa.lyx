@@ -9715,7 +9715,7 @@ Zawiera punkty końcowe związane ze zwracaniem kategorii i podkategorii.
 \end_layout
 
 \begin_layout Subsection
-Protokół websockets po stronie serwera
+Protokół WebSocket po stronie serwera
 \end_layout
 
 \begin_layout Standard
@@ -9733,8 +9733,8 @@ tym jest niezwykle istotne.
 \end_layout
 
 \begin_layout Standard
-W 2011 roku wprowadzono protokół websockets, kóry został oficjalnie zaprezentowa
-nay w standardzie RFC 6455
+W 2011 roku wprowadzono protokół WebSocket, kóry został oficjalnie zaprezentowan
+ay w standardzie RFC 6455
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6"
@@ -9742,8 +9742,8 @@ key "key-6"
 \end_inset
 
 .
- Jest to zupełnie inne podejście, które zakłada istnienie transmisji dwukierunko
-wej, między klientem a serwerem, które mogą przesyłać między sobą w dowolnym
+ Jest to zupełnie inne podejście zakładające istnienie transmisji dwukierunkowej
+, między klientem a serwerem, które mogą przesyłać między sobą w dowolnym
  momencie wiadomości rozszerzonym protokołem HTTP o nazwie WS
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -9753,9 +9753,18 @@ key "key-6-1"
 
 .
  W celu zainicjalizowania takiego połączenia klient wysyła odpowiedni komunikat
- i jeśli spełnia odpowiednie wymagania dostaje pozytywną odpowiedź od serwera,
- co oznacza, że od tej chwili między nimi istnieje dwukierunkowy kanał.
+ i jeśli spełnia wymagania dostaje pozytywną odpowiedź serwera, co oznacza,
+ że od tej chwili między nimi istnieje dwukierunkowy kanał.
  Taka początkowa wymiana danych znana jest jako handshake.
+\end_layout
+
+\begin_layout Standard
+Protokół WebSocket został użyty w projekcie w celu udostępnienia powiadomień
+ związanych z nowymi zaproszeniami na wydarzenie.
+ W momencie tworzenia nowego rekordu wysyłana jest wiadomość ze szczegółami
+ zaproszenia o ile istnieje w danej chwili połączenie między klientem docelowym
+ a serwerem.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -10346,6 +10355,26 @@ Aplikacja umożliwia również uwierzytelnienie za pomocą serwisu Facebook,
  użytkownika za pomocą danych przechwyconych w odpowiedzi serwera.
  W ten sposób zarejestrowany użytkownik w niczym nie różni się od stworzonego
  za pomocą standardowego formularza rejestracyjnego.
+\end_layout
+
+\begin_layout Subsection
+Protokół WebSocket po stronie klienta
+\end_layout
+
+\begin_layout Standard
+Zadaniem aplikacji internetowej po stronie kliena w przypadku użycia protokołu
+ WebSocket jest wysłanie odpowiednich danych, które wymagane są w celu utworzeni
+a połączenia.
+ Tymi informacjami są: nazwa kanału oraz token uwierzytelniające.
+ Pierwsza z nich wymagana jest, aby otrzymywać wiadomości z odpowiedniego
+ kanału, ponieważ może być ich kilka.
+ Przykładem może być kanał wysyłający wiadomości w ogólnodostępnej grupowej
+ rozmowie oraz kanał wysyłający powiadomienia do użytkowników.
+ Sekretny token jest potrzebny w celu zabezpieczenia połączenia przed nieautoryz
+owanym dostępem.
+ Jest on wysyłany jako zwykły parametr ponieważ typowe zapytanie odbierane
+ jest przez specjalne kontrolery związane z klasą WebSocket i tym samym
+ omijany jest typowy proces uwierzytelniania protokołem Oauth2.
 \end_layout
 
 \begin_layout Subsection
