@@ -8902,9 +8902,10 @@ W
 
 górnej części ekranu profilu użytkownika można znaleźć jego imię i nazwisko
  (1; w przypadku użytkownika zwykłego) lub nazwa (1; w przypadku oddziału
- instytucji), zdjęcie profilowe (2) oraz podstawowe informacje o nim (3).
- Poniżej znajduje się lista trzech ostatnich wydarzeń utworzonych (4) oraz
- uczęszczanych (5; tylko w przypadku profilu użytkownika zwykłego) przez
+ instytucji), przycisk pozwalający na edycję (2) lub usunięcie konta (3),
+ zdjęcie profilowe (4) oraz podstawowe informacje o użytkowniku (5).
+ Poniżej znajduje się lista trzech ostatnich wydarzeń utworzonych (6) oraz
+ uczęszczanych (7; tylko w przypadku profilu użytkownika zwykłego) przez
  danego użytkownika.
  W
 \begin_inset space ~
@@ -8977,12 +8978,11 @@ Podobnie jak w przypadku aplikacji internetowej ekran ten jest dostępny
 
 górnej części ekranu można znaleźć przycisk przekierowujący do formularza
  utworzenia nowej jednostki (1).
- Poniżej znajduje się lista oddziałów danej instytucji.
- Opis każdej jednostki składa się ze zdjęcia (2) oraz podsumowania najważniejszy
-ch informacji na jej temat.
- Po wybraniu jednej nich pojawi się okienko dialogowe (4) pozwalające na
- podjęcie jednej z 4 akcji: zamknięcie okienka (5), przejście do profilu
- oddziału (6), edycja oddziału (7) lub usunięcie oddziału (8).
+ Obok znajdują się przycisku pozwalające na edycję (2) lub usunięcie konta.
+ Poniżej można znaleźć listę oddziałów danej instytucji.
+ Opis każdej jednostki składa się ze zdjęcia (4) oraz podsumowania najważniejszy
+ch informacji na jej temat (5).
+ Po wybraniu jednej nich następuje przekierowanie do widoku profilu oddziału.
 \end_layout
 
 \begin_layout Section
@@ -9361,7 +9361,7 @@ name "fig:6.1"
 \end_layout
 
 \begin_layout Standard
-W trakcie tworzenia aplikacji wykorzystano szereg bibliotek dla platforma
+W trakcie tworzenia aplikacji wykorzystano szereg bibliotek dla platformy
  Ruby on Rails (ang.
  
 \begin_inset Flex Emph
@@ -9374,7 +9374,7 @@ gems
 \end_inset
 
 ).
- W szczególności warto się przyjrzeć dwom z nich: 
+ W szczególności warto się przyjrzeć dwóm z nich: 
 \begin_inset Flex Emph
 status open
 
@@ -10589,8 +10589,7 @@ Chelimsky D.,
 status open
 
 \begin_layout Plain Layout
-The RSpec Book.
- Bahaviour Driven Development with RSpec, Cucumber and Friends
+The RSpec Book
 \end_layout
 
 \end_inset
