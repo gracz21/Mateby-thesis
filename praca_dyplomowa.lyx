@@ -490,7 +490,7 @@ Maciej Kozłowski
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10.
 \end_layout
 
 \end_inset
@@ -519,7 +519,7 @@ Szymon Soppa
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.
 \end_layout
 
 \end_inset
@@ -548,7 +548,7 @@ Kamil Walkowiak
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6.
 \end_layout
 
 \end_inset
@@ -772,14 +772,14 @@ allevents.in
 \end_inset
 
  jest portalem o charakterze informacyjnym.
- Jego twórcami są: Amit Panchal oraz Ruchit Patel, których celem było stworzenie
+ Jego twórcami są Amit Panchal oraz Ruchit Patel, których celem było stworzenie
  aplikacji ułatwiającej znalezienie wydarzeń z okolicy.
  Portal ten posiada bardzo obszerną bazę wydarzeń, które przynależą do konkretny
 ch kategorii.
  Obecnie zasięg tej aplikacji obejmuje aż 30 tysięcy miast co oznacza, że
  nie ogranicza się do konkretnego regionu.
  Opis poszczególnych wydarzeń jest szczegółowy oraz posiada możliwość podzieleni
-a się informacją na jego temat w mediach społeczniościowych.
+a się informacją na jego temat w mediach społecznościowych.
  Serwis 
 \begin_inset Flex Emph
 status open
@@ -798,22 +798,22 @@ w.
 \begin_layout Itemize
 \align left
 szczegółowe wyszukiwanie wydarzeń uwzględniające takie parametry jak: przynależn
-ość do kategorii, nazwa, data, itp
+ość do kategorii, nazwa, data, itp;
 \end_layout
 
 \begin_layout Itemize
 \align left
-integracja z zewnętrznym serwisem społecznościowym Facebook
+integracja z zewnętrznym serwisem społecznościowym Facebook;
 \end_layout
 
 \begin_layout Itemize
 \align left
-możliwość tworzenia wydarzeń bez rejestracji
+możliwość tworzenia wydarzeń bez rejestracji;
 \end_layout
 
 \begin_layout Itemize
 \align left
-możliwość promocji utworzonych wydarzeń
+możliwość promocji utworzonych wydarzeń.
 \end_layout
 
 \begin_layout Standard
@@ -832,7 +832,7 @@ allevents.in
  jednak w bardzo małym stopniu wspiera interakcję między użytkownikami.
  Nie jest to zatem serwis społecznościowy a informacyjny, którego celem
  jest przekazanie szczegółów dotyczących organizowanych wydarzeń w okolicy.
- Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
+ Obecnie kanałami dostępu tego portalu jest aplikacja internetowa i aplikacja
  mobilna przeznaczona na system Android oraz iOS.
 \end_layout
 
@@ -956,10 +956,10 @@ skilltrade.org
 \end_inset
 
  jest od niedawna istniejącym portalem społecznościowym.
- Jej założycielami jest dwóch polaków: Maciej Gliński oraz Wojciech Marciniak,
- którzy w celu przetestowania potencjalnego zainteresowania utworzyli specjalne
- grupy za pośrednictwem serwisu Facebook, oferujące swoim członkom wymianę
- umiejętności.
+ Jej założycielami są Maciej Gliński oraz Wojciech Marciniak, którzy w celu
+ przetestowania potencjalnego zainteresowania utworzyli specjalne grupy
+ za pośrednictwem serwisu Facebook, oferujące swoim członkom wymianę umiejętnośc
+i.
  Zainteresowanie okazało się na tyle duże, że postanowili stworzyć osobną
  platformę, która obecnie zyskuje coraz większą popularność.
  Każdy użytkownik tego portalu określa swoje zdolności oraz deklaruje umiejętnoś
@@ -970,15 +970,15 @@ ci, które chciałby zdobyć.
 \end_layout
 
 \begin_layout Itemize
-integracje z zewnętrznymi serwisami społecznościowymi
+integracje z zewnętrznymi serwisami społecznościowymi;
 \end_layout
 
 \begin_layout Itemize
-wyszukiwanie osób o podobnych zainteresowaniach
+wyszukiwanie osób o podobnych zainteresowaniach;
 \end_layout
 
 \begin_layout Itemize
-formowanie społeczności
+formowanie społeczności.
 \end_layout
 
 \begin_layout Standard
@@ -1125,7 +1125,7 @@ eventbrite.com
 
  jest obecnie największym portalem informacyjnym związanym z tematyką wydarzeń.
  Jego twórcami są: Kevin Hartz, Renaud Visage oraz Julia Hartz.
- Jego funkcjonowanie bardzo przypomina portal 
+ Serwis ten bardzo przypomina portal 
 \begin_inset Flex Emph
 status open
 
@@ -1135,11 +1135,11 @@ allevents.in
 
 \end_inset
 
- ponieważ również umożliwia wyszukiwanie wydarzeń według podanych kategorii
+, ponieważ również umożliwia wyszukiwanie wydarzeń według podanych kategorii
  oraz istotnych parametrów.
  Bardzo ciekawym urozmaiceniem jest możliwość zakupu biletów za pośrednictwem
- tego serwisu, na wydarzenie w którym chce się uczestniczyć.
- Widok wydarzenia zawiera podstawowe informacje jak i możliwość podzielenia
+ tego serwisu na wydarzenie, w którym chce się uczestniczyć.
+ Strona wydarzenia zawiera podstawowe informacje oraz umożliwia podzielenie
  się jego szczegółami poprzez media społecznościowe.
  Do najważniejszych funkcji tej platformy można zaliczyć:
 \end_layout
@@ -1147,27 +1147,27 @@ allevents.in
 \begin_layout Itemize
 \align left
 szczegółowe wyszukiwanie wydarzeń uwzględniające takie parametry jak: przynależn
-ość do kategorii, nazwa, data, itp
+ość do kategorii, nazwa, data, itp;
 \end_layout
 
 \begin_layout Itemize
 \align left
 integracja z zewnętrznymi serwisami społecznościowymi, takimi jak: Facebook,
- Instagram czy Twitter
+ Instagram czy Twitter;
 \end_layout
 
 \begin_layout Itemize
 \align left
-możliwość tworzenia wydarzeń po obowiązkowej rejestracji
+możliwość tworzenia wydarzeń po obowiązkowej rejestracji;
 \end_layout
 
 \begin_layout Itemize
 \align left
-możliwość zakupienia biletu na wydarzenie
+możliwość zakupienia biletu na wydarzenie.
 \end_layout
 
 \begin_layout Standard
-Funkcjonalność oraz działanie tego serwisu jest zatem bardzo zbliżona do
+Funkcjonalność oraz działanie tego serwisu jest zatem bardzo zbliżone do
  
 \begin_inset Flex Emph
 status open
@@ -1182,7 +1182,7 @@ allevents.in
  Również jest to portal informacyjny, który nie posiada wsparcia dla formowania
  społeczności oraz poznawania nowych ludzi.
  Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
- mobilna przeznaczona na system Android, iOS oraz Windows Phone.
+ mobilna przeznaczona na system Android, iOS i Windows Phone.
 \end_layout
 
 \begin_layout Paragraph
@@ -1313,8 +1313,8 @@ facebook.com
  aplikacji umożliwiającej tworzenie sieci znajomości.
  Na przestrzeni lat serwis ten rozrósł się do tego stopnia, że obecnie liczba
  jego użytkowników przekracza miliard.
- Rozwój funkcjonalności tego serwisu opiera się na wprowadzaniu kolejnych
- sposobów na integrację użytkowników.
+ Rozwój tego serwisu opiera się na wprowadzaniu kolejnych sposobów na integrację
+ użytkowników.
  W ten sposób powstała między innymi możliwość tworzenia wydarzeń publicznych
  jak i prywatnych, na które można zaprosić zarówno znajomych jak i osoby
  nam całkowicie obce.
@@ -1326,20 +1326,20 @@ facebook.com
 \end_layout
 
 \begin_layout Itemize
-możliwość tworzenia społeczności wewnątrz serwisu
+możliwość tworzenia społeczności wewnątrz serwisu;
 \end_layout
 
 \begin_layout Itemize
 możliwość tworzenia wydarzeń publicznych oraz prywatnych po obowiązkowej
- rejestracji
+ rejestracji;
 \end_layout
 
 \begin_layout Itemize
-możliwość utworzenia strony tematycznej
+możliwość utworzenia strony tematycznej;
 \end_layout
 
 \begin_layout Itemize
-integracja z wieloma serwisami społecznymi
+integracja z wieloma serwisami społecznymi.
 \end_layout
 
 \begin_layout Standard
@@ -1360,7 +1360,7 @@ facebook.com
  Prawdopodobnie jest to powodem dla którego powstało wiele rozwiązań konkurencyj
 nych, oferujących tylko samo wyszukiwanie.
  Obecnie kanałami dostępu tego portalu jest aplikacja internetowa oraz aplikacja
- mobilna przeznaczona na system Android, iOS oraz Windows Phone.
+ mobilna przeznaczona na system Android, iOS i Windows Phone.
 \end_layout
 
 \begin_layout Paragraph
@@ -1487,7 +1487,7 @@ nearify.com
 \end_inset
 
  jest kolejnym portalem o charakterze informacyjnym.
- Jego założycielami są: Mayank Kumar, Saurav Singh oraz Vivek Srivastava.
+ Jego założycielami są Mayank Kumar, Saurav Singh oraz Vivek Srivastava.
  Serwis ten jest stale rozwijany w kierunku udoskonalenia przeszukiwania
  wydarzeń.
  Posiada ciekawą funkcjonalność informowania o pojawieniu się wydarzeń będących
@@ -1519,22 +1519,22 @@ eventbrite.com
 \begin_layout Itemize
 \align left
 szczegółowe wyszukiwanie wydarzeń uwzględniające takie parametry jak: przynależn
-ość do kategorii, nazwa, data, itp
+ość do kategorii, nazwa, data, itp;
 \end_layout
 
 \begin_layout Itemize
 \align left
-integracja z zewnętrznym serwisem społecznościowym Facebook
+integracja z zewnętrznym serwisem społecznościowym Facebook;
 \end_layout
 
 \begin_layout Itemize
 \align left
-możliwość tworzenia wydarzeń bez rejestracji
+możliwość tworzenia wydarzeń bez rejestracji;
 \end_layout
 
 \begin_layout Itemize
 \align left
-informowanie o nowych wydarzeniach z kręgu zainteresowań użytkownika
+informowanie o nowych wydarzeniach z kręgu zainteresowań użytkownika.
 \end_layout
 
 \begin_layout Standard
