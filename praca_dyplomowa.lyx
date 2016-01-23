@@ -9143,12 +9143,12 @@ Implementacja jest kluczową fazą procesu wytwarzania oprogramowania.
 \end_layout
 
 \begin_layout Itemize
-implementacja logiki serwera --- obejmuje implementację bazy danych i logiki
- biznesowej aplikacji, powinna zostać dokonana w pierwszej kolejności
+Implementacja logiki serwera --- obejmuje implementację bazy danych i logiki
+ biznesowej aplikacji, powinna zostać dokonana w pierwszej kolejności.
 \end_layout
 
 \begin_layout Itemize
-implementacja aplikacji internetowej po stronie klienta --- obejmuje implementac
+Implementacja aplikacji internetowej po stronie klienta --- obejmuje implementac
 ję prostych, czytelnych i spełniających założenia RWD
 \begin_inset Foot
 status open
@@ -9163,14 +9163,14 @@ RWD (ang.
 \end_inset
 
  widoków prezentujących dane udostępniane przez serwer, powinna zostać dokonana
- po implementacji logiki serwera
+ po implementacji logiki serwera.
 \end_layout
 
 \begin_layout Itemize
-implementacja aplikacji mobilnej --- obejmuje implementację wydajnej aplikacji
+Implementacja aplikacji mobilnej --- obejmuje implementację wydajnej aplikacji
  skoncentrowanej na prezentacji zasobów serwera w sposób dostosowany głównie
  do urządzeń o małych ekranach, może zostać dokonana w sposób równoległy
- do implementacji aplikacji internetowej
+ do implementacji aplikacji internetowej.
 \end_layout
 
 \begin_layout Section
@@ -9206,7 +9206,7 @@ model
 
 ) jest podstawową jednostką logiki biznesowej, jeden model najczęściej odpowiada
  jednej tabeli w bazie danych, a jego atrybuty odzwierciedlają kolumny tej
- tabeli
+ tabeli;
 \end_layout
 
 \begin_layout Itemize
@@ -9221,7 +9221,7 @@ view
 
 \end_inset
 
-) odpowiada za prezentacje danych uzyskanych z kontrolera
+) odpowiada za prezentacje danych uzyskanych z kontrolera;
 \end_layout
 
 \begin_layout Itemize
@@ -9236,7 +9236,7 @@ controller
 
 \end_inset
 
-) składa się z szeregu akcji i odpowiada za definiowanie logiki aplikacji
+) składa się z szeregu akcji i odpowiada za definiowanie logiki aplikacji.
 \end_layout
 
 \begin_layout Standard
@@ -9253,7 +9253,7 @@ router
 \end_inset
 
 ).
- Jego zadanie polega na przekierowywaniu adresów URL
+ Jego zadanie polega na analizie adresów URL
 \begin_inset Foot
 status open
 
@@ -9264,10 +9264,10 @@ URL (ang.
 
 \end_inset
 
- żądań do odpowiednich akcji kontrolera.
+, a następnie przekierowaniu żądań do odpowiednich akcji kontrolera.
  W przypadku opisywanej aplikacji nie został użyty komponent widoku.
  Było to spowodowane wykorzystania platformy do implementacji API, w wyniku
- czego nie zaistniała potrzeba prezentacji danych.
+ czego nie zaistniała potrzeba prezentacji danych na tym etapie.
 \end_layout
 
 \begin_layout Standard
@@ -9343,7 +9343,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat działania architektury platformy Ruby on Rails 
+Schemat działania architektury platformy Ruby on Rails.
+ 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:6.1"
@@ -9368,8 +9369,8 @@ name "fig:6.1"
 \end_layout
 
 \begin_layout Standard
-W trakcie tworzenia aplikacji wykorzystano szereg bibliotek dla platformy
- Ruby on Rails (ang.
+W trakcie tworzenia aplikacji wykorzystano szereg bibliotek przeznaczonych
+ dla platformy Ruby on Rails (ang.
  
 \begin_inset Flex Emph
 status open
@@ -9381,27 +9382,7 @@ gems
 \end_inset
 
 ).
- W szczególności warto się przyjrzeć dwóm z nich: 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Grape
-\end_layout
-
-\end_inset
-
- i 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Grape Entity
-\end_layout
-
-\end_inset
-
-.
+ W szczególności warto się przyjrzeć dwóm z nich: Grape i Grape Entity.
 \end_layout
 
 \begin_layout Paragraph
@@ -9492,18 +9473,19 @@ migrations
 \end_layout
 
 \begin_layout Itemize
-instancja testowa --- instancja ta zawiera obiekty tworzone na potrzeby
- wykonywania testów API, obiekty te są usuwane po zakończeniu procesu testowania
+Instancja testowa --- instancja ta zawiera obiekty tworzone na potrzeby
+ wykonywania testów, obiekty te są usuwane po zakończeniu procesu testowania.
 \end_layout
 
 \begin_layout Itemize
-instancja deweloperska --- instancja wykorzystywana w procesie implementacji,
- wykorzystywana do ręcznych testów podczas tworzenia systemu
+Instancja deweloperska --- instancja wykorzystywana w procesie implementacji,
+ wykorzystywana do ręcznych testów podczas tworzenia systemu.
 \end_layout
 
 \begin_layout Itemize
-instancja produkcyjna --- instancja zawierająca dane użytkowników w trakcie
- właściwego używania systemu
+Instancja produkcyjna --- instancja zawierająca dane użytkowników w trakcie
+ właściwego używania systemu; jest jedyną instancją znajdującą się na serwerze
+ produkcyjnym.
 \end_layout
 
 \begin_layout Paragraph
@@ -9516,10 +9498,11 @@ lny za reprezentację modeli, ich danych oraz zachodzących między nimi związk
  Posiada on szeroką gamę adapterów dla różnych systemów zarządzania bazą
  danych (m.in.
  dla zastosowanego PostgreSQL).
- Moduł ten do definicji bazy danych używa specjalnego pliku schematu, w
- którym można znaleźć definicję wszystkich tabel, ich atrybutów oraz założonych
+ Moduł ten do definicji bazy danych używa specjalnego pliku reprezentującego
+ aktualny stan schematu.
+ Można w nim znaleźć definicję wszystkich tabel, ich atrybutów oraz założonych
  na nich indeksów.
- Do modyfikacji pliku schematu Active Record używa plików migracji.
+ Do modyfikacji pliku schematu Active Record używa migracji.
  W procesie przyrostowej implementacji bazy danych szczególnie przydatna
  okazuje się funkcja śledzenia migracji oferowana przez ten moduł.
  Active Record po wprowadzeniu odpowiedniej komendy sprawdza, czy wszystkie
@@ -9536,9 +9519,9 @@ Migracje to podklasy modułu Active Record.
  Pozwalają one na definicję zmian zachodzących w bazie danych przy użyciu
  języka Ruby.
  Active Record udostępnia specjalne metody, które można użyć w migracji
- w celu dokonywania modyfikacji struktury bazy.
+ w celu modyfikacji struktury bazy danych.
  Metody te są niezależne od używanego systemu zarządzania.
- Ponadto istnieje też możliwość użycia czystego kodu SQL.
+ Ponadto istnieje możliwość użycia kodu SQL.
  Każda z migracji składa się z dwóch głównych metod.
  Jedna z nich jest uruchamiana w przypadku wykonywania migracji, a druga
  w przypadku jej wycofywania.
@@ -9576,7 +9559,7 @@ CRUD (ang.
 \end_inset
 
  dla najważniejszych modeli dostępnych w logice serwera.
- Poniżej można znaleźć krótki opis publicznych punktów końcowych udostępnianych
+ Poniżej można znaleźć opis publicznych punktów końcowych udostępnianych
  przez poszczególne kontrolery (nazwa każdego punktu końcowego składa się
  z metody protokołu HTTP oraz części względnej adresu URL; fragmenty adresu
  rozpoczynające się od dwukropka oznaczają parametry żądania podawane w
@@ -10185,12 +10168,22 @@ Protokół WebSocket po stronie serwera
 \end_layout
 
 \begin_layout Standard
-Istnieje wiele aplikacji dla których przekazywanie informacji w czasie rzeczywis
-tym jest niezwykle istotne.
+Istnieje wiele aplikacji, dla których przekazywanie informacji w czasie
+ rzeczywistym jest niezwykle istotne.
  Przykładem tego typu rozwiązań są asynchroniczne systemy wymiany wiadomości,
- czyli live chat (z ang.
+ czyli 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+live chat
+\end_layout
+
+\end_inset
+
+ (pol.
  rozmowa na żywo).
- Pierwotnie, aby zapewnić działanie aplikacji w czasie rzeczywistym używano
+ Pierwotnie, aby zapewnić działanie aplikacji w czasie rzeczywistym, używano
  okresowego odpytywania serwera, który w przypadku pojawienia się nowych
  danych do wyświetlenia zwracał odpowiednie informacje.
  Mechanizm ten był skuteczny, jednak wymagał generowania wielu zapytań,
@@ -10199,8 +10192,8 @@ tym jest niezwykle istotne.
 \end_layout
 
 \begin_layout Standard
-W 2011 roku wprowadzono protokół WebSocket, kóry został oficjalnie zaprezentowan
-ay w standardzie RFC 6455
+W 2011 roku wprowadzono protokół WebSocket, który został oficjalnie zaprezentowa
+ny w standardzie RFC 6455
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-6"
@@ -10209,7 +10202,7 @@ key "key-6"
 
 .
  Jest to zupełnie inne podejście zakładające istnienie transmisji dwukierunkowej
-, między klientem a serwerem, które mogą przesyłać między sobą w dowolnym
+ między klientem a serwerem, które mogą przesyłać między sobą w dowolnym
  momencie wiadomości rozszerzonym protokołem HTTP o nazwie WS
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -10218,17 +10211,28 @@ key "key-6-1"
 \end_inset
 
 .
- W celu zainicjalizowania takiego połączenia klient wysyła odpowiedni komunikat
- i jeśli spełnia wymagania dostaje pozytywną odpowiedź serwera, co oznacza,
+ W celu zainicjalizowania takiego połączenia, klient wysyła odpowiedni komunikat
+ i jeśli spełnia wymagania, dostaje pozytywną odpowiedź serwera, co oznacza,
  że od tej chwili między nimi istnieje dwukierunkowy kanał.
- Taka początkowa wymiana danych znana jest jako handshake.
+ Taka początkowa wymiana danych znana jest jako 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+handshake
+\end_layout
+
+\end_inset
+
+ (pol.
+ uścisk dłoni).
 \end_layout
 
 \begin_layout Standard
-Protokół WebSocket został użyty w projekcie w celu udostępnienia powiadomień
+Protokół WebSocket został użyty w projekcie, w celu udostępnienia powiadomień
  związanych z nowymi zaproszeniami na wydarzenie.
  W momencie tworzenia nowego rekordu wysyłana jest wiadomość ze szczegółami
- zaproszenia o ile istnieje w danej chwili połączenie między klientem docelowym
+ zaproszenia, o ile istnieje w danej chwili połączenie między klientem docelowym
  a serwerem.
  
 \end_layout
@@ -10239,30 +10243,69 @@ Testy
 
 \begin_layout Standard
 Do testowania interfejsu programistycznego aplikacji została użyta biblioteki
+ RSpec oraz FactoryGirl współpracujące z platformą Ruby on Rails.
+ W przypadku tej części tworzonego systemu dokonywane były przede wszystkim
+ testy jednostkowe punktów końcowych interfejsu programistycznego udostępnianego
+ przez serwer.
+\end_layout
+
+\begin_layout Paragraph
+Metodyka TDD
+\end_layout
+
+\begin_layout Standard
+TDD (ang.
  
 \begin_inset Flex Emph
 status open
 
 \begin_layout Plain Layout
-RSpec
+Test Driven Developmen
 \end_layout
 
 \end_inset
 
- oraz 
-\begin_inset Flex Emph
+) to metodyka tworzenia oprogramowania zakładająca istnienie trzech powtarzalnyc
+h faz:
+\end_layout
+
+\begin_layout Enumerate
+Faza tworzenia testów --- najpierw tworzone są nieprzechodzące, automatyczne
+ testy dla implementowanej funkcjonalności.
+\end_layout
+
+\begin_layout Enumerate
+Faza implementacji --- następnie implementowany jest właściwy fragment kodu;
+ faza ta trwa tak długo, aż testy napisane w poprzednim punkcie nie zakończą
+ się pomyślnie.
+\end_layout
+
+\begin_layout Enumerate
+Faza refaktoryzacji --- na koniec dochodzi do refaktoryzacji
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-FactoryGirl
+Refaktoryzacja (ang.
+ refactoring) --- proces polegający na poprawie jakości organizacji tworzonego
+ kodu przy zachowaniu założonej funkcjonalności.
 \end_layout
 
 \end_inset
 
- współpracujące z platformą Ruby on Rails.
- W przypadku tej części tworzonego systemu dokonywane były przede wszystkim
- testy jednostkowe punktów końcowych interfejsu programistycznego udostępnianego
- przez serwer.
+ kodu napisanego w poprzednim punkcie tak, by spełniał zakładane standardy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-8"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+TDD jest często używane w projektach opartych na metodykach zwinnych, dlatego
+ też została użyta w procesie implementacji logiki serwera.
 \end_layout
 
 \begin_layout Paragraph
@@ -10283,9 +10326,7 @@ BDD (ang.
 
 \end_inset
 
- dla aplikacji tworzonych w języku Ruby.
- Jej cechą charakterystyczną jest możliwość pisania testów w oparciu o założenia
- co do efektów działań obiektu (jego zachowania)
+ dla aplikacji tworzonych w języku Ruby
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-7"
@@ -10323,60 +10364,6 @@ factories
  modelu wykorzystywanych w procesie testowania.
  Biblioteka umożliwia także tworzenie kilku fabryk dla danego modelu, które
  mogą dziedziczyć po sobie.
-\end_layout
-
-\begin_layout Paragraph
-Metodyka TDD
-\end_layout
-
-\begin_layout Standard
-TDD (ang.
- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Test Driven Developmen
-\end_layout
-
-\end_inset
-
-) to metodyka tworzenia oprogramowania zakładająca istnienie trzech powtarzalnyc
-h faz:
-\end_layout
-
-\begin_layout Enumerate
-Faza pisania testów --- najpierw pisane są nieprzechodzące automatyczne
- testy dla implementowanej funkcjonalności
-\end_layout
-
-\begin_layout Enumerate
-Faza implementacji --- następnie implementowany jest właściwy fragment kodu;
- faza ta trwa tak długo, aż testy napisane w poprzednim punkcie nie zakończą
- się pomyślnie
-\end_layout
-
-\begin_layout Enumerate
-Faza refaktoryzacji --- na koniec dochodzi do refaktoryzacji
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Refaktoryzacja (ang.
- refactoring) --- proces polegający na poprawie jakości organizacji tworzonego
- kodu przy zachowaniu założonej funkcjonalności.
-\end_layout
-
-\end_inset
-
- kodu napisanego w poprzednim punkcie tak, by spełniał zakładane standardy
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-8"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Paragraph
