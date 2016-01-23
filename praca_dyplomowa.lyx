@@ -376,33 +376,14 @@ rozdziale
 6.
  przybliżono sposób implementacji aplikacji.
  Omówiono w nim implementację logiki serwera, a w szczególności bazy danych.
- Przedstawiono 
-\begin_inset Flex Emph
+ Przedstawiono interfejs programistyczny aplikacji (w skrócie API
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-interfejs programistyczny aplikacji
-\end_layout
-
-\end_inset
-
- --- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-API
-\end_layout
-
-\end_inset
-
- (ang.
- 
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-Application Programming Interface
+API (ang.
+ Application Programming Interface) --- zbiór reguł ściśle określających
+ sposób komunikacji między aplikacjami.
 \end_layout
 
 \end_inset
@@ -490,7 +471,7 @@ Nr.
 
 \series bold
 Nr.
- rozdziału w pracy
+ podrozdziału w pracy
 \end_layout
 
 \end_inset
@@ -519,7 +500,7 @@ Maciej Kozłowski
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.2
+1.2, 6.3
 \end_layout
 
 \end_inset
@@ -548,7 +529,7 @@ Szymon Soppa
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.1
+1.1, 6.2
 \end_layout
 
 \end_inset
@@ -9551,16 +9532,29 @@ Interfejs programistyczny aplikacji
 \begin_layout Standard
 Interfejs programistyczny aplikacji składa się z punktów końcowych wchodzących
  w skład dziewięciu kontrolerów.
- Większość funkcji udostępnianych przez API umożliwia CRUD najważniejszych
- modeli dostępnych w logice serwera.
+ Większość funkcji udostępnianych przez publiczne API sprowadza się do operacji
+ CRUD
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+CRUD (ang.
+ Create, Read, Update, Delete) --- utwórz, odczytaj, aktualizuj, usuń; cztery
+ podstawowe operacje implementowane w przypadku aplikacji korzystających
+ z pamięci trwałej.
+ W API opartych na architekturze REST operacja create jest najczęściej wiązana
+ z metodą PUT lub POST protokołu HTTP, read utożsamiane jest z GET, update
+ z POST, PUT lub PATCH, natomiast delete z metodą DELETE.
 \end_layout
 
-\begin_layout Paragraph
-CRUD
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Poniżej można znaleźć krótki opis wszystkich punktów końcowych w nich zawartych.
+ dla najważniejszych modeli dostępnych w logice serwera.
+ Poniżej można znaleźć krótki opis publicznych punktów końcowych udostępnianych
+ przez poszczególne kontrolery (nazwa każdego punktu końcowego składa się
+ z metody protokołu HTTP oraz części względnej adresu URL; fragmenty adresu
+ rozpoczynające się od dwukropka oznaczają parametry żądania podawane w
+ ścieżce).
  
 \end_layout
 
@@ -9579,15 +9573,9 @@ branches
 \end_layout
 
 \begin_layout Standard
-Zawiera punkty końcowe związane z oddziałami.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+Udostępnia API pozwalające na operacje CRUD dla oddziałów instytucji.
+ Wszystkie punkty końcowe z tego kontrolera są dostępne tylko dla zalogowanych
+ użytkowników, ponadto większość operacji (poza 
 \begin_inset Flex Emph
 status open
 
@@ -9597,19 +9585,23 @@ GET branches/:id
 
 \end_inset
 
+) wymaga autoryzacji jako instytucja.
+\end_layout
 
-\begin_inset Newline newline
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET branches/:id
+\end_layout
+
 \end_inset
 
-W odpowiedzi zwraca oddział o podanym id.
-\begin_inset Newline newline
-\end_inset
+ --- zwraca oddział o podanym id.
+\end_layout
 
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
 \begin_inset Flex Emph
 status open
 
@@ -9619,20 +9611,10 @@ POST branches
 
 \end_inset
 
+ --- tworzy nowy oddział i zwraca go.
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-Tworzy oddział na podstawie danych zawartych w parametrach żądania.
- W przypadku powodzenia zwraca nowo utworzony oddział.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
 \begin_inset Flex Emph
 status open
 
@@ -9642,21 +9624,10 @@ PUT branches/:id
 
 \end_inset
 
+ --- aktualizuje oddział o podanym id i zwraca go.
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
-
-Aktualizuje dane na temat oddziału o podanym id.
- Nowe dane muszą się znajdować w parametrach żądania.
- W przypadku powodzenia zwracany jest zaktualizowany oddział.
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
+\begin_layout Standard
 \begin_inset Flex Emph
 status open
 
@@ -9666,11 +9637,7 @@ DELETE branches/:id
 
 \end_inset
 
-
-\begin_inset Newline newline
-\end_inset
-
-Usuwa oddział o podanym id.
+ --- usuwa oddział o podanym id.
 \end_layout
 
 \begin_layout Paragraph
@@ -9688,7 +9655,503 @@ categories
 \end_layout
 
 \begin_layout Standard
-Zawiera punkty końcowe związane ze zwracaniem kategorii i podkategorii.
+Zawiera 2 punkty końcowe związane ze zwracaniem kategorii i podkategorii.
+ Są one dostępne bez zalogowania.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET categories
+\end_layout
+
+\end_inset
+
+ --- zwraca wszystkie kategorie.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET categories/:category_name
+\end_layout
+
+\end_inset
+
+ --- zwraca wszystkie podkategorie kategorii o podanej nazwie.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+devices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zawiera jeden punkt końcowy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST devices
+\end_layout
+
+\end_inset
+
+ umożliwiający rejestrację nowego urządzenia mobilnego w celu wymiany powiadomie
+ń GCM
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+GCM (ang.
+ Google Cloud Messaging) --- usługa udostępniana przez firmę Google pozwalająca
+ na wymianę danych (wysyłanie i odbiór) serwera z urządzeniem moblinym przy
+ użyciu tego samego połączenia.
+ 
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+events
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Udostępnia API pozwalające na operacje CRUD na wydarzeniach oraz operacje
+ dołączania i usuwania z grona uczestników.
+ Tylko punkt końcowy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET events
+\end_layout
+
+\end_inset
+
+ jest dostępny dla użytkowników niezalogowanych.
+ Część API związana z zarządzaniem uczestnikami wymaga autoryzacji jako
+ użytkownik zwykły.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET events
+\end_layout
+
+\end_inset
+
+ --- zwraca zbiór wydarzeń spełniający wymagania podane w parametrach żądania.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET events/:id
+\end_layout
+
+\end_inset
+
+ --- zwraca wydarzenie o podanym id.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST events
+\end_layout
+
+\end_inset
+
+ --- tworzy wydarzenie i je zwraca.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PUT events/:id
+\end_layout
+
+\end_inset
+
+ --- aktualizuje wydarzenie o podanym id i je zwraca.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE events/:id
+\end_layout
+
+\end_inset
+
+ --- usuwa wydarzenie o podanym id.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PUT events/:id/participants
+\end_layout
+
+\end_inset
+
+ --- dodaje obecnie zalogowanego użytkownika zwykłego do grona uczestników
+ wydarzenia podanym id.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE events/:id/participants
+\end_layout
+
+\end_inset
+
+ --- usuwa obecnie zalogowanego użytkownika zwykłego z grona uczestników
+ wydarzenia o podanym id.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+institutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Udostępnia API pozwalające na operacje CRUD na instytucjach.
+ Punkt końcowy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST institutions
+\end_layout
+
+\end_inset
+
+ wykorzystywany jest przy rejestracji instytucji, pozostałe punkty końcowe
+ wymagają autoryzacji jako instytucja.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET institutions/:id
+\end_layout
+
+\end_inset
+
+ --- zwraca instytucję o podanym id.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST institutions
+\end_layout
+
+\end_inset
+
+ --- tworzy instytucję i zwraca ją.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PUT institutions/:id
+\end_layout
+
+\end_inset
+
+ --- aktualizuje instytucję o podanym id i zwraca ją.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE institutions/:id
+\end_layout
+
+\end_inset
+
+ --- usuwa instytucję o podanym id.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+invitations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Udostępnia API pozwalające na operacje tworzenia i usuwania zaproszeń na
+ wydarzenia.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST invitations
+\end_layout
+
+\end_inset
+
+ --- tworzy i zwraca zaproszenie na wydarzenie o id podanym w parametrach
+ żądania.
+ Punkt końcowy niedostępny w przypadku autoryzacji jako instytucja.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE invitations/:id
+\end_layout
+
+\end_inset
+
+ --- usuwa zaproszenie o podanym id.
+ Wymaga autoryzacji jako użytkownik zwykły.
+ Pozwala także na dodanie użytkownika do grona uczestników (akceptacja wydarzeni
+a) w przypadku podania odpowiedniego parametru żądania.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+posts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Udostępnia API pozwalające na operacje CRUD na wiadomościach.
+ Wszystkie punkty końcowe wchodzące w skład tego kontrolera wymagają autoryzacji
+ jako użytkownik zwykły lub oddział.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET posts
+\end_layout
+
+\end_inset
+
+ --- zwraca wiadomości związane z wydarzeniem/oddziałem o id podanym w parametra
+ch żądania.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST posts
+\end_layout
+
+\end_inset
+
+ --- tworzy nową wiadomość i ją zwraca.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PUT posts/:id
+\end_layout
+
+\end_inset
+
+ --- aktualizuje tekst wiadomości o podanym id i ją zwraca.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE posts/:id
+\end_layout
+
+\end_inset
+
+ --- usuwa wiadomość o podanym id.
+\end_layout
+
+\begin_layout Paragraph
+Kontroler 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+users
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Udostępnia API pozwalające na operacje CRUD na użytkownikach zwykłych.
+ Punkt końcowy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST users
+\end_layout
+
+\end_inset
+
+ jest wykorzystywany do rejestracji nowych użytkowników zwykłych.
+ Pozostałe punkty końcowe wymagają autoryzacji.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET users
+\end_layout
+
+\end_inset
+
+ --- zwraca zbiór użytkowników zwykłych spełniających kryteria podane w
+ parametrach żądania.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET users/:id
+\end_layout
+
+\end_inset
+
+ --- zwraca użytkownika zwykłego o podanym id.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+POST users
+\end_layout
+
+\end_inset
+
+ --- tworzy nowego użytkownika zwykłego i zwraca go.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PUT users/:id
+\end_layout
+
+\end_inset
+
+ --- aktualizuje użytkownika zwykłego o podanym id i zwraca go.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+DELETE users/:id
+\end_layout
+
+\end_inset
+
+ --- usuwa użytkownika o podanym id.
 \end_layout
 
 \begin_layout Subsection
@@ -9821,8 +10284,8 @@ status open
 
 \begin_layout Plain Layout
 Refaktoryzacja (ang.
- refactoring) --- proces polegający na poprawianiu jakości organizacji tworzoneg
-o kodu przy zachowaniu założonej funkcjonalności.
+ refactoring) --- proces polegający na poprawie jakości organizacji tworzonego
+ kodu przy zachowaniu założonej funkcjonalności.
 \end_layout
 
 \end_inset
