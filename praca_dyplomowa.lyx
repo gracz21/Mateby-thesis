@@ -5276,7 +5276,26 @@ System ciągłej integracji
 \begin_layout Standard
 System ciągłej integracji wspomoga usystematyzować procesy wykonywane przez
  każdego z programistów.
- Każdy pracownik przed zaktualizowaniem zmian na repozytorium
+ Wszyscy pracownicy przed zaktualizowaniem zmian na repozytorium za każdym
+ razem wykonują tę samą sekwencję czynności, dlatego powstały narzędzia
+ mające na celu odciążyć programistów od danych procesów.
+ Głównymi zadaniami systemów ciągłej integracji są:
+\end_layout
+
+\begin_layout Itemize
+uruchomienie i sprawdzenie testów jednostkowych aplikacji
+\end_layout
+
+\begin_layout Itemize
+uruchamianie testów integracyjnych
+\end_layout
+
+\begin_layout Itemize
+kompilowanie i budowanie aplikacji
+\end_layout
+
+\begin_layout Itemize
+automatyczne tworzenie dokumentacji
 \end_layout
 
 \begin_layout Standard
@@ -5289,19 +5308,22 @@ wymagają konfiguracji i utrzymania
 \end_layout
 
 \begin_layout Itemize
-wymagają kodu dobrej jakości.
- Szczególnie kodu z odpowiednią ilością testów by móc korzystać z zalet
- automatyzacji testów
+wymagają dużej liczby testów, by móc w pełni korzystać z zalet automatyzacji
+ testowania aplikacji
 \end_layout
 
 \begin_layout Itemize
-mogą wymagać znacznych nakładów sprzętowych.
+przy dużych projektach wymagają mocnej konfiguracji sprzętowej.
 \end_layout
 
 \begin_layout Standard
-Istnieje coraz większe zapotrzebowanie na systemy ciągłej integracji dlatego
- rynek oferuje coraz więcej narzędzi takich jak Jenkins, CruiseControl,
- bądź CircleCi .
+Podsumowując jest to narzędzie mające na celu zaoszczędzenie czasu pracy
+ programistów na zadania monotonnych i powtarzalnych.
+ Inforumuje osoby biorące udział w projekcie o rezultatach sprawdzenia wyznaczon
+ych zadań i ewentualnych błędach.
+ Dzięki automatyzacji zarządzania kodem i projektem istnieje coraz większe
+ zapotrzebowanie na systemy ciągłej integracji, dlatego rynek oferuje coraz
+ więcej narzędzi takich jak Jenkins, CruiseControl, bądź CircleCi .
  Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
  następujące czynniki:
 \end_layout
