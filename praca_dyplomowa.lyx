@@ -370,7 +370,7 @@ rozdziale
 \end_inset
 
 6.
- przybliżono sposób implementacji aplikacji.
+ przybliżono sposób implementacji aplikacji internetowej oraz mobilnej.
  Omówiono w nim implementację logiki serwera, a w szczególności bazy danych.
  Przedstawiono interfejs programistyczny aplikacji (w skrócie API
 \begin_inset Foot
@@ -384,10 +384,13 @@ API (ang.
 
 \end_inset
 
-) który umożliwia komunikację serwera z aplikacją internetową i mobilną.
- Opisany został także zaimplementowany system autoryzacji oparty na standardzie
- OAuth2.
+), który umożliwia komunikację serwera z aplikacją internetową po stronie
+ klienta oraz mobilną.
+ Opisany został także zaimplementowany system uwierzytelniania oparty na
+ protokole OAuth2.
  Przyjrzano się sposobowi testowania API.
+ Omówiono implementację widoków aplikacji internetowej po stronie klienta.
+ Przedstawiono również sposoby komunikacji z serwerem.
  Przedstawiono sposób implementacji aplikacji internetowej oraz mobilnej
  dla urządzeń pracujących pod kontrolą systemu Android.
  Rozdział
