@@ -5056,21 +5056,21 @@ System kontroli wersji
 
 \begin_layout Standard
 Podstawowe operacje na plikach takie jak kopiowanie i wklejanie są wystarczające
- gdy oprogramowanie powstaje przez jednego programistę.
- Problem pojawia się w przypadku pracy w grupie gdy wiele osób modyfikuje
- ten sam plik powodując nadpisanie poprzedniej zmiany.
- Z tego powodu powstał system kontroli wersji będący zaawansowanym narzędziem
+, gdy oprogramowanie powstaje przez jednego programistę.
+ Problem pojawia się w przypadku pracy w grupie, gdy wiele osób modyfikuje
+ ten sam plik, powodując nadpisanie poprzedniej zmiany.
+ Z tego powodu powstał system kontroli wersji, będący zaawansowanym narzędziem
  umożliwiającym synchronizację zmian dokonanych na plikach poprzez ich monitorow
-anie oraz oznaczanie tych modyfikacji.
- 
+anie oraz oznaczanie tych modyfikacji
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1"
 
 \end_inset
 
+.
  Przechowywanie historii plików umożliwia powrót do wersji wcześniejszych
- w dowolnym momencie co zmniejsza ryzyko wykonywania zmian oraz wprowadza
+ w dowolnym momencie, co zmniejsza ryzyko dokonywania zmian oraz wprowadza
  dobrą praktykę tworzenia oprogramowania według kolejnych iteracji.
 \end_layout
 
@@ -5081,26 +5081,20 @@ Obecnie istnieje wiele wolnodostępnych jak i własnościowych dystrybucji
 \end_layout
 
 \begin_layout Itemize
-lokalne:
+lokalne, gdzie zmiany przechowywane są tylko lokalnie;
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-zmiany przechowywane są tylko lokalnie
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 scentralizowane:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-zmiany przechowywane są w centralnym repozytorium 
+zmiany przechowywane są w centralnym repozytorium,
 \end_layout
 
 \begin_layout Itemize
-praca wyłącznie on-line
+praca możliwa wyłącznie w trybie on-line.
 \end_layout
 
 \end_deeper
@@ -5110,22 +5104,22 @@ rozproszone:
 
 \begin_deeper
 \begin_layout Itemize
-zmiany przechowywane są lokalnie
+zmiany przechowywane są lokalnie,
 \end_layout
 
 \begin_layout Itemize
-możliwa jest synchronizacja zmian z serwerem zdalnym
+możliwa jest synchronizacja zmian z serwerem zdalnym,
 \end_layout
 
 \begin_layout Itemize
-praca on-line lub off-line 
+praca w trybie on-line lub off-line
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-2"
 
 \end_inset
 
-
+.
 \end_layout
 
 \end_deeper
@@ -5134,19 +5128,19 @@ Obecnie najczęściej używa się repozytoriów scentralizowanych oraz rozproszo
  wśród których na szczególną uwagę zasługują dystrybucje Git oraz Svn (z
  ang.
  Subversion).
- Wybór systemu kontroli wersji został podyktowany przez następujące czynniki
+ Wybór systemu kontroli wersji został podyktowany przez następujące czynniki:
 \end_layout
 
 \begin_layout Itemize
-liczba programistów w zespole
+liczba programistów w zespole,
 \end_layout
 
 \begin_layout Itemize
-popularność systemu
+popularność systemu,
 \end_layout
 
 \begin_layout Itemize
-możliwość integracji z innymi narzędziami
+możliwość integracji z innymi narzędziami.
 \end_layout
 
 \begin_layout Standard
@@ -5160,24 +5154,24 @@ System kontroli wersji Git
 \begin_layout Standard
 Git w powstał 2005 roku jako darmowe narzędzie służące do zarządzania kodem
  Linuksa i od tej pory jego popularność rośnie w szybkim tempie.
- Jest to rozproszony system kontroli wersji oferujący zaawansowane operacje
+ Jest to rozproszony system kontroli wersji oferujący zaawansowane operacje,
  przez co dla początkujących użytkowników może wydawać się trudnym narzędziem.
  Posiada dobrze wykonaną dokumentację oraz dużą społeczność programistów
  pracujących nad jego rozwojem.
  Do głównych zalet Gita można zaliczyć dobrą wydajność, kontrolę spójności
- danych oraz lokalność wprowadzanych zmian.
- 
+ danych oraz lokalność wprowadzanych zmian
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-1"
 
 \end_inset
 
+.
  Warto również dodać, że istnieje wiele serwerów umożliwiających przechowywanie
  repozytoriów opartych na systemie Git.
- Najbardziej popularnym z nich jest serwis Github oferujący darmowe repozytoria
- przechowujące oprogramowanie na zasadzie wolnego oprogramowania oraz płatne,
- które przechowują prywatny kod.
+ Najbardziej popularnym z nich jest serwis Github, oferujący darmowe repozytoria
+ służące do przechowywania oprogramowanie na zasadzie wolnego oprogramowania
+ oraz płatne, które przechowują prywatny kod.
  Jego popularność może być efektem dużego nacisku na wytwarzanie oprogramowania
  opartego na darmowej licencji.
 \end_layout
@@ -5204,7 +5198,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok repozytorium logiki serwera w serwisie Github
+Widok repozytorium logiki serwera w serwisie Github.
 \end_layout
 
 \end_inset
@@ -5222,23 +5216,23 @@ Serwis Github powstał w 2008 roku i jest obecnie jednym z największych serwis�
  obsługujących system Git.
  Do tej pory przy jego pomocy zostało stworzonych ponad 10 milionów repozytoriów.
  W znacznym stopniu ułatwia pracę zespołową udostępniając taką funkcjonalność
- jak
+ jak:
 \end_layout
 
 \begin_layout Itemize
-przeprowadzenie recenzji kodu
+przeprowadzenie recenzji kodu,
 \end_layout
 
 \begin_layout Itemize
-tworzenie dokumentacji
+tworzenie dokumentacji,
 \end_layout
 
 \begin_layout Itemize
-przeglądanie statystyk
+przeglądanie statystyk,
 \end_layout
 
 \begin_layout Itemize
-tworzenie nowych tematycznych wątków
+tworzenie nowych tematycznych wątków.
 \end_layout
 
 \begin_layout Standard
@@ -5251,7 +5245,7 @@ System ciągłej integracji
 \end_layout
 
 \begin_layout Standard
-System ciągłej integracji wspomoga usystematyzować procesy wykonywane przez
+System ciągłej integracji wspomaga usystematyzować procesy wykonywane przez
  każdego z programistów.
  Wszyscy pracownicy przed zaktualizowaniem zmian na repozytorium za każdym
  razem wykonują tę samą sekwencję czynności, dlatego powstały narzędzia
@@ -5512,15 +5506,16 @@ Serwer przedprodukcyjny
 \end_layout
 
 \begin_layout Standard
-Jeśli zmiany wrzucone na zdalne repozytorium przejdą wszystkie etapy sprawdzania
- poprawności w systemie ciągłej integracji trafią na serwer przedprodukcyjny,
- który pełni bardzo ważną rolę na etapie testowania wdrażanej funkcjonalności.
- Aby przeprowadzone testy były skuteczne należy użyć tej samej konfiguracji
+Jeśli zmiany wprowadzone na zdalne repozytorium przejdą wszystkie etapy
+ sprawdzania poprawności w systemie ciągłej integracji, trafią na serwer
+ przedprodukcyjny, który pełni bardzo ważną rolę na etapie testowania wdrażanej
+ funkcjonalności.
+ Aby przeprowadzone testy były skuteczne, należy użyć tej samej konfiguracji
  jaka znajduje się na serwerze produkcyjnym.
  Pozwala to na wykluczenie możliwych problemów wynikających z różnic w obrębie
  wersji zależnych bibliotek lub aplikacji.
  Oznacza to zatem, że serwer ten powinien być lustrzanym odbiciem serwera
- produkcyjnego, z wyłączeniem zawartości bazy danych.
+ produkcyjnego z wyłączeniem zawartości bazy danych.
  Ze względu na fakt, że aplikacja internetowa oddzielona jest od logiki
  serwera użyte zostały dwa serwery oparte na platformie Heroku.
 \end_layout
@@ -5531,13 +5526,23 @@ Platfroma Heroku
 
 \begin_layout Standard
 Platforma Heroku istnieje od 2007 roku.
- Początkowo udostępniała jedynie język Ruby lecz w chwili obecnej posiada
+ Początkowo udostępniała jedynie język Ruby, lecz w chwili obecnej posiada
  wsparcie dla kilku najbardziej znanych języków programowania.
  Dużą zaletą tej platformy jest to, że została stworzona w modelu chmury
- obliczeniowej - Platform as a Service (z ang.
- platforma jako usługa).
+ obliczeniowej --- platforma jako usługa (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Platform as a Service
+\end_layout
+
+\end_inset
+
+).
  Oznacza to, że programista otrzymuje w pełni przygotowany system operacyjny
- wraz z dostosowanym oprogramowaniem 
+ wraz z dostosowanym oprogramowaniem
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-4"
@@ -5545,11 +5550,11 @@ key "key-4"
 \end_inset
 
 .
- W pewnym sensie ogranicza to możliwość znacznej ingerencji w konfiguracje
- serwera ale pozwala na jego uruchomienie w znacznie krótszym czasie.
- Równie istotną zaletą jest darmowy plan w najsłabszej konfiguracji przez
+ W pewnym sensie ogranicza to możliwość znacznej ingerencji w konfigurację
+ serwera, ale pozwala na jego uruchomienie w znacznie krótszym czasie.
+ Równie istotną zaletą jest darmowy plan w najsłabszej konfiguracji, przez
  co platforma ta zyskała duża popularność w środowisku wolnego oprogramowania.
- Głównie z tej przyczyny użyto platformę Heroku w celu stworzenia serwera
+ Głównie z tej przyczyny użyto platformę Heroku, w celu stworzenia serwera
  przedprodukcyjnego.
 \end_layout
 
