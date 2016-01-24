@@ -4644,17 +4644,6 @@ Zarówno jedno jak i drugie rozwiązanie posiada swoje zalety i wady.
 \end_layout
 
 \begin_layout Standard
-Wybór odpowiedniego systemu bazy danych został podyktowany największymi
- możliwościami bazy danych oraz wydajnością.
- Wśród darmowych rozwiązań najbardziej zaawansownym systemem do zarządzania
- relacyjnymi bazami danych jest PostgreSQL, a w przedstawionych przykładach
- wszystkie rozwiązania zapewniały wysoką wydajność.
- Dlatego najlepszym wyborem został PostgreSQL, który dodatkowo zapewnia
- wsparcie dla formatu BJSON, co ułatwia implementację spersonalizowanych
- parametrów dla danej kategorii wydarzeń.
-\end_layout
-
-\begin_layout Standard
 Wśród dostępnych platform implementujących logikę serwera najlepszym wyborem
  okazało się Ruby on Rails.
  Głównym powodem tego wyboru była bardzo obszerna baza bibliotek programistyczny
@@ -4675,6 +4664,17 @@ Zupełnie inne czynniki wpłynęły na wybór platformy wspierającej implementa
  dynamicznie.
  Równie istotne było podobieństwo w sposobie implementacji aplikacji między
  Ruby on Rails a Ember, co pozwala na płynne połączenie obu platform.
+\end_layout
+
+\begin_layout Standard
+Wybór odpowiedniego systemu bazy danych został podyktowany największymi
+ możliwościami bazy danych oraz wydajnością.
+ Wśród darmowych rozwiązań najbardziej zaawansownym systemem do zarządzania
+ relacyjnymi bazami danych jest PostgreSQL, a w przedstawionych przykładach
+ wszystkie rozwiązania zapewniały wysoką wydajność.
+ Dlatego najlepszym wyborem został PostgreSQL, który dodatkowo zapewnia
+ wsparcie dla formatu BJSON, co ułatwia implementację spersonalizowanych
+ parametrów dla danej kategorii wydarzeń.
 \end_layout
 
 \begin_layout Standard
@@ -12109,7 +12109,17 @@ Komponenty w systemie Android
 \begin_layout Standard
 Rozpoczęcie tworzenia aplikacji rozpoczyna się od wyboru głównej aktywności,
  czyli głównego widoku.
- Oprócz 
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Acitivity
+\end_layout
+
+\end_inset
+
+Oprócz 
 \begin_inset Flex Emph
 status open
 
@@ -12482,14 +12492,6 @@ Widok tworzenia interfejsu użytkownika w Adnroid Studio
 \end_layout
 
 \begin_layout Subsection
-Zarządzanie danymi
-\end_layout
-
-\begin_layout Standard
-Zarządzanie danymi
-\end_layout
-
-\begin_layout Subsection
 Techniki przetwarzania wielowątkowego
 \end_layout
 
@@ -12672,7 +12674,57 @@ Testy
 \end_layout
 
 \begin_layout Standard
-Testy
+Jednymi z najpoularniejszych sposobów testowania kodu apliakcji mobilnej
+ na system Android są testy jednostkowe oraz testy instumentacyjne.
+ Różnica między tymi testami polega na tym, iż testy instrumentacyjne są
+ wykonywane na urządzeniu mobilnym przez co trwają dłużej.
+ Testowanie jednostkowe sprawdza metody i klasy pomijając zewnętrzne zależności,
+ natomiast testy instumentacyjne weryfikują komponenty systemu Android takie
+ jak 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Activity, Fragment, Service
+\end_layout
+
+\end_inset
+
+.
+ Zaleca się testować tylko własny kod, a nie biblioteki, usługi systemowe,
+ bądź sprawdzać czy dany przycisk został wpisany.
+ Najlepszą praktyką jest tworzenie małych funkcji obsługi zdarzeń i testowanie
+ czy działają one poprawnie.
+\end_layout
+
+\begin_layout Standard
+Niezwykle ciekawym narzędziem znajdującym się w pakiecie Android SDK jest
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Monkey
+\end_layout
+
+\end_inset
+
+.
+ Pozwala ono na generowanie losowych kliknięć użytkownika, dzięki temu istnieje
+ możliwość zebirania informacji na temat działania aplikacji w nieprzewidywalnyc
+h i brzegowych sytaucjach.
+ Dodatkową funkcjonalnością jest możliwość pisanie własnych skryptów testujących
+ przy użyciu API 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Monkeyrunner
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Chapter
@@ -13070,6 +13122,247 @@ JSON Types
 
 , [on-line] [dostęp 24 stycznia 2016] dostępny w Internecie: http://www.postgresq
 l.org/docs/9.4/static/datatype-json.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/MongoDB https://pl.wikipedia.org/wiki/SQLite https://p
+l.wikipedia.org/wiki/PostgreSQL
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+https://www.quora.com/What-are-the-pros-and-cons-of-using-Apache-Cordova-phone-gap
+-for-building-your-iOS-app
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-22"
+
+\end_inset
+
+http://www.estaun.net/blog/some-thoughts-after-almost-a-year-of-real-xamarin-use/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-23"
+
+\end_inset
+
+https://www.quora.com/Why-would-people-build-native-mobile-applications-for-Androi
+d-iOS-using-Java-Objective-C-when-they-could-use-Xamarin-C-for-all-platforms-if-
+license-cost-isnt-an-issue
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-21"
+
+\end_inset
+
+Kazimierz Frączkowski - Zarządzanie projektem informatycznym 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-20"
+
+\end_inset
+
+Agile w praktyce - Andy Brandt 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-19"
+
+\end_inset
+
+http://www.agilenutshell.com/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-18"
+
+\end_inset
+
+http://4programmers.net/In %C5%BCynieria_oprogramowania/Ci%C4%85g %C5%82a_integra
+cja#id-Wstp
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-17"
+
+\end_inset
+
+-- http://www.scrumguides.org/docs/scrumgui de/v1/Scrum-Guide-PL.pdf
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+http://www.scrum.org.pl/posty/artykuly/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-15"
+
+\end_inset
+
+http://www.benchmark.pl/testy_i_recenzje /android-ios-windows.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-14"
+
+\end_inset
+
+https://source.android.com/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-13"
+
+\end_inset
+
+http://developer.android.com/about/dashb oards/index.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/Android_Ru ntime
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+
+\end_inset
+
+https://software.intel.com/en- us/blogs/2014/06/18/art-vs-dalvik- introducing-the-
+new-android-x86-runtime
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+https://developers.google.com/cloud- messaging/gcm
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+https://get.fabric.io/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/Od %C5%9Bmiecanie_pami%C4%99ci#cite_ref- JonesLins_1
+-3
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+http://square.github.io/okhttp/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+https://github.com/google/gson
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+Android.
+ Aplikacje wielowątkowe.
+ Techniki przetwarzania.
+ - Anders Göransson
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Platforma Android.
+ Nowe wyzwania - Erik Hellman
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-27"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
