@@ -8860,6 +8860,26 @@ Projektowanie bazy danych jest procesem odzwierciedlania obiektów świata
  rzeczywistego (a w szczególności zależności występujących między nimi)
  w systemie informatycznym.
  Odpowiedni projekt stanowi podstawę uniknięcia problemu redundancji danych.
+ Proces tworzenia projektu bazy danych można podzielić na dwie następujące
+ po sobie fazy:
+\end_layout
+
+\begin_layout Enumerate
+Faza projektu modelu związków-encji --- na tym etapie dochodzi do prezentacji
+ obiektów świata rzeczywistego jako encji, a powiązań między tymi obiektami
+ jako związków.
+ Wynikiem tego etapu jest powstanie abstrakcyjnego schematu bazy danych.
+\end_layout
+
+\begin_layout Enumerate
+Faza projektu modelu relacyjnego --- na tym etapie dokonywana jest transformacja
+ modelu związków-encji do modelu relacyjnego.
+ Encje przekształcane zostają na relacje, związki natomiast są przekształcane
+ na klucze obce lub nowe relacje (w przypadku związków typu M:N).
+ Na tym etapie dochodzi także do definicji typów poszczególnych atrybutów
+ relacji.
+ Wynikiem tego etapu jest schemat bazy danych, który może zostać użyty w
+ procesie implementacji.
 \end_layout
 
 \begin_layout Subsection
@@ -8983,7 +9003,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Model relacyjny bazy danych
+Model relacyjny bazy danych 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5.20"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8998,6 +9025,19 @@ Model relacyjny bazy danych
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5.20"
+
+\end_inset
+
+ prezentuje model relacyjny projektowanej bazy danych powstały po transformacji
+ modelu związków
 \end_layout
 
 \begin_layout Chapter
