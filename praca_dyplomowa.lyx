@@ -2617,7 +2617,14 @@ MVC (ang.
  Jej głównymi zaletami są: dobra dokumentacja, duża liczba bibliotek programisty
 cznych oraz niski koszt i krótki czas wytworzenia oprogramowania.
  Główną ideą jest tutaj podążanie za konwencjami, dzięki którym programista
- nie musi zwracać uwagi na konfigurację.
+ nie musi zwracać uwagi na konfigurację
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1-1"
+
+\end_inset
+
+.
  W większości przypadków konwencje te wiążą się z umieszczaniem plików w
  określonym folderze narzuconej struktury projektu oraz odpowiednim nazewnictwem
  plików i zmiennych w kodzie.
@@ -2841,7 +2848,14 @@ Funkcje wyższego rzędu --- funkcje zwracające (lub przyjmujące jako parametr
 
 .
  Została zbudowana na bazie języka Elixir uruchamianego na wirtualnej maszynie
- Erlanga.
+ Erlanga
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2-1"
+
+\end_inset
+
+.
  Tak jak Ruby on Rails, pozwala na tworzenie pełnych aplikacji internetowych.
  Wysoka wydajność tego języka wiąże się między innymi ze współbieżnością,
  którą można zaimplementować małym kosztem.
@@ -3043,7 +3057,14 @@ krótki
 Platforma Laravel jest jednym z najpopularniejszych platform opartych na
  języku PHP.
  Jej struktura nieco przypomina Ruby on Rails --- również używa wzorca MVC
- oraz preferowana jest konwencja nad konfiguracją.
+ oraz preferowana jest konwencja nad konfiguracją
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3-1"
+
+\end_inset
+
+.
  Wydajność aplikacji stworzonej za pomocą standardowego generatora jest
  przeciętna.
  Wiążę się to między innymi z dużą ilością zależności od innych bibliotek.
@@ -3259,7 +3280,14 @@ Node.js --- środowisko programistyczne napisane w języku JavaScript, które
 
 , które to z kolei zbudowane zostało na bazie języka JavaScript.
  Główną zaletą tej platformy jest synchronizacja danych czasu rzeczywistego
- między klientem a serwerem.
+ między klientem a serwerem
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4-1"
+
+\end_inset
+
+.
  Oznacza to, że zmiany wprowadzone na jednym kliencie zostaną zaobserwowane
  na wszystkich powiązanych klientach.
  Ponadto jest to platforma skalowalna.
@@ -11902,6 +11930,90 @@ Testy
 
 \begin_layout Chapter
 Podsumowanie
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1-1"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Getting Started with Rails
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://guides.rubyon
+rails.org/getting_started.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2-1"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Phoenix Overview 
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://www.phoenixfr
+amework.org/docs/overview
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3-1"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Architecture of Laravel Applications 
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://www.phoenixfr
+amework.org/docs/overviewhttp://laravelbook.com/laravel-architecture
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4-1"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Meteor Introduction 
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://guide.meteor.c
+om
 \end_layout
 
 \begin_layout Bibliography
