@@ -10882,6 +10882,10 @@ pt, został on użyty w projekcie.
 Komunikacja z serwerem
 \end_layout
 
+\begin_layout Paragraph
+Node.js
+\end_layout
+
 \begin_layout Standard
 Gdy użytkownik uruchamia aplikację internetową wpisując jej adres URL w
  przeglądarce następuje pobranie plików z kodem HTML, CSS oraz JavaScript,
@@ -10927,6 +10931,10 @@ Pobranie plików z serwera Node.js.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Paragraph
+Ruby on Rails
 \end_layout
 
 \begin_layout Standard
@@ -11013,6 +11021,75 @@ Przykładowy komunikat ze strony logowania w przypadku statusu oznaczającego
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Serwery zewnętrzne
+\end_layout
+
+\begin_layout Standard
+Współczesne aplikacje internetowe bardzo często korzystają z serwisów zewnętrzny
+ch, które w sposób darmowy lub płatny udostępniają swoje zasoby.
+ Do najbardziej znanych rozwiązań tego typu można zaliczyć API takich firm
+ jak Google czy chociażby Facebook.
+ 
+\end_layout
+
+\begin_layout Standard
+Najczęściej spotykaną sytuacją, w której dochodzi do przechwycenia zasobów
+ aplikacji zewnętrznej jest uwierzytelnianie.
+ Ze względu na wykorzystanie protokołu Oauth2, w aplikacji użyto API serwisu
+ Facebook, w celu utworzenia i uwierzytelnienia nowego użytkownika.
+ Aby taka operacja się powiodła należy uzyskać sekretny kod, który generowany
+ jest z poziomu aplikacji Facebook.
+\end_layout
+
+\begin_layout Standard
+Drugim wykorzystaniem zewnętrznego serwisu jest komunikacja z serwerami
+ Google'a, w celu ułatwienia procesu wyszukiwania miast.
+ Jako parametr zapytania wysyłana jest fraza wpisana w odpowiednie pole,
+ zawierająca nazwę wyszukiwanego miasta.
+ W odpowiedzi uzyskiwana jest lista miast zaczynających się od szukanej
+ frazy, wraz z bardzo przydatnymi informacjami, takimi jak współrzędne geografic
+zne, czy kraj do którego przynależą.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/wyszukiwanie.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wyszukiwanie miast z użyciem API serwisu Google.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
