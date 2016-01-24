@@ -11115,6 +11115,7 @@ Ważną cechą Androida jest fragmentacja, która dotyczy wersji systemu, wielko
  urządzeniach i wersjach systemu, dlatego należy określić do jakiego grona
  użytkowników aplikacja ma być przeznaczona, aby na każdym urządzeniu prezentowa
 ła tę samą jakość.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -11269,7 +11270,91 @@ System autoryzacji
 \end_layout
 
 \begin_layout Standard
-System autoryzacji
+Podobnie jak w aplikacji internetowej autoryzacja użytkowników została oparta
+ o protokół Oauth2.
+ System autoryzacji polega na wysłaniu żądania logowania lub rejestracji
+ do serwera, a w przypadku odpowiedzi poprawnej zostaje zwrócony zaszyfrowany
+ kod.
+ Token przechowywany jest w pamięci urządzenia za pomocą 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+SharedPreferences
+\end_layout
+
+\end_inset
+
+ oraz wysyłany z każdym zapytaniem.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+SharedPreferences
+\end_layout
+
+\end_inset
+
+ jest klasą, która ułatwia zapis i odczyt prostych typów danych w pamięci
+ urządzenia.
+ Badanie poprawności wpisanych danych jest wykonywane dwuetapowo, w celu
+ ograniczenia niepotrzebnego odpytywania serwera.
+ Pierwszym etapem jest sprawdzenie poprawności formatu danych na urządzeniu,
+ następnie dane są wysyłane do serwera, który również sprawdza poprawność
+ formatu danych oraz autoryzuje użytkownika.
+\end_layout
+
+\begin_layout Standard
+Została wprowadzona również możliwość logowania przez serwis 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Facebook
+\end_layout
+
+\end_inset
+
+.
+ Uzyskany zaszyfrowany kod jest wysyłany do serwera, gdzie na podstawie
+ otrzymanych danych tworzone jest konto użytkownika, które nie różni się
+ od tego stworzonego za pomocą standardowego formularza rejestracyjnego.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/android_autoryzacja.png
+	width 30page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok logowania zaimplementowany dla sytemu Android
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
