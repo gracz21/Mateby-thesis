@@ -3423,8 +3423,18 @@ krótki
 
 \begin_layout Standard
 Platforma Meteor reprezentuje całkowicie inne podejście.
- Jest oparta na środowisku programistycznym Node.js, które to z kolei zbudowane
- zostało na bazie języka JavaScript.
+ Jest oparta na środowisku programistycznym Node.js
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Node.js --- środowisko programistyczne napisane w języku JavaScript, które
+ umożliwia tworzenie serwerów www.
+\end_layout
+
+\end_inset
+
+, które to z kolei zbudowane zostało na bazie języka JavaScript.
  Główną zaletą tej platformy jest synchronizacja danych czasu rzeczywistego
  między klientem a serwerem.
  Oznacza to, że zmiany wprowadzone na jednym kliencie zostaną zaobserwowane
@@ -10383,7 +10393,7 @@ Architektura
 \end_layout
 
 \begin_layout Standard
-Platforma Ember.js bazuje na wzorcu projektowym MVC który zakłada istnienie
+Platforma Ember.js bazuje na wzorcu projektowym MVC, który zakłada istnienie
  trzech współpracujących ze sobą części: modelu, widoku oraz kontrolera.
  Każda z nich realizuje oddzielne zadania i z reguły przekazuje dane do
  kolejnej.
@@ -10403,7 +10413,7 @@ route
 \end_inset
 
 ) odpowiedzialna jest za pobieranie danych z pamięci podręcznej lub serwera
- oraz przekazywanie ich do kontrolera
+ oraz przekazywanie ich do kontrolera,
 \end_layout
 
 \begin_layout Itemize
@@ -10418,7 +10428,7 @@ template
 
 \end_inset
 
-) odpowiedzialny jest za prezentację danych pochodzących z kontrolera
+) odpowiedzialny jest za prezentację danych pochodzących z kontrolera,
 \end_layout
 
 \begin_layout Itemize
@@ -10434,7 +10444,7 @@ model
 \end_inset
 
 ) odpowiedzialny jest za przechowywanie danych pochodzących z serwera lub
- tymczasowo przechowywanych w pamięci podręcznej
+ pamięci podręcznej.
 \end_layout
 
 \begin_layout Standard
@@ -10448,7 +10458,7 @@ Po wpisaniu adresu URL następuje rozpoznanie obecnego stanu aplikacji przez
 \end_layout
 
 \begin_layout Enumerate
-Trasa pobiera dane pochodzące z serwera lub pamięci podręcznej a następnie
+Trasa pobiera dane pochodzące z serwera lub pamięci podręcznej, a następnie
  przekazuje je do kontrolera.
 \end_layout
 
@@ -10463,7 +10473,8 @@ Dekorować dane oznacza przygotować je w odpowiedni sposób do wyświetlenia.
 
 \end_inset
 
- lub pozostawia je w niezmienionej formie a następnie przekazuje je do szablonu.
+ lub pozostawia je w niezmienionej formie, a następnie przekazuje je do
+ szablonu.
 \end_layout
 
 \begin_layout Enumerate
@@ -10476,17 +10487,16 @@ W klasycznym schemacie wzorca MVC kontroler pełni rolę trasy.
  z interakcją pomiędzy aplikacją a użytkownikiem.
  Przykładem tego typu interakcji może być wykonanie jakiejś procedury po
  kliknięciu w wybranym miejscu urządzeniem wskazującym.
- Wszelkie akcje dotyczące danych typu: dodanie nowego rekordu, edycja lub
- usuwanie są jednak wykonywane w trasie.
+ Wszelkie akcje CRUD na danych są jednak wykonywane w trasie.
  Kontroler jest zatem odpowiedzialny jedynie za akcje modyfikujące stan
  szablonu, komunikację z trasą oraz dekorowanie danych.
 \end_layout
 
 \begin_layout Standard
-Trasa wykonuje wszelkie operacje które modyfikują stan bazy danych.
- Odpowiedzialna jest również za interpetację stanu adresu URL czy chociażby
+Trasa wykonuje wszelkie operacje, które modyfikują stan bazy danych.
+ Odpowiedzialna jest również za interpetację stanu adresu URL, czy chociażby
  uwierzytelnianie użytkownika.
- Można zatem powiedzieć że wszelka logika aplikacji która zmienia jej stan
+ Można zatem powiedzieć że wszelka logika aplikacji, która zmienia jej stan
  znajduje się w trasie.
  Istnieje jednak nowe rozwiązanie, które w przyszłości ma całkowicie wykluczyć
  konieczność stosowania kontrolerów współpracujących z trasami.
@@ -10529,7 +10539,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat działania architektury platformy Ember.js
+Schemat działania architektury platformy Ember.js.
 \end_layout
 
 \end_inset
@@ -10547,14 +10557,14 @@ Ember CLI
 \end_layout
 
 \begin_layout Standard
-Ember CLI jest narzędziem wiersza poleceń które wprowadza określoną strukturę
+Ember CLI jest narzędziem wiersza poleceń, które wprowadza określoną strukturę
  projektu oraz system zarządzający dodatkami.
  Dzięki temu podążając za pewnymi konwencjami programista może uniknąć wielu
  nadmiarowych kwestii implementacyjnych.
  Odpowiednia struktura projektu wymusza określone nazewnictwo plików oraz
- wymaga dodatkowego pliku konfiguracyjnego ale zmniejsza znacznie nakład
+ wymaga dodatkowego pliku konfiguracyjnego, ale zmniejsza znacznie nakład
  pracy.
- Można zatem powiedzieć że jest to narzędzie, która wprowadza konwencje
+ Można zatem powiedzieć, że jest to narzędzie, które wprowadza konwencje
  nad konfiguracją dla narzędzi budujących aplikację.
 \end_layout
 
@@ -10564,15 +10574,16 @@ Ember data
 
 \begin_layout Standard
 Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON.
- Analiza danych otrzymanych w ten sposób nie byłaby skuteczna ani intuicyjna.
- W tym celu powstała osobna biblioteka której zadaniem jest mapowanie otrzymanyc
-h danych na klasy reprezentowane w języku JavaScript.
+ Analiza danych przeprowadzona w języku JavaScript, otrzymanych w ten sposób
+ nie byłaby skuteczna ani intuicyjna.
+ W tym celu powstała osobna biblioteka, której zadaniem jest mapowanie otrzymany
+ch danych na klasy reprezentowane w języku JavaScript.
  Rekord opisany za pomocą klasy jest obecnie najczęściej spotykaną formą
  przechowywania danych w aplikacjach internetowych.
  Ponadto Ember data wprowadza operacje pozwalające na tworzenie, edycję
  oraz usuwanie rekordów.
- Posiadają one pewne konwencje co po raz kolejny udowadnia jak bardzo konwencjon
-alną platformą jest Ember.
+ Posiadają one pewne konwencje, co po raz kolejny udowadnia jak bardzo konwencjo
+nalną platformą jest Ember.
 \end_layout
 
 \begin_layout Paragraph
@@ -10605,7 +10616,7 @@ if
 
 \begin_layout Standard
 Głównym założeniem Emblem jest uproszczenie składni HTML poprzez używanie
- wcięć w kodzie w momencie zagnieżdżania znaczników oraz pozbycie się znaczników
+ wcięć w kodzie podczas zagnieżdżania znaczników oraz pozbycie się znaczników
  zamykających.
  Ponadto jest to język kompatybilny z mechanizmami platformy Ember.
  Ze względu na te zalety, Emblem został użyty w projekcie jako główny język
@@ -10624,8 +10635,8 @@ CoffeScript jest językiem programowania kompilowanym do JavaScript, który
  kodu napisanego w JavaScript.
  Wprowadza wiele przydatnych metod operujących na listach czy chociażby
  wyrażeniach regularnych.
- Tak jak Emblem jego składnia również opiera się na wcięciach w kodzie co
- znacznie zmniejsza ilość kodu.
+ Tak jak Emblem jego składnia również opiera się na wcięciach w kodzie,
+ co znacznie zmniejsza ilość kodu.
  Ponadto jego zaletami jest również zachęcanie do stosowania dobrych i odradzani
 a złych wzorców projektowych języka JavaScript.
  Ze względu na wiele pozytywnych aspektów wynikających z wykorzystania CoffeScri
@@ -10640,24 +10651,14 @@ Komunikacja z serwerem
 Gdy użytkownik uruchamia aplikację internetową wpisując jej adres URL w
  przeglądarce następuje pobranie plików z kodem HTML, CSS oraz JavaScript,
  które odpowiedzialne są za jej działanie.
- Serwer, który udostępnia te pliki to Node.js
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Node.js --- środowisko programistyczne napisane w języku JavaScript, które
- umożliwia tworzenie serwerów www.
-\end_layout
-
-\end_inset
-
-, będący jednocześnie serwerem bazowym dla Ember CLI.
+ Serwer, który udostępnia te pliki to Node.js, będący jednocześnie serwerem
+ bazowym dla Ember CLI.
  Zwrócone w odpowiedzi pliki reprezentują całą aplikację internetową, co
- oznacza, że nie będzie potrzeby komunikacji z serwerem Node aż do czasu
+ oznacza, że nie będzie potrzeby komunikacji z serwerem Node, aż do czasu
  jej ponownego uruchomienia.
- To rozwiązanie znacznie przyspiesza działanie aplikacji jednak narzuca
- pewne opóźnienie w przypadku jej uruchomienia (co jest efektem konieczności
- pobrania wszystkich plików aplikacji).
+ To rozwiązanie znacznie przyspiesza wprowadzanie zmian w aplikacji jednak
+ narzuca pewne opóźnienie w przypadku jej uruchomienia (co jest efektem
+ konieczności pobrania wszystkich plików aplikacji).
  
 \begin_inset Float figure
 placement !h
@@ -10748,7 +10749,7 @@ Każda odpowiedź serwera zawiera dane zwrotne oraz status określający pewien
  stan.
  W przypadku statusów oznaczających niepowodzenie należy odpowiednio poinformowa
 ć użytkownika o niemożliwości przetworzenia zadania.
- Zwracane dane trafiają do pamięci podręcznej przeglądarki co pozwala na
+ Zwracane dane trafiają do pamięci podręcznej przeglądarki, co pozwala na
  zmniejszenie ilości zapytań do serwera.
 \begin_inset Float figure
 placement !h
@@ -10790,8 +10791,8 @@ System autoryzacji
 \end_layout
 
 \begin_layout Standard
-W celu spójnej współpracy z serwerem autoryzacja użytkowników w aplikacji
- internetowej została oparta o protokół Oauth2.
+W celu spójnej współpracy z serwerem, uwierzytelnianie użytkowników w aplikacji
+ internetowej zostało oparte o protokół Oauth2.
  Aby uzyskać sekretny kod będący potwierdzeniem wiarygodności użytkownika,
  należy wysłać dane uwierzytelniające, którymi w tym przypadku jest nazwa
  konta e-mail oraz hasło, do serwera obsługującego uwierzytelnianie (serwer
@@ -10815,19 +10816,19 @@ Protokół WebSocket po stronie klienta
 \end_layout
 
 \begin_layout Standard
-Zadaniem aplikacji internetowej po stronie kliena w przypadku użycia protokołu
+Zadaniem aplikacji internetowej po stronie klienta w przypadku użycia protokołu
  WebSocket jest wysłanie odpowiednich danych, które wymagane są w celu utworzeni
 a połączenia.
- Tymi informacjami są: nazwa kanału oraz token uwierzytelniające.
- Pierwsza z nich wymagana jest, aby otrzymywać wiadomości z odpowiedniego
- kanału, ponieważ może być ich kilka.
+ Tymi informacjami są nazwa kanału oraz token uwierzytelniający.
+ Pierwsza z nich wymagana jest, w celu nawiązania połączenia z odpowiednim
+ kanałem, ponieważ może być ich kilka.
  Przykładem może być kanał wysyłający wiadomości w ogólnodostępnej grupowej
  rozmowie oraz kanał wysyłający powiadomienia do użytkowników.
  Sekretny token jest potrzebny w celu zabezpieczenia połączenia przed nieautoryz
 owanym dostępem.
- Jest on wysyłany jako zwykły parametr ponieważ typowe zapytanie odbierane
- jest przez specjalne kontrolery związane z klasą WebSocket i tym samym
- omijany jest typowy proces uwierzytelniania protokołem Oauth2.
+ Jest on wysyłany jako zwykły parametr, ponieważ zapytanie odbierane jest
+ przez specjalne kontrolery związane z klasą WebSocket i tym samym omijany
+ jest typowy proces uwierzytelniania protokołem Oauth2.
 \end_layout
 
 \begin_layout Subsection
@@ -10845,7 +10846,7 @@ j przyszłości wyświetlane na urządzeniach mieszczących się w jednej ręce,
  internetowe to podejście zaczęło się stopniowo zmieniać.
  Pierwszym pomysłem rozwiązania nieefektywnego wyświetlania stron internetowych
  na tego typu urządzeniach było tworzenie osobnych aplikacji.
- Trudności oraz nakład pracy wymagający stworzenia kolejnych wersji widoków
+ Trudności oraz nakład pracy potrzebny do stworzenia kolejnych wersji widoków
  okazały się jednak na tyle istotne, że porzucono ten pomysł na rzecz próby
  zaprojektowania responsywnych widoków, które w zależności od rozdzielczości
  urządzenia wyświetlane są w różny sposób
@@ -10857,19 +10858,18 @@ key "key-9"
 
 .
  Takie podejście umożliwia nie tylko kontrolę wielkości oraz ułożenia poszczegól
-nych elementów strony internetowej ale i również pozwala na warunkowe wyświetlen
-ie konkretnych bloków widoku.
+nych elementów strony internetowej, ale i również pozwala na warunkowe wyświetle
+nie konkretnych bloków widoku.
  Użytkownik ma zatem wrażenie korzystania z aplikacji zaprojektowanej specjalnie
  dla urządzenia przenośnego.
 \end_layout
 
 \begin_layout Standard
 Możliwość zaprojektowania jednej aplikacji, która wyglądałaby jednakowo
- efektywnie na dowolnym urządzeniu okazuje się dla wielu programistów na
- tyle interesująca, że wiele osób rezygnuje z tworzenia mobilnych aplikacji
- natywnych.
+ efektywnie na dowolnym urządzeniu okazuje się dla programistów na tyle
+ interesująca, że wiele osób rezygnuje z tworzenia mobilnych aplikacji natywnych.
  Trzeba jednak zauważyć, że istnieje wiele powtarzających się schematów
- przy tworzeniu responsywnych widoków, szczególnie widoczne jest to przy
+ przy tworzeniu responsywnych widoków, co szczególnie widoczne jest to przy
  definiowaniu struktury strony.
  W celu uproszczenia implementacji powstało wiele platform, które w znacznym
  stopniu odciążają programistów od konieczności definiowania najważniejszych
@@ -10895,10 +10895,10 @@ key "key-10"
 .
  W chwili obecnej posiada bardzo obszerną bazę gotowych stylów, komponentów
  oraz ikon.
- Najczęściej wykorzystywaną funkcjonalnością jest tutaj zestaw gotowych
- stylów dla kolumn o różnej szerokości, które w prosty i intuicyjny sposób
- pozwalają na stworzenie rerponsywnej struktury strony.
- Ze względu na liczne zalety tej platformy została wykorzystana w projekcie.
+ Najczęściej wykorzystywaną funkcjonalnością jest tutaj zestaw kolumn o
+ różnej szerokości, które w prosty i intuicyjny sposób pozwalają na stworzenie
+ responsywnej struktury strony.
+ Ze względu na liczne zalety tej platformy została ona wykorzystana w projekcie.
 \end_layout
 
 \begin_layout Standard
@@ -10922,7 +10922,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok wydarzeń na ekranie od monitora podłączonego do komputera.
+Widok wydarzeń na ekranie monitora podłączonego do komputera.
 \end_layout
 
 \end_inset
