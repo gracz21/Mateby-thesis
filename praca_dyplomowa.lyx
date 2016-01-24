@@ -610,7 +610,7 @@ http://www.speedtest.pl/wycena
 
 \end_inset
 
- z dnia 6.01.2016 roku.
+ z dnia 6.01.2016 roku
 \end_layout
 
 \end_inset
@@ -634,7 +634,7 @@ https://play.google.com
 
 \end_inset
 
- z dnia 6.01.2016 roku.
+ z dnia 6.01.2016 roku
 \end_layout
 
 \end_inset
@@ -1755,7 +1755,7 @@ W celu zachęcenia użytkowników do nawiązywania rzeczywistych relacji należy
  międzyludzkiej.
  Ponadto przy ogromnej liczbie użytkowników serwisów społecznościowych,
  aplikacja powinna zapewnić wysoki poziom integracji z tymi portalami.
- Warto również wprowdzić zawansowaną opcję wyszkiwania oraz rozbudowany
+ Warto również wprowadzić zaawansowaną opcję wyszukiwania oraz rozbudowany
  widok wydarzenia, szczegółowy opisujący dane dotyczące jego przebiegu.
 \end_layout
 
@@ -4693,7 +4693,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Aplikacja internetowa umieszczona na jednym serwerze.
+Aplikacja internetowa umieszczona na jednym serwerze
 \end_layout
 
 \end_inset
@@ -4730,7 +4730,7 @@ status open
 
 \begin_layout Plain Layout
 Aplikacja internetowa podzielona na dwa oddzielne moduły, umieszczone na
- osobnych serwerach.
+ osobnych serwerach
 \end_layout
 
 \end_inset
@@ -5209,7 +5209,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok repozytorium logiki serwera w serwisie Github.
+Widok repozytorium logiki serwera w serwisie Github
 \end_layout
 
 \end_inset
@@ -5700,8 +5700,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Diagram kontekstu dla opisywanego systemu.
- 
+Diagram kontekstu dla opisywanego systemu 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:5.1"
@@ -9363,8 +9362,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat działania architektury platformy Ruby on Rails.
- 
+Schemat działania architektury platformy Ruby on Rails 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:6.1"
@@ -9793,9 +9791,9 @@ Doorkeeper
 Doorkeeper to biblioteka dla Ruby on Rails ułatwiająca implementację systemu
  autoryzacji opartego na protokole OAuth 2.
  Współpracuje ona z API tworzonymi przy użyciu platformy Grape.
- Udostępnia funkcjonalnośc pozwalającą m.in.
+ Udostępnia funkcjonalność pozwalającą m.in.
  na generowanie i unieważnianie kodów uwierzytelniających.
- Przy użyciu biblioteki Doorkeeper możliwe jest zapezieczanie pojedynczych
+ Przy użyciu biblioteki Doorkeeper możliwe jest zabezpieczanie pojedynczych
  punktów końcowych tak, by były dostępne tylko dla zalogowanych użytkowników
  lub dla użytkowników o danym typie konta.
 \end_layout
@@ -10666,7 +10664,7 @@ Architektura
 \end_layout
 
 \begin_layout Standard
-Platforma Ember.js bazuje na wzorcu projektowym MVC, który zakłada istnienie
+Platforma Ember bazuje na wzorcu projektowym MVC, który zakłada istnienie
  trzech współpracujących ze sobą części: modelu, widoku oraz kontrolera.
  Każda z nich realizuje oddzielne zadania i z reguły przekazuje dane do
  kolejnej.
@@ -10812,7 +10810,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Schemat działania architektury platformy Ember.js.
+Schemat działania architektury platformy Ember
 \end_layout
 
 \end_inset
@@ -10964,7 +10962,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Pobranie plików z serwera Node.js.
+Pobranie plików z serwera Node.js
 \end_layout
 
 \end_inset
@@ -11018,7 +11016,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Ogólny schemat wymiany danych między aplikacją internetową a serwerem.
+Ogólny schemat wymiany danych między aplikacją internetową a serwerem
 \end_layout
 
 \end_inset
@@ -11060,7 +11058,7 @@ status open
 
 \begin_layout Plain Layout
 Przykładowy komunikat ze strony logowania w przypadku statusu oznaczającego
- niepowodzenie.
+ niepowodzenie
 \end_layout
 
 \end_inset
@@ -11125,7 +11123,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Wyszukiwanie miast z użyciem API serwisu Google.
+Wyszukiwanie miast z użyciem API serwisu Google
 \end_layout
 
 \end_inset
@@ -11278,7 +11276,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok wydarzeń na ekranie monitora podłączonego do komputera.
+Widok wydarzeń na ekranie monitora podłączonego do komputera
 \end_layout
 
 \end_inset
@@ -11312,7 +11310,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Widok wydarzeń na ekranie urządzenia przenośnego.
+Widok wydarzeń na ekranie urządzenia przenośnego
 \end_layout
 
 \end_inset
