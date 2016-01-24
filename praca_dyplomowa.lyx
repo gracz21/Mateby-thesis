@@ -4778,10 +4778,20 @@ Agile software development
 
 ) to grupa metod wytwarzania oprogramowania opartego na modelu iteracyjnym.
  Posiada deklarację wspólnych zasad tworzenia oprogramowania, która została
- nazwana manifestem Agile.
- Pod obszarem pojęcia Agile zalicza się wiele metodyk zarządzania projektami
- i dostarczania produktów, a najpopularniejszą wśród nich jest Scrum, stworzony
- przez Kena Schwabera i Jeffa Sutherlanda.
+ nazwana 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+manifestem Agile
+\end_layout
+
+\end_inset
+
+.
+ Pod obszarem pojęcia programowania zwinnego zalicza się wiele metodyk zarządzan
+ia projektami i dostarczania produktów, a najpopularniejszą wśród nich jest
+ Scrum, stworzony przez Kena Schwabera i Jeffa Sutherlanda.
  Scrum to metoda organizacji pracy nad wytwarzaniem produktu polegająca
  na podzieleniu projektu na mniejsze części i rozłożeniu ich w trwające
  maksymalnie jeden miesiąc iteracje, zwane sprintami.
@@ -4809,7 +4819,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
- Schemat obrazujący zasady działania metod Agile
+ Schemat obrazujący zasady działania metod programownia zwinnego
 \end_layout
 
 \end_inset
@@ -4827,8 +4837,8 @@ Pivotal Tracker
 \end_layout
 
 \begin_layout Standard
-Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, wykrystalizow
-anie priorytetów i pomoc w zarządzaniu projektem, aby poszczególni członkowie
+Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, sprecyzowanie
+ priorytetów i pomoc w zarządzaniu projektem, aby poszczególni członkowie
  zespołu mogli skupić się na tym, co niezbędne.
  Dzięki temu narzędziu możemy zobaczyć wszystkie swoje zadania w wielu projektac
 h na jednym ekranie.
