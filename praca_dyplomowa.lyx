@@ -4644,17 +4644,6 @@ Zarówno jedno jak i drugie rozwiązanie posiada swoje zalety i wady.
 \end_layout
 
 \begin_layout Standard
-Wybór odpowiedniego systemu bazy danych został podyktowany największymi
- możliwościami bazy danych oraz wydajnością.
- Wśród darmowych rozwiązań najbardziej zaawansownym systemem do zarządzania
- relacyjnymi bazami danych jest PostgreSQL, a w przedstawionych przykładach
- wszystkie rozwiązania zapewniały wysoką wydajność.
- Dlatego najlepszym wyborem został PostgreSQL, który dodatkowo zapewnia
- wsparcie dla formatu BJSON, co ułatwia implementację spersonalizowanych
- parametrów dla danej kategorii wydarzeń.
-\end_layout
-
-\begin_layout Standard
 Wśród dostępnych platform implementujących logikę serwera najlepszym wyborem
  okazało się Ruby on Rails.
  Głównym powodem tego wyboru była bardzo obszerna baza bibliotek programistyczny
@@ -4675,6 +4664,17 @@ Zupełnie inne czynniki wpłynęły na wybór platformy wspierającej implementa
  dynamicznie.
  Równie istotne było podobieństwo w sposobie implementacji aplikacji między
  Ruby on Rails a Ember, co pozwala na płynne połączenie obu platform.
+\end_layout
+
+\begin_layout Standard
+Wybór odpowiedniego systemu bazy danych został podyktowany największymi
+ możliwościami bazy danych oraz wydajnością.
+ Wśród darmowych rozwiązań najbardziej zaawansownym systemem do zarządzania
+ relacyjnymi bazami danych jest PostgreSQL, a w przedstawionych przykładach
+ wszystkie rozwiązania zapewniały wysoką wydajność.
+ Dlatego najlepszym wyborem został PostgreSQL, który dodatkowo zapewnia
+ wsparcie dla formatu BJSON, co ułatwia implementację spersonalizowanych
+ parametrów dla danej kategorii wydarzeń.
 \end_layout
 
 \begin_layout Standard
@@ -12109,7 +12109,17 @@ Komponenty w systemie Android
 \begin_layout Standard
 Rozpoczęcie tworzenia aplikacji rozpoczyna się od wyboru głównej aktywności,
  czyli głównego widoku.
- Oprócz 
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Acitivity
+\end_layout
+
+\end_inset
+
+Oprócz 
 \begin_inset Flex Emph
 status open
 
@@ -12479,14 +12489,6 @@ Widok tworzenia interfejsu użytkownika w Adnroid Studio
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Zarządzanie danymi
-\end_layout
-
-\begin_layout Standard
-Zarządzanie danymi
 \end_layout
 
 \begin_layout Subsection
