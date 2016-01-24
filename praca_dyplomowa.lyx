@@ -11189,6 +11189,24 @@ Application
 \end_inset
 
 .
+ Każda z nich posiada swój własny cykl życia, którego zrozumienie jest niezbędne
+ do tworzenia poprawnych aplikacji mobilnych.
+ Po zminimalizowaniu aplikacji i zwolnieniu zasobów przez Garbage Collection
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Garbage Collection --- jedna z metod automatycznego zarządzania dynamicznie
+ przydzieloną pamięcią, w której za proces jej zwalniania odpowiedzialny
+ jest nie programista, lecz programowy zarządca nazwany garbage collector.
+\end_layout
+
+\end_inset
+
+, w momencie chęci przywrócenia aplikacji bardzo częstym zjawiskiem jest
+ pojawianie się błędów.
+ Znajomość i świadomość cyklu życia komponentów pozwala uniknąć takich sytuacji.
  Poza wymienionymi komponentami istnieją jeszcze inne rzadziej wykorzystywane
  składniki, które nie zostały użyte w aplikacji, takie jak 
 \begin_inset Flex Emph
@@ -11236,7 +11254,15 @@ Fragment
 \end_layout
 
 \begin_layout Standard
-Fragment
+W androidzie można tworzyć dynamiczne interfejsy poprzez łączenie w moduły
+ komponentów UI z aktywnościami.
+ Moduły takie tworzy się za pomocą klasy Fragment , która zachowuje się
+ jak zagnieżdżone aktywności definiujące własne layouty oraz zarządzające
+ własnym cyklem życia.
+ Fragmenty są częścią aktywności która posiada własny cykl życia, otrzymuje
+ własne zdarzenia i która może być dodana i wyłączana podczas działania
+ aktywności nadrzędnej.
+ 
 \end_layout
 
 \begin_layout Paragraph
