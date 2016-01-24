@@ -10819,13 +10819,13 @@ Protokół WebSocket po stronie klienta
 Zadaniem aplikacji internetowej po stronie klienta w przypadku użycia protokołu
  WebSocket jest wysłanie odpowiednich danych, które wymagane są w celu utworzeni
 a połączenia.
- Tymi informacjami są nazwa kanału oraz token uwierzytelniający.
+ Tymi informacjami są nazwa kanału oraz zaszyfrowany kod uwierzytelniający.
  Pierwsza z nich wymagana jest, w celu nawiązania połączenia z odpowiednim
  kanałem, ponieważ może być ich kilka.
  Przykładem może być kanał wysyłający wiadomości w ogólnodostępnej grupowej
  rozmowie oraz kanał wysyłający powiadomienia do użytkowników.
- Sekretny token jest potrzebny w celu zabezpieczenia połączenia przed nieautoryz
-owanym dostępem.
+ Zaszyfrowany kod uwierzytelniający jest potrzebny w celu zabezpieczenia
+ połączenia przed nieautoryzowanym dostępem.
  Jest on wysyłany jako zwykły parametr, ponieważ zapytanie odbierane jest
  przez specjalne kontrolery związane z klasą WebSocket i tym samym omijany
  jest typowy proces uwierzytelniania protokołem Oauth2.
