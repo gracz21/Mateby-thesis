@@ -12676,7 +12676,65 @@ Testy
 \end_layout
 
 \begin_layout Chapter
-Podsumowanie
+Zakończenie
+\end_layout
+
+\begin_layout Paragraph
+Podsumowanie pracy
+\end_layout
+
+\begin_layout Standard
+System wspomagający organizację i wyszukiwanie wydarzeń wśród różnorodnych
+ społeczności, który powstał w obrębie tej pracy inżynierskiej realizuje
+ wszystkie sprecyzowane założenia.
+ Zaimplementowane zostały następujące komponenty:
+\end_layout
+
+\begin_layout Itemize
+serwer udostępniający publiczny interfejs programistyczny wymagany do poprawnej
+ prezentacji danych w aplikacji mobilnej i internetowej po stronie klienta;
+\end_layout
+
+\begin_layout Itemize
+aplikacja internetowa po stronie klienta posiadająca funkcjonalny interfejs
+ dostępny dla użytkownika;
+\end_layout
+
+\begin_layout Itemize
+aplikacja mobilna posiadająca funkcjonalny interfejs dostosowany do urządzeń
+ przenośnych.
+\end_layout
+
+\begin_layout Standard
+Zarówno aplikacja internetowa jak i mobilna spełniają założenia co do funkcjonal
+ności, które zostały określone w wymaganiach funkcjonalnych.
+ Poszczególne komponenty systemu zostały zrealizowane zgodnie z wymaganiami
+ dotyczącymi jakości sprecyzowanymi w wymaganiach pozafunkcjonalnych.
+ 
+\end_layout
+
+\begin_layout Standard
+W procesie powstawania opisywanego systemu dużym wyzwaniem było ustalenie
+ wspólnego sposobu komunikacji wszystkich komponentów wchodzących w jego
+ skład.
+ Równie problematyczne okazało się ujednolicenie interfejsu aplikacji internetow
+ej i mobilnej, które w rezultacie miały być funkcjonalnie równoważne.
+\end_layout
+
+\begin_layout Standard
+Dzięki odpowiedniemu doborowi platform i narzędzi programistycznych możliwe
+ było pokonanie wszystkich zaistniałych przeszkód.
+ Powstałe rozwiązanie łączy zalety portali informacyjnych jak i społecznościowyc
+h poprzez intuicyjne przeszukiwanie i filtrację wydarzeń oraz mechanizmy
+ umożliwiające interakcje międzyludzkie.
+\end_layout
+
+\begin_layout Paragraph
+Plan dalszego rozwoju
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Bibliography
