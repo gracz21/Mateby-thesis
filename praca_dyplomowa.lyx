@@ -10864,10 +10864,16 @@ CoffeeScript
 
 \begin_layout Standard
 CoffeScript jest językiem programowania kompilowanym do JavaScript, który
- został zainspirowany przez trzy inne języki: Python, Ruby oraz Haskell
- .
+ został zainspirowany przez dwa inne języki: Python oraz Ruby.
  Głównym powodem jego stworzenia była chęć skrócenia i zwiększenia czytelności
- kodu napisanego w JavaScript.
+ kodu napisanego w JavaScript
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
+
+\end_inset
+
+.
  Wprowadza wiele przydatnych metod operujących na listach czy chociażby
  wyrażeniach regularnych.
  Tak jak Emblem jego składnia również opiera się na wcięciach w kodzie,
@@ -12025,28 +12031,6 @@ key "key-2"
 status open
 
 \begin_layout Plain Layout
-System kontroli wersji
-\end_layout
-
-\end_inset
-
-, w: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
- https://pl.wikipedia.org/wiki/System_kontroli_wersji
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "key-3"
-
-\end_inset
-
-
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
 Wymaganie (inżynieria)
 \end_layout
 
@@ -12060,7 +12044,7 @@ Wymaganie (inżynieria)
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-4"
+key "key-3"
 
 \end_inset
 
@@ -12082,29 +12066,27 @@ Platform as a Service
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-5"
+key "key-4"
 
 \end_inset
 
-
+MacCaw A., 
 \begin_inset Flex Emph
 status open
 
 \begin_layout Plain Layout
-CofeeScript
+The Little Book on CoffeeScript 
 \end_layout
 
 \end_inset
 
-, w: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
- https://en.wikipedia.org/wiki/CoffeeScript
+, O’Reilly Media, 2012
 \end_layout
 
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-6"
+key "key-5"
 
 \end_inset
 
@@ -12125,7 +12107,7 @@ The WebSocket Protocol
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-6-1"
+key "key-6"
 
 \end_inset
 
@@ -12228,7 +12210,7 @@ com/about
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-12"
+key "key-11"
 
 \end_inset
 
