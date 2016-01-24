@@ -8876,8 +8876,7 @@ Faza projektu modelu relacyjnego --- na tym etapie dokonywana jest transformacja
  modelu związków-encji do modelu relacyjnego.
  Encje przekształcane zostają na relacje, związki natomiast są przekształcane
  na klucze obce lub nowe relacje (w przypadku związków typu M:N).
- Na tym etapie dochodzi także do definicji typów poszczególnych atrybutów
- relacji.
+ Dochodzi także do definicji typów poszczególnych atrybutów relacji.
  Wynikiem tego etapu jest schemat bazy danych, który może zostać użyty w
  procesie implementacji.
 \end_layout
@@ -9037,7 +9036,68 @@ reference "fig:5.20"
 \end_inset
 
  prezentuje model relacyjny projektowanej bazy danych powstały po transformacji
- modelu związków
+ modelu związków-encji.
+ Niebieską literą P zostały oznaczone klucze główne relacji, natomiast klucze
+ obce zostały oznaczone literą F.
+ Zielonym kolorem zostały oznaczone typy danych atrybutów relacji.
+ Czerwona gwiazdka mówi o tym, że dany atrybut jest obowiązkowy.
+\end_layout
+
+\begin_layout Standard
+Można zauważyć, że model relacyjny jest bardzo podobny do modelu związków-encji,
+ zaszły w nim jednak drobne zmiany.
+ Encje kategoria i podkategoria zostały połączone w jedną relację kategorie
+ (z dodatkowym, opcjonalnym kluczem obcym wskazującym na kategorię podkategorii)
+ w celu redukcji liczby tablic.
+ Parametr lista parametrów jest uznawany za obowiązkowy tylko w przypadku,
+ kiedy klucz obcy nazwa kategorii nadrzędnej nie jest pusty (czyli w przypadku
+ podkategorii).
+ Dodane zostały także dwie nowe relacje (uczestnicy i przypisanie znaczników),
+ które wynikają ze związków M:N zaprezentowanych na modelu związków-encji.
+ Związki wyłączne zostały przekształcone na klucz obcy oraz atrybut przechowując
+y nazwę tabeli, w której znajduje się powiązany rekord.
+\end_layout
+
+\begin_layout Standard
+Warto także zwrócić uwagę na typ danych JSONB, przy użyciu którego reprezentowan
+e są atrybuty lista parametrów w relacji kategorie oraz wartości parametrów
+ w relacji wydarzenia.
+\end_layout
+
+\begin_layout Paragraph
+JSONB
+\end_layout
+
+\begin_layout Standard
+JSONB to jeden z dwóch typów przeznaczonych do przechowywania danych typu
+ JSON
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+JSON (ang.
+ JavaScript Object Notation) --- format wymiany danych bazujący na języku
+ JavaScript.
+\end_layout
+
+\end_inset
+
+ w systemie PostgreSQL.
+ Charakteryzuje się on wolniejszym zapisem danych, co jest związane z zachodzący
+m wtedy procesem dekompozycji do postaci binarnej.
+ Zyskuje on jednak jeśli chodzi o odczyt danych, ponieważ nie muszą wtedy
+ zachodzić żadne operacje parsowania.
+ Ponadto JSONB eliminuje powtarzające się klucze oraz pozwala na przechowywanie
+ danych o dowolnym typie
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-16"
+
+\end_inset
+
+.
+ Powyższe cechy zadecydowały o tym, że ten typ został użyty do przechowywania
+ parametrów o różnych typach danych.
 \end_layout
 
 \begin_layout Chapter
@@ -9199,19 +9259,8 @@ Po otrzymaniu odpowiedzi z bazy danych model odsyła wynik zapytania z powrotem
 \end_layout
 
 \begin_layout Enumerate
-Po otrzymaniu danych kontroler zwraca je w postaci JSON
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-JSON (ang.
- JavaScript Object Notation) --- format wymiany danych bazujący na języku
- JavaScript.
-\end_layout
-
-\end_inset
-
- bezpośrednio do przeglądarki.
+Po otrzymaniu danych kontroler zwraca je w postaci JSON bezpośrednio do
+ przeglądarki.
 \end_layout
 
 \begin_layout Standard
@@ -12284,6 +12333,27 @@ The OAuth 2.0 Authorization Framework
 
 , [on-line] [dostęp 24 stycznia 2016] dostępny w Internecie: https://tools.ietf.or
 g/html/rfc6749
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+JSON Types
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 24 stycznia 2016] dostępny w Internecie: http://www.postgresq
+l.org/docs/9.4/static/datatype-json.html
 \end_layout
 
 \end_body
