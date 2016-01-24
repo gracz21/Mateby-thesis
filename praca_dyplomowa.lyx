@@ -11145,10 +11145,6 @@ Przykład fragmentacji wersji Androida
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -11159,7 +11155,95 @@ Komponenty w systemie Android
 \end_layout
 
 \begin_layout Standard
-Komponenty
+Rozpoczęcie tworzenia aplikacji rozpoczyna się od wyboru głównej aktywności,
+ czyli głównego widoku.
+ Oprócz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Acitivity
+\end_layout
+
+\end_inset
+
+ najważniejszymi składnikami systemu Android są klasy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Fragment
+\end_layout
+
+\end_inset
+
+ oraz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Application
+\end_layout
+
+\end_inset
+
+.
+ Poza wymienionymi komponentami istnieją jeszcze inne rzadziej wykorzystywane
+ składniki, które nie zostały użyte w aplikacji, takie jak 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Service
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+BroadcastReceiver
+\end_layout
+
+\end_inset
+
+, a także 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+ContentProvider
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Acitivity
+\end_layout
+
+\begin_layout Standard
+Activity 
+\end_layout
+
+\begin_layout Paragraph
+Fragment
+\end_layout
+
+\begin_layout Standard
+Fragment
+\end_layout
+
+\begin_layout Paragraph
+Aplication
+\end_layout
+
+\begin_layout Standard
+Aplication
 \end_layout
 
 \begin_layout Subsection
@@ -11167,7 +11251,17 @@ Komunikacja z serwerem
 \end_layout
 
 \begin_layout Standard
-Komunikacja z serwerem
+Do komunikacji z serwerem została wykorzystana biblioteka 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+OkHttpClient
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
