@@ -11199,6 +11199,46 @@ Techniki przetwarzania wielowątkowego
 \end_layout
 
 \begin_layout Standard
+Android, jak większość dzisiejszych systemów operacyjnych wspiera wielowątkowość.
+ Nie każdy jednak zdaje sobie sprawę z tego, że aby z niej skorzystać, musimy
+ jawnie określić jakie zadania naszej aplikacji mają być wykonywane asynchronicz
+nie, tj.
+ poza głównym wątkiem aplikacji.
+ Należy bowiem pamiętać, że wszystkie komponenty naszej aplikacji – zarówno
+ te widoczne (Aktywności), jak i te, które teoretycznie pracują w tle (Broadcast
+ Receivers, Usługi) uruchomione są w tym samym wątku głównym (UI Thread
+ – nazwa pochodzi od tego, że zajmuje się on m.in.
+ rysowaniem obiektów, przesyłaniem zdarzeń do komponentów czy ogólną interakcją
+ aplikacji z wszystkimi widokami i widżetami).
+ Problem zaczyna pojawiać się wtedy, gdy któryś z komponentów wykonuje czasochło
+nną czynność.
+ Blokuje ona bowiem wykonanie innych ważnych zadań głównego wątku (rysowanie,
+ obsługa zdarzeń interfejsu).
+ Z perspektywy użytkownika, który nie musi być świadomy tego, co tak naprawdę
+ dzieje się w urządzeniu, wygląda to na zawieszenie się aplikacji.
+\end_layout
+
+\begin_layout Paragraph
+Asynctask
+\end_layout
+
+\begin_layout Standard
+Wielowątkowość
+\end_layout
+
+\begin_layout Paragraph
+IntentService
+\end_layout
+
+\begin_layout Standard
+Wielowątkowość
+\end_layout
+
+\begin_layout Paragraph
+HandlerThread
+\end_layout
+
+\begin_layout Standard
 Wielowątkowość
 \end_layout
 
