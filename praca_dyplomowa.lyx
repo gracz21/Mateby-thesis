@@ -390,7 +390,11 @@ API (ang.
  protokole OAuth2.
  Przyjrzano się sposobowi testowania API.
  Omówiono implementację widoków aplikacji internetowej po stronie klienta.
- <TU_MACIEJJJJJ> Rozdział
+ Przedstawiono opis platformy Android oraz jego komponenty.
+ Zaprezentowano wykorzystane rozwiązania w implementacji aplikacji mobilnej.
+ Opisano w jaki sposób można sprawdzać poprawność aplikacji na urządzeniach
+ użytkowników oraz omówiono zasady testowania.
+ Rozdział
 \begin_inset space ~
 \end_inset
 
