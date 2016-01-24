@@ -11215,7 +11215,62 @@ Raportowanie błędów
 \end_layout
 
 \begin_layout Standard
-Raportowanie błędów
+Raportowanie błędów to niezwykle ważne narzędzie zarówno dla programistów,
+ jak i użytkowników, ponieważ dzięki temu usterki pojawiające się na urządzeniac
+h mogą zostać zidentyfikowane i naprawione.
+ Narzędziem, które zostało wykorzystane na platformie Android to biblioteka
+ Crashlytics wykonana przez zespół Fabric.
+ Główną funkcjonalnością pakietu jest logowanie i raportowanie błędów w
+ stworzonej aplikacji.
+ Platforma oferuje szczegółowy widok dotyczący każdego z błędów, na którym
+ znajdują się informacje dotyczące urządzeń oraz wersji systemu.
+ Jest to bardzo istotne, ponieważ różnorodność urządzeń z systemem Android
+ powoduje, iż pewne błędy pojawiają się tylko na niektórych modelach urządzeń,
+ pozwala to w szybszy sposób zreprodukować i naprawić konkretny błąd.
+ Crashlytics pozwala również na przesłanie dodatkowych informacji, jak ostatnie
+ dane.
+ Kolejną niezbędną funkcjonalnością jest wypisanie ciągu znaków opisujących
+ zawartość ostantiego stosu wywołań.
+ Narzędzie umożliwia również mierzenie statystyk, monitorowanie stabilności
+ aplikacji oraz wtyczki do oprogramowania, w którym rozwijana jest aplikacja.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/android_raport_bledow.jpg
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok platformy Fabric
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
