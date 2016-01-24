@@ -9534,6 +9534,241 @@ Migracje to podklasy modułu Active Record.
 System autoryzacji
 \end_layout
 
+\begin_layout Standard
+Większość punktów końcowych udostępnianego przez serwer publicznego API
+ powinno być dostępnych tylko dla użytkowników posiadających konto w serwisie.
+ Dlatego też przed fazą implementacji punktów końcowych zaistniała potrzeba
+ wprowadzenia systemu autoryzacji.
+ Do tego celu został użyty protokół OAuth 2 oraz biblioteka Doorkeeper współprac
+ująca z platformą Ruby on Rails.
+\end_layout
+
+\begin_layout Paragraph
+Protokół Oauth 2
+\end_layout
+
+\begin_layout Standard
+OAuth 2 to popularny protokół autoryzacji używany przez takie serwisy jak
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Facebook
+\end_layout
+
+\end_inset
+
+ czy 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GitHub
+\end_layout
+
+\end_inset
+
+.
+ Protokół ten pozwala uzyskać zaufanym aplikacją zewnętrznym ograniczony
+ dostęp do zasobów udostępnianych przez serwer.
+ W OAuth 2 można wyróżnić 4 główne role:
+\end_layout
+
+\begin_layout Itemize
+Właściciel zasobów (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Resource Owner
+\end_layout
+
+\end_inset
+
+) --- użytkownik, który zezwala aplikacji na uzyskanie dostępu do swoich
+ zasobów przechowywanych na serwerze.
+\end_layout
+
+\begin_layout Itemize
+Aplikacja kliencka (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Client
+\end_layout
+
+\end_inset
+
+) --- aplikacja, która żąda dostępu do zasobów użytkownika.
+\end_layout
+
+\begin_layout Itemize
+Serwer posiadający zasoby (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Resource Server
+\end_layout
+
+\end_inset
+
+) --- serwer, który przechowuje zasoby użytkowników.
+\end_layout
+
+\begin_layout Itemize
+Serwer autoryzacyjny (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Authorization Server
+\end_layout
+
+\end_inset
+
+) --- serwer, którego zadaniem jest autoryzacja aplikacji żądających dostępu
+ do zasobów użytkownika
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+W przypadku opisywanego systemu serwer pełni dwie ostatnie role, czyli przechowu
+je zasoby użytkowników oraz zajmuje się autoryzacją aplikacji klienckich.
+ Abstrakcyjna koncepcja protokołu jest następująca (graficzną prezentację
+ można znaleźć na rys.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6.2"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Enumerate
+Aplikacja kliencka prosi właściciela zasobów o pozwolenia na dostęp do jego
+ zasobów.
+\end_layout
+
+\begin_layout Enumerate
+Aplikacja kliencka uzyskuje zezwolenie (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Authorization grant
+\end_layout
+
+\end_inset
+
+) od właściciela zasobów.
+\end_layout
+
+\begin_layout Enumerate
+Następnie aplikacja przekazuje otrzymane zezwolenie do serwera.
+\end_layout
+
+\begin_layout Enumerate
+Serwer dokonuje autoryzacji aplikacji klienckiej i sprawdza poprawność otrzymane
+go zezwolenia.
+ Jeżeli proces ten zakończy się pomyślnie, aplikacja otrzymuje zaszyfrowany
+ kod uwierzytelniający (ang.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Access Token
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Następnie aplikacja wysyła żądanie do serwera w celu uzyskania zasobów użytkowni
+ka.
+ Wraz z żądaniem wysyłany jest kod uwierzytelniający.
+\end_layout
+
+\begin_layout Enumerate
+Jeżeli kod uwierzytelniający poprawny, serwer wysyła dane do aplikacji klienckie
+j
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematy/OAuth2.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Schemat koncepcji protokołu OAuth2 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6.2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Doorkeeper
+\end_layout
+
 \begin_layout Subsection
 Interfejs programistyczny aplikacji
 \end_layout
@@ -11605,10 +11840,9 @@ System kontroli wersji
 
 \end_inset
 
-.
- W: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
- Dostępny w Internecie: https://pl.wikipedia.org/wiki/System_kontroli_wersji
+, w: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
+ https://pl.wikipedia.org/wiki/System_kontroli_wersji
 \end_layout
 
 \begin_layout Bibliography
@@ -11628,11 +11862,9 @@ Wymaganie (inżynieria)
 
 \end_inset
 
-.
- W: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
- Dostępny w Internecie: https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria
-%29
+, w: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
+ https://pl.wikipedia.org/wiki/Wymaganie_%28in%C5%BCynieria%29
 \end_layout
 
 \begin_layout Bibliography
@@ -11652,10 +11884,9 @@ Platform as a Service
 
 \end_inset
 
-.
- W: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
- Dostępny w Internecie: https://pl.wikipedia.org/wiki/Platform_as_a_Service
+, w: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
+ https://pl.wikipedia.org/wiki/Platform_as_a_Service
 \end_layout
 
 \begin_layout Bibliography
@@ -11675,10 +11906,9 @@ CofeeScript
 
 \end_inset
 
-.
- W: Wikipedia.
- Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016].
- Dostępny w Internecie: https://en.wikipedia.org/wiki/CoffeeScript
+, w: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
+ https://en.wikipedia.org/wiki/CoffeeScript
 \end_layout
 
 \begin_layout Bibliography
@@ -11698,7 +11928,7 @@ The WebSocket Protocol
 
 \end_inset
 
-, [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie: https://tools.ietf.org
+, [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie: https://tools.ietf.org
 /html/rfc6455
 \end_layout
 
@@ -11801,8 +12031,29 @@ About Bootstrap
 
 \end_inset
 
-, [on-line] [dostęp 4 stycznia 2016] Dostępny w Internecie: http://getbootstrap.c
-om/about
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://getbootstrap.
+com/about
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+Hardt D., 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+The OAuth 2.0 Authorization Framework
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 24 stycznia 2016] dostępny w Internecie: https://tools.ietf.or
+g/html/rfc6749
 \end_layout
 
 \end_body
