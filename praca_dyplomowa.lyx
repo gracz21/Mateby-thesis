@@ -9152,7 +9152,7 @@ key "key-16"
 
 .
  Powyższe cechy zadecydowały o tym, że JSONB został użyty do przechowywania
- parametrów wydarzeń, charakteryzujących się różnymi typami danych.
+ parametrów wydarzeń charakteryzujących się różnymi typami danych.
 \end_layout
 
 \begin_layout Chapter
@@ -10642,7 +10642,9 @@ Testy funkcjonalne obejmują kontrolę poprawności wszystkich punktów końcowy
  udostępnianych przez publiczne API.
  Każdy z testów uwzględniał różne scenariusze, które mogą się przydarzyć
  podczas odwołań do danego punktu końcowego.
- 
+ Typowym przypadkiem, który należało przetestować były operacje CRUD na
+ poszczególnych modelach aplikacji, gdzie należało sprawdzić, czy zwracany
+ jest odpowiedni status oraz zawartość odpowiedzi serwera.
 \end_layout
 
 \begin_layout Section
