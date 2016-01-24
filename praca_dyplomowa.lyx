@@ -1932,7 +1932,7 @@ licencja
 \begin_inset Text
 
 \begin_layout Plain Layout
-Open Source
+open source
 \end_layout
 
 \end_inset
@@ -2011,7 +2011,21 @@ krótki
 \end_layout
 
 \begin_layout Standard
-SQLite
+SQLite to biblioteka służąca zarządzaniu relacyjną bazą danych napisana
+ w języku C.
+ System został stworzony przez Richarda Hippa i jest dostępna na licencji
+ open source.
+ W 2000 roku została wydana pierwsza wersja i od tego czasu system ten nieustann
+ie zyskiwał popularność.
+ Ważną cechą biblioteka jest to, iż implementuje samodzielny i bezserwerowy,
+ nie wymagający konfiguracji mechanizm bazy danych SQL.
+ W wielu zastosowaniach, a w szczególności w systemach wbudowanych, takie
+ rozwiązanie jest najpraktyczniejsze.
+ Wiele popularnych platform ma wbudowaną bazę SQLite do obsługi wewnętrznej
+ między innymi Ruby on Rails i Android.
+ Baza danych SQLite to pojedynczy plik na dysku, może być stosowany na różnych
+ systemach operacyjnych, zarówno 32 jak 64 bitowych.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -2098,7 +2112,7 @@ typ
 \begin_inset Text
 
 \begin_layout Plain Layout
-nierealcyjne
+nierelacyjne
 \end_layout
 
 \end_inset
@@ -2118,7 +2132,7 @@ licencja
 \begin_inset Text
 
 \begin_layout Plain Layout
-Open Source
+open source
 \end_layout
 
 \end_inset
@@ -2197,16 +2211,22 @@ krótki
 \end_layout
 
 \begin_layout Standard
-MongoDB nierelacyjny system zarządzania bazą danych napisany w języku C++.
- Charakteryzuje się dużą skalowalnością, wydajnością oraz brakiem ściśle
- zdefiniowanej struktury obsługiwanych baz danych.
- Zamiast tego dane składowane są jako dokumenty w stylu JSON, co umożliwia
- aplikacjom bardziej naturalne ich przetwarzanie, przy zachowaniu możliwości
- tworzenia hierarchii oraz indeksowania.
- MongoDB posiada ograniczone wsparcie dla transakcji — ich zasięg jest ograniczo
-ny do zmian w pojedynczym dokumencie, aczkolwiek zmiany te mogą być bardzo
- skomplikowane.
- Kolejną wadą jest także ograniczone wsparcie dla kodowania UTF-8.
+MongoDB reprezentuje nierelacyjny system zarządzania bazą danych, został
+ napisany w języku C++ i wydany po raz pierwszy w roku 2009.
+ W przeciwieństwie do relacyjnych baz danych MongoDB charakteryzuje się
+ dużą skalowalnością w poziomie.
+ Jest to bardzo szybki system zarządzania bazą danych.
+ Niezwykle istotny jest brak ściśle zdefiniowanej struktury danych, zamiast
+ tego dane przechowywane są jako obiekty w formacie BJSON, czyli rozszerzony
+ format JSON pozwalający na reprezentację typów danych, które nie są częścią
+ specyfikacji JSON.
+ MongoDB oferuje również dynamiczne tworzenie baz danych i kolekcji dokumentów,
+ nie posiada schematu bazy, co oznacza brak konieczności wykonywania migracji.
+ Jednak pomimo tylu zalet, pojawiają się również pewne niedogodności jak
+ ograniczone wsparcie dla kodowania UTF-8, co powoduje problemy przy korzystaniu
+ z innych języków jak angielski.
+ Kolejną wadą jest ograniczone wsparcie dla transakcji, których zasięg jest
+ ograniczony do zmian w pojedynczym dokumencie.
 \end_layout
 
 \begin_layout Subsection
@@ -2313,7 +2333,7 @@ licencja
 \begin_inset Text
 
 \begin_layout Plain Layout
-Open Source
+open source
 \end_layout
 
 \end_inset
@@ -2388,9 +2408,23 @@ krótki
 
 \end_inset
 
-PostgreSQL to jeden z najpopularniejszych darmowych systemów zarządzania
- relacyjnymi bazami danych.
- 
+PostgreSQL to jeden z najpopularniejszych i najbardziej zaawansowanych darmowych
+ systemów zarządzania relacyjnymi bazami danych.
+ Początkowo opublikowany został pod nazwą Ingres.
+ W miarę rozwoju i zwiększania funkcjonalności, baza danych otrzymała nazwy
+ Postgres95 i ostatecznie PostgreSQL.
+ PostgreSQL jest implementacją języka SQL, jednak posiada wiele własnych
+ rozszerzeń takich jak możliwość definiowania nowych typów podstawowych,
+ co powoduje porównania do rozbudawanego systemu wytwarzanego przez firmę
+ Oracle.
+ Świetnie nadaje się do dużych projektów, posiada możliwość tworzenia funkcji
+ w języku C.
+ Obsługuje duże obiekty binarne, takie jak pliki graficzne, a w ostatnim
+ czasie wprowadzono wsparcie dla formatu BJSON, wykorzystywanego między
+ innymi w MongoDB.
+ PostgreSQL posiada również licencję BSD, zgodną z zasadami wolnego oprogramowan
+ia.
+ co jest istotne w rozwiązaniach biznesowych .
 \end_layout
 
 \begin_layout Section
@@ -4603,6 +4637,17 @@ Zarówno jedno jak i drugie rozwiązanie posiada swoje zalety i wady.
  pozostawiając drugi bez zmian.
  Jest to powodem, dla którego właśnie taki sposób komunikacji został użyty
  w projekcie.
+\end_layout
+
+\begin_layout Standard
+Wybór odpowiedniego systemu bazy danych został podyktowany największymi
+ możliwościami bazy danych oraz wydajnością.
+ Wśród darmowych rozwiązań najbardziej zaawansownym systemem do zarządzania
+ relacyjnymi bazami danych jest PostgreSQL, a w przedstawionych przykładach
+ wszystkie rozwiązania zapewniały wysoką wydajność.
+ Dlatego najlepszym wyborem został PostgreSQL, który dodatkowo zapewnia
+ wsparcie dla formatu BJSON, co ułatwia implementację spersonalizowanych
+ parametrów dla danej kategorii wydarzeń.
 \end_layout
 
 \begin_layout Standard
