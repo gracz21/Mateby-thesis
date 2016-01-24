@@ -1822,14 +1822,15 @@ Baza danych
 
 \begin_layout Standard
 Najważniejszym decyzją jaką należało podjąć był wybór pomiędzy relacyjną,
- a obiektową bazą danych.
- Systemy obiektowych baz danych są dobrze przystosowane do obsługi danych
- mających złożoną, zagnieżdżoną strukturę, tworzących hierarchię, czy też
- dynamicznie zmieniających rozmiar.
- Podczas gdy relacyjne bazy danych dobrze sprawdzają się w zastosowaniach
- wykorzystujących proste, nie zagnieżdżone dane, dające się łatwo umieścić
- w tablicy.
- W przeglądzie umieściliśmy po dwa przykłady dla obu typów baz danych.
+ a nierelacyjną bazą danych.
+ Relacyjne bazy danych opierają się na zbiorze rekordów o identycznej strukturze
+ w postaci tabel połączonych relacjami z innymi danymi.
+ Wostatnich latach popularne stają się bazy danych nierelacyjne, które pełnią
+ ważną funkcję w systemach rozproszonych.
+ NoSQL jest systemem baz danych, który nie posiada relacji, dane nie mają
+ z góry określonej struktury oraz zawyczaj nie ma zdefiniowanego języka
+ zapytań SQL.
+ W przeglądzie umieściliśmy przykłady dla obu typów baz danych.
 \end_layout
 
 \begin_layout Subsection
@@ -1896,7 +1897,7 @@ rok powstania
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2000
 \end_layout
 
 \end_inset
@@ -1916,7 +1917,7 @@ typ
 \begin_inset Text
 
 \begin_layout Plain Layout
-obiektowe
+relacyjne
 \end_layout
 
 \end_inset
@@ -1927,7 +1928,7 @@ obiektowe
 \begin_inset Text
 
 \begin_layout Plain Layout
-elastyczność
+licencja
 \end_layout
 
 \end_inset
@@ -1936,7 +1937,7 @@ elastyczność
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Open Source
 \end_layout
 
 \end_inset
@@ -1956,7 +1957,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+wysoka
 \end_layout
 
 \end_inset
@@ -1967,7 +1968,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-format danych
+integracja serwera z systemami operacyjnymi
 \end_layout
 
 \end_inset
@@ -1976,7 +1977,7 @@ format danych
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+nie
 \end_layout
 
 \end_inset
@@ -1996,7 +1997,7 @@ czas wytworzenia oprogramowania
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+krótki
 \end_layout
 
 \end_inset
@@ -2012,6 +2013,10 @@ czas wytworzenia oprogramowania
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+SQLite
 \end_layout
 
 \begin_layout Subsection
@@ -2078,7 +2083,7 @@ rok powstania
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2009
 \end_layout
 
 \end_inset
@@ -2098,7 +2103,7 @@ typ
 \begin_inset Text
 
 \begin_layout Plain Layout
-relacyjne
+nierealcyjne
 \end_layout
 
 \end_inset
@@ -2109,7 +2114,7 @@ relacyjne
 \begin_inset Text
 
 \begin_layout Plain Layout
-elastyczność
+licencja
 \end_layout
 
 \end_inset
@@ -2118,7 +2123,7 @@ elastyczność
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Open Source
 \end_layout
 
 \end_inset
@@ -2138,7 +2143,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+wysoka
 \end_layout
 
 \end_inset
@@ -2149,7 +2154,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-format danych
+integracja serwera z systemami operacyjnymi
 \end_layout
 
 \end_inset
@@ -2158,7 +2163,7 @@ format danych
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+tak
 \end_layout
 
 \end_inset
@@ -2178,7 +2183,7 @@ czas wytworzenia oprogramowania
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+krótki
 \end_layout
 
 \end_inset
@@ -2197,7 +2202,16 @@ czas wytworzenia oprogramowania
 \end_layout
 
 \begin_layout Standard
-das
+MongoDB nierelacyjny system zarządzania bazą danych napisany w języku C++.
+ Charakteryzuje się dużą skalowalnością, wydajnością oraz brakiem ściśle
+ zdefiniowanej struktury obsługiwanych baz danych.
+ Zamiast tego dane składowane są jako dokumenty w stylu JSON, co umożliwia
+ aplikacjom bardziej naturalne ich przetwarzanie, przy zachowaniu możliwości
+ tworzenia hierarchii oraz indeksowania.
+ MongoDB posiada ograniczone wsparcie dla transakcji — ich zasięg jest ograniczo
+ny do zmian w pojedynczym dokumencie, aczkolwiek zmiany te mogą być bardzo
+ skomplikowane.
+ Kolejną wadą jest także ograniczone wsparcie dla kodowania UTF-8.
 \end_layout
 
 \begin_layout Subsection
@@ -2244,7 +2258,7 @@ Napisana w
 \begin_inset Text
 
 \begin_layout Plain Layout
-Java
+C
 \end_layout
 
 \end_inset
@@ -2264,192 +2278,7 @@ rok powstania
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-typ
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-obiektowe
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-elastyczność
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-wydajność
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-format danych
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-czas wytworzenia oprogramowania
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-das
-\end_layout
-
-\begin_layout Subsection
-Cassandra
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Baza danych Cassandra
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align left
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Napisana w
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Java
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-rok powstania
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+1995
 \end_layout
 
 \end_inset
@@ -2480,7 +2309,7 @@ relacyjne
 \begin_inset Text
 
 \begin_layout Plain Layout
-elastyczność
+licencja
 \end_layout
 
 \end_inset
@@ -2489,7 +2318,7 @@ elastyczność
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Open Source
 \end_layout
 
 \end_inset
@@ -2509,7 +2338,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+wysoka
 \end_layout
 
 \end_inset
@@ -2520,7 +2349,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-format danych
+integracja serwera z systemami operacyjnymi
 \end_layout
 
 \end_inset
@@ -2529,7 +2358,7 @@ format danych
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+tak
 \end_layout
 
 \end_inset
@@ -2549,7 +2378,7 @@ czas wytworzenia oprogramowania
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+krótki
 \end_layout
 
 \end_inset
@@ -2564,11 +2393,9 @@ czas wytworzenia oprogramowania
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-xxx
+PostgreSQL to jeden z najpopularniejszych darmowych systemów zarządzania
+ relacyjnymi bazami danych.
+ 
 \end_layout
 
 \begin_layout Section
