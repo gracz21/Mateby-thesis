@@ -13066,5 +13066,246 @@ JSON Types
 l.org/docs/9.4/static/datatype-json.html
 \end_layout
 
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/MongoDB https://pl.wikipedia.org/wiki/SQLite https://p
+l.wikipedia.org/wiki/PostgreSQL
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+https://www.quora.com/What-are-the-pros-and-cons-of-using-Apache-Cordova-phone-gap
+-for-building-your-iOS-app
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-22"
+
+\end_inset
+
+http://www.estaun.net/blog/some-thoughts-after-almost-a-year-of-real-xamarin-use/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-23"
+
+\end_inset
+
+https://www.quora.com/Why-would-people-build-native-mobile-applications-for-Androi
+d-iOS-using-Java-Objective-C-when-they-could-use-Xamarin-C-for-all-platforms-if-
+license-cost-isnt-an-issue
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-21"
+
+\end_inset
+
+Kazimierz Frączkowski - Zarządzanie projektem informatycznym 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-20"
+
+\end_inset
+
+Agile w praktyce - Andy Brandt 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-19"
+
+\end_inset
+
+http://www.agilenutshell.com/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-18"
+
+\end_inset
+
+http://4programmers.net/In %C5%BCynieria_oprogramowania/Ci%C4%85g %C5%82a_integra
+cja#id-Wstp
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-17"
+
+\end_inset
+
+-- http://www.scrumguides.org/docs/scrumgui de/v1/Scrum-Guide-PL.pdf
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+http://www.scrum.org.pl/posty/artykuly/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-15"
+
+\end_inset
+
+http://www.benchmark.pl/testy_i_recenzje /android-ios-windows.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-14"
+
+\end_inset
+
+https://source.android.com/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-13"
+
+\end_inset
+
+http://developer.android.com/about/dashb oards/index.html
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/Android_Ru ntime
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+
+\end_inset
+
+https://software.intel.com/en- us/blogs/2014/06/18/art-vs-dalvik- introducing-the-
+new-android-x86-runtime
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+https://developers.google.com/cloud- messaging/gcm
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+https://get.fabric.io/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+https://pl.wikipedia.org/wiki/Od %C5%9Bmiecanie_pami%C4%99ci#cite_ref- JonesLins_1
+-3
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+http://square.github.io/okhttp/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+https://github.com/google/gson
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+Android.
+ Aplikacje wielowątkowe.
+ Techniki przetwarzania.
+ - Anders Göransson
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Platforma Android.
+ Nowe wyzwania - Erik Hellman
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-27"
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
