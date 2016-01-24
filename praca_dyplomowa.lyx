@@ -11601,6 +11601,93 @@ OkHttpClient
 \end_inset
 
 .
+ Kod odpowiedzi HTTP to numeryczne dane wysyłane przez serwer HTTP do aplikacji
+ klienta.
+ Biblioteka 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+OkHttpClient
+\end_layout
+
+\end_inset
+
+ ułatwia odpytywanie serwera, jest wydajna i prosta w implementacji.
+ Pozwala wykonywać żądania do tego samego serwera nie zamykając połączenia
+ po każdym odpytaniu, co pozwala w niektórych przypadkach zmniejszyć czas
+ odpowiedzi.
+ Obługa formatu GZIP zmniejsza rozmiary pobieranych odpowiedzi.
+ Zawiera automatyczną implementację obsługi wywołań zapytań z pamięci podręcznej.
+ Zapewnia stabilność w momencie kłopotów z siecią, jeśli usługa ma wiele
+ adresów
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+IP
+\end_layout
+
+\end_inset
+
+, bibliotek będzie próbowała odpytać alternatywne adresy, jeśli pierwsze
+ połączenie nie powiedzie się.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+OkHttpClient
+\end_layout
+
+\end_inset
+
+ zapewnia wsparcie komunikacji aplikacji mobilnej z serwerem, dodatkowo
+ obsługuje zarówno synchroniczne połączenia, jak i asynchroniczne połączenia
+ z wywołań zwrotnych.
+ Zapewnia integrację ze sposobami przekazywania danych pomiędzy klientem,
+ a serwerem, takimi jak 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GET, POST, PUT, DELETE, PATCH
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Otrzymane odpowiedzi są rozpakowywane z pomocą biblioteki 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Gson
+\end_layout
+
+\end_inset
+
+, która optymalizuje wszystkie procesy związane z danymi w formacie JSON.
+ Jest to biblioteka, która może być wykorzystana do konwersji obiektów Javy
+ do ich reprezentacji JSON.
+ Może również być stosowana do konwersji ciągu JSON do obiektów w języku
+ Java.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Gson
+\end_layout
+
+\end_inset
+
+ może pracować z dowolnymi obiektami stworznymi w Javie, w tym już istniejących
+ obiektów, które nie posiadają kodu źródłowego.
+ 
 \end_layout
 
 \begin_layout Subsection
