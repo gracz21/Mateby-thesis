@@ -12672,7 +12672,57 @@ Testy
 \end_layout
 
 \begin_layout Standard
-Testy
+Jednymi z najpoularniejszych sposobów testowania kodu apliakcji mobilnej
+ na system Android są testy jednostkowe oraz testy instumentacyjne.
+ Różnica między tymi testami polega na tym, iż testy instrumentacyjne są
+ wykonywane na urządzeniu mobilnym przez co trwają dłużej.
+ Testowanie jednostkowe sprawdza metody i klasy pomijając zewnętrzne zależności,
+ natomiast testy instumentacyjne weryfikują komponenty systemu Android takie
+ jak 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Activity, Fragment, Service
+\end_layout
+
+\end_inset
+
+.
+ Zaleca się testować tylko własny kod, a nie biblioteki, usługi systemowe,
+ bądź sprawdzać czy dany przycisk został wpisany.
+ Najlepszą praktyką jest tworzenie małych funkcji obsługi zdarzeń i testowanie
+ czy działają one poprawnie.
+\end_layout
+
+\begin_layout Standard
+Niezwykle ciekawym narzędziem znajdującym się w pakiecie Android SDK jest
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Monkey
+\end_layout
+
+\end_inset
+
+.
+ Pozwala ono na generowanie losowych kliknięć użytkownika, dzięki temu istnieje
+ możliwość zebirania informacji na temat działania aplikacji w nieprzewidywalnyc
+h i brzegowych sytaucjach.
+ Dodatkową funkcjonalnością jest możliwość pisanie własnych skryptów testujących
+ przy użyciu API 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Monkeyrunner
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Chapter
