@@ -7573,7 +7573,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Użyteczność.
 \begin_inset Newline newline
 \end_inset
 
@@ -7587,7 +7587,7 @@ Priorytet:
 
 \end_inset
 
-
+H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7597,7 +7597,7 @@ status open
 
 \begin_layout Plain Layout
 NFR2: System musi pracować poprzez aplikację mobilną dla systemu Android
- w oparciu o serwer aplikacyjny..
+ w oparciu o serwer aplikacyjny.
 \end_layout
 
 \end_inset
@@ -7616,7 +7616,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Użyteczność.
 \begin_inset Newline newline
 \end_inset
 
@@ -7630,7 +7630,7 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7658,6 +7658,7 @@ Kategoria:
 
 \end_inset
 
+Użyteczność.
  
 \begin_inset Newline newline
 \end_inset
@@ -7672,7 +7673,7 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7700,7 +7701,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Użyteczność.
 \begin_inset Newline newline
 \end_inset
 
@@ -7714,7 +7715,7 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7742,7 +7743,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Bezpieczeństwo.
 \begin_inset Newline newline
 \end_inset
 
@@ -7756,7 +7757,7 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7784,7 +7785,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Bezpieczeństwo.
 \begin_inset Newline newline
 \end_inset
 
@@ -7798,7 +7799,7 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7827,7 +7828,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Bezpieczeństwo.
 \begin_inset Newline newline
 \end_inset
 
@@ -7841,7 +7842,7 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
 \begin_inset Newline newline
 \end_inset
 
@@ -7870,7 +7871,7 @@ Kategoria:
 
 \end_inset
 
- 
+ Użeteczność.
 \begin_inset Newline newline
 \end_inset
 
@@ -7884,7 +7885,7 @@ Priorytet:
 
 \end_inset
 
- 
+ M.
 \begin_inset Newline newline
 \end_inset
 
@@ -7914,6 +7915,7 @@ Kategoria:
 
 \end_inset
 
+Łatwość utrzymania.
  
 \begin_inset Newline newline
 \end_inset
@@ -7928,6 +7930,7 @@ Priorytet:
 
 \end_inset
 
+M.
  
 \begin_inset Newline newline
 \end_inset
@@ -7956,6 +7959,7 @@ Kategoria:
 
 \end_inset
 
+Kompatybilność.
  
 \begin_inset Newline newline
 \end_inset
@@ -7970,7 +7974,175 @@ Priorytet:
 
 \end_inset
 
- 
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR11: System musi być dostępny 24 godziny na dobę.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Niezawodność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR12: Dokumentacja i kod źródłowy mają być tworzone w języku angielskim.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Łatwość utrzymania.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+M.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR13: Każdy punkt końcowy ma posiadać testy funkcjonalne.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Łatwość utrzymania.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR14: System musi żądać potwierdzenia wszystkich operacji usunięcia.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Użyteczność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
 \end_layout
 
 \begin_layout Section
