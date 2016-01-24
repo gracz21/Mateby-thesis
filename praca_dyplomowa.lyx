@@ -9142,7 +9142,7 @@ JSON (ang.
 m wtedy procesem dekompozycji do postaci binarnej.
  Zyskuje on jednak jeśli chodzi o odczyt danych, ponieważ nie muszą wtedy
  zachodzić żadne operacje parsowania.
- Ponadto JSONB eliminuje powtarzające się klucze oraz pozwala na przechowywanie
+ Ponadto eliminuje powtarzające się klucze oraz pozwala na przechowywanie
  danych o dowolnym typie
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -9151,8 +9151,8 @@ key "key-16"
 \end_inset
 
 .
- Powyższe cechy zadecydowały o tym, że ten typ został użyty do przechowywania
- parametrów o różnych typach danych.
+ Powyższe cechy zadecydowały o tym, że JSONB został użyty do przechowywania
+ parametrów wydarzeń, charakteryzujących się różnymi typami danych.
 \end_layout
 
 \begin_layout Chapter
