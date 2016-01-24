@@ -390,7 +390,11 @@ API (ang.
  protokole OAuth2.
  Przyjrzano się sposobowi testowania API.
  Omówiono implementację widoków aplikacji internetowej po stronie klienta.
- <TU_MACIEJJJJJ> Rozdział
+ Przedstawiono opis platformy Android oraz jego komponenty.
+ Zaprezentowano wykorzystane rozwiązania w implementacji aplikacji mobilnej.
+ Opisano w jaki sposób można sprawdzać poprawność aplikacji na urządzeniach
+ użytkowników oraz omówiono zasady testowania.
+ Rozdział
 \begin_inset space ~
 \end_inset
 
@@ -7542,6 +7546,603 @@ o z danym kontem.
 
 \begin_layout Paragraph
 Lista wymagań pozafunkcjonalnych systemu
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR1: System musi pracować poprzez przeglądarkę internetową w oparciu o
+ serwer aplikacyjny.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Użyteczność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR2: System musi pracować poprzez aplikację mobilną dla systemu Android
+ w oparciu o serwer aplikacyjny.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Użyteczność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR3: Rozwiązanie powinno zapewnić angielskojęzyczny interfejs.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+Użyteczność.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR4: Rozwiązanie musi posiadać jednolity graficzny interfejs użytkownika.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Użyteczność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR5: Posiadanie rozbudowanego systemu uprawnień do danych.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Bezpieczeństwo.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR6: Posiadanie rozbudowanego systemu uprawnień do funkcji systemu 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Bezpieczeństwo.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR7: System powinien zapewnić poufną i integralną transmisję danych.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Bezpieczeństwo.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR8: System powinien wyświetlać tekst czcionką nie mniejszą niż10 pikseli.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Użeteczność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ M.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR9: W dostarczonej dokumentacji powinna znaleźć się instrukcja konfiguracji
+ i modyfikacji systemu.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+Łatwość utrzymania.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+M.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR10: System powinien zwracać dane w formacie JSON.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+Kompatybilność.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR11: System musi być dostępny 24 godziny na dobę.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Niezawodność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR12: Dokumentacja i kod źródłowy mają być tworzone w języku angielskim.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Łatwość utrzymania.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+M.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR13: Każdy punkt końcowy ma posiadać testy funkcjonalne.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Łatwość utrzymania.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+NFR14: System musi żądać potwierdzenia wszystkich operacji usunięcia.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Kategoria:
+\end_layout
+
+\end_inset
+
+ Użyteczność.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Priorytet:
+\end_layout
+
+\end_inset
+
+H.
 \end_layout
 
 \begin_layout Section
