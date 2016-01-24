@@ -41,7 +41,7 @@ dcs
 \pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
-\pdf_quoted_options "urlcolor=linkcolor,linkcolor=black,citecolor=linkcolor"
+\pdf_quoted_options "urlcolor=linkcolor,linkcolor=black,citecolor=black"
 \papersize default
 \use_geometry false
 \use_package amsmath 1
