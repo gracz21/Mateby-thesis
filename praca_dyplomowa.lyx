@@ -3242,6 +3242,7 @@ Meteor
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -11826,11 +11827,63 @@ Widok logowania zaimplementowany dla sytemu Android
 \end_layout
 
 \begin_layout Subsection
-Widoki
+Interfejs użytkownika
 \end_layout
 
 \begin_layout Standard
-Widoki
+Tworzenie interfejsu użytkownika dla sytemu Android najlepiej wykonywać
+ za pomocą środowiska Android Studio.
+ Jest to kompletne narzędzie do projektowania widoków, za pomocą którego
+ można pracować bezpośrednio z kodem pisanym w języku XML.
+ Do dyspozycji istnieje również podgląd aktualnie zaprojektowanych widoków
+ na różnych urządzeniach.
+ Bezproblemowo można zmieniać rozdzielczość, wielkość oraz orientację ekranu.
+ Kod jest automatycznie konwertowany do widoku przy każdej zmianie dokumentu
+ XML.
+ Programiści mają do dyspozycji wiele gotowych elementów zwanych widżetami,
+ znajdującymi się w Android SDK.
+ Ważną ich cechą jest to, iż użytkownicy są do nich przyzwyczajeni, co sprawia,
+ że projekt interefejsu jest spójny i prosty w obsłudze dla każdego.
+ Po stworzeniu projektu w dokumencie XML, należy przypisać referencje kontrolek
+ do obiektów w Javie, aby móc później operować na nich.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename screenshoty/android_widoki.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Widok tworzenia interfejsu użytkownika w Adnroid Studio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
