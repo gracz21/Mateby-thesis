@@ -12336,38 +12336,6 @@ key "key-4"
 .
 \end_layout
 
-\begin_layout Paragraph
-Acitivity
-\end_layout
-
-\begin_layout Standard
-Activity 
-\end_layout
-
-\begin_layout Paragraph
-Fragment
-\end_layout
-
-\begin_layout Standard
-W androidzie można tworzyć dynamiczne interfejsy poprzez łączenie w moduły
- komponentów UI z aktywnościami.
- Moduły takie tworzy się za pomocą klasy Fragment , która zachowuje się
- jak zagnieżdżone aktywności definiujące własne layouty oraz zarządzające
- własnym cyklem życia.
- Fragmenty są częścią aktywności która posiada własny cykl życia, otrzymuje
- własne zdarzenia i która może być dodana i wyłączana podczas działania
- aktywności nadrzędnej.
- 
-\end_layout
-
-\begin_layout Paragraph
-Aplication
-\end_layout
-
-\begin_layout Standard
-Aplication
-\end_layout
-
 \begin_layout Subsection
 Komunikacja z serwerem
 \end_layout
