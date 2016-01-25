@@ -12518,46 +12518,60 @@ Techniki przetwarzania wielowątkowego
 
 \begin_layout Standard
 Android, jak większość dzisiejszych systemów operacyjnych wspiera wielowątkowość.
- Nie każdy jednak zdaje sobie sprawę z tego, że aby z niej skorzystać, musimy
- jawnie określić jakie zadania naszej aplikacji mają być wykonywane asynchronicz
-nie, tj.
- poza głównym wątkiem aplikacji.
- Należy bowiem pamiętać, że wszystkie komponenty naszej aplikacji – zarówno
- te widoczne (Aktywności), jak i te, które teoretycznie pracują w tle (Broadcast
- Receivers, Usługi) uruchomione są w tym samym wątku głównym (UI Thread
- – nazwa pochodzi od tego, że zajmuje się on m.in.
+ Wątek głównym, zwany jest wątkiem interfejsu użytkownika, nazwa pochodzi
+ od tego, że zajmuje się on m.in.
  rysowaniem obiektów, przesyłaniem zdarzeń do komponentów czy ogólną interakcją
- aplikacji z wszystkimi widokami i widżetami).
+ aplikacji z wszystkimi widokami i widżetami.
  Problem zaczyna pojawiać się wtedy, gdy któryś z komponentów wykonuje czasochło
-nną czynność.
- Blokuje ona bowiem wykonanie innych ważnych zadań głównego wątku (rysowanie,
- obsługa zdarzeń interfejsu).
- Z perspektywy użytkownika, który nie musi być świadomy tego, co tak naprawdę
+nną czynność, ponieważ zaczyna ona blokować wykonanie innych ważnych zadań
+ głównego wątku.
+ Z perspektywy użytkownika, który nie jest świadomy tego, co tak naprawdę
  dzieje się w urządzeniu, wygląda to na zawieszenie się aplikacji.
+ Należy pamiętać, aby odpowiednio zarządzać zadaniami wykonywanymi na wątku
+ głównym, wiele z nich warto wykonywać w tle.
+ Android oferuje do tego kilka niezwykl przydatnych klas.
+ AsyncTask to klasa umożliwiająca komunikację zadań wykonywanych, a wątkiem
+ głównym, zwanym interfejsu użytkownika.
+ Najważniejszymi metodami w tej klasie są 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+onPreExecute()
 \end_layout
 
-\begin_layout Paragraph
-Asynctask
+\end_inset
+
+ -- wykonywana przed przystąpieniem do działań w tle, 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+doInBackground()
 \end_layout
 
-\begin_layout Standard
-Wielowątkowość
+\end_inset
+
+ -- zadanie do wykonania w tle oraz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+onPostExecute()
 \end_layout
 
-\begin_layout Paragraph
-IntentService
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Wielowątkowość
-\end_layout
-
-\begin_layout Paragraph
-HandlerThread
-\end_layout
-
-\begin_layout Standard
-Wielowątkowość
+ -- metoda wykonywana po skończeniu działań w tle.
+ Kolejnym przykładem rozwiązania oferującego pracę w tle jest klasa IntentServic
+e, rozszerzająca funkcjonalność klasy Service, która wszystkie działania
+ wykonuje na wątku głównym.
+ Komponent IntentService powinien być wykorzytywany do zadań, które nie
+ wymgają interackji z interfejsem użytkownika.
+ Ostatnim przykładem jest klasa ThreadHandler zapewniająca wysokopozioomy
+ mechanizm kolejkowania.
+ Służy ona do wykonywania powtarzających się zadań lub działań, które nie
+ są wpółzależne.
 \end_layout
 
 \begin_layout Subsection
@@ -12734,7 +12748,7 @@ Monkey
  możliwość zebirania informacji na temat działania aplikacji w nieprzewidywalnyc
 h i brzegowych sytaucjach.
  Dodatkową funkcjonalnością jest możliwość pisanie własnych skryptów testujących
- przy użyciu API 
+ przy użyciu API narzędzia
 \begin_inset Flex Emph
 status open
 
