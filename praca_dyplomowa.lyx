@@ -12546,15 +12546,14 @@ Google Cloud Messaging
 \begin_layout Standard
 Google Cloud Messaging (GCM) to bezpłatna usługa, która pozwala programistom
  na wysyłanie wiadomości pomiędzy serwerami i aplikacjami klienckimi.
- Obejmuje dalszych wiadomości z serwera do aplikacji klienckich oraz upstream
- wiadomości z aplikacji klienckich do serwerów.
- Na przykład, lekki wiadomość w dół może poinformować aplikację kliencką,
- że jest nowe dane mają być pobrane z serwera, jak w przypadku "nowa wiadomość"
- powiadomienia.
- Dla przypadków użycia, takich jak komunikatory, wiadomości GCM może przesyłać
- do 4 kb ładowności do aplikacji klienckiej.
- Usługa GCM obsługuje wszystkie aspekty kolejek komunikatów i transport
- do i z aplikacji klienta docelowego.
+ Obejmuje pobieranie wiadomości z serwera do aplikacji klienckich oraz wysyłanie
+ wiadomości z klientów do serwerów.
+ Przykładem wykorzystania może być poinformowanie aplikacji mobilnej, iż
+ do danego użytkownika zostało wysłane zaproszenie dołączenia do wydarzenia,
+ dzięki temu może zostać wyświetlone powiadomienie, mimo, iż aplikacja nie
+ jest uruchomiona.
+ W wiadomości GCM można przesyłać do 4 kb danych , a usługa obsługuje wszystkie
+ aspekty kolejek komunikatów oraz transport do i z aplikacji klienta docelowego.
  
 \end_layout
 
@@ -12563,9 +12562,9 @@ Architekrura
 \end_layout
 
 \begin_layout Standard
-Implementacja GCM zawiera serwer Google połączenia, serwer aplikacji w środowisk
-u, który współdziała z połączenia poprzez serwer HTTP lub protokołu XMPP
- oraz aplikację kliencką.
+Implementacja GCM zawiera serwer połączeń Google, serwer aplikacji w środowisku,
+ które współdziała z połączenia poprzez serwer HTTP lub protokołu XMPP oraz
+ aplikację kliencką.
 \end_layout
 
 \begin_layout Standard
