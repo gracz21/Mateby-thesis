@@ -3583,7 +3583,14 @@ krótki
 
 \begin_layout Standard
 Platforma Backbone przeznaczona jest dla programistów poszukujących biblioteki
- o małym rozmiarze z dużą funkcjonalnością.
+ o małym rozmiarze z dużą funkcjonalnością
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4-3"
+
+\end_inset
+
+.
  W porównaniu z innymi platformami posiada małą liczba powiązanych bibliotek
  programistycznych, jednak w większości rozwiązań są one wystarczające.
  Posiada również konwencje, które mogą przyspieszyć proces wytwarzania oprogramo
@@ -3785,7 +3792,14 @@ krótki
 Platforma Angular wspierana jest przez firmę Google, co w znacznym stopniu
  zadecydowało o jej popularności wśród programistów.
  Powstała w 2009 roku, czego efektem jest duża liczba dostępnych bibliotek,
- które pozwalają na łatwą integrację z innymi technologiami.
+ które pozwalają na łatwą integrację z innymi technologiami
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-5-1"
+
+\end_inset
+
+.
  Jest zarazem wydajna jak i stosunkowo niewielka.
  Programiści pracują nad nową wersją tej platformy, która nie będzie kompatybiln
 a wstecz.
@@ -3985,7 +3999,14 @@ krótki
 \begin_layout Standard
 Ember to platforma która w swej idei przypomina Ruby on Rails.
  Posiada wiele konwencji, które pozwalają na znaczne przyspieszenie pracy,
- jednak przez to narzucają również pewne schematy.
+ jednak przez to narzucają również pewne schematy
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4-2"
+
+\end_inset
+
+.
  Posiada obszerne wsparcie bibliotek programistycznych, które dla nowszych
  wersji platformy nie tracą kompatybilności wstecz.
  Wadą jest stosunkowo duży rozmiar samej platformy oraz minimalnie gorsza
@@ -12901,6 +12922,70 @@ Meteor Introduction
 
 , [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://guide.meteor.c
 om
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4-3"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Getting Started 
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://backbonejs.or
+g/#Getting-started
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4-2"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Core Concepts
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: https://guides.ember
+js.com/v2.3.0/getting-started/core-concepts
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5-1"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+AngularJS
+\end_layout
+
+\end_inset
+
+, w: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 4 stycznia 2016] dostępny w Internecie:
+ https://en.wikipedia.org/wiki/AngularJS
 \end_layout
 
 \begin_layout Bibliography
