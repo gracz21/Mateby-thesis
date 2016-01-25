@@ -12140,7 +12140,7 @@ Acitivity
 
 \end_inset
 
-Oprócz 
+służy zarządzaniu interfejsem użytkownika, oprócz 
 \begin_inset Flex Emph
 status open
 
@@ -12160,7 +12160,8 @@ Fragment
 
 \end_inset
 
- oraz 
+, który jest częścią aktywności, otrzymuje własne zdarzenia i służy do tworzenia
+ dynamicznych interfejsów oraz 
 \begin_inset Flex Emph
 status open
 
@@ -12170,7 +12171,7 @@ Application
 
 \end_inset
 
-.
+, która implementuje wywowałania zwrotne cyklu istnienia aplikacji.
  Każda z nich posiada swój własny cykl życia, którego zrozumienie jest niezbędne
  do tworzenia poprawnych aplikacji mobilnych.
  Po zminimalizowaniu aplikacji i zwolnieniu zasobów przez Garbage Collection
