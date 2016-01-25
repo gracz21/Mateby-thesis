@@ -12786,7 +12786,18 @@ Plan dalszego rozwoju
 \end_layout
 
 \begin_layout Standard
-
+System w obecnej fazie rozwoju nie posiada jeszcze precyzyjnie określonego
+ modelu biznesowego, co stwarza potencjalne ścieżki rozbudowy.
+ Do najistotniejszych kierunków dalszego rozwoju systemu można zaliczyć
+ rozszerzenie funkcjonalności panelu administracyjnego instytucji, czy też
+ dodanie możliwości śledzenia wydarzeń oraz interakcji między użytkownikami
+ serwisu.
+ W tym celu należałoby udostępnić statystyki zbiorcze na temat oddziałów
+ danej instytucji, umożliwić tworzenie subskrypcji na wydarzenia danego
+ typu oraz wprowadzić funkcję komunikacji bezpośredniej między użytkownikami
+ serwisu.
+ Dobrym rozwiązaniem byłoby też dodanie możliwości tworzenia grup społecznościow
+ych, które w znacznym stopniu mogą zwiększyć atrakcyjność całego serwisu.
 \end_layout
 
 \begin_layout Bibliography
