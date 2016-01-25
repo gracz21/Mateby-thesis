@@ -2028,7 +2028,14 @@ ie zyskiwał popularność.
  Wiele popularnych platform ma wbudowaną bazę SQLite do obsługi wewnętrznej
  między innymi Ruby on Rails i Android.
  Baza danych SQLite to pojedynczy plik na dysku, może być stosowany na różnych
- systemach operacyjnych, zarówno 32 jak 64 bitowych.
+ systemach operacyjnych, zarówno 32 jak 64 bitowych
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-28"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -2230,7 +2237,14 @@ MongoDB reprezentuje nierelacyjny system zarządzania bazą danych, został
  ograniczone wsparcie dla kodowania UTF-8, co powoduje problemy przy korzystaniu
  z innych języków jak angielski.
  Kolejną wadą jest ograniczone wsparcie dla transakcji, których zasięg jest
- ograniczony do zmian w pojedynczym dokumencie.
+ ograniczony do zmian w pojedynczym dokumencie
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -2428,7 +2442,14 @@ PostgreSQL to jeden z najpopularniejszych i najbardziej zaawansowanych darmowych
  innymi w MongoDB.
  PostgreSQL posiada również licencję BSD, zgodną z zasadami wolnego oprogramowan
 ia.
- co jest istotne w rozwiązaniach biznesowych .
+ co jest istotne w rozwiązaniach biznesowych
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-29"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -4208,7 +4229,14 @@ Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
  Często wykonywane procesy kompilacji i instalacji na urządzeniu lub symulatorze
  są bardzo czasochłonne, natomiast użytkownicy odczują zauważalny spadek
  wydajności interfejsów, w szczególności dla list z bardzo dużą liczbą skompliko
-wanych elementów.
+wanych elementów
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -4385,7 +4413,14 @@ Apache Cordova, dawniej nazywana PhoneGap, to kolejna hybrydowa platforma
  Głównymi językami programowania są HTML, JavaScript oraz CSS, mimo to aplikacja
  jest instalowana jak natywne programy.
  Niestety tak jak w przypadku platformy Xamarin, aplikacje mają ogromne
- problemy z wydajnością przy bardziej skomplikowanych widokach.
+ problemy z wydajnością przy bardziej skomplikowanych widokach
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10-2"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -4724,7 +4759,14 @@ Zarządzanie projektem to niezwykle ważna czynność, o które muszą dbać wsz
  jednak także ma pozytywny wpływ na podniesienie motywacji i satysfakcji
  z pracy osób odpowiedzialnych za pracę nad danym projektem.
  Sprawi to, że wydana aplikacja będzie kompletna, liczba błędów minimalna,
- a wymagania funkcjonalne spełnione.
+ a wymagania funkcjonalne spełnione
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4801,7 +4843,14 @@ Agile software development
 
 \end_inset
 
-) to grupa metod wytwarzania oprogramowania opartego na modelu iteracyjnym.
+) to grupa metod wytwarzania oprogramowania opartego na modelu iteracyjnym
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-20"
+
+\end_inset
+
+.
  Posiada deklarację wspólnych zasad tworzenia oprogramowania, która została
  nazwana 
 \begin_inset Flex Emph
@@ -4821,7 +4870,14 @@ ia projektami i dostarczania produktów, a najpopularniejszą wśród nich jest
  na podzieleniu projektu na mniejsze części i rozłożeniu ich w trwające
  maksymalnie jeden miesiąc iteracje, zwane sprintami.
  Po każdym sprincie zespół pracujący nad rozwojem projektu musi być w stanie
- dostarczyć działającą wersję produktu.
+ dostarczyć działającą wersję produktu
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-17"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4845,6 +4901,13 @@ status open
 
 \begin_layout Plain Layout
  Schemat obrazujący zasady działania metod programownia zwinnego
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-19"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -11952,8 +12015,15 @@ Platforma programistyczna
 \begin_layout Standard
 Android to najbardziej popularny system dla urządzeń mobilnych na świecie,
  będący od lipca 2005 roku własnością Google.
- Według badań Strategy Analytics, aż 85% urządzeń mobilnych pracuje pod
- kontrolą systemu operacyjnego Google.
+ Według badań Strategy Analytics, aż 81.5% urządzeń mobilnych pracuje pod
+ kontrolą systemu operacyjnego Google
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-15"
+
+\end_inset
+
+.
  Jest to darmowy, otwarty system, co warte podkreślenia duża cześć kodu
  źródłowego jest udostępniona jako Android Open Source Project.
  
@@ -12003,6 +12073,13 @@ status open
 
 \begin_layout Plain Layout
 Schemat architektury systemu Android
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12035,7 +12112,14 @@ ny jest do kodu maszynowego.
  uruchomieniem aplikacji, natomiast dla maszyny wirtualnej ART w momencie
  instalacji pakietu aplikacji.
  Pozwoliło to na zmniejszenie czasu uruchamiania aplikacji oraz zwiękaszenie
- wydajności aplikacji.
+ wydajności aplikacji
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -12060,6 +12144,13 @@ status open
 
 \begin_layout Plain Layout
 Schemat działania architektury ART w porównaniu do Dalvika
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12111,6 +12202,13 @@ status open
 
 \begin_layout Plain Layout
 Przykład fragmentacji wersji Androida
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-13"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12182,7 +12280,14 @@ status open
 \begin_layout Plain Layout
 Garbage Collection --- jedna z metod automatycznego zarządzania dynamicznie
  przydzieloną pamięcią, w której za proces jej zwalniania odpowiedzialny
- jest nie programista, lecz programowy zarządca nazwany garbage collector.
+ jest nie programista, lecz programowy zarządca nazwany garbage collector
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-8"
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -12218,6 +12323,13 @@ status open
 \begin_layout Plain Layout
 ContentProvider
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
 
 \end_inset
 
@@ -12315,7 +12427,14 @@ OkHttpClient
 
  zapewnia wsparcie komunikacji aplikacji mobilnej z serwerem, dodatkowo
  obsługuje zarówno synchroniczne połączenia, jak i asynchroniczne połączenia
- z wywołań zwrotnych.
+ z wywołań zwrotnych
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-7"
+
+\end_inset
+
+.
  Zapewnia integrację ze sposobami przekazywania danych pomiędzy klientem,
  a serwerem, takimi jak 
 \begin_inset Flex Emph
@@ -12572,7 +12691,14 @@ e, rozszerzająca funkcjonalność klasy Service, która wszystkie działania
  Ostatnim przykładem jest klasa ThreadHandler zapewniająca wysokopozioomy
  mechanizm kolejkowania.
  Służy ona do wykonywania powtarzających się zadań lub działań, które nie
- są wpółzależne.
+ są wpółzależne
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-5-2"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -12600,7 +12726,14 @@ Architekrura
 \begin_layout Standard
 Implementacja GCM zawiera serwer połączeń Google, serwer aplikacji w środowisku,
  które współdziała z połączenia poprzez serwer HTTP lub protokołu XMPP oraz
- aplikację kliencką.
+ aplikację kliencką
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -12625,6 +12758,13 @@ status open
 
 \begin_layout Plain Layout
 Architektura Google Cloud Messaging
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -12756,6 +12896,13 @@ status open
 \begin_layout Plain Layout
 Monkeyrunner
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-4"
 
 \end_inset
 
@@ -13189,8 +13336,8 @@ Architecture of Laravel Applications
 
 \end_inset
 
-, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://www.phoenixfr
-amework.org/docs/overviewhttp://laravelbook.com/laravel-architecture
+, [on-line] [dostęp 23 stycznia 2016] dostępny w Internecie: http://laravelbook.c
+om/laravel-architecture
 \end_layout
 
 \begin_layout Bibliography
@@ -13489,6 +13636,27 @@ PostgreSQL
 , w: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 25 stycznia 2016] dostępny w Internecie:
  https://pl.wikipedia.org/wiki/PostgreSQL
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10-2"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Pros and Cons of the Top 5 Cross-Platform Tools
+\end_layout
+
+\end_inset
+
+, [on-line] [dostęp 10 stycznia 2016] dostępny w Internecie: http://www.developer
+economics.com/pros-cons-top-5-cross-platform-tools/
 \end_layout
 
 \begin_layout Bibliography
