@@ -5072,7 +5072,7 @@ Podstawowe operacje na plikach takie jak kopiowanie i wklejanie są wystarczają
 anie oraz oznaczanie tych modyfikacji
 \begin_inset CommandInset citation
 LatexCommand cite
-key "key-1"
+key "key-1-2"
 
 \end_inset
 
@@ -13053,7 +13053,7 @@ Zarządzanie projektem informatycznym
 
 \end_inset
 
-, 
+, Oficyna Wydawnicza Politechniki Wrocławskiej, Wrocław 2003
 \end_layout
 
 \begin_layout Bibliography
@@ -13694,6 +13694,28 @@ SQLite
 , w: Wikipedia.
  Wolna encyklopedia [on-line] [dostęp 25 stycznia 2016] dostępny w Internecie:
  https://pl.wikipedia.org/wiki/SQLite 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-38"
+
+\end_inset
+
+
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+System kontroli wersji
+\end_layout
+
+\end_inset
+
+, w: Wikipedia.
+ Wolna encyklopedia [on-line] [dostęp 25 stycznia 2016] dostępny w Internecie:
+ https://pl.wikipedia.org/wiki/System_kontroli_wersji
 \end_layout
 
 \begin_layout Bibliography
