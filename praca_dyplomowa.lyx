@@ -188,19 +188,23 @@ ego.
  Z tego powodu ogromne znaczenie w dzisiejszych czasach mają serwisy służące
  do organizacji wydarzeń, które zachęcają do przebywania poza domem oraz
  budują rzeczywiste relacje międzyludzkie.
- Obecnie najpopularniejszą aplikacją tego typu jest Facebook, która posiada
- ogromną liczbę użytkowników oraz bardzo obszerną bazę wydarzeń.
+ Obecnie najpopularniejszą aplikacją oferującą wspomnianą funkcjonalność
+ jest Facebook.
+ Posiada on ogromną liczbę użytkowników oraz bardzo obszerną bazę wydarzeń.
  Niestety serwis ten udostępnia mało szczegółowy mechanizm sparametryzowanego
  wyszukiwania.
+ Ponadto poprzez szeroką gamę innych aktywności społecznościowych nie promuje
+ spędzania wolnego czasu poprzez wspólną aktywność poza domem.
  Istnieje również kilka rozwiązań alternatywnych takich jak Eventbrite czy
- Nearify, które implementują taką funkcjonalność, jednak są to typowe serwisy
- informacyjne, a nie społecznościowe.
+ Nearify, które umożliwiają sprarametryzowane wyszukiwanie wydarzeń, jednak
+ są to typowe serwisy informacyjne, a nie społecznościowe.
  Z drugiej strony istotne jest również oddzielenie zwykłego użytkownika
- od instytucji, takich jak kluby, teatr czy koła tematyczne.
- Instytucje miałyby możliwość zarządzania swoimi oddziałami oraz przeglądania
- ich statystyk.
- Ułatwi to wprowadzanie zmian w ofercie wydarzeń jak i polepszy stosunek
- między organizatorem a uczestnikiem.
+ od instytucji, takich jak kluby, teatry czy koła tematyczne.
+ Instytucje powinny mieć, w odróżnieniu od zwykłych użytkowników, możliwość
+ zarządzania swoimi oddziałami oraz wprowadzania zmian w ofercie wydarzeń.
+ Dzięki wsparciu nie tylko zwykłych użytkowników, ale także działalności
+ instytucji, rozwiązanie takie powinno polepszać współpracę pomiędzy organizator
+ami wydarzeń a ich uczestnikami.
  Serwis społecznościowy umożliwiający organizowanie oraz wyszukiwanie wydarzeń
  powinien zatem dawać możliwość:
 \end_layout
@@ -10031,6 +10035,7 @@ status open
 
 \begin_layout Plain Layout
 \align center
+uth 2
 \begin_inset Graphics
 	filename schematy/RoR.png
 	scale 50
@@ -10241,7 +10246,7 @@ ująca z platformą Ruby on Rails.
 \end_layout
 
 \begin_layout Paragraph
-Protokół Oauth 2
+Protokół OAuth 2
 \end_layout
 
 \begin_layout Standard
