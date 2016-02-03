@@ -178,35 +178,40 @@ Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
  Głównym powodem ich popularności jest możliwość nawiązania znajomości z
  ludźmi nie rzadko oddalonymi o tysiące kilometrów.
  Bazują one zatem na relacjach międzyludzkich.
- Cechami charakterystycznymi serwisów społecznościowych jest między innymi
- wsparcie dla tworzenia kręgu znajomych, formowania lokalnych społeczności
- oraz organizacji wydarzeń.
+ Najczęściej pojawiającymi się cechami serwisów społecznościowych jest między
+ innymi wsparcie dla tworzenia kręgu znajomych, formowania lokalnych społecznośc
+i oraz organizacji wydarzeń.
  Pomimo wielu korzyści wynikających z możliwości wykorzystania tego typu
  aplikacji, można zaobserwować, że coraz więcej osób rezygnuje ze spędzenia
- czasu we wspólnym gronie na rzecz rozmowy za pomocą komunikatora społecznościow
-ego.
+ czasu we wspólnym gronie na rzecz korzystania z aktywności społeczniościowych
+ dostępnych w sieci internetowej.
  Z tego powodu ogromne znaczenie w dzisiejszych czasach mają serwisy służące
  do organizacji wydarzeń, które zachęcają do przebywania poza domem oraz
  budują rzeczywiste relacje międzyludzkie.
- Obecnie najpopularniejszą aplikacją oferującą wspomnianą funkcjonalność
- jest Facebook.
- Posiada on ogromną liczbę użytkowników oraz bardzo obszerną bazę wydarzeń.
+\end_layout
+
+\begin_layout Standard
+Obecnie najpopularniejszą aplikacją społecznościową jest Facebook.
+ Posiada ona ogromną liczbę użytkowników oraz bardzo obszerną bazę wydarzeń.
  Niestety serwis ten udostępnia mało szczegółowy mechanizm sparametryzowanego
  wyszukiwania.
- Ponadto poprzez szeroką gamę innych aktywności społecznościowych nie promuje
- spędzania wolnego czasu poprzez wspólną aktywność poza domem.
- Istnieje również kilka rozwiązań alternatywnych takich jak Eventbrite czy
- Nearify, które umożliwiają sprarametryzowane wyszukiwanie wydarzeń, jednak
- są to typowe serwisy informacyjne, a nie społecznościowe.
- Z drugiej strony istotne jest również oddzielenie zwykłego użytkownika
- od instytucji, takich jak kluby, teatry czy koła tematyczne.
- Instytucje powinny mieć, w odróżnieniu od zwykłych użytkowników, możliwość
- zarządzania swoimi oddziałami oraz wprowadzania zmian w ofercie wydarzeń.
+ Z tego powodu powstało wiele rozwiązań takich jak Eventbrite czy Nearify,
+ które posiadają wspomnianą funkcjonalność, jednak są to typowe serwisy
+ informacyjne, a nie społecznościowe.
+ Ponadto żadna z wymienionych wyżej aplikacji nie promuje spędzania wolnego
+ czasu poprzez wspólną aktywność poza domem a jedynie informuje o takiej
+ możliwości.
+ Można zatem powiedzieć, że istniejącym serwisom brakuje integracji pomiędzy
+ tworzonymi wydarzeniami a społecznościami, które powstają w ich obrębie.
+ Jednym ze sposobów osiągnięcia wspomnianej integracji jest oddzielenie
+ zwykłego użytkownika od instytucji posiadającej oddziały, takie jak kluby,
+ teatry czy koła tematyczne, oraz zapewnić prosty sposób zarządzania i sparametr
+yzowanego wyszukiwania wydarzeń.
  Dzięki wsparciu nie tylko zwykłych użytkowników, ale także działalności
  instytucji, rozwiązanie takie powinno polepszać współpracę pomiędzy organizator
 ami wydarzeń a ich uczestnikami.
- Serwis społecznościowy umożliwiający organizowanie oraz wyszukiwanie wydarzeń
- powinien zatem dawać możliwość:
+ Serwis społecznościowy posiadający wyżej wymienione cechy powinien zatem
+ dawać możliwość:
 \end_layout
 
 \begin_layout Itemize
@@ -227,7 +232,14 @@ możliwość formowania grup społecznościowych,
 \end_layout
 
 \begin_layout Standard
-W ramach tej pracy inżynierskiej powstanie zarówno aplikacja internetowa
+Tak zdefiniowana aplikacja, która zachęci swoich użytkowników nie tylko
+ do udziału w wydarzeniach zgodnych z ich zainteresowaniami, ale i zapraszania
+ innych w celu wspólnej integracji, powinna rozwiązać problem malejącej
+ liczby znajomości opartych na rzeczywistych relacjach.
+ Ponadto oddzielenie typów kont serwisu zwiększy możliwość zachęcenia innych
+ do udziału we współtworzeniu lokalnych grup społecznościowych i umożliwi
+ szybszą reakcję na wprowadzanie odpowiednich zmian w ofercie wydarzeń.
+ W ramach tej pracy inżynierskiej powstanie zarówno aplikacja internetowa
  jak i mobilna, które we współpracy z serwerem będą posiadały wyżej wymienione
  funkcje.
  
