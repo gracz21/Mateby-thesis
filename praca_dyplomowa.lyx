@@ -183,7 +183,7 @@ Tematyka istniejących aplikacji internetowych jest bardzo obszerna.
 i oraz organizacji wydarzeń.
  Pomimo wielu korzyści wynikających z możliwości wykorzystania tego typu
  aplikacji, można zaobserwować, że coraz więcej osób rezygnuje ze spędzenia
- czasu we wspólnym gronie na rzecz korzystania z aktywności społeczniościowych
+ czasu we wspólnym gronie na rzecz korzystania z aktywności społecznościowych
  dostępnych w sieci internetowej.
  Z tego powodu ogromne znaczenie w dzisiejszych czasach mają serwisy służące
  do organizacji wydarzeń, które zachęcają do przebywania poza domem oraz
@@ -201,16 +201,27 @@ Obecnie najpopularniejszą aplikacją społecznościową jest Facebook.
  Ponadto żadna z wymienionych wyżej aplikacji nie promuje spędzania wolnego
  czasu poprzez wspólną aktywność poza domem a jedynie informuje o takiej
  możliwości.
- Można zatem powiedzieć, że istniejącym serwisom brakuje integracji pomiędzy
+\end_layout
+
+\begin_layout Standard
+Można zatem powiedzieć, że istniejącym serwisom brakuje integracji pomiędzy
  tworzonymi wydarzeniami a społecznościami, które powstają w ich obrębie.
- Jednym ze sposobów osiągnięcia wspomnianej integracji jest oddzielenie
- zwykłego użytkownika od instytucji posiadającej oddziały, takie jak kluby,
- teatry czy koła tematyczne, oraz zapewnienie prostego sposobu zarządzania
- i sparametryzowanego wyszukiwania wydarzeń.
- Dzięki wsparciu nie tylko zwykłych użytkowników, ale także działalności
- instytucji, rozwiązanie takie powinno polepszyć współpracę pomiędzy organizator
-ami wydarzeń a ich uczestnikami.
- Serwis społecznościowy posiadający wyżej wymienione cechy powinien zatem
+ Istnieje zatem potrzeba stworzenia czegoś nowego, pozbawionego wspomnianych
+ wad.
+ W związku z tym w ramach niniejszej pracy inżynierskiej powstanie serwis
+ społecznościowy skupiony przede wszystkim na wydarzeniach oraz integracji
+ między użytkownikami systemu.
+ Jednym ze sposobów osiągnięcia wspomnianej integracji będzie oddzielenie
+ zwykłych użytkowników od instytucji posiadających oddziały, takie jak kluby,
+ teatry czy koła tematyczne.
+ Rozwiązanie takie powinno polepszyć współpracę pomiędzy organizatorami
+ wydarzeń a ich uczestnikami.
+ System zapewni także mechanizm sparametryzowanego wyszukiwania wydarzeń.
+ Funkcja ta pozwoli użytkownikom zwykłym w prosty sposób dotrzeć do interesujący
+ch ich treści.
+ Dzięki możliwości dołączania, zapraszania oraz prowadzenia dyskusji na
+ temat wydarzeń rozszerzony zostanie społeczny aspekt systemu.
+ Serwis społecznościowy posiadający wyżej wymienione cechy będzie zatem
  dawać możliwość:
 \end_layout
 
