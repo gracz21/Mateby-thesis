@@ -5312,11 +5312,11 @@ przy dużych projektach wymagają mocnej konfiguracji sprzętowej.
 \begin_layout Standard
 Podsumowując jest to narzędzie mające na celu zaoszczędzenie czasu pracy
  programistów na zadania monotonnych i powtarzalnych.
- Inforumuje osoby biorące udział w projekcie o rezultatach sprawdzenia wyznaczon
-ych zadań i ewentualnych błędach.
- Dzięki automatyzacji zarządzania kodem i projektem istnieje coraz większe
- zapotrzebowanie na systemy ciągłej integracji, dlatego rynek oferuje coraz
- więcej narzędzi takich jak Jenkins, CruiseControl, bądź CircleCI .
+ Informuje osoby biorące udział w projekcie o rezultatach sprawdzenia wyznaczony
+ch zadań i ewentualnych błędach.
+ Automatyzacja zarządzania kodem i projektem powoduje coraz większe zapotrzebowa
+nie na systemy ciągłej integracji, dlatego rynek oferuje coraz więcej narzędzi
+ takich jak Jenkins, CruiseControl, bądź CircleCI .
  Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
  następujące czynniki:
 \end_layout
@@ -5349,12 +5349,12 @@ Platforma CircleCI
 Platfroma CircleCI to system ciągłej integracji wspomający integrację z
  wieloma innymi platformami takimi jak Github, Android SDK, Ruby on Rails,
  a także Ember.
- CircleCI zostało stworzone na potrzeby deweloperów, oferuje nowoczesną
+ CircleCI zostało stworzone na potrzeby programistów, oferuje nowoczesną
  platformę do tworzenia oprogramowania, która umożliwia zespołom szybko
  oraz łatwo budować aplikacje po każdych zamianach na repozytorium.
  Przyspiesza cykl badań i rozwój projektu.
- Zapewnia spokój w tworzeniu oprogramowaniwa poprzez zmniejszenie błędów
- i popraw jakości wytwarzanej aplikacji.
+ Zapewnia spokój w tworzeniu oprogramowaniwa poprzez zmniejszenie liczby
+ błędów i poprawę jakości wytwarzanej aplikacji.
  Rozwój oprogramowania platformy pomaga zespołom zredukować monotonne czynności
  poprzez automatyzację budowania, testowania oraz procesu wdrażania aplikacji.
  
