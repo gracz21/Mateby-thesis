@@ -12043,8 +12043,17 @@ Platforma programistyczna
 \begin_layout Standard
 Android to najbardziej popularny system dla urządzeń mobilnych na świecie,
  będący od lipca 2005 roku własnością Google.
- Według badań Strategy Analytics, aż 81.5% urządzeń mobilnych pracuje pod
- kontrolą systemu operacyjnego Google
+ Według badań opublikowanych przez serwis
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Digital Trends
+\end_layout
+
+\end_inset
+
+, aż 81.5% urządzeń mobilnych pracuje pod kontrolą systemu operacyjnego Google
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-15"
@@ -12052,7 +12061,7 @@ key "key-15"
 \end_inset
 
 .
- Jest to darmowy, otwarty system, co warte podkreślenia duża cześć kodu
+ Jest to darmowy, otwarty system, a co warte podkreślenia duża cześć kodu
  źródłowego jest udostępniona jako Android Open Source Project.
  
 \end_layout
@@ -12071,13 +12080,13 @@ Jądro Androida to niewielka modyfikacja systemu Linux wykorzystywanego w
  być OpenGL, SQLite, bądź WebKit.
  Z punktu widzenia programisty dużo bardziej interesującą rzeczą jest część
  zaczynająca się od wirtuanej maszyny.
- Kolejną warstwą są wszystkie rzeczy dostępne z poziomu Javy, które programista
- może wykorzystywać w swojej aplikacji.
- Przykładami są widoki, komponenty, czujniki, sensory, a także mechanizmów
- obsługujących telefon lub powiadomienia.
+ Kolejną warstwą są wszystkie rzeczy dostępne z poziomu języka Java, które
+ programista może wykorzystywać w swojej aplikacji.
+ Przykładami są widoki, komponenty, czujniki, sensory, a także mechanizmy
+ obsługujące funkcje telefonu lub powiadomienia.
  Ostatnim elementem jest warstwa aplikacji, do której należą aplikacje domyślnie
- zainstalowane przez Google'a dostępne w każdej wersji Androida, a także
- te stworzone przez innych programistów.
+ zainstalowane przez Google dostępne w każdej wersji Androida, a także te
+ stworzone przez innych programistów.
 \end_layout
 
 \begin_layout Standard
@@ -12396,7 +12405,17 @@ OkHttpClient
  Pozwala wykonywać żądania do tego samego serwera nie zamykając połączenia
  po każdym odpytaniu, co pozwala w niektórych przypadkach zmniejszyć czas
  odpowiedzi.
- Obługa formatu GZIP zmniejsza rozmiary pobieranych odpowiedzi.
+ Obługa formatu 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+GZIP
+\end_layout
+
+\end_inset
+
+ zmniejsza rozmiary pobieranych odpowiedzi.
  Zawiera automatyczną implementację obsługi wywołań zapytań z pamięci podręcznej.
  Zapewnia stabilność w momencie kłopotów z siecią, jeśli usługa ma wiele
  adresów
@@ -12409,8 +12428,8 @@ IP
 
 \end_inset
 
-, bibliotek będzie próbowała odpytać alternatywne adresy, jeśli pierwsze
- połączenie nie powiedzie się.
+, a pierwsze połączenie nie powiedzie się, biblioteka będzie próbowała odpytać
+ alternatywne adresy.
  
 \begin_inset Flex Emph
 status open
@@ -12471,9 +12490,7 @@ Gson
 
 \end_inset
 
- może pracować z dowolnymi obiektami stworznymi w Javie, w tym już istniejących
- obiektów, które nie posiadają kodu źródłowego.
- 
+ może pracować z dowolnymi obiektami stworznymi w Javie.
 \end_layout
 
 \begin_layout Subsection
@@ -12482,7 +12499,7 @@ System autoryzacji
 
 \begin_layout Standard
 Podobnie jak w aplikacji internetowej autoryzacja użytkowników została oparta
- o protokół Oauth2.
+ o protokół OAuth2.
  System autoryzacji polega na wysłaniu żądania logowania lub rejestracji
  do serwera, a w przypadku odpowiedzi poprawnej zostaje zwrócony zaszyfrowany
  kod.
@@ -12496,7 +12513,7 @@ SharedPreferences
 
 \end_inset
 
- oraz wysyłany z każdym zapytaniem.
+ oraz wysyłany jest z każdym zapytaniem.
  
 \begin_inset Flex Emph
 status open
@@ -12619,10 +12636,6 @@ Widok tworzenia interfejsu użytkownika w Adnroid Studio
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -12645,7 +12658,7 @@ nną czynność, ponieważ zaczyna ona blokować wykonanie innych ważnych zada�
  dzieje się w urządzeniu, wygląda to na zawieszenie się aplikacji.
  Należy pamiętać, aby odpowiednio zarządzać zadaniami wykonywanymi na wątku
  głównym, wiele z nich warto wykonywać w tle.
- Android oferuje do tego kilka niezwykl przydatnych klas.
+ Android oferuje do tego kilka niezwykle przydatnych klas.
  AsyncTask to klasa umożliwiająca komunikację zadań wykonywanych, a wątkiem
  głównym, zwanym interfejsu użytkownika.
  Najważniejszymi metodami w tej klasie są 
@@ -12682,9 +12695,9 @@ onPostExecute()
  Kolejnym przykładem rozwiązania oferującego pracę w tle jest klasa IntentServic
 e, rozszerzająca funkcjonalność klasy Service, która wszystkie działania
  wykonuje na wątku głównym.
- Komponent IntentService powinien być wykorzytywany do zadań, które nie
- wymgają interackji z interfejsem użytkownika.
- Ostatnim przykładem jest klasa ThreadHandler zapewniająca wysokopozioomy
+ Komponent IntentService powinien być wykorzystywany do zadań, które nie
+ wymagają interakcji z interfejsem użytkownika.
+ Ostatnim przykładem jest klasa ThreadHandler zapewniająca wysokopoziomowy
  mechanizm kolejkowania.
  Służy ona do wykonywania powtarzających się zadań lub działań, które nie
  są wpółzależne
@@ -12768,10 +12781,6 @@ key "key-10"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -12797,7 +12806,7 @@ h mogą zostać zidentyfikowane i naprawione.
  Crashlytics pozwala również na przesłanie dodatkowych informacji, jak ostatnie
  dane.
  Kolejną niezbędną funkcjonalnością jest wypisanie ciągu znaków opisujących
- zawartość ostantiego stosu wywołań.
+ zawartość ostatniego stosu wywołań.
  Narzędzie umożliwia również mierzenie statystyk, monitorowanie stabilności
  aplikacji oraz wtyczki do oprogramowania, w którym rozwijana jest aplikacja.
 \end_layout
@@ -12831,10 +12840,6 @@ Widok platformy Fabric
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -12845,7 +12850,7 @@ Testy
 \end_layout
 
 \begin_layout Standard
-Jednymi z najpoularniejszych sposobów testowania kodu apliakcji mobilnej
+Jednymi z najpopularniejszych sposobów testowania kodu aplikacji mobilnej
  na system Android są testy jednostkowe oraz testy instumentacyjne.
  Różnica między tymi testami polega na tym, iż testy instrumentacyjne są
  wykonywane na urządzeniu mobilnym przez co trwają dłużej.
@@ -12882,8 +12887,8 @@ Monkey
 
 .
  Pozwala ono na generowanie losowych kliknięć użytkownika, dzięki temu istnieje
- możliwość zebirania informacji na temat działania aplikacji w nieprzewidywalnyc
-h i brzegowych sytaucjach.
+ możliwość zbierania informacji na temat działania aplikacji w nieprzewidywalnyc
+h i brzegowych sytuacjach.
  Dodatkową funkcjonalnością jest możliwość pisanie własnych skryptów testujących
  przy użyciu API narzędzia
 \begin_inset Flex Emph
