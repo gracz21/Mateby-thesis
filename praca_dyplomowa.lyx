@@ -445,10 +445,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -593,10 +589,6 @@ Kamil Walkowiak
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4780,8 +4772,8 @@ Zarządzanie projektem
 \begin_layout Standard
 Zarządzanie projektem to niezwykle ważna czynność, o które muszą dbać wszyscy
  członkowie zespołu.
- Bez odpowiedniego przygotowania możliwe jest, iż powierzone im zadania
- nie zostaną zrealizowane prawidłowo i w zadanym czasie.
+ Bez odpowiedniego przygotowania możliwe jest, iż powierzone zadania nie
+ zostaną zrealizowane w oczekiwany sposób i w zadanym czasie.
  Prawidłowe zarządzanie projektem ma na celu poprawne działanie organizacji,
  jednak także ma pozytywny wpływ na podniesienie motywacji i satysfakcji
  z pracy osób odpowiedzialnych za pracę nad danym projektem.
@@ -4806,17 +4798,16 @@ jednoznaczne sprecyzowanie celu działania;
 \end_layout
 
 \begin_layout Itemize
-ustalenie szczegółowo wszystkich kierunków działań i środków, za pomocą
- których można osiągnąć założony cel;
+ustalenie szczegółowo wszystkich działań, za pomocą których można osiągnąć
+ założony cel;
 \end_layout
 
 \begin_layout Itemize
-ułożenie dokładnego planu działania, zmierzającego do osiągnięcia celu przy
- zastosowaniu najlepszych w obecnych warunkach środków; 
+ułożenie dokładnego planu działania; 
 \end_layout
 
 \begin_layout Itemize
-wykonanie skrupulatnie założonego planu;
+wykonanie założonego planu;
 \end_layout
 
 \begin_layout Itemize
@@ -4960,7 +4951,7 @@ h na jednym ekranie.
  Zespoły programistów mogą skupić się na pracy, ponieważ priorytety projektu
  są zawsze jasne, można je zmienić, ale nie jest to zalecane i od razu widać
  jak to wpływa na poszczególne etapy.
- Pivotal oferuje również przydzielanie punktów, tzw.
+ Pivotal oferuje również przydzielanie punktów do zadań, tzw.
  
 \begin_inset Quotes pld
 \end_inset
@@ -4969,7 +4960,7 @@ story points
 \begin_inset Quotes prd
 \end_inset
 
-, do zadań, co jest często równoważne z czasem oszacowania.
+, co jest często równoważne z czasem oszacowania.
  Punkty są określane na podstawie oceny zespołu, jak dużo pracy wymaga dane
  zadanie.
  Pozwala to na optymalizację działania i zwiększenie prawdopodobieństwa
@@ -5022,7 +5013,7 @@ Widok ekranu zarządzania projektem w Pivotal Tracker
 
 \begin_layout Standard
 Projekt został podzielony na iteracje trwające 7 dni, przydzielanie punktów
- w skali od 1 do 3 w zależność od obszerności danej funkcjonalności , a
+ w skali od 1 do 3 w zależności od obszerności danej funkcjonalności , a
  podstawowa efektywność na 5 punktów.
  Okazało się, iż nakład pracy potrzebny do wykonania całego projektu wymaga
  znaczącego zwiększenia.
@@ -5036,8 +5027,8 @@ Pivotal Tracker umożliwia przejrzenie historii wszystkich sprintów, a całe
  Jako przykład został podany projekt aplikacji mobilnej na system Android.
  Można zauważyć systematyczny przyrost efektywności wykonywania zadań w
  poszczególnych iteracjach.
- Było to spowodowane tym, iż istniało wiele zależnych czynników zewnętrznych
- na czas poświęcony danemu sprintowi.
+ Było to spowodowane wieloma zależnymi czynnikami zewnętrznymi, powodującymi
+ różnicę w czasie poświęconym sprintom.
  W warunkach kiedy programiści pracują określoną liczbę godzin podczas iteracji,
  poniższy wykres powinien być jak najbardziej stały.
  
