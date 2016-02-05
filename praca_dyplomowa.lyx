@@ -5410,7 +5410,16 @@ a, jednak coraz więcej firm zauważa znaczenie komunikatorów internetowych
  W każdej firmie istnieje podział na odpowiednie działy, dobry komunikator
  powinien umożliwić stworzenie analogicznego podziału na grupy, w celu wygody
  użytkowania i klarowności tematów konwersacji.
- Tworzone pokoje mogą być publiczne i prywatnych, co również zwiększa komfort
+ Tworzone tzw.
+ 
+\begin_inset Quotes pld
+\end_inset
+
+pokoje
+\begin_inset Quotes prd
+\end_inset
+
+ w komunikatorze mogą być publiczne i prywatnych, co również zwiększa komfort
  pracy, ponieważ działy mogą komunikować się z innymi działami, bądź mają
  pewność, iż tajne informacje nie będą widoczne przez innych użytkowników.
  
@@ -5420,7 +5429,7 @@ a, jednak coraz więcej firm zauważa znaczenie komunikatorów internetowych
 Projekty informatyczne cechują się dodatkowymi własnościami, które jeszcze
  bardziej zwiększają wygodę pracy.
  Środowisko informatyczne wykorzystuje bardzo wiele aplikacji ułatwiających
- pracę, dlatego niezwykle iston rolą komunikatora powinna być możliwość
+ pracę, dlatego niezwykle istotną rolą komunikatora powinna być możliwość
  integracji z innymi narzędziami inżynierii oprogramowania takich jak platforma
  służąca zarządzaniu projektem, system konroli wersji, czy system ciągłej
  integracji.
@@ -5470,7 +5479,7 @@ Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  Ułatwia komunikację w zespole, przechowywanie i dzielenie się plikami.
  Istnieje możliwość organizowania rozmów zespołu w kanałach otwartych, jak
  i dla wrażliwych informacji, tworzenie kanałów prywatnych.
- Kolejną funkcjonalnością jest oznaczania konkretnych członków zespołu,
+ Kolejną funkcjonalnością jest oznaczanie konkretnych członków zespołu,
  w celu powiadamienia ich o nieodczytanych wiadomościach.
  Slack oferuje zestaw zaawansowanych narzędzi wyszukiwania, dzięki systemowi
  automatycznego indeksowania.
@@ -5478,7 +5487,7 @@ Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  Udostępnia synchronizację plików z takimi serwisami jak jak Google Drive,
  Dropbox lub Box.
  Poza tym jest opcja podłączenia serwisu Github, dzięki temu otrzymujemy
- na oznaczony kanał informację o wysłanych zmianach.
+ na oznaczony kanał informację o wysłanych zmianach na repozytorium.
  Kolejnym serwisem, który możemy zintegrować ze Slackiem to Pivotal Tracker,
  daje to możliwość śledzenia zmian statusów przydzielonych zadań, co więcej
  połączenie Pivotala z Githubem informuje o wrzuconych zmianach do repozytorium
