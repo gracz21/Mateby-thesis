@@ -1839,12 +1839,12 @@ Baza danych
 \end_layout
 
 \begin_layout Standard
-Najważniejszym decyzją jaką należało podjąć był wybór pomiędzy relacyjną,
- a nierelacyjną bazą danych.
- Relacyjne bazy danych opierają się na zbiorze rekordów o identycznej strukturze
- w postaci tabel połączonych relacjami z innymi danymi.
- Wostatnich latach popularne stają się bazy danych nierelacyjne, które pełnią
- ważną funkcję w systemach rozproszonych.
+W przypadku wyboru odpowiedniej bazy danych najważniejszą decyzją jaką należało
+ podjąć był wybór pomiędzy relacyjną, a nierelacyjną strukturą.
+ Relacyjne bazy danych opierają się na zbiorze relacji.
+ Każda relacja posiada swój schemat, który składa się z listy atrybutów.
+ W ostatnich latach popularne stają się bazy danych nierelacyjne, które
+ pełnią ważną funkcję w systemach rozproszonych.
  NoSQL jest systemem baz danych, który nie posiada relacji, dane nie mają
  z góry określonej struktury oraz zawyczaj nie ma zdefiniowanego języka
  zapytań SQL.
@@ -1895,7 +1895,7 @@ Napisana w
 \begin_inset Text
 
 \begin_layout Plain Layout
-Java
+C
 \end_layout
 
 \end_inset
@@ -1955,7 +1955,7 @@ licencja
 \begin_inset Text
 
 \begin_layout Plain Layout
-open source
+wolne oprogramowanie
 \end_layout
 
 \end_inset
@@ -2036,16 +2036,16 @@ krótki
 \begin_layout Standard
 SQLite to biblioteka służąca zarządzaniu relacyjną bazą danych napisana
  w języku C.
- System został stworzony przez Richarda Hippa i jest dostępna na licencji
- open source.
+ System został stworzony przez Richarda Hippa i jest dostępny na licencji
+ wolnego oprogramowania.
  W 2000 roku została wydana pierwsza wersja i od tego czasu system ten nieustann
-ie zyskiwał popularność.
- Ważną cechą biblioteka jest to, iż implementuje samodzielny i bezserwerowy,
+ie zyskiwał na popularności.
+ Ważną cechą biblioteka jest to, iż implementuje samodzielny i bez serwerowy,
  nie wymagający konfiguracji mechanizm bazy danych SQL.
  W wielu zastosowaniach, a w szczególności w systemach wbudowanych, takie
  rozwiązanie jest najpraktyczniejsze.
- Wiele popularnych platform ma wbudowaną bazę SQLite do obsługi wewnętrznej
- między innymi Ruby on Rails i Android.
+ SQLite jest wbudowaną biblioteką w najpopularniejszych platformach, między
+ innymi Ruby on Rails i Android.
  Baza danych SQLite to pojedynczy plik na dysku, może być stosowany na różnych
  systemach operacyjnych, zarówno 32 jak 64 bitowych
 \begin_inset CommandInset citation
@@ -2162,7 +2162,7 @@ licencja
 \begin_inset Text
 
 \begin_layout Plain Layout
-open source
+wolne oprogramowanie
 \end_layout
 
 \end_inset
@@ -2370,7 +2370,7 @@ licencja
 \begin_inset Text
 
 \begin_layout Plain Layout
-open source
+wolne oprogramowanie
 \end_layout
 
 \end_inset
