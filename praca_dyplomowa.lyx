@@ -4962,8 +4962,7 @@ Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, sprecyzowan
  W prosty i klarowny sposób pozwala programiście na przeglądanie obecnie
  przypisanych zadań z danego projektu.
  Zespoły programistów mogą skupić się na pracy, ponieważ priorytety projektu
- są zawsze jasne, można je zmienić, ale nie jest to zalecane i od razu widać
- jak to wpływa na poszczególne etapy.
+ są jasno określone.
  Pivotal oferuje również przydzielanie punktów do zadań, tzw.
  
 \begin_inset Quotes pld
@@ -4973,11 +4972,8 @@ story points
 \begin_inset Quotes prd
 \end_inset
 
-, co jest często równoważne z czasem oszacowania.
- Punkty są określane na podstawie oceny zespołu, jak dużo pracy wymaga dane
- zadanie.
- Pozwala to na optymalizację działania i zwiększenie prawdopodobieństwa
- przewidzenia przyszłej efektywności.
+, co jest równoważne z czasem oszacowania.
+ Pozwala to na przewidzenie przyszłej efektywności.
  Istnieje możliwość przeciągania zadań i wyznacznia ich obecnego statusu.
  Icebox to kolumna, w której trzymane są wszystkie określone zadania, które
  układamy w odpowiednie iteracje w kolumnie Backlog.
@@ -12052,9 +12048,9 @@ Platforma programistyczna
 \end_layout
 
 \begin_layout Standard
-Android to najbardziej popularny system dla urządzeń mobilnych na świecie,
- będący od lipca 2005 roku własnością Google.
- Według badań opublikowanych przez serwis
+Android to najpopularniejszy system dla urządzeń mobilnych na świecie, będący
+ od lipca 2005 roku własnością Google.
+ Według badań opublikowanych przez serwis 
 \begin_inset Flex Emph
 status open
 
@@ -12072,8 +12068,8 @@ key "key-15"
 \end_inset
 
 .
- Jest to darmowy, otwarty system, a co warte podkreślenia duża cześć kodu
- źródłowego jest udostępniona jako Android Open Source Project.
+ Jest to darmowy, otwarty system, którego znaczna cześć kodu źródłowego
+ jest udostępniona jako Android Open Source Project.
  
 \end_layout
 
@@ -12082,21 +12078,21 @@ Architektura systemu
 \end_layout
 
 \begin_layout Standard
-Jądro Androida to niewielka modyfikacja systemu Linux wykorzystywanego w
- komputerach, jednak nie jest on dostępny dla użytkownika.
+Jądro systemu Android to niewielka modyfikacja systemu Linux wykorzystywanego
+ w komputerach, jednak nie jest on dostępny dla użytkownika.
  Jedynym sposobem w jaki można dokonywać interakcji z systemem Linux jest
  wykorzystanie powłoki.
  Nad warstwą Linuxa znajduje się warstwa bibliotek natywnych napisanych
  najczęściej w językach niskopoziomowych, przykładem takich rozwiązań może
- być OpenGL, SQLite, bądź WebKit.
+ być OpenGL, SQLite bądź WebKit.
  Z punktu widzenia programisty dużo bardziej interesującą rzeczą jest część
- zaczynająca się od wirtuanej maszyny.
+ zaczynająca się od wirtualnej maszyny.
  Kolejną warstwą są wszystkie rzeczy dostępne z poziomu języka Java, które
  programista może wykorzystywać w swojej aplikacji.
  Przykładami są widoki, komponenty, czujniki, sensory, a także mechanizmy
  obsługujące funkcje telefonu lub powiadomienia.
  Ostatnim elementem jest warstwa aplikacji, do której należą aplikacje domyślnie
- zainstalowane przez Google dostępne w każdej wersji Androida, a także te
+ zainstalowane przez Google dostępne w każdej wersji systemu, a także te
  stworzone przez innych programistów.
 \end_layout
 
@@ -12154,12 +12150,12 @@ Aplikacje mobilne na Androida są tworzone w języku Java, jednak wykorzystywana
  wirtualnej maszyny Java SE.
  Kod w języku Java kompilowany jest do kodu bajtowego, który następnie kompilowa
 ny jest do kodu maszynowego.
- Początkowym środowiskiem uruchomieniowym systemu Android była maszyna wirtualna
+ Początkowym środowiskiem startowym systemu Android była maszyna wirtualna
  Dalvik, jednak od wersji Androida 5.0 środowiskiem tym jest ART.
- Główną różnicą jest to, iż w Dalviku kod bajtowy kompilowany jest za każdym
+ Główną różnicą jest to, iż w Dalviku kod bajtowy kompilowany jest z każdym
  uruchomieniem aplikacji, natomiast dla maszyny wirtualnej ART w momencie
  instalacji pakietu aplikacji.
- Pozwoliło to na zmniejszenie czasu uruchamiania aplikacji oraz zwiękaszenie
+ Pozwala to na zmniejszenie czasu uruchamiania aplikacji oraz zwiękaszenie
  wydajności aplikacji
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -12172,6 +12168,7 @@ key "key-11"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -12274,8 +12271,7 @@ Komponenty w systemie Android
 \end_layout
 
 \begin_layout Standard
-Rozpoczęcie tworzenia aplikacji rozpoczyna się od wyboru głównej aktywności,
- czyli głównego widoku.
+Rozpoczęcie tworzenia aplikacji zaczyna się od wyboru głównego widoku, czyli
  
 \begin_inset Flex Emph
 status open
@@ -12286,7 +12282,8 @@ Acitivity
 
 \end_inset
 
-służy zarządzaniu interfejsem użytkownika, oprócz 
+, służącemu zarządzaniu interfejsem użytkownika.
+ Oprócz 
 \begin_inset Flex Emph
 status open
 
@@ -12296,7 +12293,7 @@ Acitivity
 
 \end_inset
 
- najważniejszymi składnikami systemu Android są klasy 
+ ważnymi składnikami systemu Android są klasy 
 \begin_inset Flex Emph
 status open
 
@@ -12306,8 +12303,9 @@ Fragment
 
 \end_inset
 
-, który jest częścią aktywności, otrzymuje własne zdarzenia i służy do tworzenia
- dynamicznych interfejsów oraz 
+, będące częścią aktywności.
+ Otrzymują one własne zdarzenia i służą do tworzenia dynamicznych interfejsów.
+ Warto też wspomnieć o komponencie 
 \begin_inset Flex Emph
 status open
 
@@ -12317,11 +12315,11 @@ Application
 
 \end_inset
 
-, która implementuje wywowałania zwrotne cyklu istnienia aplikacji.
- Każda z nich posiada swój własny cykl życia, którego zrozumienie jest niezbędne
- do tworzenia poprawnych aplikacji mobilnych.
- Po zminimalizowaniu aplikacji i zwolnieniu zasobów przez Garbage Collection
- 
+, który implementuje wywołania zwrotne cyklu istnienia aplikacji.
+ Każda z wymienionych klas posiada własny cykl życia, którego zrozumienie
+ jest niezbędne do tworzenia poprawnych aplikacji mobilnych.
+ Po zminimalizowaniu aplikacji, następuje zwolnienie zasobów przez Garbage
+ Collection
 \begin_inset Foot
 status open
 
@@ -12340,9 +12338,9 @@ key "key-8"
 
 \end_inset
 
-, w momencie chęci przywrócenia aplikacji bardzo częstym zjawiskiem jest
- pojawianie się błędów.
- Znajomość i świadomość cyklu życia komponentów pozwala uniknąć takich sytuacji.
+, zatem w momencie chęci przywrócenia aplikacji należy pamiętać o ponownym
+ zainicjowaniu obiektów.
+ Znajomość cyklu życia komponentów pozwala uniknąć takich sytuacji.
  Poza wymienionymi komponentami istnieją jeszcze inne rzadziej wykorzystywane
  składniki, które nie zostały użyte w aplikacji, takie jak 
 \begin_inset Flex Emph
@@ -12416,7 +12414,7 @@ OkHttpClient
  Pozwala wykonywać żądania do tego samego serwera nie zamykając połączenia
  po każdym odpytaniu, co pozwala w niektórych przypadkach zmniejszyć czas
  odpowiedzi.
- Obługa formatu 
+ Obsługa formatu 
 \begin_inset Flex Emph
 status open
 
@@ -12428,19 +12426,9 @@ GZIP
 
  zmniejsza rozmiary pobieranych odpowiedzi.
  Zawiera automatyczną implementację obsługi wywołań zapytań z pamięci podręcznej.
- Zapewnia stabilność w momencie kłopotów z siecią, jeśli usługa ma wiele
- adresów
-\begin_inset Flex Emph
-status open
-
-\begin_layout Plain Layout
-IP
-\end_layout
-
-\end_inset
-
-, a pierwsze połączenie nie powiedzie się, biblioteka będzie próbowała odpytać
- alternatywne adresy.
+ Zapewnia stabilność w momencie problemów z dostępem do Internetu, jeśli
+ usługa ma wiele adresów IP, a pierwsze połączenie nie powiedzie się, biblioteka
+ będzie próbowała odpytać alternatywne adresy.
  
 \begin_inset Flex Emph
 status open
@@ -12451,9 +12439,7 @@ OkHttpClient
 
 \end_inset
 
- zapewnia wsparcie komunikacji aplikacji mobilnej z serwerem, dodatkowo
- obsługuje zarówno synchroniczne połączenia, jak i asynchroniczne połączenia
- z wywołań zwrotnych
+ dodatkowo obsługuje zarówno połączenia synchroniczne, jak i asynchroniczne
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-7"
@@ -12461,13 +12447,23 @@ key "key-7"
 \end_inset
 
 .
- Zapewnia integrację ze sposobami przekazywania danych pomiędzy klientem,
- a serwerem, takimi jak 
+ Zapewnia integrację z metodami przekazywania danych pomiędzy klientem a
+ serwerem, takimi jak 
 \begin_inset Flex Emph
 status open
 
 \begin_layout Plain Layout
-GET, POST, PUT, DELETE, PATCH
+GET, POST, PUT, DELETE
+\end_layout
+
+\end_inset
+
+ oraz 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+PATCH
 \end_layout
 
 \end_inset
@@ -12487,10 +12483,8 @@ Gson
 \end_inset
 
 , która optymalizuje wszystkie procesy związane z danymi w formacie JSON.
- Jest to biblioteka, która może być wykorzystana do konwersji obiektów Javy
- do ich reprezentacji JSON.
- Może również być stosowana do konwersji ciągu JSON do obiektów w języku
- Java.
+ Jest to biblioteka, która może być wykorzystana do konwersji obiektów klas
+ języka Javy na reprezentację JSON i odwrotnie.
  
 \begin_inset Flex Emph
 status open
@@ -12501,7 +12495,7 @@ Gson
 
 \end_inset
 
- może pracować z dowolnymi obiektami stworznymi w Javie.
+ może pracować z obiektami dowolnych klas zdefiniowanymi w Javie.
 \end_layout
 
 \begin_layout Subsection
@@ -12511,10 +12505,10 @@ System autoryzacji
 \begin_layout Standard
 Podobnie jak w aplikacji internetowej autoryzacja użytkowników została oparta
  o protokół OAuth2.
- System autoryzacji polega na wysłaniu żądania logowania lub rejestracji
- do serwera, a w przypadku odpowiedzi poprawnej zostaje zwrócony zaszyfrowany
- kod.
- Token przechowywany jest w pamięci urządzenia za pomocą 
+ W celu uwierzytelnienia należy wysłać żądanie logowania lub rejestracji
+ do serwera z odpowiednimi danymi.
+ W odpowiedzi zostaje wysłany zaszyfrowany kod.
+ Jest on przechowywany jest w pamięci urządzenia za pomocą 
 \begin_inset Flex Emph
 status open
 
@@ -12557,8 +12551,9 @@ Facebook
 
 .
  Uzyskany zaszyfrowany kod jest wysyłany do serwera, gdzie na podstawie
- otrzymanych danych tworzone jest konto użytkownika, które nie różni się
- od tego stworzonego za pomocą standardowego formularza rejestracyjnego.
+ otrzymanych danych za pierwszym razem tworzone jest konto użytkownika,
+ które nie różni się od tego stworzonego za pomocą standardowego formularza
+ rejestracyjnego.
  
 \end_layout
 
@@ -12601,21 +12596,22 @@ Interfejs użytkownika
 \end_layout
 
 \begin_layout Standard
-Tworzenie interfejsu użytkownika dla sytemu Android najlepiej wykonywać
- za pomocą środowiska Android Studio.
- Jest to kompletne narzędzie do projektowania widoków, za pomocą którego
- można pracować bezpośrednio z kodem pisanym w języku XML.
- Do dyspozycji istnieje również podgląd aktualnie zaprojektowanych widoków
+Środowisko Android Studio umożliwia projektowanie interfejsu użytkownika
+ dla sytemu Android.
+ Jest to kompletne narzędzie do projektowania widoków za pomocą kodu pisanego
+ w języku XML.
+ Programista ma do dyspozycji również podgląd aktualnie stworzonych widoków
  na różnych urządzeniach.
- Bezproblemowo można zmieniać rozdzielczość, wielkość oraz orientację ekranu.
+ Istnieje możliwość zmiany rozdzielczości, wielkości oraz orientacji przykładowy
+ch ekranów.
  Kod jest automatycznie konwertowany do widoku przy każdej zmianie dokumentu
  XML.
- Programiści mają do dyspozycji wiele gotowych elementów zwanych widżetami,
- znajdującymi się w Android SDK.
+ Programiści mają do dyspozycji wiele gotowych elementów, takich jak przyciski
+ bądź pola do wprowadzania tekstu, znajdujące się w Android SDK.
  Ważną ich cechą jest to, iż użytkownicy są do nich przyzwyczajeni, co sprawia,
- że projekt interefejsu jest spójny i prosty w obsłudze dla każdego.
- Po stworzeniu projektu w dokumencie XML, należy przypisać referencje kontrolek
- do obiektów w Javie, aby móc później operować na nich.
+ że interfejs aplikacji jest spójny i prosty w obsłudze dla każdego.
+ Po stworzeniu projektu interfejsu, następnie należy przypisać referencje
+ kontrolek do obiektów w Javie, aby móc na nich operować.
 \end_layout
 
 \begin_layout Standard
@@ -12660,18 +12656,17 @@ Techniki przetwarzania wielowątkowego
 Android, jak większość dzisiejszych systemów operacyjnych wspiera wielowątkowość.
  Wątek głównym, zwany jest wątkiem interfejsu użytkownika, nazwa pochodzi
  od tego, że zajmuje się on m.in.
- rysowaniem obiektów, przesyłaniem zdarzeń do komponentów czy ogólną interakcją
- aplikacji z wszystkimi widokami i widżetami.
- Problem zaczyna pojawiać się wtedy, gdy któryś z komponentów wykonuje czasochło
-nną czynność, ponieważ zaczyna ona blokować wykonanie innych ważnych zadań
- głównego wątku.
+ rysowaniem obiektów, przesyłaniem zdarzeń do komponentów czy interakcją
+ aplikacji z widokami.
+ Problem pojawia się, gdy któryś z komponentów wykonuje czasochłonną czynność.
+ Zaczyna ona blokować wykonanie innych ważnych zadań głównego wątku.
  Z perspektywy użytkownika, który nie jest świadomy tego, co tak naprawdę
  dzieje się w urządzeniu, wygląda to na zawieszenie się aplikacji.
- Należy pamiętać, aby odpowiednio zarządzać zadaniami wykonywanymi na wątku
- głównym, wiele z nich warto wykonywać w tle.
+ Należy pamiętać, aby odpowiednio zarządzać wykonywanymi zadaniami, ponieważ
+ wiele z nich powinno się wykonywać w tle.
  Android oferuje do tego kilka niezwykle przydatnych klas.
- AsyncTask to klasa umożliwiająca komunikację zadań wykonywanych, a wątkiem
- głównym, zwanym interfejsu użytkownika.
+ AsyncTask to klasa umożliwiająca komunikację zadań wykonywanych w tle z
+ widokami.
  Najważniejszymi metodami w tej klasie są 
 \begin_inset Flex Emph
 status open
@@ -12727,14 +12722,13 @@ Google Cloud Messaging
 
 \begin_layout Standard
 Google Cloud Messaging (GCM) to bezpłatna usługa, która pozwala programistom
- na wysyłanie wiadomości pomiędzy serwerami i aplikacjami klienckimi.
- Obejmuje pobieranie wiadomości z serwera do aplikacji klienckich oraz wysyłanie
- wiadomości z klientów do serwerów.
- Przykładem wykorzystania może być poinformowanie aplikacji mobilnej, iż
- do danego użytkownika zostało wysłane zaproszenie dołączenia do wydarzenia,
- dzięki temu może zostać wyświetlone powiadomienie, mimo, iż aplikacja nie
- jest uruchomiona.
- W wiadomości GCM można przesyłać do 4 kb danych , a usługa obsługuje wszystkie
+ na wysyłanie wiadomości pomiędzy serwerem i aplikacjami mobilnymi.
+ Obejmuje wysyłanie wiadomości z serwera do aplikacji mobilnej i odwrotnie.
+ Przykładem zastosowania może być poinformowanie aplikacji mobilnej, iż
+ do danego użytkownika zostało wysłane zaproszenie dołączenia do wydarzenia.
+ Umożliwia to wyświetlenie odpowiedniego powiadomienia, mimo, iż aplikacja
+ nie jest uruchomiona.
+ W wiadomości GCM można przesyłać do 4 Kb danych , a usługa obsługuje wszystkie
  aspekty kolejek komunikatów oraz transport do i z aplikacji klienta docelowego.
  
 \end_layout
@@ -12744,9 +12738,12 @@ Architekrura
 \end_layout
 
 \begin_layout Standard
-Implementacja GCM zawiera serwer połączeń Google, serwer aplikacji w środowisku,
- które współdziała z połączenia poprzez serwer HTTP lub protokołu XMPP oraz
- aplikację kliencką
+Architektura Google Cloud Messaging zawiera implementację serwera Google,
+ który za pomocą stworzonego API komunikuje się
+\begin_inset space \space{}
+\end_inset
+
+z serwerem aplikacji poprzez protokół HTTP lub XMPP oraz aplikacją mobilną
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-10"
@@ -12805,21 +12802,22 @@ Raportowanie błędów
 Raportowanie błędów to niezwykle ważne narzędzie zarówno dla programistów,
  jak i użytkowników, ponieważ dzięki temu usterki pojawiające się na urządzeniac
 h mogą zostać zidentyfikowane i naprawione.
- Narzędziem, które zostało wykorzystane na platformie Android to biblioteka
- Crashlytics wykonana przez zespół Fabric.
- Główną funkcjonalnością pakietu jest logowanie i raportowanie błędów w
- stworzonej aplikacji.
- Platforma oferuje szczegółowy widok dotyczący każdego z błędów, na którym
- znajdują się informacje dotyczące urządzeń oraz wersji systemu.
+ Narzędziem, które zostało wykorzystane na platformie Android to platforma
+ Crashlytics wykonana przez firmę Fabric.
+ Główną funkcjonalnością platformy jest logowanie i raportowanie błędów
+ pojawiających się w stworzonej aplikacji.
+ Crashlytics oferuje szczegółowy widok dotyczący każdego z błędów.
+ Znajdują się tam informacje dotyczące urządzeń oraz wersji systemu, na
+ których zostały zidentyfikowane błędy.
  Jest to bardzo istotne, ponieważ różnorodność urządzeń z systemem Android
- powoduje, iż pewne błędy pojawiają się tylko na niektórych modelach urządzeń,
- pozwala to w szybszy sposób zreprodukować i naprawić konkretny błąd.
- Crashlytics pozwala również na przesłanie dodatkowych informacji, jak ostatnie
- dane.
- Kolejną niezbędną funkcjonalnością jest wypisanie ciągu znaków opisujących
- zawartość ostatniego stosu wywołań.
- Narzędzie umożliwia również mierzenie statystyk, monitorowanie stabilności
- aplikacji oraz wtyczki do oprogramowania, w którym rozwijana jest aplikacja.
+ powoduje, iż pewne błędy pojawiają się tylko na niektórych modelach urządzeń.
+ Pozwala to w szybszy sposób zidentyfikować i naprawić konkretny błąd.
+ Crashlytics pozwala również na przesłanie dodatkowych informacji o błędzie
+ określonych przez przez programistę.
+ Kolejną istotną funkcjonalnością platformy jest ukazanie zawartości ostatniego
+ stosu wywołań.
+ Narzędzie umożliwia również mierzenie statystyk oraz monitorowanie stabilności
+ aplikacji.
 \end_layout
 
 \begin_layout Standard
@@ -12878,9 +12876,10 @@ Activity, Fragment, Service
 \end_inset
 
 .
- Zaleca się testować tylko własny kod, a nie biblioteki, usługi systemowe,
- bądź sprawdzać czy dany przycisk został wpisany.
- Najlepszą praktyką jest tworzenie małych funkcji obsługi zdarzeń i testowanie
+ Zaleca się testować tylko własny kod, a nie biblioteki, usługi systemowe
+ bądź komponenty, poprzez przykładowe sprawdzenie czy dany przycisk został
+ wpisany.
+ Dobrą praktyką jest tworzenie małych funkcji obsługi zdarzeń i testowanie
  czy działają one poprawnie.
 \end_layout
 
