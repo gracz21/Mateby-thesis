@@ -4750,27 +4750,27 @@ Zupełnie inne czynniki wpłynęły na wybór platformy wspierającej implementa
 \end_layout
 
 \begin_layout Standard
-Wybór odpowiedniego systemu bazy danych został podyktowany największymi
- możliwościami bazy danych oraz wydajnością.
- Wśród darmowych rozwiązań najbardziej zaawansownym systemem do zarządzania
- relacyjnymi bazami danych jest PostgreSQL, a w przedstawionych przykładach
- wszystkie rozwiązania zapewniały wysoką wydajność.
- Dlatego najlepszym wyborem został PostgreSQL, który dodatkowo zapewnia
- wsparcie dla formatu BJSON, co ułatwia implementację spersonalizowanych
- parametrów dla danej kategorii wydarzeń.
+Na wybór odpowiedniej bazy danych największy wpływ miała wydajność poszczególnyc
+h rozwiązań oraz struktura przechowywania danych.
+ Spośród branych pod uwagę systemów najbardziej zaawansownym oraz wydajnym
+ okazał się PostgreSQL, który łączy zalety relacyjnych baz danych, a także
+ zapewnia wsparcie dla formatu JSONB, co ułatwia implementację spersonalizowanyc
+h parametrów.
+ Z tego powodu rozwiązanie to zostało wybrane na podstawową bazę danych
+ aplikacji.
 \end_layout
 
 \begin_layout Standard
 Wybór platformy dla aplikacji mobilnej był dosyć prosty, ponieważ chcąc
- tworzyć profesjonalne oprogramowanie trzeba zdecydować się na rozwiązania
+ tworzyć profesjonalne oprogramowanie należy zdecydować się na rozwiązania
  natywne.
- Platformy hybrydowe niosą ze sobą wiele korzyści, jak znaczna część współdzielo
-nego kodu dla różnych systemów operacyjnych, jednak .żadna z obecnie dostępnych
- nie reprezentuje odpowiedniego poziomu.
- W szczególności trzeba zwrócić uwagę na problemy z wydajnością, z którą
- nie ma problemów w przypadku aplikacji tworzonych za pomocą rozwiązań natywnych.
- Dodatkowo są one bardzo mocno wspierane przez Google oraz Apple.
- 
+ Platformy hybrydowe niosą ze sobą wiele korzyści takich jak współdzielenie
+ znacznej części kodu dla różnych systemów operacyjnych.
+ W szczególności jednak trzeba zwrócić uwagę na problemy z wydajnością,
+ które nie występują w przypadku aplikacji tworzonych za pomocą rozwiązań
+ natywnych.
+ Dodatkowo platformy natywne są bardzo mocno wspierane przez duże korporacje,
+ co przesądziło o wyborze AndroidSDK do implementacji aplikacji mobilnej.
 \end_layout
 
 \begin_layout Chapter
