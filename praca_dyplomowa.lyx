@@ -1798,8 +1798,8 @@ Z punktu widzenia programisty:
 
 \begin_deeper
 \begin_layout Itemize
-paradygmat programowania --- im bardziej popularny tym większa liczba narzędzi
- programistycznych,
+paradygmat programowania --- im bardziej popularny, tym większa liczba narzędzi
+ programistycznych;
 \end_layout
 
 \begin_layout Itemize
@@ -1815,7 +1815,7 @@ Z punktu widzenia programisty oraz użytkownika:
 \begin_deeper
 \begin_layout Itemize
 wydajność --- większa wydajność zapewnia krótszy czas odpowiedzi oraz większa
- płynność działania,
+ płynność działania;
 \end_layout
 
 \begin_layout Itemize
@@ -2684,7 +2684,7 @@ status open
 
 \begin_layout Plain Layout
 MVC (ang.
- Model-View-Controller) --- model-widok-kontroler, wzorzec architektoniczny
+ Model-View-Controller) --- model-widok-kontroler, wzorzec architektoniczny,
  który zakłada istnienie trzech połączonych ze sobą składowych: modelu,
  widoku oraz kontrolera.
 \end_layout
@@ -3132,7 +3132,7 @@ krótki
 \end_layout
 
 \begin_layout Standard
-Platforma Laravel jest jednym z najpopularniejszych platform opartych na
+Platforma Laravel jest jedną z najpopularniejszych platform opartych na
  języku PHP.
  Jej struktura nieco przypomina Ruby on Rails --- również używa wzorca MVC
  oraz preferowana jest konwencja nad konfiguracją
@@ -3370,7 +3370,7 @@ key "key-4-1"
  na wszystkich powiązanych klientach.
  Ponadto jest to platforma skalowalna.
  Wadą jest natomiast stosunkowo mała liczba dostępnych bibliotek.
- Pomimo, iż aplikację można napisać w bardzo krótkim czasie to wprowadzenie
+ Pomimo, iż aplikację można napisać w bardzo krótkim czasie, to wprowadzenie
  brakującej lub niekonwencjonalnej funkcjonalności skutkuje dużym wkładem
  pracy.
  Platforma Meteor również pozwala na tworzenie zarówno logiki serwera jak
@@ -4037,7 +4037,7 @@ krótki
 \end_layout
 
 \begin_layout Standard
-Ember to platforma która w swej idei przypomina Ruby on Rails.
+Ember to platforma, która w swej idei przypomina Ruby on Rails.
  Posiada wiele konwencji, które pozwalają na znaczne przyspieszenie pracy,
  jednak przez to narzucają również pewne schematy
 \begin_inset CommandInset citation
@@ -4055,7 +4055,7 @@ key "key-4-2"
  ale również firm.
  W przeciwieństwie do Angulara posiada wielu sponsorów, wśród których znajdują
  się takie firmy jak Yahoo czy LinkedIn.
- Pomimo iż Ember rozwijany jest jako wolne oprogramowanie bez ingerencji
+ Pomimo, iż Ember rozwijany jest jako wolne oprogramowanie bez ingerencji
  dużych firm, to można powiedzieć, że posiada społeczność niemal tak dużą
  jak w przypadku platformy Angular.
 \end_layout
@@ -4735,8 +4735,8 @@ Zupełnie inne czynniki wpłynęły na wybór platformy wspierającej implementa
  będzie całkowicie niekompatybilna z obecną, co wymusza przepisanie całej
  aplikacji w niedalekiej przyszłości.
  Z tego powodu wybrany został Ember, który w swej funkcjonalności nie odbiega
- od Angular, a ponadto posiada obszerną społeczność oraz rozwija się bardzo
- dynamicznie.
+ od platformy Angular, a ponadto posiada obszerną społeczność oraz rozwija
+ się bardzo dynamicznie.
  Równie istotne było podobieństwo w sposobie implementacji aplikacji między
  Ruby on Rails a Ember, co pozwala na płynne połączenie obu platform.
 \end_layout
