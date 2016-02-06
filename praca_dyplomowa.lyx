@@ -263,7 +263,7 @@ Cel i zakres pracy
 \begin_layout Standard
 Celem pracy jest zaprojektowanie i zaimplementowanie systemu umożliwiającego
  sparametryzowane wyszukiwanie wydarzeń wśród lokalnych społeczności, a
- tym samym zachęcenia do spędzania czasu we wspólnym gronie.
+ tym samym zachęcenie do spędzania czasu we wspólnym gronie.
  Na ten cel ogólny składają się następujące cele szczegółowe:
 \end_layout
 
@@ -373,7 +373,7 @@ rozdziale
 \begin_inset space ~
 \end_inset
 
-koniec omówiono wykorzystany serwer produkcyjny.
+koniec omówiono wykorzystany serwer przedprodukcyjny.
  W
 \begin_inset space ~
 \end_inset
@@ -417,7 +417,7 @@ API (ang.
  protokole OAuth2.
  Przyjrzano się sposobowi testowania API.
  Omówiono implementację widoków aplikacji internetowej po stronie klienta.
- Przedstawiono opis platformy Android oraz jego komponenty.
+ Przedstawiono opis platformy Android oraz jej komponenty.
  Zaprezentowano wykorzystane rozwiązania w implementacji aplikacji mobilnej.
  Opisano w jaki sposób można sprawdzać poprawność aplikacji na urządzeniach
  użytkowników oraz omówiono zasady testowania.
@@ -605,11 +605,11 @@ Przegląd aplikacji o podobnej tematyce
 Obecnie istnieje wiele aplikacji umożliwiających formowanie grup społecznych
  czy też organizację wydarzeń, dlatego ich przegląd jest niezwykle istotny
  w procesie definiowania wymagań funkcjonalnych aplikacji.
- Do najważniejszych cech składających się na końcową ocenę serwisu należą
+ Do najważniejszych cech składających się na końcową ocenę serwisu należą:
 \end_layout
 
 \begin_layout Itemize
-zakres funkcjonalności
+zakres funkcjonalności,
 \end_layout
 
 \begin_layout Itemize
@@ -633,7 +633,7 @@ http://www.speedtest.pl/wycena
 
 \end_inset
 
-
+,
 \end_layout
 
 \begin_layout Itemize
@@ -657,7 +657,7 @@ https://play.google.com
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -1756,8 +1756,8 @@ Podsumowanie
 
 \begin_layout Standard
 Przegląd dostępnych aplikacji o podobnej tematyce wykazał, iż istnieje wiele
- różnych rozwiązań bazujących głównie na przeglądzie wydarzeń według ich
- kategorii oraz miejsca.
+ różnych rozwiązań bazujących głównie na podziale wydarzeń według ich kategorii
+ oraz miejsca.
  Większość z nich współpracuje z innymi portalami społecznościowymi upraszczając
  w ten sposób proces rejestracji lub tworzenia nowych wydarzeń.
  Warto jednak zauważyć, że każda z wyżej wymienionych aplikacji posiada
@@ -1769,12 +1769,12 @@ Przegląd dostępnych aplikacji o podobnej tematyce wykazał, iż istnieje wiele
 
 \begin_layout Standard
 W celu zachęcenia użytkowników do nawiązywania rzeczywistych relacji należy
- stworzyć aplikację, która w dużym stopniu bazować będzie na interakcji
+ stworzyć aplikację, która w dużym stopniu będzie bazować na interakcji
  międzyludzkiej.
- Ponadto przy ogromnej liczbie użytkowników serwisów społecznościowych,
+ Ponadto, przy ogromnej liczbie użytkowników serwisów społecznościowych,
  aplikacja powinna zapewnić wysoki poziom integracji z tymi portalami.
  Warto również wprowadzić zaawansowaną opcję wyszukiwania oraz rozbudowany
- widok wydarzenia, szczegółowy opisujący dane dotyczące jego przebiegu.
+ widok wydarzenia, szczegółowo opisujący dane dotyczące jego przebiegu.
 \end_layout
 
 \begin_layout Chapter
