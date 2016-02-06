@@ -4784,9 +4784,9 @@ Zarządzanie projektem to niezwykle ważna czynność, o które muszą dbać wsz
  członkowie zespołu.
  Bez odpowiedniego przygotowania możliwe jest, iż powierzone zadania nie
  zostaną zrealizowane w oczekiwany sposób i w zadanym czasie.
- Prawidłowe zarządzanie projektem ma na celu poprawne działanie organizacji,
- jednak także ma pozytywny wpływ na podniesienie motywacji i satysfakcji
- z pracy osób odpowiedzialnych za pracę nad danym projektem.
+ Prawidłowe zarządzanie projektem ma na celu poprawne działanie organizacji
+ oraz ma pozytywny wpływ na podniesienie motywacji i satysfakcji z pracy
+ osób odpowiedzialnych za pracę nad danym projektem.
  Sprawi to, że wydana aplikacja będzie kompletna, liczba błędów minimalna,
  a wymagania funkcjonalne spełnione
 \begin_inset CommandInset citation
@@ -4956,8 +4956,8 @@ Pivotal Tracker
 Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, sprecyzowanie
  priorytetów i pomoc w zarządzaniu projektem, aby poszczególni członkowie
  zespołu mogli skupić się na tym, co niezbędne.
- Dzięki temu narzędziu możemy zobaczyć wszystkie swoje zadania w wielu projektac
-h na jednym ekranie.
+ W prosty i klarowny sposób pozwala programiście na przeglądanie obecnie
+ przypisanych zadań z danego projektu.
  Zespoły programistów mogą skupić się na pracy, ponieważ priorytety projektu
  są zawsze jasne, można je zmienić, ale nie jest to zalecane i od razu widać
  jak to wpływa na poszczególne etapy.
@@ -5277,28 +5277,28 @@ System ciągłej integracji
 \end_layout
 
 \begin_layout Standard
-System ciągłej integracji wspomaga usystematyzować procesy wykonywane przez
- każdego z programistów.
- Wszyscy pracownicy przed zaktualizowaniem zmian na repozytorium za każdym
+System ciągłej integracji wspomaga usystematyzowanie procesów wykonywanych
+ przez każdego z programistów.
+ Członkowie zespołu przed zaktualizowaniem zmian na repozytorium za każdym
  razem wykonują tę samą sekwencję czynności, dlatego powstały narzędzia
- mające na celu odciążyć programistów od danych procesów.
+ mające na celu odciążenie programistów od danych procesów.
  Głównymi zadaniami systemów ciągłej integracji są:
 \end_layout
 
 \begin_layout Itemize
-uruchomienie i sprawdzenie testów jednostkowych aplikacji
+uruchomienie i sprawdzenie testów jednostkowych aplikacji,
 \end_layout
 
 \begin_layout Itemize
-uruchamianie testów integracyjnych
+uruchamianie testów integracyjnych,
 \end_layout
 
 \begin_layout Itemize
-kompilowanie i budowanie aplikacji
+kompilowanie i budowanie aplikacji,
 \end_layout
 
 \begin_layout Itemize
-automatyczne tworzenie dokumentacji
+automatyczne tworzenie dokumentacji.
 \end_layout
 
 \begin_layout Standard
@@ -5307,12 +5307,12 @@ Oprócz wymienionych zalet systemy ciągłej integracji niosą ze sobą równie�
 \end_layout
 
 \begin_layout Itemize
-wymagają konfiguracji i utrzymania
+wymagają konfiguracji i utrzymania;
 \end_layout
 
 \begin_layout Itemize
 wymagają dużej liczby testów, by móc w pełni korzystać z zalet automatyzacji
- testowania aplikacji
+ testowania aplikacji;
 \end_layout
 
 \begin_layout Itemize
@@ -5320,8 +5320,8 @@ przy dużych projektach wymagają mocnej konfiguracji sprzętowej.
 \end_layout
 
 \begin_layout Standard
-Podsumowując jest to narzędzie mające na celu zaoszczędzenie czasu pracy
- programistów na zadania monotonnych i powtarzalnych.
+Podsumowując, system ciągłej integracji to narzędzie mające na celu zaoszczędzen
+ie czasu pracy programistów na zadaniach monotonnych i powtarzalnych.
  Informuje osoby biorące udział w projekcie o rezultatach sprawdzenia wyznaczony
 ch zadań i ewentualnych błędach.
  Automatyzacja zarządzania kodem i projektem powoduje coraz większe zapotrzebowa
@@ -5332,19 +5332,19 @@ nie na systemy ciągłej integracji, dlatego rynek oferuje coraz więcej narzęd
 \end_layout
 
 \begin_layout Itemize
-wspomaganie różnorodnych platform programistycznych
+wspomaganie różnorodnych platform programistycznych,
 \end_layout
 
 \begin_layout Itemize
-wygoda użytkowania
+wygoda użytkowania,
 \end_layout
 
 \begin_layout Itemize
-popularność systemu
+popularność systemu,
 \end_layout
 
 \begin_layout Itemize
-cena
+cena.
 \end_layout
 
 \begin_layout Standard
@@ -5356,14 +5356,14 @@ Platforma CircleCI
 \end_layout
 
 \begin_layout Standard
-Platfroma CircleCI to system ciągłej integracji wspomający integrację z
- wieloma innymi platformami takimi jak Github, Android SDK, Ruby on Rails,
- a także Ember.
+Serwis CircleCI to system ciągłej integracji wspomający integrację z wieloma
+ innymi platformami takimi jak Github, Android SDK, Ruby on Rails, a także
+ Ember.
  CircleCI zostało stworzone na potrzeby programistów, oferuje nowoczesną
  platformę do tworzenia oprogramowania, która umożliwia zespołom szybko
  oraz łatwo budować aplikacje po każdych zamianach na repozytorium.
  Przyspiesza cykl badań i rozwój projektu.
- Zapewnia spokój w tworzeniu oprogramowaniwa poprzez zmniejszenie liczby
+ Zapewnia spokój w tworzeniu oprogramowania poprzez zmniejszenie liczby
  błędów i poprawę jakości wytwarzanej aplikacji.
  Rozwój oprogramowania platformy pomaga zespołom zredukować monotonne czynności
  poprzez automatyzację budowania, testowania oraz procesu wdrażania aplikacji.
