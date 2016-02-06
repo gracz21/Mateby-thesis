@@ -12877,9 +12877,8 @@ Activity, Fragment, Service
 
 .
  Zaleca się testować tylko własny kod, a nie biblioteki, usługi systemowe
- bądź komponenty, poprzez przykładowe sprawdzenie czy dany przycisk został
- wpisany.
- Dobrą praktyką jest tworzenie małych funkcji obsługi zdarzeń i testowanie
+ bądź komponenty.
+ Dobrą praktyką jest tworzenie małych metod obsługi zdarzeń i testowanie
  czy działają one poprawnie.
 \end_layout
 
