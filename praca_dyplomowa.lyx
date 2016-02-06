@@ -10071,7 +10071,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-uth 2
 \begin_inset Graphics
 	filename schematy/RoR.png
 	scale 50
@@ -10107,8 +10106,7 @@ name "fig:6.1"
 \end_layout
 
 \begin_layout Standard
-W trakcie tworzenia aplikacji wykorzystano szereg bibliotek przeznaczonych
- dla platformy Ruby on Rails (ang.
+W trakcie tworzenia aplikacji wykorzystano szereg bibliotek (ang.
  
 \begin_inset Flex Emph
 status open
@@ -10119,7 +10117,7 @@ gems
 
 \end_inset
 
-).
+) przeznaczonych dla platformy Ruby on Rails.
  W szczególności warto się przyjrzeć dwóm z nich: Grape i Grape Entity.
 \end_layout
 
@@ -10205,7 +10203,7 @@ migrations
 \end_inset
 
 ) modułu Active Record platformy Ruby on Rails oraz systemu PostgreSQL na
- podstawie modelu relacyjnego przedstawionego w rozdziale 5.3.2.
+ podstawie modelu relacyjnego przedstawionego w sekcji 5.3.2.
  W tworzonym systemie mamy do czynienia z trzema instancjami tej samej bazy
  danych (opartej na tym samym schemacie):
 \end_layout
@@ -11165,7 +11163,7 @@ live chat
 
 \end_inset
 
- (pol.
+ (z ang.
  rozmowa na żywo).
  Pierwotnie, aby zapewnić działanie aplikacji w czasie rzeczywistym, używano
  okresowego odpytywania serwera, który w przypadku pojawienia się nowych
@@ -11208,7 +11206,7 @@ handshake
 
 \end_inset
 
- (pol.
+ (z ang.
  uścisk dłoni).
 \end_layout
 
@@ -11226,7 +11224,7 @@ Testy
 \end_layout
 
 \begin_layout Standard
-Do testowania interfejsu programistycznego aplikacji została użyta biblioteki
+Do testowania interfejsu programistycznego aplikacji zostały użyte biblioteki
  RSpec oraz FactoryGirl współpracujące z platformą Ruby on Rails.
  W
 \begin_inset space ~
@@ -11327,7 +11325,7 @@ key "key-7-1"
 \end_inset
 
 .
- Przy użyciu RSpec można testować zachowanie modeli, kontrolerów, widoków,
+ Z użyciem RSpec można testować zachowanie modeli, kontrolerów, widoków,
  trasownika oraz wyniki działań pojedynczych żądań.
  Ta ostatnia cecha okazała się szczególnie przydatna podczas testowania
  punktów końcowych wchodzących w skład API.
@@ -11364,7 +11362,7 @@ Testy funkcjonalne
 \end_layout
 
 \begin_layout Standard
-Testy funkcjonalne obejmują kontrolę poprawności wszystkich punktów końcowych
+Testy funkcjonalne obejmowały kontrolę poprawności wszystkich punktów końcowych
  udostępnianych przez publiczne API.
  Każdy z testów uwzględniał różne scenariusze, które mogą się przydarzyć
  podczas odwołań do danego punktu końcowego.
@@ -11406,7 +11404,7 @@ route
 \end_inset
 
 ) odpowiedzialna jest za pobieranie danych z pamięci podręcznej lub serwera
- oraz przekazywanie ich do kontrolera,
+ oraz przekazywanie ich do kontrolera;
 \end_layout
 
 \begin_layout Itemize
@@ -11421,7 +11419,7 @@ template
 
 \end_inset
 
-) odpowiedzialny jest za prezentację danych pochodzących z kontrolera,
+) odpowiedzialny jest za prezentację danych pochodzących z kontrolera;
 \end_layout
 
 \begin_layout Itemize
@@ -11478,8 +11476,8 @@ Szablon wyświetla dane.
 W klasycznym schemacie wzorca MVC kontroler pełni rolę trasy.
  W platformie Ember jego zadanie ogranicza się do wykonywania akcji związanych
  z interakcją pomiędzy aplikacją a użytkownikiem.
- Przykładem tego typu interakcji może być wykonanie jakiejś procedury po
- kliknięciu w wybranym miejscu urządzeniem wskazującym.
+ Przykładem tego typu interakcji może być wykonanie procedury po kliknięciu
+ w wybranym miejscu urządzeniem wskazującym.
  Wszelkie akcje CRUD na danych są jednak wykonywane w trasie.
  Kontroler jest zatem odpowiedzialny jedynie za akcje modyfikujące stan
  szablonu, komunikację z trasą oraz dekorowanie danych.
@@ -11489,11 +11487,11 @@ W klasycznym schemacie wzorca MVC kontroler pełni rolę trasy.
 Trasa wykonuje wszelkie operacje, które modyfikują stan bazy danych.
  Odpowiedzialna jest również za interpetację stanu adresu URL, czy chociażby
  uwierzytelnianie użytkownika.
- Można zatem powiedzieć że wszelka logika aplikacji, która zmienia jej stan
- znajduje się w trasie.
+ Można zatem powiedzieć, że wszelka logika aplikacji, która zmienia jej
+ stan, znajduje się w trasie.
  Istnieje jednak nowe rozwiązanie, które w przyszłości ma całkowicie wykluczyć
  konieczność stosowania kontrolerów współpracujących z trasami.
- W platformie Ember nazywa się to komponentem.
+ W platformie Ember nazywa się je komponentem.
 \end_layout
 
 \begin_layout Standard
@@ -11562,7 +11560,7 @@ Ember CLI jest narzędziem wiersza poleceń, które wprowadza określoną strukt
 \end_layout
 
 \begin_layout Paragraph
-Ember data
+Ember Data
 \end_layout
 
 \begin_layout Standard
@@ -11573,10 +11571,10 @@ Dane pochodzące z serwera reprezentowane są za pomocą formatu JSON.
 ch danych na klasy reprezentowane w języku JavaScript.
  Rekord opisany za pomocą klasy jest obecnie najczęściej spotykaną formą
  przechowywania danych w aplikacjach internetowych.
- Ponadto Ember data wprowadza operacje pozwalające na tworzenie, edycję
+ Ponadto Ember Data wprowadza operacje pozwalające na tworzenie, edycję
  oraz usuwanie rekordów.
- Posiadają one pewne konwencje, co po raz kolejny udowadnia jak bardzo konwencjo
-nalną platformą jest Ember.
+ Posiadają one pewne konwencje, co po raz kolejny udowadnia, jak bardzo
+ konwencjonalną platformą jest Ember.
 \end_layout
 
 \begin_layout Paragraph
@@ -11713,9 +11711,9 @@ Prawie każda aplikacja internetowa korzysta z pewnych zasobów, których stan
  W przypadku platformy Ember komunikacja ta odbywa się przez specjalne adaptery,
  których zadaniem jest konwertowanie danych zapisanych według pewnych formatów
  na takie, które obowiązują w aplikacji internetowej.
- W celu odpowiedniej komunikacji należy stworzyć plik konfiguracyjny, który
- zawiera informacje na temat adresu serwera oraz przestrzeni nazw odpowiedniej
- wersji interfejsu programistycznego.
+ W celu zapewnienia odpowiedniej komunikacji należy stworzyć plik konfiguracyjny
+, który zawiera informacje na temat adresu serwera oraz przestrzeni nazw
+ odpowiedniej wersji interfejsu programistycznego.
  
 \begin_inset Float figure
 placement !h
@@ -11807,7 +11805,7 @@ ch, które w sposób darmowy lub płatny udostępniają swoje zasoby.
 
 \begin_layout Standard
 Najczęściej spotykaną sytuacją, w której dochodzi do przechwycenia zasobów
- aplikacji zewnętrznej jest uwierzytelnianie.
+ aplikacji zewnętrznej, jest uwierzytelnianie.
  Ze względu na wykorzystanie protokołu Oauth2, w aplikacji użyto API serwisu
  Facebook, w celu utworzenia i uwierzytelnienia nowego użytkownika.
  Aby taka operacja się powiodła należy uzyskać sekretny kod, który generowany
@@ -11942,16 +11940,16 @@ nie konkretnych bloków widoku.
 
 \begin_layout Standard
 Możliwość zaprojektowania jednej aplikacji, która wyglądałaby jednakowo
- efektywnie na dowolnym urządzeniu okazuje się dla programistów na tyle
+ efektywnie na dowolnym urządzeniu, okazuje się dla programistów na tyle
  interesująca, że wiele osób rezygnuje z tworzenia mobilnych aplikacji natywnych.
  Trzeba jednak zauważyć, że istnieje wiele powtarzających się schematów
- przy tworzeniu responsywnych widoków, co szczególnie widoczne jest to przy
+ przy tworzeniu responsywnych widoków, co szczególnie widoczne jest przy
  definiowaniu struktury strony.
  W celu uproszczenia implementacji powstało wiele platform, które w znacznym
  stopniu odciążają programistów od konieczności definiowania najważniejszych
  stylów od nowa.
  Najbardziej popularną platformą, która łączy zalety języków HTML, CSS oraz
- JavaScript jest obecnie Bootstrap.
+ JavaScript, jest obecnie Bootstrap.
 \end_layout
 
 \begin_layout Paragraph
