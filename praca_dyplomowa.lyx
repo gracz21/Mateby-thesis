@@ -4963,6 +4963,7 @@ Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, sprecyzowan
  przypisanych zadań z danego projektu.
  Zespoły programistów mogą skupić się na pracy, ponieważ priorytety projektu
  są jasno określone.
+ Umożliwia również proste zarządzanie statusami zadań.
  Pivotal oferuje również przydzielanie punktów do zadań, tzw.
  
 \begin_inset Quotes pld
@@ -4974,15 +4975,11 @@ story points
 
 , co jest równoważne z czasem oszacowania.
  Pozwala to na przewidzenie przyszłej efektywności.
- Istnieje możliwość przeciągania zadań i wyznacznia ich obecnego statusu.
  Icebox to kolumna, w której trzymane są wszystkie określone zadania, które
  układamy w odpowiednie iteracje w kolumnie Backlog.
- Current to zadania na obecny sprint, a w kolumnie Done mamy zakończone
- czynności i funkcjonalności.
- Kliknięcie w przycisk start przenosi dane zadanie w kierunku górnej części
- bieżącej iteracji, co pokazuje, że jest w trakcie opracowywania.
- Opowieść następnie przechodzi przez kolejne etapy od gotowej, do realizacji
- i jest przyjętej, bądź odrzuconej przez klienta.
+ W kolumnie Current znajdują się zadania na obecny sprint, a w kolumnie
+ Done zakończone czynności.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5276,11 +5273,12 @@ System ciągłej integracji
 \end_layout
 
 \begin_layout Standard
-System ciągłej integracji wspomaga usystematyzowanie procesów wykonywanych
- przez każdego z programistów.
- Członkowie zespołu przed zaktualizowaniem zmian na repozytorium za każdym
- razem wykonują tę samą sekwencję czynności, dlatego powstały narzędzia
- mające na celu odciążenie programistów od danych procesów.
+System ciągłej integracji wspomaga usystematyzować procesy wykonywane przez
+ każdego z programistów.
+ Przed zaktualizowaniem zmian na repozytorium za każdym razem wykonują oni
+ tę samą sekwencję czynności.
+ Dlatego powstały narzędzia mające na celu odciążenie programistów od danych
+ powtarzających się procesów.
  Głównymi zadaniami systemów ciągłej integracji są:
 \end_layout
 
@@ -5289,15 +5287,15 @@ uruchomienie i sprawdzenie testów jednostkowych aplikacji,
 \end_layout
 
 \begin_layout Itemize
-uruchamianie testów integracyjnych,
+wykonanie testów integracyjnych,
 \end_layout
 
 \begin_layout Itemize
-kompilowanie i budowanie aplikacji,
+skompilowanie i zbudowanie aplikacji,
 \end_layout
 
 \begin_layout Itemize
-automatyczne tworzenie dokumentacji.
+automatyczne stworzenie dokumentacji.
 \end_layout
 
 \begin_layout Standard
@@ -5306,26 +5304,26 @@ Oprócz wymienionych zalet systemy ciągłej integracji niosą ze sobą równie�
 \end_layout
 
 \begin_layout Itemize
-wymagają konfiguracji i utrzymania;
+wymagają konfiguracji i utrzymania,
 \end_layout
 
 \begin_layout Itemize
 wymagają dużej liczby testów, by móc w pełni korzystać z zalet automatyzacji
- testowania aplikacji;
+ testowania aplikacji,
 \end_layout
 
 \begin_layout Itemize
-przy dużych projektach wymagają mocnej konfiguracji sprzętowej.
+przy dużych projektach wymagają wielu zasobów serwerowych.
 \end_layout
 
 \begin_layout Standard
-Podsumowując, system ciągłej integracji to narzędzie mające na celu zaoszczędzen
-ie czasu pracy programistów na zadaniach monotonnych i powtarzalnych.
- Informuje osoby biorące udział w projekcie o rezultatach sprawdzenia wyznaczony
-ch zadań i ewentualnych błędach.
- Automatyzacja zarządzania kodem i projektem powoduje coraz większe zapotrzebowa
-nie na systemy ciągłej integracji, dlatego rynek oferuje coraz więcej narzędzi
- takich jak Jenkins, CruiseControl, bądź CircleCI .
+Podsumowując, system ciągłej integracji to narzędzie mające na celu automatyzacj
+ę zarządzania kodem oraz zaoszczędzenie czasu pracy programistów na zadaniach
+ monotonnych i powtarzalnych.
+ Informuje osoby biorące udział w projekcie o rezultatach przeprowadzonych
+ zadań.
+ Rosnąca popularność systemów ciągłej integracji powoduje powstawanie narzędzi
+ takich jak Jenkins, CruiseControl, bądź CircleCI.
  Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
  następujące czynniki:
 \end_layout
@@ -5358,14 +5356,13 @@ Platforma CircleCI
 Serwis CircleCI to system ciągłej integracji wspomający integrację z wieloma
  innymi platformami takimi jak Github, Android SDK, Ruby on Rails, a także
  Ember.
- CircleCI zostało stworzone na potrzeby programistów, oferuje nowoczesną
- platformę do tworzenia oprogramowania, która umożliwia zespołom szybko
- oraz łatwo budować aplikacje po każdych zamianach na repozytorium.
+ CircleCI oferuje nowoczesną platformę umożliwiającą budowanie aplikacji
+ po każdych zamianach na repozytorium.
  Przyspiesza cykl badań i rozwój projektu.
- Zapewnia spokój w tworzeniu oprogramowania poprzez zmniejszenie liczby
- błędów i poprawę jakości wytwarzanej aplikacji.
- Rozwój oprogramowania platformy pomaga zespołom zredukować monotonne czynności
- poprzez automatyzację budowania, testowania oraz procesu wdrażania aplikacji.
+ Platforma pomaga zespołom poprawić jakość wytwarzanej aplikacji, między
+ innymi poprzez motywację do pisania testów.
+ Zapewnia spokój w tworzeniu oprogramowania poprzez zredukowanie monotonnych
+ czynności, automatyzację budowania, testowania oraz procesu wdrażania aplikacji.
  
 \end_layout
 
@@ -5410,27 +5407,16 @@ Komunikator
 
 \begin_layout Standard
 Rola komunikatora w projektach nie tylko informatycznych jest często niedocenian
-a, jednak coraz więcej firm zauważa znaczenie komunikatorów internetowych
- zarówno do kontaktów z klientami, jak i do codziennej pracy urzędników.
- Należy jednak pamiętać, iż nie w każdej sytuacji używanie komunikatora
- jest taktowne, natomiast o wiele łatwiej, szybciej i wygodniej jest wysłać
- krótką wiadomość czy odnośnik do dokumentu za pomocą komunikatora, niż
- próbować dodzwonić się do konkretnej osoby.
- W każdej firmie istnieje podział na odpowiednie działy, dobry komunikator
+a, jednak coraz więcej firm zauważa znaczenie komunikatorów internetowych.
+ Należy pamiętać, iż nie w każdej sytuacji używanie komunikatora jest taktowne.
+ Natomiast o wiele łatwiej, szybciej i wygodniej jest wysłać krótką wiadomość
+ czy odnośnik do dokumentu za pomocą komunikatora, niż wykonać telefon do
+ konkretnej osoby.
+ W każdej firmie istnieje podział na odpowiednie działy, a dobry komunikator
  powinien umożliwić stworzenie analogicznego podziału na grupy, w celu wygody
  użytkowania i klarowności tematów konwersacji.
- Tworzone tzw.
- 
-\begin_inset Quotes pld
-\end_inset
-
-pokoje
-\begin_inset Quotes prd
-\end_inset
-
- w komunikatorze mogą być publiczne i prywatnych, co również zwiększa komfort
- pracy, ponieważ działy mogą komunikować się z innymi działami, bądź mają
- pewność, iż tajne informacje nie będą widoczne przez innych użytkowników.
+ Zwiększa to komfort pracy, ponieważ grupy użytkowników mają pewność, iż
+ tajne informacje nie będą widoczne przez innych użytkowników.
  
 \end_layout
 
@@ -5486,21 +5472,21 @@ Slack
 Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  w 2013 roku.
  Ułatwia komunikację w zespole, przechowywanie i dzielenie się plikami.
- Istnieje możliwość organizowania rozmów zespołu w kanałach otwartych, jak
- i dla wrażliwych informacji, tworzenie kanałów prywatnych.
+ Istnieje możliwość organizowania rozmów zespołu na kanałach otwartych,
+ jak i prywatnych dla wrażliwych informacji,.
  Kolejną funkcjonalnością jest oznaczanie konkretnych członków zespołu,
- w celu powiadamienia ich o nieodczytanych wiadomościach.
+ w celu powiadamiania ich o nieodczytanych wiadomościach.
  Slack oferuje zestaw zaawansowanych narzędzi wyszukiwania, dzięki systemowi
- automatycznego indeksowania.
+ automatycznego indeksowania wiadmości.
  Najważniejszą funkcjonalnością jest możliwość integracji z innymi narzędziami.
  Udostępnia synchronizację plików z takimi serwisami jak jak Google Drive,
  Dropbox lub Box.
- Poza tym jest opcja podłączenia serwisu Github, dzięki temu otrzymujemy
- na oznaczony kanał informację o wysłanych zmianach na repozytorium.
+ Poza tym istnieje opcja połączenia z serwisem Github, dzięki temu otrzymujemy
+ na wybrany kanał informację o wysłanych zmianach na repozytorium.
  Kolejnym serwisem, który możemy zintegrować ze Slackiem to Pivotal Tracker,
- daje to możliwość śledzenia zmian statusów przydzielonych zadań, co więcej
- połączenie Pivotala z Githubem informuje o wrzuconych zmianach do repozytorium
- pod tytułem odpowiedniego zadania.
+ daje to możliwość śledzenia zmian statusów zadań.
+ Co więcej połączenie Pivotala z Githubem informuje o wrzuconych zmianach
+ do repozytorium pod tytułem odpowiedniego zadania.
  Slack umożliwia również połączenie się ze środowiskiem CircleCI, powoduje
  to uzyskiwanie informacji na temat bieżących zmian w kodzie, skonfigurowanych
  w systemie ciągłej integracji.
