@@ -5675,8 +5675,8 @@ Wymagania funkcjonalne i pozafunkcjonalne
 
 \begin_layout Standard
 Kluczową cechą każdej aplikacji jest jej funkcjonalność.
- Powinna być ona dobrze sprecyzowana tak, by nie była ani zbyt obszerna,
- ani nie ograniczała możliwości potencjalnego użytkownika.
+ Powinna być ona sprecyzowana tak, by nie była ani zbyt obszerna, ani nie
+ ograniczała możliwości potencjalnego użytkownika.
  Opis funkcji, które mają być realizowane przez system, nazywamy 
 \begin_inset Flex Emph
 status open
@@ -8438,8 +8438,8 @@ ami organizowanymi przez oddziały instytucji.
  danego wydarzenia (2) wraz z informacjami podstawowymi (3) takimi jak nazwa,
  miejsce i czas organizacji czy koszt biletu wstępu.
  Po kliknięciu na jedną z miniatur, użytkownik zostaje przekierowany na
- stronę widoku pojedynczego wydarzenia (jeżeli wcześniej dokonał autoryzacji
- konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
+ stronę widoku pojedynczego wydarzenia (jeżeli wcześniej dokonał uwierzytelnieni
+a konta, w przeciwnym wypadku wyświetlony zostaje ekran logowania).
  Znajdując się na tym ekranie użytkownik ma możliwość wyszukiwania wydarzeń.
  Po wybraniu z paska nawigacyjnego ikony (4) pojawia się formularz wyszukiwania
  (5).
@@ -8548,7 +8548,7 @@ tej zakładce można znaleźć szczegółowe dane na temat danego wydarzenia.
  przyciski umożliwiające edycję i usunięcie wydarzenia).
  Znajduje się tu także nazwa wydarzenia (4) wraz ze szczegółowym jego opisem
  (5) oraz znacznikami (6).
- Po kliknięciu na znacznik, następuje przekierowany do strony, w której
+ Po kliknięciu na znacznik, następuje przekierowanie do strony, w której
  można przeglądać wydarzenia z nim skojarzone (ekran ten ma identyczny układ
  jak widok wydarzeń).
 \end_layout
@@ -8941,7 +8941,7 @@ name "fig:5.9"
 
 \begin_layout Standard
 Widok profilu użytkownika lub oddziału instytucji jest dostępny tylko po
- uprzedniej autoryzacji.
+ uprzednim uwierzytelnieniu.
  Poza informacjami zawartymi na karcie 
 \begin_inset Quotes pld
 \end_inset
@@ -9028,8 +9028,8 @@ Widok ten jest dostępny tylko dla użytkowników uwierzytelnionych jako instytu
  zdjęcia oddziału (1) oraz podsumowania najważniejszych informacji na jego
  temat (2).
  Po wybraniu danego oddziału następuje przekierowanie do widoku jego profilu.
- Na tym ekranie znajduje się tu także możliwość edycji (3) oraz usunięcia
- (4) danej jednostki.
+ Na tym ekranie znajduje się także możliwość edycji (3) oraz usunięcia (4)
+ danej jednostki.
  W dolnej części ekranu znajduje się odnośnik do formularza utworzenia nowego
  oddziału (5).
 \end_layout
@@ -9043,9 +9043,9 @@ Projektując interfejs aplikacji mobilnej należy zwrócić uwagę na dwa dodatk
  aspekty.
  Po pierwsze wygląd aplikacji mobilnej nie może znacząco odbiegać od układu
  serwisu internetowego.
- Po drugie interfejs powinien być w szczególności dostosowany do smartfonów,
- gdzie powierzchnia ekranu, na której można zaprezentować informacje, jest
- bardzo mała.
+ Po drugie interfejs powinien być w szczególności dostosowany do urządzeń
+ mobilnych, gdzie powierzchnia ekranu, na której można zaprezentować informacje,
+ jest bardzo mała.
  Poniżej znajdują się rysunki prototypów najważniejszych widoków aplikacji
  mobilnej.
 \end_layout
@@ -9190,8 +9190,8 @@ górnej części znajdują się karty (1) służące do przełączania się mię
  Poniżej można znaleźć listę wydarzeń.
  Opis każdego z nich składa się ze zdjęcia (2) oraz krótkiego podsumowania
  najważniejszych informacji (3).
- Po wybraniu wybraniu jednego z wydarzeń użytkownik zostaje przekierowany
- na widok pojedynczego wydarzenia.
+ Po wybraniu jednego z wydarzeń użytkownik zostaje przekierowany na widok
+ pojedynczego wydarzenia.
 \end_layout
 
 \begin_layout Paragraph
@@ -9334,10 +9334,10 @@ W
 \begin_inset space ~
 \end_inset
 
-górnej części kranu znajduje się formularz pozwalający na dodanie nowej
+górnej części ekranu znajduje się formularz pozwalający na dodanie nowej
  wiadomości (1 --- pole tekstowe pozwalające na podanie treści wiadomości;
  2 --- przycisk potwierdzający dodanie wiadomości).
- Poniżej można prześledzić historii dyskusji (3).
+ Poniżej można prześledzić historię dyskusji (3).
  Po wybraniu przez użytkownika wiadomości swojego autorstwa, pojawia się
  okienko dialogowe (4) pozwalające na jej edycję (5 --- pole tekstowe do
  edycji treści; 6 --- anulowanie zmian; 8 --- potwierdzenie zmian) lub usunięcie
@@ -9549,7 +9549,7 @@ W
 \end_inset
 
 górnej części ekranu profilu użytkownika można znaleźć jego imię i nazwisko
- (1; w przypadku użytkownika zwykłego) lub nazwa (1; w przypadku oddziału
+ (1; w przypadku użytkownika zwykłego) lub nazwę (1; w przypadku oddziału
  instytucji), przycisk pozwalający na edycję (2) lub usunięcie konta (3),
  zdjęcie profilowe (4) oraz podstawowe informacje o użytkowniku (5).
  Poniżej znajduje się lista trzech ostatnich wydarzeń utworzonych (6) oraz
@@ -9626,11 +9626,11 @@ Podobnie jak w przypadku aplikacji internetowej ekran ten jest dostępny
 
 górnej części ekranu można znaleźć przycisk przekierowujący do formularza
  utworzenia nowej jednostki (1).
- Obok znajdują się przycisku pozwalające na edycję (2) lub usunięcie konta.
+ Obok znajdują się przyciski pozwalające na edycję (2) lub usunięcie konta.
  Poniżej można znaleźć listę oddziałów danej instytucji.
  Opis każdej jednostki składa się ze zdjęcia (4) oraz podsumowania najważniejszy
 ch informacji na jej temat (5).
- Po wybraniu jednej nich następuje przekierowanie do widoku profilu oddziału.
+ Po wybraniu jednej z nich następuje przekierowanie do widoku profilu oddziału.
 \end_layout
 
 \begin_layout Section
