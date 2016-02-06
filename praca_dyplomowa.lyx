@@ -2255,9 +2255,9 @@ MongoDB reprezentuje nierelacyjny system zarządzania bazą danych, który
  specyfikacji JSON.
  MongoDB oferuje również dynamiczne tworzenie baz danych i kolekcji dokumentów.
  Nie posiada schematu bazy, co oznacza brak konieczności wykonywania migracji.
- Jednak pomimo tylu zalet, pojawiają się również pewne niedogodności jak
- ograniczone wsparcie dla kodowania UTF-8, co powoduje problemy przy korzystaniu
- z innych języków jak angielski.
+ Jednak pomimo tylu zalet, pojawiają się również pewne niedogodności takie
+ jak ograniczone wsparcie dla kodowania UTF-8, co powoduje problemy przy
+ korzystaniu z różnych języków.
  Kolejną wadą jest ograniczone wsparcie dla transakcji, których zasięg jest
  ograniczony do zmian w pojedynczym dokumencie
 \begin_inset CommandInset citation
@@ -2460,11 +2460,9 @@ PostgreSQL to jeden z najpopularniejszych i najbardziej zaawansowanych darmowych
  Świetnie nadaje się do dużych projektów, posiada możliwość tworzenia funkcji
  w języku C.
  Obsługuje duże obiekty binarne, takie jak pliki graficzne, a w ostatnim
- czasie wprowadzono wsparcie dla formatu BJSON, wykorzystywanego między
- innymi w MongoDB.
+ czasie wprowadzono wsparcie dla formatu JSONB.
  PostgreSQL posiada również licencję BSD, zgodną z zasadami wolnego oprogramowan
-ia.
- co jest istotne w rozwiązaniach biznesowych
+ia, co jest istotne w rozwiązaniach biznesowych
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-29"
