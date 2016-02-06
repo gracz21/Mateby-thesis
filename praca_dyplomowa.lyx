@@ -4069,8 +4069,8 @@ W przeglądzie platform umożliwiających implementację aplikacji mobilnych
  wzięto pod uwagę technologie takie jak Ionic, Xamarin, Apache Cordova oraz
  aplikacje wykonane natywnie za pomocą Android SDK.
  Wybór przedstawionych technologii został podyktowany rosnącą popularnością
- na przestrzeni ostatnich lat oraz w celu ukazania różnych możliwości implementa
-cji aplikacji mobilnych.
+ danych technologii na przestrzeni ostatnich lat oraz w celu ukazania różnych
+ możliwości implementacji aplikacji mobilnych.
 \end_layout
 
 \begin_layout Subsection
@@ -4237,9 +4237,12 @@ cena
 \begin_layout Standard
 Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
  systemy, tj.
- Android, iOS oraz Windows Phone, jednak kod kompilowany jest dla każdej
- platformy osobno, co zapewnia nawet do 90% współdzielonego kodu, co zapewnia
- niezwykle szybkie tworzenie aplikacji na 3 najpopularniejsze systemy mobilne.
+ Android, iOS oraz Windows Phone.
+ Cechą rozwiązań wielo-platformowych jest znaczna część współdzielonego
+ kodu, co zapewnia niezwykle szybkie tworzenie aplikacji na 3 najpopularniejsze
+ systemy mobilne.
+ Patforma Xamarin umożliwia jednak kompilowanie kodu dla każdej platformy
+ osobno.
  Językiem programowania w Xamarinie jest C#, a także XAML, służący do tworzenia
  interfejsu użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
  wygląd charakterystyczny dla każdej platformy.
@@ -4423,9 +4426,11 @@ darmowa
 Apache Cordova, dawniej nazywana PhoneGap, to kolejna hybrydowa platforma
  ułatwiająca stworzenie aplikacji mobilnej na różne systemy, również na
  te bardziej niszowe jak BlackBerry OS.
- Warto podkreślić, iż Apache Cordova to projekt open-source, dzięki czemu
- korzystanie z niego jest darmowe, a architektura oferuje bogactwo wtyczek
- i modułów, które mogą zapewnić dodatkowe usługi lub narzędzia.
+ Warto podkreślić, iż Apache Cordova to projekt open-source, czyli opartym
+ na licencji wolnego oprogramowania, dzięki czemu korzystanie z niego jest
+ darmowe.
+ Architektura oferuje bogactwo wtyczek i modułów, które mogą zapewnić dodatkowe
+ usługi lub narzędzia.
  Jednak jak każdy projekt open-source niesie również zagrożenia takie jak
  błędnie napisane biblioteki, niepełna dokumentacja, bądź zaprzestanie rozwoju
  tych bibliotek.
@@ -4608,9 +4613,9 @@ Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
  jest najpopularniejszym sposobem programowania na system Android.
  W 2013 roku zostało udostępnione Android Studio, czyli środowisko opartego
  na IntelliJ IDEA, dzięki któremu pisanie aplikacji zostało znacznie ułatwione
- i uproszczone, np.
- poprzez użycie nowszego Gradle zamiast Anta do budowy oprogramowania i
- importowania bibliotek.
+ i uproszczone.
+ Do zautomatyzowania procesu budowy oprogramowania i importowania bibliotek
+ Ant został zastąpiony przez nowsze narzędzie Gradle.
  Wytworzenie oprogramowania jest bardziej czasochłonne niż w aplikacjach
  hybrydowych, dodatkowo wymaga znajomości kilku różnych języków jak Java
  dla Androida, Swift dla iOS'a oraz C# dla Windows Phone.
@@ -4756,8 +4761,13 @@ Wybór odpowiedniego systemu bazy danych został podyktowany największymi
 Wybór platformy dla aplikacji mobilnej był dosyć prosty, ponieważ chcąc
  tworzyć profesjonalne oprogramowanie trzeba zdecydować się na rozwiązania
  natywne.
- Żadna z obecnie dostępnych platform hybrydowych nie reprezentuje odpowiedniego
- poziomu, w szczególności trzeba zwrócić uwagę na problemy z wydajnością.
+ Platformy hybrydowe niosą ze sobą wiele korzyści, jak znaczna część współdzielo
+nego kodu dla różnych systemów operacyjnych, jednak .żadna z obecnie dostępnych
+ nie reprezentuje odpowiedniego poziomu.
+ W szczególności trzeba zwrócić uwagę na problemy z wydajnością, z którą
+ nie ma problemów w przypadku aplikacji tworzonych za pomocą rozwiązań natywnych.
+ Dodatkowo są one bardzo mocno wspierane przez Google oraz Apple.
+ 
 \end_layout
 
 \begin_layout Chapter
