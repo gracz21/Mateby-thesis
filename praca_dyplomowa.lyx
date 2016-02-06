@@ -4068,10 +4068,10 @@ Aplikacja mobilna
 \begin_layout Standard
 W przeglądzie platform umożliwiających implementację aplikacji mobilnych
  wzięto pod uwagę technologie takie jak Ionic, Xamarin, Apache Cordova oraz
- aplikacje wykonane natywnie za pomocą Android SDK.
+ rozwiązanie natywne z wykorzystaniem Android SDK.
  Wybór przedstawionych technologii został podyktowany rosnącą popularnością
- danych technologii na przestrzeni ostatnich lat oraz w celu ukazania różnych
- możliwości implementacji aplikacji mobilnych.
+ wymienionych technologii na przestrzeni ostatnich lat oraz w celu ukazania
+ różnych możliwości implementacji aplikacji mobilnych.
 \end_layout
 
 \begin_layout Subsection
@@ -4080,6 +4080,7 @@ Xamarin
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -4240,13 +4241,13 @@ Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
  systemy, tj.
  Android, iOS oraz Windows Phone.
  Cechą rozwiązań wielo-platformowych jest znaczna część współdzielonego
- kodu, co zapewnia niezwykle szybkie tworzenie aplikacji na 3 najpopularniejsze
- systemy mobilne.
+ kodu, co zapewnia niezwykle szybkie tworzenie aplikacji na trzy najpopularniejs
+ze systemy mobilne.
  Patforma Xamarin umożliwia jednak kompilowanie kodu dla każdej platformy
  osobno.
- Językiem programowania w Xamarinie jest C#, a także XAML, służący do tworzenia
- interfejsu użytkownika, który jest kompilowany do natywnego kodu, co zapewnia
- wygląd charakterystyczny dla każdej platformy.
+ Językiem programowania jest C#, a także XAML, służący do tworzenia interfejsu
+ użytkownika, który jest kompilowany do natywnego kodu, co zapewnia wygląd
+ charakterystyczny dla każdej platformy.
  Największą wadą jest niska wydajność, a także konieczność płacenia abonamentu
  za korzystanie z platformy.
  Często wykonywane procesy kompilacji i instalacji na urządzeniu lub symulatorze
@@ -4305,7 +4306,7 @@ Język programowania
 \begin_inset Text
 
 \begin_layout Plain Layout
-Html 5
+HTML5, JavaScript, CSS3
 \end_layout
 
 \end_inset
@@ -4425,19 +4426,19 @@ darmowa
 
 \begin_layout Standard
 Apache Cordova, dawniej nazywana PhoneGap, to kolejna hybrydowa platforma
- ułatwiająca stworzenie aplikacji mobilnej na różne systemy, również na
+ ułatwiająca tworzenie aplikacji mobilnych na różne systemy, również na
  te bardziej niszowe jak BlackBerry OS.
- Warto podkreślić, iż Apache Cordova to projekt open-source, czyli opartym
+ Warto podkreślić, iż Apache Cordova to projekt open-source, czyli oparty
  na licencji wolnego oprogramowania, dzięki czemu korzystanie z niego jest
  darmowe.
- Architektura oferuje bogactwo wtyczek i modułów, które mogą zapewnić dodatkowe
- usługi lub narzędzia.
- Jednak jak każdy projekt open-source niesie również zagrożenia takie jak
+ Architektura oferuje dużą liczbę wtyczek i modułów, które mogą zapewnić
+ dodatkowe usługi lub narzędzia.
+ Jednak jak każdy projekt open-source niesie również zagrożenia, takie jak
  błędnie napisane biblioteki, niepełna dokumentacja, bądź zaprzestanie rozwoju
  tych bibliotek.
- Głównymi językami programowania są HTML, JavaScript oraz CSS, mimo to aplikacja
- jest instalowana jak natywne programy.
- Niestety tak jak w przypadku platformy Xamarin, aplikacje mają ogromne
+ Głównymi językami programowania są HTML, JavaScript oraz CSS3, mimo to
+ aplikacja jest instalowana jak natywne programy.
+ Niestety, tak jak w przypadku platformy Xamarin, aplikacje mają ogromne
  problemy z wydajnością przy bardziej skomplikowanych widokach
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -4610,19 +4611,20 @@ darmowa
 \end_layout
 
 \begin_layout Standard
-Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji,
- jest najpopularniejszym sposobem programowania na system Android.
- W 2013 roku zostało udostępnione Android Studio, czyli środowisko opartego
+Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji.
+ Jest to obecnie najpopularniejsza platforma służąca do programowania na
+ system Android.
+ W 2013 roku zostało udostępnione Android Studio, czyli środowisko oparte
  na IntelliJ IDEA, dzięki któremu pisanie aplikacji zostało znacznie ułatwione
  i uproszczone.
- Do zautomatyzowania procesu budowy oprogramowania i importowania bibliotek
- Ant został zastąpiony przez nowsze narzędzie Gradle.
- Wytworzenie oprogramowania jest bardziej czasochłonne niż w aplikacjach
- hybrydowych, dodatkowo wymaga znajomości kilku różnych języków jak Java
- dla Androida, Swift dla iOS'a oraz C# dla Windows Phone.
- Oczywiście rozwiązania natywne powodują, iż stworzona aplikacja działa
- tylko na jednym systemie mobilnym, a co za tym idzie napisane rozwiązania
- trzeba powielić w innych językach programowania dla innych systemów.
+ Ant --- narzędzie używane do procesu budowy oprogramowania i importowania
+ bibliotek został zastąpiony przez nowszy odpowiednik narzędzie Gradle.
+ Tworzenie oprogramowania za pomocą rozwiązań natywnych jest bardziej czasochłon
+ne niż w aplikacjach hybrydowych, dodatkowo wymaga znajomości kilku różnych
+ języków jak Java dla Androida, Swift dla iOS'a, czy C# dla Windows Phone.
+ Oczywiście rozwiązania natywne powodują, iż tworzona aplikacja działa tylko
+ na jednym systemie mobilnym, a co za tym idzie napisane rozwiązania trzeba
+ powielić w innych językach programowania dla innych systemów.
  Jednak dzięki temu otrzymujemy oprogramowanie o wiele szybsze, w szczególności
  dla skomplikowanych widoków, niż w przypadku rozwiązań wielo-platformowych.
 \end_layout
