@@ -603,13 +603,17 @@ Przegląd aplikacji o podobnej tematyce
 
 \begin_layout Standard
 Obecnie istnieje wiele aplikacji umożliwiających formowanie grup społecznych
- czy też organizację wydarzeń, dlatego ich przegląd jest niezwykle istotny
+ oraz organizację wydarzeń, dlatego ich przegląd jest niezwykle istotny
  w procesie definiowania wymagań funkcjonalnych aplikacji.
- Do najważniejszych cech składających się na końcową ocenę serwisu należą:
+ Umożliwi to rozpoznanie brakujących funkcji wielu aplikacji, dzięki czemu
+ stworzona aplikacja będzie lepiej zaprojektowana i przyciągnie większe
+ grono odbiorców.
+ Do najważniejszych kryteriów składających się na dobór wybranych serwisów
+ przeznaczonych do oceny należą:
 \end_layout
 
 \begin_layout Itemize
-zakres funkcjonalności,
+zakres funkcji,
 \end_layout
 
 \begin_layout Itemize
@@ -661,8 +665,9 @@ https://play.google.com
 \end_layout
 
 \begin_layout Standard
-Główną tematyką przeglądu jest organizacja wydarzeń oraz formowanie grup
- społecznościowych według podobnych zainteresowań.
+Główną tematyką przeglądu jest analiza istniejących serwisów służących organizac
+ji wydarzeń oraz aplikacji umożliwiających formowanie grup społecznościowych
+ według podobnych zainteresowań.
  Bardzo istotnym elementem jest również stopień w jakim poszczególne serwisy
  zachęcają użytkowników do wspólnego spędzenia czasu.
  Przegląd obejmuje zarówno strony internetowe jak i aplikacje mobilne.
