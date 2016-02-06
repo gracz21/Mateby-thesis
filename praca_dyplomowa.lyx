@@ -211,49 +211,20 @@ Można zatem powiedzieć, że istniejącym serwisom brakuje integracji pomiędzy
  W związku z tym w ramach niniejszej pracy inżynierskiej powstanie serwis
  społecznościowy skupiony przede wszystkim na wydarzeniach oraz integracji
  między użytkownikami systemu.
- Jednym ze sposobów osiągnięcia wspomnianej integracji będzie oddzielenie
- zwykłych użytkowników od instytucji posiadających oddziały, takie jak kluby,
- teatry czy koła tematyczne.
- Rozwiązanie takie powinno polepszyć współpracę pomiędzy organizatorami
- wydarzeń a ich uczestnikami.
- System zapewni także mechanizm sparametryzowanego wyszukiwania wydarzeń.
- Funkcja ta pozwoli użytkownikom zwykłym w prosty sposób dotrzeć do interesujący
-ch ich treści.
- Dzięki możliwości dołączania, zapraszania oraz prowadzenia dyskusji na
- temat wydarzeń rozszerzony zostanie społeczny aspekt systemu.
- Serwis społecznościowy posiadający wyżej wymienione cechy będzie zatem
- dawać możliwość:
-\end_layout
-
-\begin_layout Itemize
-elastycznego wyszukiwania,
-\end_layout
-
-\begin_layout Itemize
-integracji z innymi serwisami społecznościowymi,
-\end_layout
-
-\begin_layout Itemize
-możliwość formowania grup społecznościowych,
-\end_layout
-
-\begin_layout Itemize
-łatwego zarządzania oddziałami firm tworzących wydarzenia oraz przeglądania
- zbiorczych statystyk.
-\end_layout
-
-\begin_layout Standard
-Tak zdefiniowana aplikacja, która zachęci swoich użytkowników nie tylko
- do udziału w wydarzeniach zgodnych z ich zainteresowaniami, ale i zapraszania
- innych w celu wspólnej integracji, powinna rozwiązać problem malejącej
- liczby znajomości opartych na rzeczywistych relacjach.
- Ponadto oddzielenie typów kont serwisu zwiększy możliwość zachęcenia innych
- do udziału we współtworzeniu lokalnych grup społecznościowych i umożliwi
- szybszą reakcję na wprowadzanie odpowiednich zmian w ofercie wydarzeń.
+ Dzięki mechanizmom wymiany wiadomości oraz zaproszeń będzie wspierać formowanie
+ lokalnych grup społecznościowych skupionych wokół konkretnych wydarzeń.
+ System zapewni także mechanizm sparametryzowanego i elastycznego wyszukiwania
+ wydarzeń.
+ Funkcja ta pozwoli użytkownikom w prosty sposób dotrzeć do interesujących
+ ich treści.
+ Funkcjonalność serwisu dopełni możliwość tworzenia instytucji, które w
+ łatwy sposób będą mogły zarządzać swoimi oddziałami oraz przeglądać efekty
+ ich działalności.
+ Całość zostanie oparta na najnowszych i wydajnych technologiach oraz będzie
+ posiadała spójny interfejs użytkownika.
  W ramach tej pracy inżynierskiej powstanie zarówno aplikacja internetowa
  jak i mobilna, które we współpracy z serwerem będą posiadały wyżej wymienione
  funkcje.
- 
 \end_layout
 
 \begin_layout Section
