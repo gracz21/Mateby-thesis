@@ -605,7 +605,7 @@ Przegląd aplikacji o podobnej tematyce
 Obecnie istnieje wiele aplikacji umożliwiających formowanie grup społecznych
  oraz organizację wydarzeń, dlatego ich przegląd jest niezwykle istotny
  w procesie definiowania wymagań funkcjonalnych aplikacji.
- Umożliwi to rozpoznanie brakujących funkcji wielu aplikacji, dzięki czemu
+ Umożliwi on rozpoznanie brakujących funkcji wielu aplikacji, dzięki czemu
  stworzona aplikacja będzie lepiej zaprojektowana i przyciągnie większe
  grono odbiorców.
  Do najważniejszych kryteriów składających się na dobór wybranych serwisów
@@ -665,12 +665,12 @@ https://play.google.com
 \end_layout
 
 \begin_layout Standard
-Główną tematyką przeglądu jest analiza istniejących serwisów służących organizac
+Główną celem przeglądu jest analiza istniejących serwisów służących do organizac
 ji wydarzeń oraz aplikacji umożliwiających formowanie grup społecznościowych
  według podobnych zainteresowań.
- Bardzo istotnym elementem jest również stopień w jakim poszczególne serwisy
+ Bardzo istotnym elementem jest również stopień, w jakim poszczególne serwisy
  zachęcają użytkowników do wspólnego spędzenia czasu.
- Przegląd obejmuje zarówno strony internetowe jak i aplikacje mobilne.
+ Przegląd dotyczy zarówno aplikacji internetowych, jak i mobilnych.
 \end_layout
 
 \begin_layout Paragraph
@@ -1844,7 +1844,7 @@ Baza danych
 \end_layout
 
 \begin_layout Standard
-W przypadku wyboru odpowiedniej bazy danych najważniejszą decyzją jaką należało
+W przypadku wyboru odpowiedniej bazy danych najważniejszą decyzją jaką należy
  podjąć był wybór pomiędzy relacyjną, a nierelacyjną strukturą.
  Relacyjne bazy danych opierają się na zbiorze relacji.
  Każda relacja posiada swój schemat, który składa się z listy atrybutów.
@@ -1853,7 +1853,7 @@ W przypadku wyboru odpowiedniej bazy danych najważniejszą decyzją jaką nale�
  NoSQL jest systemem baz danych, który nie posiada relacji, dane nie mają
  z góry określonej struktury oraz zawyczaj nie ma zdefiniowanego języka
  zapytań SQL.
- W przeglądzie umieściliśmy przykłady dla obu typów baz danych.
+ W przeglądzie zostały umieszczone przykłady dla obu typów baz danych.
 \end_layout
 
 \begin_layout Subsection
@@ -1891,7 +1891,7 @@ Baza danych SQLite
 \begin_inset Text
 
 \begin_layout Plain Layout
-Napisana w
+napisana w
 \end_layout
 
 \end_inset
@@ -1940,7 +1940,7 @@ typ
 \begin_inset Text
 
 \begin_layout Plain Layout
-relacyjne
+relacyjny
 \end_layout
 
 \end_inset
@@ -2039,17 +2039,17 @@ krótki
 \end_layout
 
 \begin_layout Standard
-SQLite to biblioteka służąca zarządzaniu relacyjną bazą danych napisana
+SQLite to biblioteka służąca do zarządzania relacyjną bazą danych napisana
  w języku C.
- System został stworzony przez Richarda Hippa i jest dostępny na licencji
- wolnego oprogramowania.
- W 2000 roku została wydana pierwsza wersja i od tego czasu system ten nieustann
-ie zyskiwał na popularności.
- Ważną cechą biblioteka jest to, iż implementuje samodzielny i bez serwerowy,
+ Została stworzona przez Richarda Hippa i jest dostępna na licencji wolnego
+ oprogramowania.
+ W 2000 roku została wydana pierwsza wersja i od tego czasu SQLite nieustannie
+ zyskuje na popularności.
+ Ważną cechą biblioteki jest to, iż implementuje samodzielny i bezserwerowy,
  nie wymagający konfiguracji mechanizm bazy danych SQL.
  W wielu zastosowaniach, a w szczególności w systemach wbudowanych, takie
  rozwiązanie jest najpraktyczniejsze.
- SQLite jest wbudowaną biblioteką w najpopularniejszych platformach, między
+ SQLite jest domyślną biblioteką w najpopularniejszych platformach, między
  innymi Ruby on Rails i Android.
  Baza danych SQLite to pojedynczy plik na dysku, może być stosowany na różnych
  systemach operacyjnych, zarówno 32 jak 64 bitowych
@@ -2098,7 +2098,7 @@ Baza danych MongoDB
 \begin_inset Text
 
 \begin_layout Plain Layout
-Napisana w
+napisana w
 \end_layout
 
 \end_inset
@@ -2147,7 +2147,7 @@ typ
 \begin_inset Text
 
 \begin_layout Plain Layout
-nierelacyjne
+nierelacyjny
 \end_layout
 
 \end_inset
@@ -2187,7 +2187,7 @@ wydajność
 \begin_inset Text
 
 \begin_layout Plain Layout
-wysoka
+średnia
 \end_layout
 
 \end_inset
@@ -2246,17 +2246,15 @@ krótki
 \end_layout
 
 \begin_layout Standard
-MongoDB reprezentuje nierelacyjny system zarządzania bazą danych, został
- napisany w języku C++ i wydany po raz pierwszy w roku 2009.
- W przeciwieństwie do relacyjnych baz danych MongoDB charakteryzuje się
- dużą skalowalnością w poziomie.
- Jest to bardzo szybki system zarządzania bazą danych.
+MongoDB reprezentuje nierelacyjny system zarządzania bazą danych, który
+ został napisany w języku C++ i wydany po raz pierwszy w roku 2009.
+ Jest to relatywnie szybki system zarządzania bazą danych.
  Niezwykle istotny jest brak ściśle zdefiniowanej struktury danych, zamiast
  tego dane przechowywane są jako obiekty w formacie BJSON, czyli rozszerzony
  format JSON pozwalający na reprezentację typów danych, które nie są częścią
  specyfikacji JSON.
- MongoDB oferuje również dynamiczne tworzenie baz danych i kolekcji dokumentów,
- nie posiada schematu bazy, co oznacza brak konieczności wykonywania migracji.
+ MongoDB oferuje również dynamiczne tworzenie baz danych i kolekcji dokumentów.
+ Nie posiada schematu bazy, co oznacza brak konieczności wykonywania migracji.
  Jednak pomimo tylu zalet, pojawiają się również pewne niedogodności jak
  ograniczone wsparcie dla kodowania UTF-8, co powoduje problemy przy korzystaniu
  z innych języków jak angielski.
@@ -2306,7 +2304,7 @@ Baza danych PostgreSQL
 \begin_inset Text
 
 \begin_layout Plain Layout
-Napisana w
+napisana w
 \end_layout
 
 \end_inset
@@ -2355,7 +2353,7 @@ typ
 \begin_inset Text
 
 \begin_layout Plain Layout
-relacyjne
+relacyjny
 \end_layout
 
 \end_inset
