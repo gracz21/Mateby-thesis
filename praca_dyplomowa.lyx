@@ -1822,7 +1822,7 @@ W przypadku wyboru odpowiedniej bazy danych najważniejszą decyzją jaką nale�
  W ostatnich latach popularne stają się bazy danych nierelacyjne, które
  pełnią ważną funkcję w systemach rozproszonych.
  NoSQL jest systemem baz danych, który nie posiada relacji, dane nie mają
- z góry określonej struktury oraz zawyczaj nie ma zdefiniowanego języka
+ z góry określonej struktury oraz zazwyczaj nie ma zdefiniowanego języka
  zapytań SQL.
  W przeglądzie zostały umieszczone przykłady dla obu typów baz danych.
 \end_layout
@@ -2422,11 +2422,11 @@ krótki
 PostgreSQL to jeden z najpopularniejszych i najbardziej zaawansowanych darmowych
  systemów zarządzania relacyjnymi bazami danych.
  Początkowo opublikowany został pod nazwą Ingres.
- W miarę rozwoju i zwiększania funkcjonalności, baza danych otrzymała nazwy
- Postgres95 i ostatecznie PostgreSQL.
+ W miarę rozwoju i zwiększania funkcji, baza danych otrzymała nazwę Postgres95
+ i ostatecznie PostgreSQL.
  PostgreSQL jest implementacją języka SQL, jednak posiada wiele własnych
  rozszerzeń takich jak możliwość definiowania nowych typów podstawowych,
- co powoduje porównania do rozbudawanego systemu wytwarzanego przez firmę
+ co powoduje porównania do rozbudowanego systemu wytwarzanego przez firmę
  Oracle.
  Świetnie nadaje się do dużych projektów, posiada możliwość tworzenia funkcji
  w języku C.
@@ -4214,7 +4214,7 @@ Xamarin to platforma przeznaczona do tworzenia aplikacji mobilnych na różne
  Cechą rozwiązań wielo-platformowych jest znaczna część współdzielonego
  kodu, co zapewnia niezwykle szybkie tworzenie aplikacji na trzy najpopularniejs
 ze systemy mobilne.
- Patforma Xamarin umożliwia jednak kompilowanie kodu dla każdej platformy
+ Platforma Xamarin umożliwia jednak kompilowanie kodu dla każdej platformy
  osobno.
  Językiem programowania jest C#, a także XAML, służący do tworzenia interfejsu
  użytkownika, który jest kompilowany do natywnego kodu, co zapewnia wygląd
@@ -4223,8 +4223,8 @@ ze systemy mobilne.
  za korzystanie z platformy.
  Często wykonywane procesy kompilacji i instalacji na urządzeniu lub symulatorze
  są bardzo czasochłonne, natomiast użytkownicy odczują zauważalny spadek
- wydajności interfejsów, w szczególności dla list z bardzo dużą liczbą skompliko
-wanych elementów
+ wydajności interfejsów, w szczególności dla list wieloma skomplikowanymi
+ elementami
 \begin_inset CommandInset citation
 LatexCommand cite
 key "key-22"
@@ -4589,7 +4589,7 @@ Android SDK zostało wydane w 2009 roku i wspiera natywne tworzenie aplikacji.
  na IntelliJ IDEA, dzięki któremu pisanie aplikacji zostało znacznie ułatwione
  i uproszczone.
  Ant --- narzędzie używane do procesu budowy oprogramowania i importowania
- bibliotek został zastąpiony przez nowszy odpowiednik narzędzie Gradle.
+ bibliotek został zastąpiony przez nowszy odpowiednik, narzędzie Gradle.
  Tworzenie oprogramowania za pomocą rozwiązań natywnych jest bardziej czasochłon
 ne niż w aplikacjach hybrydowych, dodatkowo wymaga znajomości kilku różnych
  języków jak Java dla Androida, Swift dla iOS'a, czy C# dla Windows Phone.
@@ -4723,7 +4723,7 @@ Zupełnie inne czynniki wpłynęły na wybór platformy wspierającej implementa
 \begin_layout Standard
 Na wybór odpowiedniej bazy danych największy wpływ miała wydajność poszczególnyc
 h rozwiązań oraz struktura przechowywania danych.
- Spośród branych pod uwagę systemów najbardziej zaawansownym oraz wydajnym
+ Spośród branych pod uwagę systemów najbardziej zaawansowanym oraz wydajnym
  okazał się PostgreSQL, który łączy zalety relacyjnych baz danych, a także
  zapewnia wsparcie dla formatu JSONB, co ułatwia implementację spersonalizowanyc
 h parametrów.
@@ -4740,8 +4740,8 @@ Wybór platformy dla aplikacji mobilnej był dosyć prosty, ponieważ chcąc
  W szczególności jednak trzeba zwrócić uwagę na problemy z wydajnością,
  które nie występują w przypadku aplikacji tworzonych za pomocą rozwiązań
  natywnych.
- Dodatkowo platformy natywne są bardzo mocno wspierane przez duże korporacje,
- co przesądziło o wyborze AndroidSDK do implementacji aplikacji mobilnej.
+ Dodatkowo są one bardzo mocno wspierane przez duże korporacje, co przesądziło
+ o wyborze Android SDK do implementacji aplikacji mobilnej.
 \end_layout
 
 \begin_layout Chapter
