@@ -4760,7 +4760,7 @@ Zarządzanie projektem to niezwykle ważna czynność, o które muszą dbać wsz
  zostaną zrealizowane w oczekiwany sposób i w zadanym czasie.
  Prawidłowe zarządzanie projektem ma na celu poprawne działanie organizacji
  oraz ma pozytywny wpływ na podniesienie motywacji i satysfakcji z pracy
- osób odpowiedzialnych za pracę nad danym projektem.
+ osób odpowiedzialnych za dany projekt.
  Sprawi to, że wydana aplikacja będzie kompletna, liczba błędów minimalna,
  a wymagania funkcjonalne spełnione
 \begin_inset CommandInset citation
@@ -4932,9 +4932,8 @@ Pivotal Tracker powstał w 2008 roku i ma na celu ułatwienie pracy, sprecyzowan
  zespołu mogli skupić się na tym, co niezbędne.
  W prosty i klarowny sposób pozwala programiście na przeglądanie obecnie
  przypisanych zadań z danego projektu.
- Zespoły programistów mogą skupić się na pracy, ponieważ priorytety projektu
- są jasno określone.
- Umożliwia również proste zarządzanie statusami zadań.
+ Umożliwia również proste zarządzanie statusami zadań, a zespoły programistów
+ mogą skupić się na pracy, ponieważ priorytety projektu są jasno określone.
  Pivotal oferuje również przydzielanie punktów do zadań, tzw.
  
 \begin_inset Quotes pld
@@ -4946,8 +4945,10 @@ story points
 
 , co jest równoważne z czasem oszacowania.
  Pozwala to na przewidzenie przyszłej efektywności.
- Icebox to kolumna, w której trzymane są wszystkie określone zadania, które
- układamy w odpowiednie iteracje w kolumnie Backlog.
+ Zadania w Pivotal Tracker dzielą się na cztery kolumny.
+ Pierwsza z nich to Icebox, w której trzymane są wszystkie zdefiniowane
+ zadania.
+ Układamy je w odpowiednie iteracje w kolumnie Backlog.
  W kolumnie Current znajdują się zadania na obecny sprint, a w kolumnie
  Done zakończone czynności.
  
@@ -4990,23 +4991,23 @@ Widok ekranu zarządzania projektem w Pivotal Tracker
 
 \begin_layout Standard
 Projekt został podzielony na iteracje trwające 7 dni, przydzielanie punktów
- w skali od 1 do 3 w zależności od obszerności danej funkcjonalności , a
+ w skali od 1 do 3 w zależności od obszerności danej funkcjonalności, a
  podstawowa efektywność na 5 punktów.
  Okazało się, iż nakład pracy potrzebny do wykonania całego projektu wymaga
  znaczącego zwiększenia.
- W kluczowych sprintach udało się osiągnąć efektywność na poziomie 15 punktów.
+ W kluczowych sprintach osiągnięto efektywność na poziomie 15 punktów.
 \end_layout
 
 \begin_layout Standard
 Pivotal Tracker umożliwia przejrzenie historii wszystkich sprintów, a całe
  zarządzanie projektem jest niezwykle proste.
- Dostępny jest również widok podsumowania projektu na dany moment.
- Jako przykład został podany projekt aplikacji mobilnej na system Android.
- Można zauważyć systematyczny przyrost efektywności wykonywania zadań w
- poszczególnych iteracjach.
+ Dostępny jest również widok podsumowania projektu, jako przykład został
+ podany projekt aplikacji mobilnej na system Android.
+ Można zauważyć systematyczny wzrost efektywności wykonywania zadań w poszczegól
+nych iteracjach.
  Było to spowodowane wieloma zależnymi czynnikami zewnętrznymi, powodującymi
- różnicę w czasie poświęconym sprintom.
- W warunkach kiedy programiści pracują określoną liczbę godzin podczas iteracji,
+ różnicę w czasie poświęconym tygodniowym iteracjom.
+ W warunkach kiedy programiści pracują określoną liczbę godzin podczas sprintów,
  poniższy wykres powinien być jak najbardziej stały.
  
 \end_layout
@@ -5279,12 +5280,12 @@ wymagają konfiguracji i utrzymania,
 \end_layout
 
 \begin_layout Itemize
-wymagają dużej liczby testów, by móc w pełni korzystać z zalet automatyzacji
+wymagają dużej liczby testów, by móc w pełni wykorzystać zalety automatyzacji
  testowania aplikacji,
 \end_layout
 
 \begin_layout Itemize
-przy dużych projektach wymagają wielu zasobów serwerowych.
+przy dużych projektach wymagają znacznych zasobów serwerowych.
 \end_layout
 
 \begin_layout Standard
@@ -5294,7 +5295,7 @@ Podsumowując, system ciągłej integracji to narzędzie mające na celu automat
  Informuje osoby biorące udział w projekcie o rezultatach przeprowadzonych
  zadań.
  Rosnąca popularność systemów ciągłej integracji powoduje powstawanie narzędzi
- takich jak Jenkins, CruiseControl, bądź CircleCI.
+ takich jak Jenkins, CruiseControl bądź CircleCI.
  Wybór odpowiedniej platformy do ciągłej integracji został podyktowany przez
  następujące czynniki:
 \end_layout
@@ -5443,8 +5444,8 @@ Slack
 Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  w 2013 roku.
  Ułatwia komunikację w zespole, przechowywanie i dzielenie się plikami.
- Istnieje możliwość organizowania rozmów zespołu na kanałach otwartych,
- jak i prywatnych dla wrażliwych informacji,.
+ Istnieje możliwość organizowania rozmów na kanałach otwartych, jak i prywatnych
+ dla wrażliwych informacji,.
  Kolejną funkcjonalnością jest oznaczanie konkretnych członków zespołu,
  w celu powiadamiania ich o nieodczytanych wiadomościach.
  Slack oferuje zestaw zaawansowanych narzędzi wyszukiwania, dzięki systemowi
@@ -5452,12 +5453,12 @@ Slack jest narzędziem do pracy zespołowej opartym na chmurze, powstałym
  Najważniejszą funkcjonalnością jest możliwość integracji z innymi narzędziami.
  Udostępnia synchronizację plików z takimi serwisami jak jak Google Drive,
  Dropbox lub Box.
- Poza tym istnieje opcja połączenia z serwisem Github, dzięki temu otrzymujemy
- na wybrany kanał informację o wysłanych zmianach na repozytorium.
- Kolejnym serwisem, który możemy zintegrować ze Slackiem to Pivotal Tracker,
+ Poza tym istnieje opcja połączenia z serwisem Github, dzięki czemu otrzymuje
+ się na wybrany kanał informację o wysłanych zmianach na repozytorium.
+ Kolejnym serwisem, który można zintegrować ze Slackiem to Pivotal Tracker,
  daje to możliwość śledzenia zmian statusów zadań.
- Co więcej połączenie Pivotala z Githubem informuje o wrzuconych zmianach
- do repozytorium pod tytułem odpowiedniego zadania.
+ Co więcej połączenie Pivotala z Githubem informuje użytkownika o wprowadzonych
+ zmianach do repozytorium pod tytułem odpowiedniego zadania.
  Slack umożliwia również połączenie się ze środowiskiem CircleCI, powoduje
  to uzyskiwanie informacji na temat bieżących zmian w kodzie, skonfigurowanych
  w systemie ciągłej integracji.
