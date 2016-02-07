@@ -12113,7 +12113,7 @@ ny jest do kodu maszynowego.
  Główną różnicą jest to, iż w Dalviku kod bajtowy kompilowany jest z każdym
  uruchomieniem aplikacji, natomiast dla maszyny wirtualnej ART w momencie
  instalacji pakietu aplikacji.
- Pozwala to na zmniejszenie czasu uruchamiania aplikacji oraz zwiękaszenie
+ Pozwala to na zmniejszenie czasu uruchamiania aplikacji oraz zwiększenie
  wydajności aplikacji
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -12235,7 +12235,7 @@ Rozpoczęcie tworzenia aplikacji zaczyna się od wyboru głównego widoku, czyli
 status open
 
 \begin_layout Plain Layout
-Acitivity
+Activity
 \end_layout
 
 \end_inset
@@ -12246,12 +12246,12 @@ Acitivity
 status open
 
 \begin_layout Plain Layout
-Acitivity
+Activity
 \end_layout
 
 \end_inset
 
- ważnymi składnikami systemu Android są klasy 
+ ważnym składnikiem systemu Android jest klasa 
 \begin_inset Flex Emph
 status open
 
@@ -12261,8 +12261,8 @@ Fragment
 
 \end_inset
 
-, będące częścią aktywności.
- Otrzymują one własne zdarzenia i służą do tworzenia dynamicznych interfejsów.
+, będąca częścią aktywności.
+ Otrzymuje ona własne zdarzenia i służy do tworzenia dynamicznych interfejsów.
  Warto też wspomnieć o komponencie 
 \begin_inset Flex Emph
 status open
@@ -12298,8 +12298,9 @@ key "key-8"
 
 , zatem w momencie chęci przywrócenia aplikacji należy pamiętać o ponownym
  zainicjowaniu obiektów.
- Znajomość cyklu życia komponentów pozwala uniknąć takich sytuacji.
- Poza wymienionymi komponentami istnieją jeszcze inne rzadziej wykorzystywane
+ Znajomość cyklu życia komponentów pozwala uniknąć sytuacji prowadzących
+ do pojawienia się błędów.
+ Poza wymienionymi komponentami istnieją jeszcze inne, rzadziej wykorzystywane
  składniki, które nie zostały użyte w aplikacji, takie jak 
 \begin_inset Flex Emph
 status open
@@ -12384,9 +12385,9 @@ GZIP
 
  zmniejsza rozmiary pobieranych odpowiedzi.
  Zawiera automatyczną implementację obsługi wywołań zapytań z pamięci podręcznej.
- Zapewnia stabilność w momencie problemów z dostępem do Internetu, jeśli
- usługa ma wiele adresów IP, a pierwsze połączenie nie powiedzie się, biblioteka
- będzie próbowała odpytać alternatywne adresy.
+ Zapewnia stabilność w momencie problemów z dostępem do Internetu.
+ Jeśli usługa ma wiele adresów IP, a pierwsze połączenie nie powiedzie się,
+ biblioteka będzie próbowała odpytać alternatywne adresy.
  
 \begin_inset Flex Emph
 status open
@@ -12569,7 +12570,7 @@ ch ekranów.
  Ważną ich cechą jest to, iż użytkownicy są do nich przyzwyczajeni, co sprawia,
  że interfejs aplikacji jest spójny i prosty w obsłudze dla każdego.
  Po stworzeniu projektu interfejsu, następnie należy przypisać referencje
- kontrolek do obiektów w Javie, aby móc na nich operować.
+ kontrolek do obiektów klas w języku Java, aby móc na nich operować.
 \end_layout
 
 \begin_layout Standard
@@ -12613,7 +12614,7 @@ Techniki przetwarzania wielowątkowego
 \begin_layout Standard
 Android, jak większość dzisiejszych systemów operacyjnych wspiera wielowątkowość.
  Wątek głównym, zwany jest wątkiem interfejsu użytkownika, nazwa pochodzi
- od tego, że zajmuje się on m.in.
+ od tego, iż zajmuje się on m.in.
  rysowaniem obiektów, przesyłaniem zdarzeń do komponentów czy interakcją
  aplikacji z widokami.
  Problem pojawia się, gdy któryś z komponentów wykonuje czasochłonną czynność.
@@ -12635,7 +12636,7 @@ onPreExecute()
 
 \end_inset
 
- -- wykonywana przed przystąpieniem do działań w tle, 
+ --- wykonywana przed przystąpieniem do działań w tle, 
 \begin_inset Flex Emph
 status open
 
@@ -12645,7 +12646,7 @@ doInBackground()
 
 \end_inset
 
- -- zadanie do wykonania w tle oraz 
+ --- wykonywana na wątku w tle oraz 
 \begin_inset Flex Emph
 status open
 
@@ -12655,7 +12656,7 @@ onPostExecute()
 
 \end_inset
 
- -- metoda wykonywana po skończeniu działań w tle.
+ --- metoda wykonywana po zakończeniu działań w tle.
  Kolejnym przykładem rozwiązania oferującego pracę w tle jest klasa IntentServic
 e, rozszerzająca funkcjonalność klasy Service, która wszystkie działania
  wykonuje na wątku głównym.
@@ -12687,7 +12688,8 @@ Google Cloud Messaging (GCM) to bezpłatna usługa, która pozwala programistom
  Umożliwia to wyświetlenie odpowiedniego powiadomienia, mimo, iż aplikacja
  nie jest uruchomiona.
  W wiadomości GCM można przesyłać do 4 Kb danych , a usługa obsługuje wszystkie
- aspekty kolejek komunikatów oraz transport do i z aplikacji klienta docelowego.
+ aspekty kolejek komunikatów oraz transport wiadomości pomiędzy serwerem,
+ a aplikacją.
  
 \end_layout
 
@@ -12760,10 +12762,10 @@ Raportowanie błędów
 Raportowanie błędów to niezwykle ważne narzędzie zarówno dla programistów,
  jak i użytkowników, ponieważ dzięki temu usterki pojawiające się na urządzeniac
 h mogą zostać zidentyfikowane i naprawione.
- Narzędziem, które zostało wykorzystane na platformie Android to platforma
- Crashlytics wykonana przez firmę Fabric.
- Główną funkcjonalnością platformy jest logowanie i raportowanie błędów
- pojawiających się w stworzonej aplikacji.
+ Narzędziem, które zostało wykorzystane na platformie Android to serwis
+ Crashlytics wykonany przez firmę Fabric.
+ Główną funkcjonalnością serwisu jest logowanie i raportowanie błędów pojawiając
+ych się w stworzonej aplikacji.
  Crashlytics oferuje szczegółowy widok dotyczący każdego z błędów.
  Znajdują się tam informacje dotyczące urządzeń oraz wersji systemu, na
  których zostały zidentyfikowane błędy.
@@ -12771,7 +12773,7 @@ h mogą zostać zidentyfikowane i naprawione.
  powoduje, iż pewne błędy pojawiają się tylko na niektórych modelach urządzeń.
  Pozwala to w szybszy sposób zidentyfikować i naprawić konkretny błąd.
  Crashlytics pozwala również na przesłanie dodatkowych informacji o błędzie
- określonych przez przez programistę.
+ określonych przez programistę.
  Kolejną istotną funkcjonalnością platformy jest ukazanie zawartości ostatniego
  stosu wywołań.
  Narzędzie umożliwia również mierzenie statystyk oraz monitorowanie stabilności
@@ -12818,12 +12820,12 @@ Testy
 
 \begin_layout Standard
 Jednymi z najpopularniejszych sposobów testowania kodu aplikacji mobilnej
- na system Android są testy jednostkowe oraz testy instumentacyjne.
- Różnica między tymi testami polega na tym, iż testy instrumentacyjne są
- wykonywane na urządzeniu mobilnym przez co trwają dłużej.
+ na system Android są testy jednostkowe oraz instrumentacyjne.
+ Różnica między nimi polega na tym, iż testy instrumentacyjne są wykonywane
+ na urządzeniu mobilnym przez co trwają dłużej.
  Testowanie jednostkowe sprawdza metody i klasy pomijając zewnętrzne zależności,
- natomiast testy instumentacyjne weryfikują komponenty systemu Android takie
- jak 
+ natomiast testy instrumentacyjne weryfikują komponenty systemu Android
+ takie jak 
 \begin_inset Flex Emph
 status open
 
@@ -12837,7 +12839,7 @@ Activity, Fragment, Service
  Zaleca się testować tylko własny kod, a nie biblioteki, usługi systemowe
  bądź komponenty.
  Dobrą praktyką jest tworzenie małych metod obsługi zdarzeń i testowanie
- czy działają one poprawnie.
+ poprawności ich działania.
 \end_layout
 
 \begin_layout Standard
@@ -12853,10 +12855,10 @@ Monkey
 \end_inset
 
 .
- Pozwala ono na generowanie losowych kliknięć użytkownika, dzięki temu istnieje
- możliwość zbierania informacji na temat działania aplikacji w nieprzewidywalnyc
-h i brzegowych sytuacjach.
- Dodatkową funkcjonalnością jest możliwość pisanie własnych skryptów testujących
+ Pozwala ono generować losowe kliknięcia na ekranie urządzenia, dzięki temu
+ istnieje możliwość zbierania informacji na temat działania aplikacji w
+ nieprzewidywalnych i brzegowych sytuacjach.
+ Dodatkową funkcjonalnością jest możliwość pisania własnych skryptów testujących
  przy użyciu API narzędzia
 \begin_inset Flex Emph
 status open
