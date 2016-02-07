@@ -4426,6 +4426,7 @@ Android SDK
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -9582,7 +9583,6 @@ górnej części ekranu można znaleźć przycisk przekierowujący do formularza
  Poniżej można znaleźć listę oddziałów danej instytucji.
  Opis każdej jednostki składa się ze zdjęcia (4) oraz podsumowania najważniejszy
 ch informacji na jej temat (5).
- Po wybraniu jednej z nich następuje przekierowanie do widoku profilu oddziału.
 \end_layout
 
 \begin_layout Section
@@ -12518,6 +12518,7 @@ Facebook
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -12575,6 +12576,7 @@ ch ekranów.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -12782,6 +12784,7 @@ ych się w stworzonej aplikacji.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
